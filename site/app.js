@@ -106,6 +106,7 @@ function bindPagerUI(){
   const btnPrev  = document.getElementById("btnPrev");
   const btnNext  = document.getElementById("btnNext");
   const btnLast  = document.getElementById("btnLast");
+  const pagerNums = document.getElementById("pagerNums");
 
   // ✅ 페이지당 변경
   if (pageSize) {
@@ -139,6 +140,20 @@ function bindPagerUI(){
     CURRENT_PAGE = totalPages;
     renderCurrentPage();
   });
+
+  // ✅ 숫자 버튼 클릭(이벤트 위임)
+  if (pagerNums) {
+    pagerNums.addEventListener("click", (e) => {
+      const t = e.target;
+      if (!(t instanceof HTMLElement)) return;
+      const p = t.getAttribute("data-page");
+      if (!p) return;
+      const page = toNum(p);
+      if (!page) return;
+      CURRENT_PAGE = page;
+      renderCurrentPage();
+    });
+  }
 }
 
 async function fetchRows(fileName) {
@@ -263,6 +278,8 @@ function renderRows(rows){
 function renderPager(total, totalPages, from, to){
   const infoEl = document.getElementById("pagerInfo");
   const pageEl = document.getElementById("pagerPage");
+  const numsEl = document.getElementById("pagerNums");
+
   const btnFirst = document.getElementById("btnFirst");
   const btnPrev  = document.getElementById("btnPrev");
   const btnNext  = document.getElementById("btnNext");
@@ -278,6 +295,26 @@ function renderPager(total, totalPages, from, to){
   if (btnPrev)  btnPrev.disabled  = prevDisabled;
   if (btnNext)  btnNext.disabled  = nextDisabled;
   if (btnLast)  btnLast.disabled  = nextDisabled;
+
+  // ✅ 숫자 페이지 버튼 (최대 10개)
+  if (numsEl) {
+    const MAX_BTNS = 10;
+
+    let startPage = Math.max(1, CURRENT_PAGE - Math.floor(MAX_BTNS / 2));
+    let endPage = startPage + MAX_BTNS - 1;
+
+    if (endPage > totalPages) {
+      endPage = totalPages;
+      startPage = Math.max(1, endPage - MAX_BTNS + 1);
+    }
+
+    let html = "";
+    for (let p = startPage; p <= endPage; p++) {
+      const active = (p === CURRENT_PAGE) ? "active" : "";
+      html += `<button type="button" class="${active}" data-page="${p}">${p}</button>`;
+    }
+    numsEl.innerHTML = html;
+  }
 }
 
 loadSnapshots();
