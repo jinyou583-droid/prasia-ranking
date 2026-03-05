@@ -220,6 +220,48 @@ td:nth-child(6){
 #guildModal .gm-cols{
   gap: 16px;
 }
+  /* ====== 길드 상세 모달(팝업) 표: 글씨 크게 + 가운데 정렬(직업/등급/인원) ====== */
+
+/* 모달 안 기본 글씨 자체를 확 키움 */
+#guildModal,
+#guildModal *{
+  font-size: 18px !important;
+  line-height: 1.4 !important;
+}
+
+/* 제목/서브텍스트 더 크게 */
+#guildModal #gmTitle{ font-size: 28px !important; font-weight: 900 !important; }
+#guildModal #gmSub  { font-size: 18px !important; opacity: .9 !important; }
+
+/* 표 글씨/여백 확 키움 */
+#guildModal table{
+  width: 100% !important;
+  border-collapse: collapse !important;
+  font-size: 18px !important;
+}
+
+#guildModal th,
+#guildModal td{
+  padding: 14px 16px !important;   /* ✅ 칸 높이/여백 크게 */
+  font-size: 18px !important;      /* ✅ 글씨 크게 */
+}
+
+/* 헤더 더 굵고 크게 */
+#guildModal thead th{
+  font-size: 18px !important;
+  font-weight: 900 !important;
+}
+
+/* ✅ 1열(직업/등급) + 2열(인원) 전부 가운데 정렬 */
+#guildModal table th,
+#guildModal table td{
+  text-align: center !important;
+}
+
+/* 모달 카드 자체도 조금 넓게/시원하게 */
+#guildModal .gm-card{
+  max-width: 1100px !important;  /* 필요하면 1200~1400까지 올려도 됨 */
+}
 </style>
 </head>
 
