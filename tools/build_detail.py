@@ -107,7 +107,7 @@ def build_detail_for_xlsx(xlsx_path: Path):
         }
 
         # 파일명은 encodeURIComponent(server)와 동일하게 URL 인코딩
-        fname = urllib.parse.quote(name, safe="") + ".json"
+       fname = f"{sheet}.json"
         (out_dir / fname).write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
         made += 1
 
