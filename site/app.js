@@ -417,11 +417,11 @@ function renderKeyValueTable(obj, col1, col2){
     </thead><tbody>`;
 
   for (const [k,v] of entries){
-    html += `<tr>
-      <td style="padding:6px; border-bottom:1px solid rgba(35,50,74,.6);">${escapeHtml(k)}</td>
-      <td style="padding:6px; border-bottom:1px solid rgba(35,50,74,.6); text-align:right;">${Number(v||0).toLocaleString()}</td>
-    </tr>`;
-  }
+  html += `<tr>
+    <td style="padding:6px; border-bottom:1px solid rgba(35,50,74,.6); text-align:center;">${escapeHtml(k)}</td>
+    <td style="padding:6px; border-bottom:1px solid rgba(35,50,74,.6); text-align:center;">${Number(v||0).toLocaleString()}</td>
+  </tr>`;
+}
   html += `</tbody></table>`;
   return html;
 }
