@@ -358,8 +358,8 @@ tbody.addEventListener("click", async (e) => {
       .replace(/\s+/g, " ")
       .trim();
 
-    const serverFile = encodeURIComponent(serverNorm) + ".json";
-    const url = `./snapshots/detail_${dateKey}/${serverFile}`;
+    const serverFile = encodeURIComponent(encodeURIComponent(serverNorm)) + ".json";
+const url = `./snapshots/detail_${dateKey}/${serverFile}`;
 
     // ✅ 로그는 여기(try 안)에서!
     console.log("serverRaw =", JSON.stringify(serverRaw));
