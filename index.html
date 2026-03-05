@@ -57,6 +57,33 @@ button:hover{
   align-items:center;
 }
 
+/* ✅ ====== Pager (페이지네이션 UI) ====== */
+.pager{
+  display:flex;
+  gap:8px;
+  align-items:center;
+  justify-content:flex-end;
+  margin:10px 0;
+  flex-wrap:wrap;
+}
+.pager .info{ font-size:12px; opacity:.85; margin-right:auto; }
+.pager button{
+  padding:6px 10px;
+  border-radius:8px;
+  border:1px solid #2a3550;
+  background:#0f1626;
+  color:#fff;
+  cursor:pointer;
+  font-weight:800;
+}
+.pager button:hover{ background:#15203a; }
+.pager button:disabled{ opacity:.4; cursor:not-allowed; }
+.pager .page{
+  min-width:46px;
+  text-align:center;
+  font-variant-numeric: tabular-nums;
+}
+
 /* ====== Table ====== */
 table{
   border-collapse:collapse;
@@ -137,6 +164,9 @@ td:nth-child(6){
     <button type="button" id="btnClear">초기화</button>
   </form>
 </div>
+
+<!-- ✅ 여기! 표 위에 페이지네이션 UI -->
+<div class="pager" id="pager"></div>
 
 <table>
   <thead>
