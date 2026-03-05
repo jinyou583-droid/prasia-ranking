@@ -69,22 +69,88 @@ async function loadRanking(fileName) {
   const tbody = document.getElementById("rank");
 
   try {
-    const curRows = await fetchRows(fileName);
+    const curRes = await fetch(`./snapshots/${fileName}`, { cache: "no-store" });
+    if (!curRes.ok) throw new Error(`${fileName} HTTP ${curRes.status}`);
+    const curRows = await curRes.json(); // 배열
 
-    // “이전 파일” 찾기: index.json이 최신->과거 정렬이므로
+    // ✅ index.json 목록(SNAP_LIST)을 이미 loadSnapshots에서 들고 있다고 가정
+    // 만약 SNAP_LIST가 없다면 아래 3줄은 에러남 → (3단계에서 SNAP_LIST 추가 안내함)
     const idx = SNAP_LIST.findIndex((x) => x.file === fileName);
     const prevFile = (idx >= 0 && idx + 1 < SNAP_LIST.length) ? SNAP_LIST[idx + 1].file : null;
 
+    // prevMap: key -> { score, rank }
     let prevMap = new Map();
     if (prevFile) {
-      const prevRows = await fetchRows(prevFile);
-      for (const r of prevRows) {
-        const k = keyOf(r);
-        // total_score 우선, 없으면 score_total 등도 대응
-        const s = toNum(r.total_score ?? r.score_total ?? r.total ?? 0);
-        prevMap.set(k, s);
+      const prevRes = await fetch(`./snapshots/${prevFile}`, { cache: "no-store" });
+      if (prevRes.ok) {
+        const prevRows = await prevRes.json();
+        for (const r of prevRows) {
+          const k = `${(r.guild ?? "").trim()}@@${(r.server ?? "").trim()}`;
+          const score = Number(r.total_score ?? r.score_total ?? r.total ?? 0) || 0;
+          const rank = Number(r.rank ?? 0) || 0;
+          prevMap.set(k, { score, rank });
+        }
       }
     }
+
+    tbody.innerHTML = "";
+
+    for (const r of curRows) {
+      const curRank = Number(r.rank ?? 0) || 0;
+      const guild = r.guild ?? "";
+      const server = r.server ?? "";
+      const total = Number(r.total_score ?? r.score_total ?? r.total ?? 0) || 0;
+
+      const k = `${guild.trim()}@@${server.trim()}`;
+      const prev = prevMap.get(k);
+
+      const prevScore = prev ? prev.score : 0;
+      const prevRank = prev ? prev.rank : 0;
+
+      // ✅ 점수 차이
+      const scoreDelta = prevFile ? (total - prevScore) : 0;
+
+      // ✅ 순위 변동(이전 - 현재) : +면 상승, -면 하락
+      const rankDelta = (prevFile && prevRank && curRank) ? (prevRank - curRank) : 0;
+
+      // 변동(등수) 텍스트/색
+      let moveText = "-";
+      let moveClass = "delta-flat";
+      if (prevFile && rankDelta !== 0) {
+        if (rankDelta > 0) { moveText = `▲ ${rankDelta}`; moveClass = "delta-up"; }
+        else { moveText = `▼ ${Math.abs(rankDelta)}`; moveClass = "delta-down"; }
+      }
+
+      // 기존대비(점수) 텍스트/색
+      let scoreText = prevFile ? "-" : "";
+      let scoreClass = "delta-flat";
+      if (prevFile && scoreDelta !== 0) {
+        if (scoreDelta > 0) { scoreText = `▲ ${scoreDelta.toLocaleString()}`; scoreClass = "delta-up"; }
+        else { scoreText = `▼ ${Math.abs(scoreDelta).toLocaleString()}`; scoreClass = "delta-down"; }
+      }
+
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td class="delta-cell ${moveClass}">${moveText}</td>
+        <td>${curRank || ""}</td>
+        <td>${guild}</td>
+        <td>${server}</td>
+        <td>${total ? total.toLocaleString() : ""}</td>
+        <td class="delta-cell ${scoreClass}">${scoreText}</td>
+      `;
+      tbody.appendChild(tr);
+    }
+
+    statusEl && (statusEl.textContent =
+      prevFile
+        ? `status: OK (${fileName}) - ${curRows.length} rows / compare: ${prevFile}`
+        : `status: OK (${fileName}) - ${curRows.length} rows / compare: (없음)`
+    );
+  } catch (err) {
+    statusEl && (statusEl.textContent = `status: ERROR: ${fileName} -> ${err.message}`);
+    console.error(err);
+  }
+}
 
     tbody.innerHTML = "";
 
