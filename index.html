@@ -11,7 +11,7 @@ body{
   background:#0b0f17;
   color:#fff;
   padding:20px;
-  max-width:1180px;     /* ✅ 더 좁게 (휑한 느낌 제거) */
+  max-width:1180px;
   margin:0 auto;
 }
 
@@ -33,7 +33,7 @@ h1{
   font-size:13px;
   opacity:.9;
 }
-select,input{
+select,input,button{
   padding:6px 8px;
   border-radius:6px;
   border:1px solid #2a3550;
@@ -43,41 +43,53 @@ select,input{
 }
 input::placeholder{ color:#8fa3c7; }
 
+button{
+  cursor:pointer;
+  font-weight:700;
+}
+button:hover{
+  background:#15203a;
+}
+
+.searchForm{
+  display:flex;
+  gap:8px;
+  align-items:center;
+}
+
 /* ====== Table ====== */
 table{
   border-collapse:collapse;
   width:100%;
   table-layout:fixed;
-  font-size:13px;          /* ✅ 글자 살짝 줄임 */
+  font-size:13px;
 }
 
 thead th{
   background:#111a2a;
-  position: sticky;         /* ✅ 헤더 고정 */
+  position: sticky;
   top: 0;
   z-index: 1;
 }
 
 th,td{
   border:1px solid #2a3550;
-  padding:5px 8px;          /* ✅ 행 높이 줄임 */
+  padding:5px 8px;
   line-height:1.15;
 }
 
-/* hover */
 tbody tr:hover{
   background:rgba(255,255,255,0.04);
 }
 
 /* ====== Column widths ====== */
-th:nth-child(1), td:nth-child(1){ width:62px;  text-align:center; } /* 변동 */
-th:nth-child(2), td:nth-child(2){ width:58px;  text-align:center; } /* 순위 */
-th:nth-child(3), td:nth-child(3){ width:220px; }                    /* 결사 */
-th:nth-child(4), td:nth-child(4){ width:110px; }                    /* 서버 */
-th:nth-child(5), td:nth-child(5){ width:95px;  text-align:right; }  /* 총점 */
-th:nth-child(6), td:nth-child(6){ width:105px; text-align:right; }  /* 기존대비 */
+th:nth-child(1), td:nth-child(1){ width:62px;  text-align:center; }
+th:nth-child(2), td:nth-child(2){ width:58px;  text-align:center; }
+th:nth-child(3), td:nth-child(3){ width:220px; }
+th:nth-child(4), td:nth-child(4){ width:110px; }
+th:nth-child(5), td:nth-child(5){ width:95px;  text-align:right; }
+th:nth-child(6), td:nth-child(6){ width:105px; text-align:right; }
 
-/* 긴 텍스트는 ... 처리 */
 td:nth-child(3),
 td:nth-child(4){
   white-space:nowrap;
@@ -85,7 +97,6 @@ td:nth-child(4){
   text-overflow:ellipsis;
 }
 
-/* 숫자 가독성 */
 td:nth-child(5),
 td:nth-child(6){
   font-variant-numeric: tabular-nums;
@@ -98,12 +109,13 @@ td:nth-child(6){
 .delta-flat { color:#c7c7c7; font-weight:700; }
 .delta-cell { white-space:nowrap; }
 
-/* 상단 여백 조금 더 줄이기 */
 @media (max-width: 720px){
   body{ padding:12px; max-width: 100%; }
   h1{ font-size:24px; }
   th,td{ padding:5px 6px; }
   th:nth-child(3), td:nth-child(3){ width:180px; }
+  .searchForm{ width:100%; }
+  #search{ flex:1; min-width: 160px; }
 }
 </style>
 </head>
@@ -117,7 +129,13 @@ td:nth-child(6){
   <select id="date"></select>
 
   <label>검색</label>
-  <input id="search" placeholder="결사 / 서버 검색">
+
+  <!-- ✅ 엔터키로 검색되게 form -->
+  <form class="searchForm" id="searchForm" onsubmit="return false;">
+    <input id="search" placeholder="결사 / 서버 검색" autocomplete="off">
+    <button type="button" id="btnSearch">검색</button>
+    <button type="button" id="btnClear">초기화</button>
+  </form>
 </div>
 
 <table>
