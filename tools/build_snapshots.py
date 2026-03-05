@@ -1,60 +1,40 @@
-import os, json, re
+import os
+import json
 from openpyxl import load_workbook
 
-UPLOADS="uploads"
-SNAP="snapshots"
+UPLOAD_DIR = "uploads"
+OUTPUT_DIR = "snapshots"
 
-os.makedirs(SNAP,exist_ok=True)
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-files=os.listdir(UPLOADS)
+for file in os.listdir(UPLOAD_DIR):
+    if file.endswith(".xlsx"):
 
-dates=[]
+        path = os.path.join(UPLOAD_DIR, file)
+        wb = load_workbook(path, data_only=True)
 
-for f in files:
-    if f.endswith(".xlsx") or f.endswith(".xlsm"):
-        m=re.search(r"\d{4}-\d{2}-\d{2}",f)
-        if m:
-            dates.append((m.group(),f))
-
-dates.sort()
-
-index={"snapshots":[]}
-
-for d,f in dates:
-
-    wb=load_workbook(os.path.join(UPLOADS,f),data_only=True)
-
-    ws=wb["통합정렬"]
-
-    rows=list(ws.iter_rows(values_only=True))
-
-    headers=rows[0]
-
-    data=[]
-
-    for r in rows[1:]:
-
-        if not r[0]:
+        if "통합정렬" not in wb.sheetnames:
             continue
 
-        data.append({
-            "rank":r[0],
-            "guild":r[1],
-            "server":r[2],
-            "score_total":r[5]
-        })
+        ws = wb["통합정렬"]
 
-    out={
-        "snapshot_date":d,
-        "rankings":data
-    }
+        rows = []
+        for r in ws.iter_rows(min_row=2, values_only=True):
+            if not r[0]:
+                continue
 
-    with open(f"{SNAP}/{d}.json","w",encoding="utf8") as w:
-        json.dump(out,w,ensure_ascii=False,indent=2)
+            rows.append({
+                "rank": r[0],
+                "guild": r[1],
+                "server": r[2],
+                "hunt_score": r[3],
+                "level_score": r[4],
+                "total_score": r[5]
+            })
 
-    index["snapshots"].append({"date":d})
+        name = file.replace(".xlsx", ".json")
 
-with open(f"{SNAP}/index.json","w",encoding="utf8") as w:
-    json.dump(index,w,indent=2)
+        with open(f"{OUTPUT_DIR}/{name}", "w", encoding="utf-8") as f:
+            json.dump(rows, f, ensure_ascii=False, indent=2)
 
-print("done")
+print("Snapshots created")
