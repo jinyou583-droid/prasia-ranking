@@ -335,53 +335,59 @@ function bindGuildDetailUI(){
   if (!tbody) return;
 
   // tbody 안의 tr 클릭 시 detail 로드
-  tbody.addEventListener("click", async (e) => {
-    const tr = e.target.closest("tr");
-    if (!tr) return;
+  // tbody 안의 tr 클릭 시 detail 로드
+tbody.addEventListener("click", async (e) => {
+  const tr = e.target.closest("tr");
+  if (!tr) return;
 
-    const guild = tr.getAttribute("data-guild") || "";
-    const server = tr.getAttribute("data-server") || "";
-    if (!guild || !server) return;
+  const guild = tr.getAttribute("data-guild") || "";
+  const server = tr.getAttribute("data-server") || "";
+  if (!guild || !server) return;
 
-    const fileName = document.getElementById("date")?.value; // 예: ranking_2026_03_05.json
-    const dateKey = getDateKeyFromFile(fileName);
-    if (!dateKey) {
-      alert("날짜키를 못 찾았어요. 파일명에 2026_03_05 형태가 있어야 합니다.");
-      return;
-    }
-
-   try {
-  const serverRaw = String(server ?? "");
-
-  // ✅ 서버명 정규화: 앞뒤 공백 제거 + 연속 공백 1개로 + NBSP 제거
-  const serverNorm = serverRaw
-    .replace(/\u00A0/g, " ")     // NBSP → 일반 공백
-    .replace(/\s+/g, " ")        // 공백/줄바꿈 여러개 → 1개
-    .trim();                     // 앞뒤 공백 제거
-
-  const serverFile = encodeURIComponent(serverNorm) + ".json";
-  const url = `./snapshots/detail_${dateKey}/${serverFile}`;
-
-  const res = await fetch(url, { cache: "no-store" });
-  if (!res.ok) throw new Error(`detail fetch 실패: ${res.status} / ${url}`);
-
-  const data = await res.json();
-
-  // ✅ guild도 혹시 모르니 trim 한 번
-  const guildKey = String(guild ?? "").trim();
-  const g = data?.guilds?.[guildKey];
-
-  if (!g) {
-    showModal(guildKey, `${serverNorm} / ${dateKey}`, `<div style="opacity:.85;">집계 데이터 없음</div>`, "");
+  const fileName = document.getElementById("date")?.value;
+  const dateKey = getDateKeyFromFile(fileName);
+  if (!dateKey) {
+    alert("날짜키를 못 찾았어요. 파일명에 2026_03_05 형태가 있어야 합니다.");
     return;
   }
 
-  ...
-} catch (err) {
-  alert("상세 불러오기 실패: " + err.message);
-  console.error(err);
-}
-  });
+  try {
+    const serverRaw = String(server ?? "");
+    const serverNorm = serverRaw
+      .replace(/\u00A0/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+
+    const serverFile = encodeURIComponent(serverNorm) + ".json";
+    const url = `./snapshots/detail_${dateKey}/${serverFile}`;
+
+    // ✅ 로그는 여기(try 안)에서!
+    console.log("serverRaw =", JSON.stringify(serverRaw));
+    console.log("serverNorm =", JSON.stringify(serverNorm), "->", serverFile);
+    console.log("fetch url =", url);
+
+    const res = await fetch(url, { cache: "no-store" });
+    if (!res.ok) throw new Error(`detail fetch 실패: ${res.status} / ${url}`);
+
+    const data = await res.json();
+
+    const guildKey = String(guild ?? "").trim();
+    const g = data?.guilds?.[guildKey];
+
+    if (!g) {
+      showModal(guildKey, `${serverNorm} / ${dateKey}`, `<div style="opacity:.85;">집계 데이터 없음</div>`, "");
+      return;
+    }
+
+    const clsHtml = renderKeyValueTable(g.byClass, "직업", "인원");
+    const grdHtml = renderKeyValueTable(g.byGrade, "등급", "인원");
+    showModal(guildKey, `${serverNorm} / ${dateKey} / 총원 ${g.members}명`, clsHtml, grdHtml);
+
+  } catch (err) {
+    alert("상세 불러오기 실패: " + err.message);
+    console.error(err);
+  }
+});
 }
 
 function renderKeyValueTable(obj, col1, col2){
