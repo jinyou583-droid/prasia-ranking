@@ -352,43 +352,54 @@ tbody.addEventListener("click", async (e) => {
   }
 
   try {
-    const serverRaw = String(server ?? "");
-    const serverNorm = serverRaw
-      .replace(/\u00A0/g, " ")
-      .replace(/\s+/g, " ")
-      .trim();
+   // ✅ 서버명 정규화
+const serverRaw = String(server ?? "");
+const serverNorm = serverRaw
+  .replace(/\u00A0/g, " ")   // NBSP → 일반 공백
+  .replace(/\s+/g, " ")
+  .trim();
 
-    const serverFile = encodeURIComponent(encodeURIComponent(serverNorm)) + ".json";
-const url = `./snapshots/detail_${dateKey}/${serverFile}`;
+// ✅ 후보들: "별세이즈 03" / "별세이즈03" / "별세이즈03"(전체공백제거)
+const candidates = [
+  serverNorm,
+  serverNorm.replace(/\s+(\d+)$/, "$1"),     // 끝 숫자 앞 공백 제거: " 03" -> "03"
+  serverNorm.replace(/\s+/g, ""),            // 모든 공백 제거
+];
 
-    // ✅ 로그는 여기(try 안)에서!
-    console.log("serverRaw =", JSON.stringify(serverRaw));
-    console.log("serverNorm =", JSON.stringify(serverNorm), "->", serverFile);
-    console.log("fetch url =", url);
+// ✅ 후보 URL 순서대로 시도
+let data = null;
+let lastErr = null;
 
-    const res = await fetch(url, { cache: "no-store" });
-    if (!res.ok) throw new Error(`detail fetch 실패: ${res.status} / ${url}`);
+for (const s of candidates) {
+  const serverFile = encodeURIComponent(s) + ".json";
+  const url = `./snapshots/detail_${dateKey}/${serverFile}`;
 
-    const data = await res.json();
+  console.log("try server =", JSON.stringify(s), "->", serverFile);
+  console.log("fetch url =", url);
 
-    const guildKey = String(guild ?? "").trim();
-    const g = data?.guilds?.[guildKey];
-
-    if (!g) {
-      showModal(guildKey, `${serverNorm} / ${dateKey}`, `<div style="opacity:.85;">집계 데이터 없음</div>`, "");
-      return;
-    }
-
-    const clsHtml = renderKeyValueTable(g.byClass, "직업", "인원");
-    const grdHtml = renderKeyValueTable(g.byGrade, "등급", "인원");
-    showModal(guildKey, `${serverNorm} / ${dateKey} / 총원 ${g.members}명`, clsHtml, grdHtml);
-
-  } catch (err) {
-    alert("상세 불러오기 실패: " + err.message);
-    console.error(err);
+  const res = await fetch(url, { cache: "no-store" });
+  if (res.ok) {
+    data = await res.json();
+    break;
+  } else {
+    lastErr = `HTTP ${res.status} / ${url}`;
   }
-});
 }
+
+if (!data) throw new Error(`detail fetch 실패: ${lastErr}`);
+
+// guild 키도 trim
+const guildKey = String(guild ?? "").trim();
+const g = data?.guilds?.[guildKey];
+
+if (!g) {
+  showModal(guildKey, `${serverNorm} / ${dateKey}`, `<div style="opacity:.85;">집계 데이터 없음</div>`, "");
+  return;
+}
+
+const clsHtml = renderKeyValueTable(g.byClass, "직업", "인원");
+const grdHtml = renderKeyValueTable(g.byGrade, "등급", "인원");
+showModal(guildKey, `${serverNorm} / ${dateKey} / 총원 ${g.members}명`, clsHtml, grdHtml);
 
 function renderKeyValueTable(obj, col1, col2){
   const entries = Object.entries(obj || {});
