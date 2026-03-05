@@ -4,6 +4,7 @@ let FILTERED_ROWS = [];         // 검색 적용된 rows
 
 let PAGE_SIZE = 100;
 let CURRENT_PAGE = 1;
+
 function getDateKeyFromFile(fileName){
   // ranking_2026_03_05.json -> 2026_03_05
   const m = String(fileName || "").match(/(\d{4}_\d{2}_\d{2})/);
@@ -15,9 +16,11 @@ function toNum(v) {
   const n = Number(String(v).replace(/,/g, ""));
   return Number.isFinite(n) ? n : 0;
 }
+
 function keyOf(guild, server) {
   return `${(guild ?? "").trim()}@@${(server ?? "").trim()}`;
 }
+
 function escapeHtml(s){
   return String(s ?? "")
     .replace(/&/g,"&amp;")
@@ -102,8 +105,6 @@ function bindSearchUI(){
       }
     });
   }
-
-  // ✅ input 실시간 렌더 금지
 }
 
 function bindPagerUI(){
@@ -322,6 +323,10 @@ function renderPager(total, totalPages, from, to){
     numsEl.innerHTML = html;
   }
 }
+
+/* =========================
+   ✅ 상세 모달 (결사 클릭)
+========================= */
 function bindGuildDetailUI(){
   const tbody = document.getElementById("rank");
   const modal = document.getElementById("guildModal");
@@ -334,73 +339,87 @@ function bindGuildDetailUI(){
 
   if (!tbody) return;
 
-  // tbody 안의 tr 클릭 시 detail 로드
-  // tbody 안의 tr 클릭 시 detail 로드
-tbody.addEventListener("click", async (e) => {
-  const tr = e.target.closest("tr");
-  if (!tr) return;
+  tbody.addEventListener("click", async (e) => {
+    const tr = e.target.closest("tr");
+    if (!tr) return;
 
-  const guild = tr.getAttribute("data-guild") || "";
-  const server = tr.getAttribute("data-server") || "";
-  if (!guild || !server) return;
+    const guild = tr.getAttribute("data-guild") || "";
+    const server = tr.getAttribute("data-server") || "";
+    if (!guild || !server) return;
 
-  const fileName = document.getElementById("date")?.value;
-  const dateKey = getDateKeyFromFile(fileName);
-  if (!dateKey) {
-    alert("날짜키를 못 찾았어요. 파일명에 2026_03_05 형태가 있어야 합니다.");
-    return;
-  }
+    const fileName = document.getElementById("date")?.value;
+    const dateKey = getDateKeyFromFile(fileName);
+    if (!dateKey) {
+      alert("날짜키를 못 찾았어요. 파일명에 2026_03_05 형태가 있어야 합니다.");
+      return;
+    }
 
-  try {
-   // ✅ 서버명 정규화
-const serverRaw = String(server ?? "");
-const serverNorm = serverRaw
-  .replace(/\u00A0/g, " ")   // NBSP → 일반 공백
-  .replace(/\s+/g, " ")
-  .trim();
+    try {
+      // ✅ 서버명 정규화
+      const serverRaw = String(server ?? "");
+      const serverNorm = serverRaw
+        .replace(/\u00A0/g, " ")   // NBSP → 일반 공백
+        .replace(/\s+/g, " ")
+        .trim();
 
-// ✅ 후보들: "별세이즈 03" / "별세이즈03" / "별세이즈03"(전체공백제거)
-const candidates = [
-  serverNorm,
-  serverNorm.replace(/\s+(\d+)$/, "$1"),     // 끝 숫자 앞 공백 제거: " 03" -> "03"
-  serverNorm.replace(/\s+/g, ""),            // 모든 공백 제거
-];
+      // ✅ 후보들: "별세이즈 03" / "별세이즈03" / "별세이즈03"(전체공백제거)
+      const candidates = [
+        serverNorm,
+        serverNorm.replace(/\s+(\d+)$/, "$1"), // 끝 숫자 앞 공백 제거: " 03" -> "03"
+        serverNorm.replace(/\s+/g, ""),        // 모든 공백 제거
+      ];
 
-// ✅ 후보 URL 순서대로 시도
-let data = null;
-let lastErr = null;
+      // ✅ 후보 URL 순서대로 시도
+      let data = null;
+      let lastErr = null;
 
-for (const s of candidates) {
-  const serverFile = encodeURIComponent(s) + ".json";
-  const url = `./snapshots/detail_${dateKey}/${serverFile}`;
+      for (const s of candidates) {
+        const serverFile = encodeURIComponent(s) + ".json";
+        const url = `./snapshots/detail_${dateKey}/${serverFile}`;
 
-  console.log("try server =", JSON.stringify(s), "->", serverFile);
-  console.log("fetch url =", url);
+        console.log("try server =", JSON.stringify(s), "->", serverFile);
+        console.log("fetch url =", url);
 
-  const res = await fetch(url, { cache: "no-store" });
-  if (res.ok) {
-    data = await res.json();
-    break;
-  } else {
-    lastErr = `HTTP ${res.status} / ${url}`;
-  }
+        const res = await fetch(url, { cache: "no-store" });
+        if (res.ok) {
+          data = await res.json();
+          break;
+        } else {
+          lastErr = `HTTP ${res.status} / ${url}`;
+        }
+      }
+
+      if (!data) throw new Error(`detail fetch 실패: ${lastErr}`);
+
+      // guild 키도 trim
+      const guildKey = String(guild ?? "").trim();
+      const g = data?.guilds?.[guildKey];
+
+      if (!g) {
+        showModal(guildKey, `${serverNorm} / ${dateKey}`, `<div style="opacity:.85;">집계 데이터 없음</div>`, "");
+        return;
+      }
+
+      const clsHtml = renderKeyValueTable(g.byClass, "직업", "인원");
+      const grdHtml = renderKeyValueTable(g.byGrade, "등급", "인원");
+
+      showModal(
+        guildKey,
+        `${serverNorm} / ${dateKey} / 총원 ${Number(g.members || 0).toLocaleString()}명`,
+        clsHtml,
+        grdHtml
+      );
+
+    } catch (err) {
+      alert("상세 불러오기 실패: " + err.message);
+      console.error(err);
+    }
+  });
 }
 
-if (!data) throw new Error(`detail fetch 실패: ${lastErr}`);
-
-// guild 키도 trim
-const guildKey = String(guild ?? "").trim();
-const g = data?.guilds?.[guildKey];
-
-if (!g) {
-  showModal(guildKey, `${serverNorm} / ${dateKey}`, `<div style="opacity:.85;">집계 데이터 없음</div>`, "");
-  return;
-}
-
-const clsHtml = renderKeyValueTable(g.byClass, "직업", "인원");
-const grdHtml = renderKeyValueTable(g.byGrade, "등급", "인원");
-showModal(guildKey, `${serverNorm} / ${dateKey} / 총원 ${g.members}명`, clsHtml, grdHtml);
-
+/* =========================
+   ✅ 모달 표 렌더 (크게 + 가운데)
+========================= */
 function renderKeyValueTable(obj, col1, col2){
   const entries = Object.entries(obj || {});
   if (entries.length === 0) return `<div style="opacity:.85;">데이터 없음</div>`;
@@ -444,4 +463,6 @@ function hideModal(){
   const modal = document.getElementById("guildModal");
   if (modal) modal.style.display = "none";
 }
+
+// ✅ 시작
 loadSnapshots();
