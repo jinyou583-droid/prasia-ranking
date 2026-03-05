@@ -5,26 +5,102 @@
 <title>프라시아 결사 랭킹</title>
 
 <style>
+
 body{
   font-family:Arial;
   background:#0b0f17;
   color:white;
-  padding:30px
+  padding:30px;
+  max-width:1400px;
+  margin:0 auto;
 }
 
-table{ border-collapse:collapse; width:100% }
-th,td{ border:1px solid #333; padding:8px }
-th{ background:#111a2a }
+/* 표 기본 */
+table{
+  border-collapse:collapse;
+  width:100%;
+  table-layout:fixed;
+}
 
-select,input{ padding:6px; margin:5px }
+th,td{
+  border:1px solid #333;
+  padding:6px 10px;
+  font-size:14px;
+  line-height:1.25;
+}
 
-/* ✅ 이 줄들이 반드시 style 안에 있어야 함 */
-.delta-up { color:#ff4d4d; font-weight:800; }
-.delta-down { color:#4aa3ff; font-weight:800; }
-.delta-flat { color:#c7c7c7; font-weight:700; }
-.delta-cell { white-space:nowrap; }
+th{
+  background:#111a2a;
+}
+
+/* hover */
+tbody tr:hover{
+  background:rgba(255,255,255,0.03);
+}
+
+/* 검색 UI */
+select,input{
+  padding:6px;
+  margin:5px;
+}
+
+/* 변동 색상 */
+.delta-up{
+  color:#ff4d4d;
+  font-weight:800;
+}
+
+.delta-down{
+  color:#4aa3ff;
+  font-weight:800;
+}
+
+.delta-flat{
+  color:#c7c7c7;
+  font-weight:700;
+}
+
+.delta-cell{
+  white-space:nowrap;
+}
+
+/* 컬럼 폭 */
+th:nth-child(1),td:nth-child(1){
+  width:70px;
+  text-align:center;
+}
+
+th:nth-child(2),td:nth-child(2){
+  width:70px;
+  text-align:center;
+}
+
+th:nth-child(3),td:nth-child(3){
+  width:220px;
+}
+
+th:nth-child(4),td:nth-child(4){
+  width:130px;
+}
+
+th:nth-child(5),td:nth-child(5){
+  width:110px;
+  text-align:right;
+}
+
+th:nth-child(6),td:nth-child(6){
+  width:120px;
+  text-align:right;
+}
+
+/* 숫자 가독성 */
+td:nth-child(5),
+td:nth-child(6){
+  font-variant-numeric:tabular-nums;
+  white-space:nowrap;
+}
+
 </style>
-
 </head>
 
 <body>
@@ -35,26 +111,26 @@ select,input{ padding:6px; margin:5px }
 <select id="date"></select>
 
 검색
-<input id="search">
+<input id="search" placeholder="결사 / 서버 검색">
 
 <table>
 
 <thead>
-  <tr>
-   <th>변동</th>
+<tr>
+<th>변동</th>
 <th>순위</th>
 <th>결사</th>
 <th>서버</th>
 <th>총점</th>
 <th>기존대비</th>
-  </tr>
+</tr>
 </thead>
 
 <tbody id="rank"></tbody>
 
 </table>
 
-<script src="./app.js?v=7"></script>
+<script src="./app.js?v=8"></script>
 
 </body>
 </html>
