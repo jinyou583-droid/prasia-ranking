@@ -175,6 +175,51 @@ td:nth-child(6){
   .searchForm{ width:100%; }
   #search{ flex:1; min-width: 160px; }
 }
+  /* ====== 길드 상세 모달(팝업) 표 글씨/정렬 강화 ====== */
+
+/* 모달 전체 글씨 크게 */
+#guildModal .gm-card,
+#guildModal .gm-body,
+#guildModal .gm-body *{
+  font-size: 16px;   /* 기본 16 */
+  line-height: 1.35;
+}
+
+/* 제목/서브텍스트 더 크게 */
+#gmTitle{ font-size: 22px; font-weight: 900; }
+#gmSub  { font-size: 16px; opacity: .9; }
+
+/* 표 자체 크게 + 여백 확 */
+#guildModal table{
+  font-size: 16px;
+}
+#guildModal th,
+#guildModal td{
+  padding: 10px 12px !important;
+}
+
+/* 헤더 더 눈에 띄게 */
+#guildModal thead th{
+  font-size: 15px;
+  font-weight: 900;
+}
+
+/* ✅ 인원 컬럼(두 번째 컬럼) 가운데 정렬 */
+#guildModal table th:nth-child(2),
+#guildModal table td:nth-child(2){
+  text-align: center !important;
+}
+
+/* 첫 컬럼(직업/등급)은 왼쪽 유지 */
+#guildModal table th:nth-child(1),
+#guildModal table td:nth-child(1){
+  text-align: left !important;
+}
+
+/* 표 영역도 살짝 넓게 보이게 */
+#guildModal .gm-cols{
+  gap: 16px;
+}
 </style>
 </head>
 
