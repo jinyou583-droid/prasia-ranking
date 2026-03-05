@@ -5,101 +5,106 @@
 <title>프라시아 결사 랭킹</title>
 
 <style>
-
+/* ====== Layout ====== */
 body{
-  font-family:Arial;
+  font-family: Arial, system-ui, -apple-system, "Noto Sans KR", sans-serif;
   background:#0b0f17;
-  color:white;
-  padding:30px;
-  max-width:1400px;
+  color:#fff;
+  padding:20px;
+  max-width:1180px;     /* ✅ 더 좁게 (휑한 느낌 제거) */
   margin:0 auto;
 }
 
-/* 표 기본 */
+h1{
+  margin: 0 0 12px 0;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+/* ====== Controls ====== */
+.controls{
+  display:flex;
+  gap:10px;
+  align-items:center;
+  flex-wrap:wrap;
+  margin-bottom:10px;
+}
+.controls label{
+  font-size:13px;
+  opacity:.9;
+}
+select,input{
+  padding:6px 8px;
+  border-radius:6px;
+  border:1px solid #2a3550;
+  background:#0f1626;
+  color:#fff;
+  outline:none;
+}
+input::placeholder{ color:#8fa3c7; }
+
+/* ====== Table ====== */
 table{
   border-collapse:collapse;
   width:100%;
   table-layout:fixed;
+  font-size:13px;          /* ✅ 글자 살짝 줄임 */
+}
+
+thead th{
+  background:#111a2a;
+  position: sticky;         /* ✅ 헤더 고정 */
+  top: 0;
+  z-index: 1;
 }
 
 th,td{
-  border:1px solid #333;
-  padding:6px 10px;
-  font-size:14px;
-  line-height:1.25;
-}
-
-th{
-  background:#111a2a;
+  border:1px solid #2a3550;
+  padding:5px 8px;          /* ✅ 행 높이 줄임 */
+  line-height:1.15;
 }
 
 /* hover */
 tbody tr:hover{
-  background:rgba(255,255,255,0.03);
+  background:rgba(255,255,255,0.04);
 }
 
-/* 검색 UI */
-select,input{
-  padding:6px;
-  margin:5px;
-}
+/* ====== Column widths ====== */
+th:nth-child(1), td:nth-child(1){ width:62px;  text-align:center; } /* 변동 */
+th:nth-child(2), td:nth-child(2){ width:58px;  text-align:center; } /* 순위 */
+th:nth-child(3), td:nth-child(3){ width:220px; }                    /* 결사 */
+th:nth-child(4), td:nth-child(4){ width:110px; }                    /* 서버 */
+th:nth-child(5), td:nth-child(5){ width:95px;  text-align:right; }  /* 총점 */
+th:nth-child(6), td:nth-child(6){ width:105px; text-align:right; }  /* 기존대비 */
 
-/* 변동 색상 */
-.delta-up{
-  color:#ff4d4d;
-  font-weight:800;
-}
-
-.delta-down{
-  color:#4aa3ff;
-  font-weight:800;
-}
-
-.delta-flat{
-  color:#c7c7c7;
-  font-weight:700;
-}
-
-.delta-cell{
+/* 긴 텍스트는 ... 처리 */
+td:nth-child(3),
+td:nth-child(4){
   white-space:nowrap;
-}
-
-/* 컬럼 폭 */
-th:nth-child(1),td:nth-child(1){
-  width:70px;
-  text-align:center;
-}
-
-th:nth-child(2),td:nth-child(2){
-  width:70px;
-  text-align:center;
-}
-
-th:nth-child(3),td:nth-child(3){
-  width:220px;
-}
-
-th:nth-child(4),td:nth-child(4){
-  width:130px;
-}
-
-th:nth-child(5),td:nth-child(5){
-  width:110px;
-  text-align:right;
-}
-
-th:nth-child(6),td:nth-child(6){
-  width:120px;
-  text-align:right;
+  overflow:hidden;
+  text-overflow:ellipsis;
 }
 
 /* 숫자 가독성 */
 td:nth-child(5),
 td:nth-child(6){
-  font-variant-numeric:tabular-nums;
+  font-variant-numeric: tabular-nums;
   white-space:nowrap;
 }
 
+/* ====== Delta styles ====== */
+.delta-up   { color:#ff4d4d; font-weight:800; }
+.delta-down { color:#4aa3ff; font-weight:800; }
+.delta-flat { color:#c7c7c7; font-weight:700; }
+.delta-cell { white-space:nowrap; }
+
+/* 상단 여백 조금 더 줄이기 */
+@media (max-width: 720px){
+  body{ padding:12px; max-width: 100%; }
+  h1{ font-size:24px; }
+  th,td{ padding:5px 6px; }
+  th:nth-child(3), td:nth-child(3){ width:180px; }
+}
 </style>
 </head>
 
@@ -107,30 +112,29 @@ td:nth-child(6){
 
 <h1>프라시아 결사 랭킹</h1>
 
-날짜
-<select id="date"></select>
+<div class="controls">
+  <label>날짜</label>
+  <select id="date"></select>
 
-검색
-<input id="search" placeholder="결사 / 서버 검색">
+  <label>검색</label>
+  <input id="search" placeholder="결사 / 서버 검색">
+</div>
 
 <table>
+  <thead>
+    <tr>
+      <th>변동</th>
+      <th>순위</th>
+      <th>결사</th>
+      <th>서버</th>
+      <th>총점</th>
+      <th>기존대비</th>
+    </tr>
+  </thead>
 
-<thead>
-<tr>
-<th>변동</th>
-<th>순위</th>
-<th>결사</th>
-<th>서버</th>
-<th>총점</th>
-<th>기존대비</th>
-</tr>
-</thead>
-
-<tbody id="rank"></tbody>
-
+  <tbody id="rank"></tbody>
 </table>
 
-<script src="./app.js?v=8"></script>
-
+<script src="./app.js?v=9"></script>
 </body>
 </html>
