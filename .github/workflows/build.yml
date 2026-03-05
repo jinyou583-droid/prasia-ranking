@@ -7,6 +7,7 @@ on:
       - uploads/**
       - tools/**
       - site/**
+      - .github/workflows/**
 
 permissions:
   contents: write
@@ -14,35 +15,25 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-
-      - name: checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: setup python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: install library
+      - name: install deps
         run: |
+          python -m pip install --upgrade pip
           pip install openpyxl
 
       - name: build snapshots
         run: |
           python tools/build_snapshots.py
 
-      - name: commit snapshots
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add snapshots || true
-          git commit -m "update snapshots" || echo "no changes"
-          git push
-
       - name: deploy site
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .
+          publish_dir: site
