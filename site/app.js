@@ -405,23 +405,22 @@ function renderKeyValueTable(obj, col1, col2){
   const entries = Object.entries(obj || {});
   if (entries.length === 0) return `<div style="opacity:.85;">데이터 없음</div>`;
 
-  // 인원 내림차순 정렬
   entries.sort((a,b) => (b[1]||0) - (a[1]||0));
 
-  let html = `<table style="width:100%; border-collapse:collapse; font-size:12px;">
+  let html = `<table style="width:100%; border-collapse:collapse; font-size:16px;">
     <thead>
       <tr>
-        <th style="text-align:left; border-bottom:1px solid #23324a; padding:6px;">${escapeHtml(col1)}</th>
-        <th style="text-align:right; border-bottom:1px solid #23324a; padding:6px;">${escapeHtml(col2)}</th>
+        <th style="text-align:center; border-bottom:1px solid #23324a; padding:10px;">${escapeHtml(col1)}</th>
+        <th style="text-align:center; border-bottom:1px solid #23324a; padding:10px;">${escapeHtml(col2)}</th>
       </tr>
     </thead><tbody>`;
 
   for (const [k,v] of entries){
-  html += `<tr>
-    <td style="padding:6px; border-bottom:1px solid rgba(35,50,74,.6); text-align:center;">${escapeHtml(k)}</td>
-    <td style="padding:6px; border-bottom:1px solid rgba(35,50,74,.6); text-align:center;">${Number(v||0).toLocaleString()}</td>
-  </tr>`;
-}
+    html += `<tr>
+      <td style="padding:10px; border-bottom:1px solid rgba(35,50,74,.6); text-align:center;">${escapeHtml(k)}</td>
+      <td style="padding:10px; border-bottom:1px solid rgba(35,50,74,.6); text-align:center;">${Number(v||0).toLocaleString()}</td>
+    </tr>`;
+  }
   html += `</tbody></table>`;
   return html;
 }
