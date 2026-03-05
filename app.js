@@ -1,4 +1,5 @@
 let SNAP_LIST = []; // index.json 목록 저장 (최신 -> 과거)
+SNAP_LIST = list;
 
 function toNum(v) {
   if (v === null || v === undefined || v === "") return 0;
