@@ -422,21 +422,21 @@ function renderKeyValueTable(obj, col1, col2){
   entries.sort((a,b) => (b[1]||0) - (a[1]||0));
 
   let html = `
-  <table style="width:100%; border-collapse:collapse; font-size:16px;">
-    <thead>
-      <tr>
-        <th style="text-align:center; border-bottom:1px solid #23324a; padding:10px;">${escapeHtml(col1)}</th>
-        <th style="text-align:center; border-bottom:1px solid #23324a; padding:10px;">${escapeHtml(col2)}</th>
-      </tr>
-    </thead>
-    <tbody>
+    <table style="width:100%; border-collapse:collapse; font-size:16px; table-layout:fixed;">
+      <thead>
+        <tr>
+          <th style="text-align:center !important; border-bottom:1px solid #23324a; padding:10px;">${escapeHtml(col1)}</th>
+          <th style="text-align:center !important; border-bottom:1px solid #23324a; padding:10px;">${escapeHtml(col2)}</th>
+        </tr>
+      </thead>
+      <tbody>
   `;
 
   for (const [k,v] of entries){
     html += `
       <tr>
-        <td style="padding:10px; border-bottom:1px solid rgba(35,50,74,.6); text-align:center;">${escapeHtml(k)}</td>
-        <td style="padding:10px; border-bottom:1px solid rgba(35,50,74,.6); text-align:center;">${Number(v||0).toLocaleString()}</td>
+        <td style="padding:10px; border-bottom:1px solid rgba(35,50,74,.6); text-align:center !important;">${escapeHtml(k)}</td>
+        <td style="padding:10px; border-bottom:1px solid rgba(35,50,74,.6); text-align:center !important;">${Number(v||0).toLocaleString()}</td>
       </tr>
     `;
   }
