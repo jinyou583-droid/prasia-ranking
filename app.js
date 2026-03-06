@@ -5,6 +5,15 @@ let FILTERED_ROWS = [];
 let PAGE_SIZE = 100;
 let CURRENT_PAGE = 1;
 let CURRENT_OVERALL_STATS = { label: "", levelStats: [], huntGradeStats: [] };
+let CURRENT_STAT_MEMBERS = { label: "", levelMembers: {}, huntGradeMembers: {} };
+
+let MEMBER_LIST_STATE = {
+  type: "",
+  key: "",
+  rows: [],
+  page: 1,
+  pageSize: 100
+};
 
 function getDateKeyFromFile(fileName){
   const m = String(fileName || "").match(/(\d{4}_\d{2}_\d{2})/);
@@ -144,6 +153,7 @@ async function loadSnapshots() {
     bindPagerUI();
     bindGuildDetailUI();
     bindOverallStatsUI();
+    bindMemberListModalUI();
 
     if (select) {
       await loadRanking(select.value);
@@ -272,6 +282,7 @@ async function loadRanking(fileName) {
 
   try {
     await loadOverallStats(fileName);
+    await loadOverallStatMembers(fileName);
 
     const curRowsRaw = await fetchRows(fileName);
     const curRows = curRowsRaw.map(normalizeRow);
@@ -600,7 +611,30 @@ async function loadOverallStats(fileName){
     };
   }
 }
+async function loadOverallStatMembers(fileName){
+  try {
+    const meta = SNAP_LIST.find(x => x.file === fileName);
+    const statsMembersFile = meta?.statsMembersFile || (`stats_members_${String(fileName)}`);
 
+    const res = await fetch(`./snapshots/${statsMembersFile}`, { cache: "no-store" });
+    if (!res.ok) throw new Error(`${statsMembersFile} HTTP ${res.status}`);
+
+    const data = await res.json();
+
+    CURRENT_STAT_MEMBERS = {
+      label: data?.label || "",
+      levelMembers: data?.levelMembers || {},
+      huntGradeMembers: data?.huntGradeMembers || {},
+    };
+  } catch (err) {
+    console.error("레벨/등급별 캐릭터 목록 로드 실패:", err);
+    CURRENT_STAT_MEMBERS = {
+      label: "",
+      levelMembers: {},
+      huntGradeMembers: {},
+    };
+  }
+}
 function bindOverallStatsUI(){
   const btn = document.getElementById("btnOverallStats");
   const modal = document.getElementById("overallModal");
@@ -609,16 +643,18 @@ function bindOverallStatsUI(){
   if (btn) {
     btn.addEventListener("click", () => {
       const levelHtml = renderOverallStatTable(
-        CURRENT_OVERALL_STATS.levelStats,
-        "level",
-        "레벨"
-      );
+  CURRENT_OVERALL_STATS.levelStats,
+  "level",
+  "레벨",
+  "level"
+);
 
-      const gradeHtml = renderOverallStatTable(
-        CURRENT_OVERALL_STATS.huntGradeStats,
-        "grade",
-        "토벌등급"
-      );
+const gradeHtml = renderOverallStatTable(
+  CURRENT_OVERALL_STATS.huntGradeStats,
+  "grade",
+  "토벌등급",
+  "grade"
+);
 
       showOverallModal(
         "전체 통계",
@@ -632,13 +668,19 @@ function bindOverallStatsUI(){
   if (closeBtn) closeBtn.addEventListener("click", hideOverallModal);
 
   if (modal) {
-    modal.addEventListener("click", (e) => {
-      if (e.target === modal) hideOverallModal();
-    });
-  }
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) hideOverallModal();
+
+    const btn = e.target.closest(".stat-open-members");
+    if (!btn) return;
+
+    const type = btn.getAttribute("data-type");
+    const key = btn.getAttribute("data-key");
+    openMemberListModal(type, key);
+  });
 }
 
-function renderOverallStatTable(rows, keyField, keyLabel){
+function renderOverallStatTable(rows, keyField, keyLabel, clickType){
   const list = Array.isArray(rows) ? [...rows] : [];
   if (list.length === 0) return `<div style="opacity:.85;">데이터 없음</div>`;
 
@@ -655,15 +697,29 @@ function renderOverallStatTable(rows, keyField, keyLabel){
   `;
 
   for (const row of list){
-    const key = row?.[keyField] ?? "";
+    const key = String(row?.[keyField] ?? "");
     const count = Number(row?.count || 0);
     const ratio = Number(row?.ratio || 0);
 
     html += `
       <tr>
-        <td style="padding:10px; border-bottom:1px solid rgba(35,50,74,.6); text-align:center;">${escapeHtml(key)}</td>
-        <td style="padding:10px; border-bottom:1px solid rgba(35,50,74,.6); text-align:center;">${count.toLocaleString("ko-KR")}</td>
-        <td style="padding:10px; border-bottom:1px solid rgba(35,50,74,.6); text-align:center;">${(ratio * 100).toFixed(2)}%</td>
+        <td style="padding:10px; border-bottom:1px solid rgba(35,50,74,.6); text-align:center;">
+          <button
+            type="button"
+            class="stat-open-members"
+            data-type="${escapeHtml(clickType)}"
+            data-key="${escapeHtml(key)}"
+            style="background:none; border:none; color:#7fb0ff; font-weight:800; cursor:pointer;"
+          >
+            ${escapeHtml(key)}
+          </button>
+        </td>
+        <td style="padding:10px; border-bottom:1px solid rgba(35,50,74,.6); text-align:center;">
+          ${count.toLocaleString("ko-KR")}
+        </td>
+        <td style="padding:10px; border-bottom:1px solid rgba(35,50,74,.6); text-align:center;">
+          ${(ratio * 100).toFixed(2)}%
+        </td>
       </tr>
     `;
   }
@@ -691,5 +747,144 @@ function hideOverallModal(){
   const modal = document.getElementById("overallModal");
   if (modal) modal.style.display = "none";
 }
+function openMemberListModal(type, key){
+  let rows = [];
 
+  if (type === "level") {
+    rows = CURRENT_STAT_MEMBERS.levelMembers?.[key] || [];
+  } else if (type === "grade") {
+    rows = CURRENT_STAT_MEMBERS.huntGradeMembers?.[key] || [];
+  }
+
+  MEMBER_LIST_STATE = {
+    type,
+    key,
+    rows: Array.isArray(rows) ? rows : [],
+    page: 1,
+    pageSize: 100
+  };
+
+  renderMemberListModal();
+  const modal = document.getElementById("memberListModal");
+  if (modal) modal.style.display = "block";
+}
+
+function hideMemberListModal(){
+  const modal = document.getElementById("memberListModal");
+  if (modal) modal.style.display = "none";
+}
+
+function renderMemberListModal(){
+  const titleEl = document.getElementById("mlTitle");
+  const subEl = document.getElementById("mlSub");
+  const wrapEl = document.getElementById("mlTableWrap");
+  const pageInfoEl = document.getElementById("mlPageInfo");
+  const prevBtn = document.getElementById("mlPrev");
+  const nextBtn = document.getElementById("mlNext");
+
+  const { type, key, rows, page, pageSize } = MEMBER_LIST_STATE;
+  const total = rows.length;
+  const totalPages = Math.max(1, Math.ceil(total / pageSize));
+  const currentPage = Math.min(page, totalPages);
+
+  MEMBER_LIST_STATE.page = currentPage;
+
+  const start = (currentPage - 1) * pageSize;
+  const end = start + pageSize;
+  const pageRows = rows.slice(start, end);
+
+  if (titleEl) {
+    titleEl.textContent = type === "level"
+      ? `레벨 ${key} 캐릭터 목록`
+      : `토벌등급 ${key} 캐릭터 목록`;
+  }
+
+  if (subEl) {
+    subEl.textContent = `${CURRENT_STAT_MEMBERS.label || ""} / 총 ${total.toLocaleString("ko-KR")}명`;
+  }
+
+  if (wrapEl) {
+    let html = `
+      <table style="width:100%; border-collapse:collapse; font-size:15px; table-layout:fixed;">
+        <thead>
+          <tr>
+            <th style="padding:10px; text-align:center;">닉네임</th>
+            <th style="padding:10px; text-align:center;">결사</th>
+            <th style="padding:10px; text-align:center;">서버</th>
+            <th style="padding:10px; text-align:center;">직업</th>
+            <th style="padding:10px; text-align:center;">레벨</th>
+            <th style="padding:10px; text-align:center;">토벌등급</th>
+          </tr>
+        </thead>
+        <tbody>
+    `;
+
+    for (const row of pageRows){
+      html += `
+        <tr>
+          <td style="padding:10px; border-top:1px solid #23324a; text-align:center;">${escapeHtml(row.nickname || "")}</td>
+          <td style="padding:10px; border-top:1px solid #23324a; text-align:center;">${escapeHtml(row.guild || "")}</td>
+          <td style="padding:10px; border-top:1px solid #23324a; text-align:center;">${escapeHtml(row.server || "")}</td>
+          <td style="padding:10px; border-top:1px solid #23324a; text-align:center;">${escapeHtml(row.class || "")}</td>
+          <td style="padding:10px; border-top:1px solid #23324a; text-align:center;">${escapeHtml(String(row.level || ""))}</td>
+          <td style="padding:10px; border-top:1px solid #23324a; text-align:center;">${escapeHtml(String(row.grade || ""))}</td>
+        </tr>
+      `;
+    }
+
+    if (pageRows.length === 0) {
+      html += `
+        <tr>
+          <td colspan="6" style="padding:16px; border-top:1px solid #23324a; text-align:center; opacity:.85;">
+            데이터 없음
+          </td>
+        </tr>
+      `;
+    }
+
+    html += `</tbody></table>`;
+    wrapEl.innerHTML = html;
+  }
+
+  if (pageInfoEl) {
+    pageInfoEl.textContent = `${currentPage} / ${totalPages}`;
+  }
+
+  if (prevBtn) prevBtn.disabled = currentPage <= 1;
+  if (nextBtn) nextBtn.disabled = currentPage >= totalPages;
+}
+
+function bindMemberListModalUI(){
+  const modal = document.getElementById("memberListModal");
+  const closeBtn = document.getElementById("mlClose");
+  const prevBtn = document.getElementById("mlPrev");
+  const nextBtn = document.getElementById("mlNext");
+
+  if (closeBtn) closeBtn.addEventListener("click", hideMemberListModal);
+
+  if (modal) {
+    modal.addEventListener("click", (e) => {
+      if (e.target === modal) hideMemberListModal();
+    });
+  }
+
+  if (prevBtn) {
+    prevBtn.addEventListener("click", () => {
+      if (MEMBER_LIST_STATE.page > 1) {
+        MEMBER_LIST_STATE.page--;
+        renderMemberListModal();
+      }
+    });
+  }
+
+  if (nextBtn) {
+    nextBtn.addEventListener("click", () => {
+      const totalPages = Math.max(1, Math.ceil(MEMBER_LIST_STATE.rows.length / MEMBER_LIST_STATE.pageSize));
+      if (MEMBER_LIST_STATE.page < totalPages) {
+        MEMBER_LIST_STATE.page++;
+        renderMemberListModal();
+      }
+    });
+  }
+}
 loadSnapshots();
