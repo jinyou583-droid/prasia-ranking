@@ -108,7 +108,15 @@ def parse_guild_ranking(ws):
         guild = ws.cell(row=r, column=guild_col).value
         server = ws.cell(row=r, column=server_col).value
 
-        if rank is None and (guild is None or safe_str(guild) == "") and (server is None or safe_str(server) == ""):
+        guild_str = safe_str(guild)
+        server_str = safe_str(server)
+
+        # 빈 줄 스킵
+        if rank is None and guild_str == "" and server_str == "":
+            continue
+
+        # ✅ 결사명이 "-" 이면 제외
+        if guild_str.replace(" ", "") == "-":
             continue
 
         hunt_score = ws.cell(row=r, column=hunt_col).value
@@ -117,8 +125,8 @@ def parse_guild_ranking(ws):
 
         rows.append({
             "rank": safe_num(rank),
-            "guild": safe_str(guild),
-            "server": safe_str(server),
+            "guild": guild_str,
+            "server": server_str,
             "hunt_score": safe_num(hunt_score),
             "level_score": safe_num(level_score),
             "total_score": safe_num(total_score),
@@ -134,6 +142,11 @@ def parse_guild_ranking(ws):
             return 10**9
 
     rows.sort(key=sort_key)
+
+    # ✅ 제외된 행 때문에 비는 순위를 다시 1부터 재부여
+    for i, row in enumerate(rows, start=1):
+        row["rank"] = i
+
     return rows
 
 
