@@ -571,13 +571,13 @@ openGuildFilteredMemberList(type, key);
     try {
            const serverNorm = normalizeText(server);
       const candidates = Array.from(new Set([
-        serverNorm,                               // 원본: 사도바 04
-        serverNorm.replace(/\s+(\d+)$/, "$1"),    // 붙임: 사도바04
-        serverNorm.replace(/\s+/g, ""),           // 전체 공백 제거
-        serverNorm.replace(/\s+/g, "_"),          // 사도바_04
-        serverNorm.replace(/\s+/g, "-"),          // 사도바-04
-        serverNorm.replace(/[^\w가-힣]+/g, "")     // 특수문자 제거
-      ]));
+  serverNorm.replace(/\s+/g, ""),   // 벨세이즈03 먼저
+  serverNorm,                       // 벨세이즈 03
+  serverNorm.replace(/\s+(\d+)$/, "$1"),
+  serverNorm.replace(/\s+/g, "_"),
+  serverNorm.replace(/\s+/g, "-"),
+  serverNorm.replace(/[^\w가-힣]+/g, "")
+]));
 
       let data = null;
       let lastErr = null;
