@@ -675,10 +675,10 @@ def build_snapshots_from_uploads():
             shutil.rmtree(detail_dir)
         detail_dir.mkdir(parents=True, exist_ok=True)
 
-        server_details = build_server_detail_data(wb)
+                server_details = build_server_detail_data(wb)
         for server_name, detail_data in server_details.items():
-            encoded_filename = quote(server_name, safe="") + ".json"
-            out_path = detail_dir / encoded_filename
+            file_server_name = safe_str(server_name)
+            out_path = detail_dir / f"{file_server_name}.json"
             with open(out_path, "w", encoding="utf-8") as f:
                 json.dump(detail_data, f, ensure_ascii=False, indent=2)
 
