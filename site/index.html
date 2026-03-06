@@ -322,8 +322,9 @@ td:nth-child(6){
 </table>
 
 <!-- ✅ 캐시 때문에 v 올림 -->
-<script src="./app.js?v=11"></script>
-  <!-- ✅ 결사 상세 모달 -->
+<script src="./app.js?v=12"></script>
+
+<!-- ✅ 결사 상세 모달 -->
 <div id="guildModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,.55); z-index:9999;">
   <div style="max-width:920px; margin:40px auto; background:#121a27; border:1px solid #23324a; border-radius:14px; padding:14px;">
     <div style="display:flex; align-items:center; justify-content:space-between; gap:10px;">
@@ -347,5 +348,31 @@ td:nth-child(6){
     </div>
   </div>
 </div>
+
+<!-- ✅ 전체 통계 모달 -->
+<div id="overallModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,.55); z-index:9999;">
+  <div style="max-width:1100px; margin:40px auto; background:#121a27; border:1px solid #23324a; border-radius:14px; padding:14px;">
+    <div style="display:flex; align-items:center; justify-content:space-between; gap:10px;">
+      <div>
+        <div id="omTitle" style="font-size:24px; font-weight:900;">전체 통계</div>
+        <div id="omSub" style="font-size:14px; opacity:.8; margin-top:2px;"></div>
+      </div>
+      <button type="button" id="omClose" style="padding:8px 10px; border-radius:10px;">닫기</button>
+    </div>
+
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px;">
+      <div style="background:#0f1626; border:1px solid #23324a; border-radius:12px; padding:10px;">
+        <div style="font-weight:900; margin-bottom:8px;">레벨별 통계</div>
+        <div id="omLevel"></div>
+      </div>
+
+      <div style="background:#0f1626; border:1px solid #23324a; border-radius:12px; padding:10px;">
+        <div style="font-weight:900; margin-bottom:8px;">토벌등급별 통계</div>
+        <div id="omGrade"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
