@@ -572,12 +572,24 @@ td:nth-child(7){
 <div id="overallModal">
   <div class="modal-card">
     <div class="modal-head">
-      <div>
-        <div id="omTitle">전체 통계</div>
-        <div id="omSub"></div>
-      </div>
-      <button type="button" id="omClose">닫기</button>
-    </div>
+  <div>
+    <div id="omTitle">전체 통계</div>
+    <div id="omSub"></div>
+  </div>
+
+  <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap; justify-content:flex-end;">
+    <input
+      id="omSearch"
+      type="text"
+      placeholder="캐릭터 검색"
+      autocomplete="off"
+      style="min-width:220px;"
+    >
+    <button type="button" id="omSearchBtn">검색</button>
+    <button type="button" id="omSearchClear">초기화</button>
+    <button type="button" id="omClose">닫기</button>
+  </div>
+</div>
 
     <div class="modal-grid">
       <div class="panel">
