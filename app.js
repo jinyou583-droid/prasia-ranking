@@ -584,7 +584,7 @@ openGuildFilteredMemberList(type, key);
 
      for (const s of candidates) {
   const serverFile = encodeURIComponent(s) + ".json";
-  const url = `./detail_${dateKey}/${serverFile}`;
+  const url = `./snapshots/detail_${dateKey}/${serverFile}`;
 
   console.log("상세 시도 서버명:", server);
   console.log("정규화 서버명:", serverNorm);
