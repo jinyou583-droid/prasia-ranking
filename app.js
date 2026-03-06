@@ -64,7 +64,31 @@ function escapeHtml(s){
     .replace(/"/g,"&quot;")
     .replace(/'/g,"&#39;");
 }
+function buildMemberUniqueKey(row){
+  return [
+    normalizeText(row?.nickname || ""),
+    normalizeText(row?.guild || ""),
+    normalizeText(row?.server || "")
+  ].join("@@");
+}
 
+function getAllUniqueMembers(){
+  const merged = [];
+  const seen = new Set();
+
+  const levelGroups = CURRENT_STAT_MEMBERS.levelMembers || {};
+  for (const key of Object.keys(levelGroups)) {
+    const rows = Array.isArray(levelGroups[key]) ? levelGroups[key] : [];
+    for (const row of rows) {
+      const uniq = buildMemberUniqueKey(row);
+      if (seen.has(uniq)) continue;
+      seen.add(uniq);
+      merged.push(row);
+    }
+  }
+
+  return merged;
+}
 function normalizeRow(r){
   return {
     curRank: toNum(r.rank ?? 0),
@@ -640,6 +664,10 @@ function bindOverallStatsUI(){
   const modal = document.getElementById("overallModal");
   const closeBtn = document.getElementById("omClose");
 
+  const searchInput = document.getElementById("omSearch");
+  const searchBtn = document.getElementById("omSearchBtn");
+  const clearBtn = document.getElementById("omSearchClear");
+
   if (btn) {
     btn.addEventListener("click", () => {
       const levelHtml = renderOverallStatTable(
@@ -667,6 +695,27 @@ function bindOverallStatsUI(){
 
   if (closeBtn) closeBtn.addEventListener("click", hideOverallModal);
 
+  if (searchBtn) {
+    searchBtn.addEventListener("click", () => {
+      searchOverallMembers();
+    });
+  }
+
+  if (clearBtn) {
+    clearBtn.addEventListener("click", () => {
+      clearOverallMemberSearch();
+    });
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        searchOverallMembers();
+      }
+    });
+  }
+
   if (modal) {
     modal.addEventListener("click", (e) => {
       if (e.target === modal) hideOverallModal();
@@ -680,6 +729,7 @@ function bindOverallStatsUI(){
     });
   }
 }
+
 
 function renderOverallStatTable(rows, keyField, keyLabel, clickType){
   const list = Array.isArray(rows) ? [...rows] : [];
@@ -748,6 +798,51 @@ function hideOverallModal(){
   const modal = document.getElementById("overallModal");
   if (modal) modal.style.display = "none";
 }
+function searchOverallMembers(){
+  const input = document.getElementById("omSearch");
+  const q = normalizeText(input?.value || "").toLowerCase();
+
+  if (!q) {
+    alert("검색할 캐릭터 닉네임을 입력하세요.");
+    if (input) input.focus();
+    return;
+  }
+
+  const allMembers = getAllUniqueMembers();
+
+  const matched = allMembers.filter((row) => {
+    const nickname = normalizeText(row?.nickname || "").toLowerCase();
+    return nickname.includes(q);
+  });
+
+  matched.sort((a, b) => {
+    const gradeDiff = toNum(b?.grade || 0) - toNum(a?.grade || 0);
+    if (gradeDiff !== 0) return gradeDiff;
+
+    const levelDiff = toNum(b?.level || 0) - toNum(a?.level || 0);
+    if (levelDiff !== 0) return levelDiff;
+
+    return normalizeText(a?.nickname || "").localeCompare(normalizeText(b?.nickname || ""), "ko");
+  });
+
+  MEMBER_LIST_STATE = {
+    type: "search",
+    key: q,
+    rows: matched,
+    page: 1,
+    pageSize: 100
+  };
+
+  renderMemberListModal();
+
+  const modal = document.getElementById("memberListModal");
+  if (modal) modal.style.display = "block";
+}
+
+function clearOverallMemberSearch(){
+  const input = document.getElementById("omSearch");
+  if (input) input.value = "";
+}
 
 function openMemberListModal(type, key){
   let rows = [];
@@ -797,14 +892,24 @@ function renderMemberListModal(){
   const pageRows = rows.slice(start, end);
 
   if (titleEl) {
-    titleEl.textContent = type === "level"
-      ? `레벨 ${key} 캐릭터 목록`
-      : `토벌등급 ${key} 캐릭터 목록`;
+  if (type === "level") {
+    titleEl.textContent = `레벨 ${key} 캐릭터 목록`;
+  } else if (type === "grade") {
+    titleEl.textContent = `토벌등급 ${key} 캐릭터 목록`;
+  } else if (type === "search") {
+    titleEl.textContent = `캐릭터 검색 결과`;
+  } else {
+    titleEl.textContent = `캐릭터 목록`;
   }
+}
 
   if (subEl) {
+  if (type === "search") {
+    subEl.textContent = `${CURRENT_STAT_MEMBERS.label || ""} / 검색어: "${key}" / 총 ${total.toLocaleString("ko-KR")}명`;
+  } else {
     subEl.textContent = `${CURRENT_STAT_MEMBERS.label || ""} / 총 ${total.toLocaleString("ko-KR")}명`;
   }
+}
 
   if (wrapEl) {
     let html = `
