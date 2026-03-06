@@ -2,6 +2,7 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>프라시아 결사 랭킹</title>
 
 <style>
@@ -16,9 +17,15 @@ body{
 }
 
 h1{
-  margin: 0 0 12px 0;
-  font-size: 32px;
-  font-weight: 800;
+  margin:0 0 8px 0;
+  font-size:32px;
+  font-weight:800;
+}
+
+#status{
+  margin:0 0 12px 0;
+  font-size:12px;
+  opacity:.8;
 }
 
 /* ====== Controls ====== */
@@ -29,11 +36,15 @@ h1{
   flex-wrap:wrap;
   margin-bottom:10px;
 }
+
 .controls label{
   font-size:13px;
   opacity:.9;
 }
-select,input,button{
+
+select,
+input,
+button{
   padding:6px 8px;
   border-radius:6px;
   border:1px solid #2a3550;
@@ -41,12 +52,16 @@ select,input,button{
   color:#fff;
   outline:none;
 }
-input::placeholder{ color:#8fa3c7; }
+
+input::placeholder{
+  color:#8fa3c7;
+}
 
 button{
   cursor:pointer;
   font-weight:700;
 }
+
 button:hover{
   background:#15203a;
 }
@@ -66,11 +81,13 @@ button:hover{
   margin:10px 0;
   flex-wrap:wrap;
 }
+
 .pager .info{
   font-size:12px;
   opacity:.85;
   margin-right:auto;
 }
+
 .pager button{
   padding:6px 10px;
   border-radius:8px;
@@ -80,91 +97,101 @@ button:hover{
   cursor:pointer;
   font-weight:800;
 }
-.pager button:hover{ background:#15203a; }
-.pager button:disabled{ opacity:.4; cursor:not-allowed; }
+
+.pager button:hover{
+  background:#15203a;
+}
+
+.pager button:disabled{
+  opacity:.4;
+  cursor:not-allowed;
+}
+
 .pager .page{
   min-width:46px;
   text-align:center;
-  font-variant-numeric: tabular-nums;
+  font-variant-numeric:tabular-nums;
 }
+
 .pager .size{
   display:flex;
   gap:6px;
   align-items:center;
 }
+
 .pager .size label{
   font-size:12px;
   opacity:.85;
 }
 
-/* ✅ 숫자 페이지 버튼 영역 */
 .pager .nums{
   display:flex;
   gap:6px;
   align-items:center;
   flex-wrap:wrap;
   justify-content:center;
-  flex: 1 1 auto;
+  flex:1 1 auto;
 }
+
 .pager .nums button{
   padding:6px 10px;
   min-width:38px;
 }
+
 .pager .nums button.active{
   background:#1b2a4a;
   border-color:#3a5485;
 }
 
 /* ====== Table ====== */
-/* ====== Table ====== */
 table{
-  border-collapse: collapse;
-  width: 100%;
-  table-layout: fixed;
-  font-size: 14px;
-  background: #0b1220;
-  border: 1px solid #23324a;
+  border-collapse:collapse;
+  width:100%;
+  table-layout:fixed;
+  font-size:14px;
+  background:#0b1220;
+  border:1px solid #23324a;
 }
 
 thead th{
-  background: #111a2a;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  font-weight: 900;
-  letter-spacing: .2px;
+  background:#111a2a;
+  position:sticky;
+  top:0;
+  z-index:1;
+  font-weight:900;
+  letter-spacing:.2px;
 }
 
 th, td{
-  border: 1px solid #23324a;
-  padding: 7px 10px;
-  line-height: 1.2;
+  border:1px solid #23324a;
+  padding:7px 10px;
+  line-height:1.2;
 }
 
 tbody tr:nth-child(even){
-  background: rgba(255,255,255,0.015);
+  background:rgba(255,255,255,0.015);
 }
 
 tbody tr:hover{
-  background: rgba(74,163,255,0.08);
+  background:rgba(74,163,255,0.08);
 }
 
 /* ====== Column widths ====== */
 /* 변동 / 순위 / 결사 / 인원 / 서버 / 총점 / 기존대비 */
-th:nth-child(1), td:nth-child(1){ width: 8%;  text-align:center; }
-th:nth-child(2), td:nth-child(2){ width: 8%;  text-align:center; }
-th:nth-child(3), td:nth-child(3){ width: 28%; text-align:left;   }
-th:nth-child(4), td:nth-child(4){ width: 10%; text-align:center; }
-th:nth-child(5), td:nth-child(5){ width: 16%; text-align:center; }
-th:nth-child(6), td:nth-child(6){ width: 15%; text-align:right;  }
-th:nth-child(7), td:nth-child(7){ width: 15%; text-align:right;  }
+th:nth-child(1), td:nth-child(1){ width:8%;  text-align:center; }
+th:nth-child(2), td:nth-child(2){ width:8%;  text-align:center; }
+th:nth-child(3), td:nth-child(3){ width:28%; text-align:left;   }
+th:nth-child(4), td:nth-child(4){ width:10%; text-align:center; }
+th:nth-child(5), td:nth-child(5){ width:16%; text-align:center; }
+th:nth-child(6), td:nth-child(6){ width:15%; text-align:right;  }
+th:nth-child(7), td:nth-child(7){ width:15%; text-align:right;  }
 
 /* 긴 텍스트 말줄임 */
 td:nth-child(3),
 td:nth-child(5){
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
 }
 
 /* 숫자 컬럼 */
@@ -173,140 +200,249 @@ td:nth-child(2),
 td:nth-child(4),
 td:nth-child(6),
 td:nth-child(7){
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
-  font-weight: 700;
+  font-variant-numeric:tabular-nums;
+  white-space:nowrap;
+  font-weight:700;
 }
 
 /* 결사명 강조 */
 td:nth-child(3){
-  font-weight: 800;
-  padding-left: 12px;
+  font-weight:800;
+  padding-left:12px;
 }
 
-/* 서버는 살짝 톤 다운 */
+/* 서버 컬럼 */
 td:nth-child(5){
-  color: #d7e3ff;
+  color:#d7e3ff;
 }
 
-/* 점수류는 오른쪽 여백 */
+/* 점수류 오른쪽 여백 */
 td:nth-child(6),
 td:nth-child(7){
-  padding-right: 12px;
+  padding-right:12px;
 }
 
-/* ====== Delta styles ====== */
-.delta-up   { color:#ff4d4d; font-weight:800; }
-.delta-down { color:#4aa3ff; font-weight:800; }
-.delta-flat { color:#c7c7c7; font-weight:700; }
-.delta-cell { white-space:nowrap; }
+/* ====== Delta ====== */
+.delta-up{
+  color:#ff4d4d;
+  font-weight:800;
+}
 
+.delta-down{
+  color:#4aa3ff;
+  font-weight:800;
+}
+
+.delta-flat{
+  color:#c7c7c7;
+  font-weight:700;
+}
+
+.delta-cell{
+  white-space:nowrap;
+}
+
+/* ====== Guild Detail Modal ====== */
+#guildModal{
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.55);
+  z-index:9999;
+}
+
+#guildModal .modal-card{
+  max-width:1100px;
+  margin:40px auto;
+  background:#121a27;
+  border:1px solid #23324a;
+  border-radius:14px;
+  padding:14px;
+}
+
+#guildModal .modal-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+}
+
+#gmTitle{
+  font-size:28px;
+  font-weight:900;
+}
+
+#gmSub{
+  font-size:18px;
+  opacity:.9;
+  margin-top:2px;
+}
+
+#guildModal .modal-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+  margin-top:12px;
+}
+
+#guildModal .panel{
+  background:#0f1626;
+  border:1px solid #23324a;
+  border-radius:12px;
+  padding:10px;
+}
+
+#guildModal .panel-title{
+  font-weight:900;
+  margin-bottom:8px;
+  font-size:18px;
+}
+
+#guildModal button{
+  padding:8px 10px;
+  border-radius:10px;
+}
+
+#guildModal table{
+  width:100% !important;
+  border-collapse:collapse !important;
+  table-layout:fixed;
+  font-size:18px !important;
+}
+
+#guildModal th,
+#guildModal td{
+  padding:14px 16px !important;
+  font-size:18px !important;
+  text-align:center !important;
+}
+
+#guildModal thead th{
+  font-size:18px !important;
+  font-weight:900 !important;
+}
+
+/* ====== Overall Modal ====== */
+#overallModal{
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.55);
+  z-index:9999;
+}
+
+#overallModal .modal-card{
+  max-width:1100px;
+  margin:40px auto;
+  background:#121a27;
+  border:1px solid #23324a;
+  border-radius:14px;
+  padding:14px;
+}
+
+#overallModal .modal-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+}
+
+#omTitle{
+  font-size:24px;
+  font-weight:900;
+}
+
+#omSub{
+  font-size:14px;
+  opacity:.8;
+  margin-top:2px;
+}
+
+#overallModal .modal-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+  margin-top:12px;
+}
+
+#overallModal .panel{
+  background:#0f1626;
+  border:1px solid #23324a;
+  border-radius:12px;
+  padding:10px;
+}
+
+#overallModal .panel-title{
+  font-weight:900;
+  margin-bottom:8px;
+}
+
+#overallModal button{
+  padding:8px 10px;
+  border-radius:10px;
+}
+
+/* ====== Responsive ====== */
 @media (max-width: 720px){
-  body{ padding:12px; max-width:100%; }
-  h1{ font-size:24px; }
-
-  th, td{
-    padding: 6px 6px;
-    font-size: 12px;
+  body{
+    padding:12px;
+    max-width:100%;
   }
 
-  .searchForm{ width:100%; }
-  #search{ flex:1; min-width:160px; }
+  h1{
+    font-size:24px;
+  }
 
-  th:nth-child(1), td:nth-child(1){ width: 11%; }
-  th:nth-child(2), td:nth-child(2){ width: 9%; }
-  th:nth-child(3), td:nth-child(3){ width: 26%; }
-  th:nth-child(4), td:nth-child(4){ width: 10%; }
-  th:nth-child(5), td:nth-child(5){ width: 16%; }
-  th:nth-child(6), td:nth-child(6){ width: 14%; }
-  th:nth-child(7), td:nth-child(7){ width: 14%; }
-}
-  /* ====== 길드 상세 모달(팝업) 표 글씨/정렬 강화 ====== */
+  th, td{
+    padding:6px 6px;
+    font-size:12px;
+  }
 
-/* 모달 전체 글씨 크게 */
-#guildModal .gm-card,
-#guildModal .gm-body,
-#guildModal .gm-body *{
-  font-size: 16px;   /* 기본 16 */
-  line-height: 1.35;
-}
+  .searchForm{
+    width:100%;
+  }
 
-/* 제목/서브텍스트 더 크게 */
-#gmTitle{ font-size: 22px; font-weight: 900; }
-#gmSub  { font-size: 16px; opacity: .9; }
+  #search{
+    flex:1;
+    min-width:160px;
+  }
 
-/* 표 자체 크게 + 여백 확 */
-#guildModal table{
-  font-size: 16px;
-}
-#guildModal th,
-#guildModal td{
-  padding: 10px 12px !important;
-}
+  th:nth-child(1), td:nth-child(1){ width:11%; }
+  th:nth-child(2), td:nth-child(2){ width:9%; }
+  th:nth-child(3), td:nth-child(3){ width:26%; }
+  th:nth-child(4), td:nth-child(4){ width:10%; }
+  th:nth-child(5), td:nth-child(5){ width:16%; }
+  th:nth-child(6), td:nth-child(6){ width:14%; }
+  th:nth-child(7), td:nth-child(7){ width:14%; }
 
-/* 헤더 더 눈에 띄게 */
-#guildModal thead th{
-  font-size: 15px;
-  font-weight: 900;
-}
+  #guildModal .modal-card,
+  #overallModal .modal-card{
+    margin:20px 10px;
+    max-width:none;
+  }
 
-/* ✅ 인원 컬럼(두 번째 컬럼) 가운데 정렬 */
-#guildModal table th:nth-child(2),
-#guildModal table td:nth-child(2){
-  text-align: center !important;
-}
+  #guildModal .modal-grid,
+  #overallModal .modal-grid{
+    grid-template-columns:1fr;
+  }
 
-/* 첫 컬럼(직업/등급)은 왼쪽 유지 */
-#guildModal table th:nth-child(1),
-#guildModal table td:nth-child(1){
-  text-align: left !important;
-}
+  #gmTitle{
+    font-size:22px;
+  }
 
-/* 표 영역도 살짝 넓게 보이게 */
-#guildModal .gm-cols{
-  gap: 16px;
-}
-  /* ====== 길드 상세 모달(팝업) 표: 글씨 크게 + 가운데 정렬(직업/등급/인원) ====== */
+  #gmSub{
+    font-size:14px;
+  }
 
-/* 모달 안 기본 글씨 자체를 확 키움 */
-#guildModal,
-#guildModal *{
-  font-size: 18px !important;
-  line-height: 1.4 !important;
-}
+  #guildModal table{
+    font-size:14px !important;
+  }
 
-/* 제목/서브텍스트 더 크게 */
-#guildModal #gmTitle{ font-size: 28px !important; font-weight: 900 !important; }
-#guildModal #gmSub  { font-size: 18px !important; opacity: .9 !important; }
-
-/* 표 글씨/여백 확 키움 */
-#guildModal table{
-  width: 100% !important;
-  border-collapse: collapse !important;
-  font-size: 18px !important;
-}
-
-#guildModal th,
-#guildModal td{
-  padding: 14px 16px !important;   /* ✅ 칸 높이/여백 크게 */
-  font-size: 18px !important;      /* ✅ 글씨 크게 */
-}
-
-/* 헤더 더 굵고 크게 */
-#guildModal thead th{
-  font-size: 18px !important;
-  font-weight: 900 !important;
-}
-
-/* ✅ 1열(직업/등급) + 2열(인원) 전부 가운데 정렬 */
-#guildModal table th,
-#guildModal table td{
-  text-align: center !important;
-}
-
-/* 모달 카드 자체도 조금 넓게/시원하게 */
-#guildModal .gm-card{
-  max-width: 1100px !important;  /* 필요하면 1200~1400까지 올려도 됨 */
+  #guildModal th,
+  #guildModal td{
+    padding:10px 10px !important;
+    font-size:14px !important;
+  }
 }
 </style>
 </head>
@@ -314,6 +450,7 @@ td:nth-child(7){
 <body>
 
 <h1>프라시아 결사 랭킹</h1>
+<div id="status"></div>
 
 <div class="controls">
   <label>날짜</label>
@@ -325,10 +462,10 @@ td:nth-child(7){
     <button type="button" id="btnSearch">검색</button>
     <button type="button" id="btnClear">초기화</button>
   </form>
+
   <button type="button" id="btnOverallStats">전체 통계</button>
 </div>
 
-<!-- ✅ pager: 페이지당 드롭다운 + 숫자 버튼 포함 -->
 <div class="pager" id="pager">
   <div class="info" id="pagerInfo"></div>
 
@@ -344,7 +481,6 @@ td:nth-child(7){
   <button id="btnFirst" type="button">처음</button>
   <button id="btnPrev" type="button">이전</button>
 
-  <!-- ✅ 여기에 1~10 숫자 버튼이 자동으로 생성됨 -->
   <div class="nums" id="pagerNums"></div>
 
   <div class="page" id="pagerPage"></div>
@@ -368,53 +504,52 @@ td:nth-child(7){
   <tbody id="rank"></tbody>
 </table>
 
-<!-- ✅ 캐시 때문에 v 올림 -->
-<script src="./app.js?v=12"></script>
+<script src="./app.js?v=13"></script>
 
-<!-- ✅ 결사 상세 모달 -->
-<div id="guildModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,.55); z-index:9999;">
-  <div style="max-width:920px; margin:40px auto; background:#121a27; border:1px solid #23324a; border-radius:14px; padding:14px;">
-    <div style="display:flex; align-items:center; justify-content:space-between; gap:10px;">
+<!-- 결사 상세 모달 -->
+<div id="guildModal">
+  <div class="modal-card">
+    <div class="modal-head">
       <div>
-        <div id="gmTitle" style="font-size:18px; font-weight:900;"></div>
-        <div id="gmSub" style="font-size:12px; opacity:.8; margin-top:2px;"></div>
+        <div id="gmTitle"></div>
+        <div id="gmSub"></div>
       </div>
-      <button type="button" id="gmClose" style="padding:8px 10px; border-radius:10px;">닫기</button>
+      <button type="button" id="gmClose">닫기</button>
     </div>
 
-    <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px; margin-top:12px;">
-      <div style="background:#0f1626; border:1px solid #23324a; border-radius:12px; padding:10px;">
-        <div style="font-weight:900; margin-bottom:8px;">직업 분포</div>
+    <div class="modal-grid">
+      <div class="panel">
+        <div class="panel-title">직업 분포</div>
         <div id="gmClass"></div>
       </div>
 
-      <div style="background:#0f1626; border:1px solid #23324a; border-radius:12px; padding:10px;">
-        <div style="font-weight:900; margin-bottom:8px;">토벌등급 분포</div>
+      <div class="panel">
+        <div class="panel-title">토벌등급 분포</div>
         <div id="gmGrade"></div>
       </div>
     </div>
   </div>
 </div>
 
-<!-- ✅ 전체 통계 모달 -->
-<div id="overallModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,.55); z-index:9999;">
-  <div style="max-width:1100px; margin:40px auto; background:#121a27; border:1px solid #23324a; border-radius:14px; padding:14px;">
-    <div style="display:flex; align-items:center; justify-content:space-between; gap:10px;">
+<!-- 전체 통계 모달 -->
+<div id="overallModal">
+  <div class="modal-card">
+    <div class="modal-head">
       <div>
-        <div id="omTitle" style="font-size:24px; font-weight:900;">전체 통계</div>
-        <div id="omSub" style="font-size:14px; opacity:.8; margin-top:2px;"></div>
+        <div id="omTitle">전체 통계</div>
+        <div id="omSub"></div>
       </div>
-      <button type="button" id="omClose" style="padding:8px 10px; border-radius:10px;">닫기</button>
+      <button type="button" id="omClose">닫기</button>
     </div>
 
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px;">
-      <div style="background:#0f1626; border:1px solid #23324a; border-radius:12px; padding:10px;">
-        <div style="font-weight:900; margin-bottom:8px;">레벨별 통계</div>
+    <div class="modal-grid">
+      <div class="panel">
+        <div class="panel-title">레벨별 통계</div>
         <div id="omLevel"></div>
       </div>
 
-      <div style="background:#0f1626; border:1px solid #23324a; border-radius:12px; padding:10px;">
-        <div style="font-weight:900; margin-bottom:8px;">토벌등급별 통계</div>
+      <div class="panel">
+        <div class="panel-title">토벌등급별 통계</div>
         <div id="omGrade"></div>
       </div>
     </div>
