@@ -4,6 +4,7 @@ let FILTERED_ROWS = [];         // 검색 적용된 rows
 
 let PAGE_SIZE = 100;
 let CURRENT_PAGE = 1;
+let CURRENT_OVERALL_STATS = { label: "", levelStats: [], huntGradeStats: [] };
 
 function getDateKeyFromFile(fileName){
   // ranking_2026_03_05.json -> 2026_03_05
@@ -55,6 +56,7 @@ async function loadSnapshots() {
     bindSearchUI();
     bindPagerUI();
     bindGuildDetailUI();
+    bindOverallStatsUI();
 
     // ✅ 최초 로드
     await loadRanking(select.value);
@@ -174,6 +176,7 @@ async function loadRanking(fileName) {
   const statusEl = document.getElementById("status");
 
   try {
+    await loadOverallStats(fileName);
     const curRows = await fetchRows(fileName);
 
     const idx = SNAP_LIST.findIndex((x) => x.file === fileName);
