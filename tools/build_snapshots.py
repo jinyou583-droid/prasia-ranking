@@ -1,6 +1,7 @@
 import json
 from datetime import datetime
 from pathlib import Path
+from collections import defaultdict
 
 from openpyxl import load_workbook
 
@@ -8,12 +9,15 @@ UPLOAD_DIR = Path("uploads")
 OUT_DIR = Path("site") / "snapshots"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# ✅ 결사 랭킹 시트 우선순위
+# 결사 랭킹 시트 우선순위
 PREFERRED_SHEETS = ["통합정렬", "통합 정렬", "결사랭킹", "결사 랭킹"]
 
-# ✅ 전체 통계 시트 후보
+# 전체 통계 시트 후보
 LEVEL_STAT_SHEETS = ["레벨별통계", "레벨별 통계"]
 HUNT_STAT_SHEETS = ["토벌등급별통계", "토벌등급별 통계"]
+
+# 캐릭터 상세 목록 시트 후보
+MEMBER_DETAIL_SHEETS = ["토벌상위분류"]
 
 
 def safe_str(x):
@@ -39,7 +43,7 @@ def safe_num(x):
 
 
 def guess_label_from_filename(stem: str) -> str:
-    # ranking_2026_03_05 -> 2026-03-05
+    # ranking_2026_03_07 -> 2026-03-07
     parts = stem.replace("-", "_").split("_")
     nums = [p for p in parts if p.isdigit()]
     if len(nums) >= 3:
@@ -84,11 +88,11 @@ def build_header_map(ws, header_row=1, max_cols=80):
             m["guild"] = col
         elif key in ("서버명", "서버"):
             m["server"] = col
-        elif key in ("총점", "총점수", "총점수합계", "총점수(합계)"):
+        elif key in ("총점", "총점수", "총점수합계", "총점수(합계)", "총점수합계"):
             m["total_score"] = col
-        elif key in ("토벌등급점수", "토벌등급합계", "토벌등급점수합계", "토벌등급점수(합계)", "토벌등급합계점수"):
+        elif key in ("토벌등급점수", "토벌등급합계", "토벌등급점수합계", "토벌등급점수(합계)", "토벌등급합계점수", "토벌등급합계"):
             m["hunt_score"] = col
-        elif key in ("레벨별점수", "레벨별합계", "레벨별점수합계", "레벨별점수(합계)", "레벨별합계점수"):
+        elif key in ("레벨별점수", "레벨별합계", "레벨별점수합계", "레벨별점수(합계)", "레벨별합계점수", "레벨별점수합계"):
             m["level_score"] = col
 
     return m
@@ -131,12 +135,13 @@ def build_member_count_map(wb):
     for sheet_name in wb.sheetnames:
         ws = wb[sheet_name]
 
-        # 통합정렬 / 통계 시트 제외
         if sheet_name in PREFERRED_SHEETS:
             continue
         if sheet_name in LEVEL_STAT_SHEETS:
             continue
         if sheet_name in HUNT_STAT_SHEETS:
+            continue
+        if sheet_name in MEMBER_DETAIL_SHEETS:
             continue
 
         if not is_server_sheet(ws):
@@ -162,7 +167,6 @@ def build_member_count_map(wb):
 def parse_guild_ranking(ws, member_map=None):
     header = build_header_map(ws, header_row=1)
 
-    # fallback
     rank_col = header.get("rank", 1)
     guild_col = header.get("guild", 2)
     server_col = header.get("server", 3)
@@ -179,11 +183,9 @@ def parse_guild_ranking(ws, member_map=None):
         guild_str = safe_str(guild)
         server_str = safe_str(server)
 
-        # 빈 줄 스킵
         if rank is None and guild_str == "" and server_str == "":
             continue
 
-        # ✅ 결사명이 "-" 이면 제외
         if guild_str.replace(" ", "") == "-":
             continue
 
@@ -216,7 +218,7 @@ def parse_guild_ranking(ws, member_map=None):
 
     rows.sort(key=sort_key)
 
-    # ✅ 제외된 행 때문에 비는 순위를 다시 1부터 재부여
+    # 제외된 행 때문에 비는 순위를 다시 1부터 재부여
     for i, row in enumerate(rows, start=1):
         row["rank"] = i
 
@@ -253,7 +255,6 @@ def parse_stat_sheet(ws, key_name):
             "ratio": ratio_num if isinstance(ratio_num, (int, float)) else 0,
         })
 
-    # 숫자 내림차순 정렬
     def sort_key(x):
         v = x.get(key_name)
         try:
@@ -265,10 +266,77 @@ def parse_stat_sheet(ws, key_name):
     return rows
 
 
+def parse_member_detail_sheet(ws):
+    """
+    토벌상위분류 시트 구조:
+    A: 닉네임
+    B: 결사명
+    C: 클래스
+    D: 토벌등급
+    E: 레벨
+    F: 서버명
+
+    단, 서버명이 '통합정렬' 인 행은 제외
+    """
+    level_members = defaultdict(list)
+    grade_members = defaultdict(list)
+
+    for r in range(2, ws.max_row + 1):
+        nickname = safe_str(ws.cell(row=r, column=1).value)
+        guild = safe_str(ws.cell(row=r, column=2).value)
+        clazz = safe_str(ws.cell(row=r, column=3).value)
+        grade = safe_num(ws.cell(row=r, column=4).value)
+        level = safe_num(ws.cell(row=r, column=5).value)
+        server = safe_str(ws.cell(row=r, column=6).value)
+
+        if nickname == "" and guild == "" and server == "":
+            continue
+
+        # 핵심 필터
+        if server == "통합정렬":
+            continue
+
+        row = {
+            "nickname": nickname,
+            "guild": guild,
+            "class": clazz,
+            "grade": grade if grade is not None else 0,
+            "level": level if level is not None else 0,
+            "server": server,
+        }
+
+        level_key = str(int(level)) if isinstance(level, (int, float)) else safe_str(level)
+        grade_key = str(int(grade)) if isinstance(grade, (int, float)) else safe_str(grade)
+
+        if level_key:
+            level_members[level_key].append(row)
+        if grade_key:
+            grade_members[grade_key].append(row)
+
+    def sort_member_rows(rows):
+        return sorted(
+            rows,
+            key=lambda x: (
+                -int(x.get("grade", 0) or 0),
+                -int(x.get("level", 0) or 0),
+                safe_str(x.get("guild", "")),
+                safe_str(x.get("nickname", "")),
+            )
+        )
+
+    level_members = {k: sort_member_rows(v) for k, v in level_members.items()}
+    grade_members = {k: sort_member_rows(v) for k, v in grade_members.items()}
+
+    return {
+        "levelMembers": level_members,
+        "huntGradeMembers": grade_members,
+    }
+
+
 def build_snapshots_from_uploads():
     index = []
 
-    xlsx_files = sorted(UPLOAD_DIR.glob("*.xlsx"))
+    xlsx_files = sorted(list(UPLOAD_DIR.glob("*.xlsx")) + list(UPLOAD_DIR.glob("*.xlsm")))
     for xlsx_path in xlsx_files:
         stem = xlsx_path.stem
         label = guess_label_from_filename(stem)
@@ -279,18 +347,21 @@ def build_snapshots_from_uploads():
         stats_out_name = f"stats_{stem}.json"
         stats_out_path = OUT_DIR / stats_out_name
 
+        member_stats_out_name = f"stats_members_{stem}.json"
+        member_stats_out_path = OUT_DIR / member_stats_out_name
+
         wb = load_workbook(xlsx_path, data_only=True)
 
         member_map = build_member_count_map(wb)
 
-        # ===== 랭킹 =====
+        # 랭킹
         ws_rank, used_sheet = pick_worksheet(wb)
         ranking_data = parse_guild_ranking(ws_rank, member_map)
 
         with open(ranking_out_path, "w", encoding="utf-8") as f:
             json.dump(ranking_data, f, ensure_ascii=False, indent=2)
 
-        # ===== 전체 통계 =====
+        # 전체 통계
         ws_level, level_sheet_name = pick_sheet_by_candidates(wb, LEVEL_STAT_SHEETS)
         ws_hunt, hunt_sheet_name = pick_sheet_by_candidates(wb, HUNT_STAT_SHEETS)
 
@@ -306,10 +377,29 @@ def build_snapshots_from_uploads():
         with open(stats_out_path, "w", encoding="utf-8") as f:
             json.dump(stats_data, f, ensure_ascii=False, indent=2)
 
+        # 레벨/토벌등급별 캐릭터 목록
+        ws_member, member_sheet_name = pick_sheet_by_candidates(wb, MEMBER_DETAIL_SHEETS)
+        member_stats_data = {
+            "label": label,
+            "file": ranking_out_name,
+            "memberSheet": member_sheet_name,
+            "levelMembers": {},
+            "huntGradeMembers": {},
+        }
+
+        if ws_member:
+            parsed_member_stats = parse_member_detail_sheet(ws_member)
+            member_stats_data["levelMembers"] = parsed_member_stats["levelMembers"]
+            member_stats_data["huntGradeMembers"] = parsed_member_stats["huntGradeMembers"]
+
+        with open(member_stats_out_path, "w", encoding="utf-8") as f:
+            json.dump(member_stats_data, f, ensure_ascii=False, indent=2)
+
         index.append({
             "label": label,
             "file": ranking_out_name,
             "statsFile": stats_out_name,
+            "statsMembersFile": member_stats_out_name,
             "rows": len(ranking_data),
             "sheet": used_sheet,
         })
