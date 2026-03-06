@@ -177,7 +177,6 @@ tbody tr:hover{
 }
 
 /* ====== Column widths ====== */
-/* 변동 / 순위 / 결사 / 인원 / 서버 / 총점 / 기존대비 */
 th:nth-child(1), td:nth-child(1){ width:8%;  text-align:center; }
 th:nth-child(2), td:nth-child(2){ width:8%;  text-align:center; }
 th:nth-child(3), td:nth-child(3){ width:28%; text-align:left;   }
@@ -186,7 +185,6 @@ th:nth-child(5), td:nth-child(5){ width:16%; text-align:center; }
 th:nth-child(6), td:nth-child(6){ width:15%; text-align:right;  }
 th:nth-child(7), td:nth-child(7){ width:15%; text-align:right;  }
 
-/* 긴 텍스트 말줄임 */
 td:nth-child(3),
 td:nth-child(5){
   white-space:nowrap;
@@ -194,7 +192,6 @@ td:nth-child(5){
   text-overflow:ellipsis;
 }
 
-/* 숫자 컬럼 */
 td:nth-child(1),
 td:nth-child(2),
 td:nth-child(4),
@@ -205,18 +202,15 @@ td:nth-child(7){
   font-weight:700;
 }
 
-/* 결사명 강조 */
 td:nth-child(3){
   font-weight:800;
   padding-left:12px;
 }
 
-/* 서버 컬럼 */
 td:nth-child(5){
   color:#d7e3ff;
 }
 
-/* 점수류 오른쪽 여백 */
 td:nth-child(6),
 td:nth-child(7){
   padding-right:12px;
@@ -242,29 +236,64 @@ td:nth-child(7){
   white-space:nowrap;
 }
 
-/* ====== Guild Detail Modal ====== */
-#guildModal{
+/* ====== Modal Common ====== */
+#guildModal,
+#overallModal,
+#memberListModal{
   display:none;
   position:fixed;
   inset:0;
   background:rgba(0,0,0,.55);
-  z-index:9999;
+  overflow-y:auto;
+  padding:12px;
+  box-sizing:border-box;
 }
 
-#guildModal .modal-card{
-  max-width:1100px;
-  margin:40px auto;
+#guildModal{ z-index:9999; }
+#overallModal{ z-index:9999; }
+#memberListModal{ z-index:10000; }
+
+#guildModal .modal-card,
+#overallModal .modal-card,
+#memberListModal .modal-card{
   background:#121a27;
   border:1px solid #23324a;
   border-radius:14px;
   padding:14px;
+  box-sizing:border-box;
+  overflow-y:auto;
+  overflow-x:hidden;
+  max-height:calc(100vh - 40px);
+  margin:20px auto;
 }
 
-#guildModal .modal-head{
+#guildModal .modal-card{
+  max-width:1100px;
+  width:min(1100px, calc(100vw - 24px));
+}
+
+#overallModal .modal-card{
+  max-width:1100px;
+  width:min(1100px, calc(100vw - 24px));
+}
+
+#memberListModal .modal-card{
+  max-width:1200px;
+  width:min(1200px, calc(100vw - 24px));
+}
+
+#guildModal .modal-head,
+#overallModal .modal-head,
+#memberListModal .modal-head{
   display:flex;
   align-items:center;
   justify-content:space-between;
   gap:10px;
+  position:sticky;
+  top:0;
+  z-index:5;
+  background:#121a27;
+  padding-bottom:10px;
 }
 
 #gmTitle{
@@ -278,14 +307,39 @@ td:nth-child(7){
   margin-top:2px;
 }
 
-#guildModal .modal-grid{
+#omTitle{
+  font-size:24px;
+  font-weight:900;
+}
+
+#omSub{
+  font-size:14px;
+  opacity:.8;
+  margin-top:2px;
+}
+
+#mlTitle{
+  font-size:24px;
+  font-weight:900;
+}
+
+#mlSub{
+  font-size:14px;
+  opacity:.85;
+  margin-top:2px;
+}
+
+#guildModal .modal-grid,
+#overallModal .modal-grid{
   display:grid;
   grid-template-columns:1fr 1fr;
   gap:12px;
   margin-top:12px;
+  align-items:start;
 }
 
-#guildModal .panel{
+#guildModal .panel,
+#overallModal .panel{
   background:#0f1626;
   border:1px solid #23324a;
   border-radius:12px;
@@ -298,7 +352,14 @@ td:nth-child(7){
   font-size:18px;
 }
 
-#guildModal button{
+#overallModal .panel-title{
+  font-weight:900;
+  margin-bottom:8px;
+}
+
+#guildModal button,
+#overallModal button,
+#memberListModal button{
   padding:8px 10px;
   border-radius:10px;
 }
@@ -322,108 +383,19 @@ td:nth-child(7){
   font-weight:900 !important;
 }
 
-/* ====== Overall Modal ====== */
-#overallModal{
-  display:none;
-  position:fixed;
-  inset:0;
-  background:rgba(0,0,0,.55);
-  z-index:9999;
+#overallModal table,
+#guildModal table{
+  width:100%;
 }
 
-#overallModal .modal-card{
-  max-width:1100px;
-  margin:40px auto;
-  background:#121a27;
-  border:1px solid #23324a;
-  border-radius:14px;
-  padding:14px;
-}
-
-#overallModal .modal-head{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:10px;
-}
-
-#omTitle{
-  font-size:24px;
-  font-weight:900;
-}
-
-#omSub{
-  font-size:14px;
-  opacity:.8;
-  margin-top:2px;
-}
-
-#overallModal .modal-grid{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:12px;
+#memberListModal #mlTableWrap{
   margin-top:12px;
-}
-
-#overallModal .panel{
-  background:#0f1626;
-  border:1px solid #23324a;
-  border-radius:12px;
-  padding:10px;
-}
-
-#overallModal .panel-title{
-  font-weight:900;
-  margin-bottom:8px;
-}
-
-#overallModal button{
-  padding:8px 10px;
-  border-radius:10px;
-}
-/* ====== Member List Modal ====== */
-#memberListModal{
-  display:none;
-  position:fixed;
-  inset:0;
-  background:rgba(0,0,0,.55);
-  z-index:10000;
-}
-
-#memberListModal .modal-card{
-  max-width:1200px;
-  margin:30px auto;
-  background:#121a27;
-  border:1px solid #23324a;
-  border-radius:14px;
-  padding:14px;
-}
-
-#memberListModal .modal-head{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:10px;
-}
-
-#mlTitle{
-  font-size:24px;
-  font-weight:900;
-}
-
-#mlSub{
-  font-size:14px;
-  opacity:.85;
-  margin-top:2px;
-}
-
-#memberListModal button{
-  padding:8px 10px;
-  border-radius:10px;
+  overflow-x:auto;
 }
 
 #memberListModal table{
   width:100%;
+  min-width:900px;
   border-collapse:collapse;
   table-layout:fixed;
   font-size:15px;
@@ -439,6 +411,7 @@ td:nth-child(7){
 #memberListModal thead th{
   border-top:none;
 }
+
 /* ====== Responsive ====== */
 @media (max-width: 720px){
   body{
@@ -473,9 +446,12 @@ td:nth-child(7){
   th:nth-child(7), td:nth-child(7){ width:14%; }
 
   #guildModal .modal-card,
-  #overallModal .modal-card{
-    margin:20px 10px;
+  #overallModal .modal-card,
+  #memberListModal .modal-card{
+    margin:10px auto;
     max-width:none;
+    width:calc(100vw - 20px);
+    max-height:calc(100vh - 20px);
   }
 
   #guildModal .modal-grid,
@@ -499,6 +475,10 @@ td:nth-child(7){
   #guildModal td{
     padding:10px 10px !important;
     font-size:14px !important;
+  }
+
+  #memberListModal table{
+    min-width:720px;
   }
 }
 </style>
@@ -561,7 +541,7 @@ td:nth-child(7){
   <tbody id="rank"></tbody>
 </table>
 
-<script src="./app.js?v=14"></script>
+<script src="./app.js?v=15"></script>
 
 <!-- 결사 상세 모달 -->
 <div id="guildModal">
@@ -612,6 +592,7 @@ td:nth-child(7){
     </div>
   </div>
 </div>
+
 <!-- 레벨/등급별 캐릭터 목록 모달 -->
 <div id="memberListModal">
   <div class="modal-card">
@@ -623,7 +604,7 @@ td:nth-child(7){
       <button type="button" id="mlClose">닫기</button>
     </div>
 
-    <div id="mlTableWrap" style="margin-top:12px;"></div>
+    <div id="mlTableWrap"></div>
 
     <div style="display:flex; gap:8px; align-items:center; justify-content:flex-end; margin-top:12px;">
       <button type="button" id="mlPrev">이전</button>
@@ -632,5 +613,6 @@ td:nth-child(7){
     </div>
   </div>
 </div>
+
 </body>
 </html>
