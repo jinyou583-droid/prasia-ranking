@@ -1,612 +1,560 @@
-let SNAP_LIST = [];
-let CURRENT_VIEW_ROWS = [];     // 계산된 전체 rows
-let FILTERED_ROWS = [];         // 검색 적용된 rows
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>프라시아 결사 랭킹</title>
 
-let PAGE_SIZE = 100;
-let CURRENT_PAGE = 1;
-let CURRENT_OVERALL_STATS = { label: "", levelStats: [], huntGradeStats: [] };
-
-function getDateKeyFromFile(fileName){
-  // ranking_2026_03_05.json -> 2026_03_05
-  const m = String(fileName || "").match(/(\d{4}_\d{2}_\d{2})/);
-  return m ? m[1] : null;
+<style>
+/* ====== Layout ====== */
+body{
+  font-family: Arial, system-ui, -apple-system, "Noto Sans KR", sans-serif;
+  background:#0b0f17;
+  color:#fff;
+  padding:20px;
+  max-width:1180px;
+  margin:0 auto;
 }
 
-function toNum(v) {
-  if (v === null || v === undefined || v === "") return 0;
-  const n = Number(String(v).replace(/,/g, ""));
-  return Number.isFinite(n) ? n : 0;
+h1{
+  margin:0 0 8px 0;
+  font-size:32px;
+  font-weight:800;
 }
 
-function keyOf(guild, server) {
-  return `${String(guild ?? "").trim()}@@${String(server ?? "").trim()}`;
+#status{
+  margin:0 0 12px 0;
+  font-size:12px;
+  opacity:.8;
 }
 
-function escapeHtml(s){
-  return String(s ?? "")
-    .replace(/&/g,"&amp;")
-    .replace(/</g,"&lt;")
-    .replace(/>/g,"&gt;")
-    .replace(/"/g,"&quot;")
-    .replace(/'/g,"&#39;");
+/* ====== Controls ====== */
+.controls{
+  display:flex;
+  gap:10px;
+  align-items:center;
+  flex-wrap:wrap;
+  margin-bottom:10px;
 }
 
-function normalizeSearchText(s){
-  return String(s ?? "")
-    .toLowerCase()
-    .replace(/\u00A0/g, " ")
-    .replace(/\s+/g, "");
+.controls label{
+  font-size:13px;
+  opacity:.9;
 }
 
-async function loadSnapshots() {
-  const statusEl = document.getElementById("status");
-  const select = document.getElementById("date");
-
-  try {
-    const res = await fetch("./snapshots/index.json", { cache: "no-store" });
-    if (!res.ok) throw new Error(`index.json HTTP ${res.status}`);
-    SNAP_LIST = await res.json();
-
-    select.innerHTML = "";
-    if (!Array.isArray(SNAP_LIST) || SNAP_LIST.length === 0) {
-      if (statusEl) statusEl.textContent = "status: 스냅샷이 없습니다";
-      return;
-    }
-
-    for (const item of SNAP_LIST) {
-      const opt = document.createElement("option");
-      opt.value = item.file;
-      opt.textContent = item.label;
-      select.appendChild(opt);
-    }
-
-    bindSearchUI();
-    bindPagerUI();
-    bindGuildDetailUI();
-    bindOverallStatsUI();
-
-    await loadRanking(select.value);
-
-    select.addEventListener("change", async (e) => {
-      await loadRanking(e.target.value);
-      CURRENT_PAGE = 1;
-      applySearch();
-    });
-
-    if (statusEl) statusEl.textContent = `status: OK (${SNAP_LIST.length} files)`;
-  } catch (err) {
-    if (statusEl) statusEl.textContent = `status: ERROR: ./snapshots/index.json -> ${err.message}`;
-    console.error(err);
-  }
+select,
+input,
+button{
+  padding:6px 8px;
+  border-radius:6px;
+  border:1px solid #2a3550;
+  background:#0f1626;
+  color:#fff;
+  outline:none;
 }
 
-function bindSearchUI(){
-  const input = document.getElementById("search");
-  const btnSearch = document.getElementById("btnSearch");
-  const btnClear  = document.getElementById("btnClear");
-  const form = document.getElementById("searchForm");
-
-  if (btnSearch) {
-    btnSearch.addEventListener("click", () => {
-      CURRENT_PAGE = 1;
-      applySearch();
-    });
-  }
-
-  if (btnClear) {
-    btnClear.addEventListener("click", () => {
-      if (input) input.value = "";
-      CURRENT_PAGE = 1;
-      applySearch();
-    });
-  }
-
-  if (form) {
-    form.addEventListener("submit", (e) => {
-      e.preventDefault();
-      CURRENT_PAGE = 1;
-      applySearch();
-    });
-  } else if (input) {
-    input.addEventListener("keydown", (e) => {
-      if (e.key === "Enter") {
-        CURRENT_PAGE = 1;
-        applySearch();
-      }
-    });
-  }
+input::placeholder{
+  color:#8fa3c7;
 }
 
-function bindPagerUI(){
-  const pageSize = document.getElementById("pageSize");
-  const btnFirst = document.getElementById("btnFirst");
-  const btnPrev  = document.getElementById("btnPrev");
-  const btnNext  = document.getElementById("btnNext");
-  const btnLast  = document.getElementById("btnLast");
-  const pagerNums = document.getElementById("pagerNums");
-
-  if (pageSize) {
-    PAGE_SIZE = toNum(pageSize.value) || 100;
-    pageSize.addEventListener("change", () => {
-      PAGE_SIZE = toNum(pageSize.value) || 100;
-      CURRENT_PAGE = 1;
-      renderCurrentPage();
-    });
-  }
-
-  if (btnFirst) {
-    btnFirst.addEventListener("click", () => {
-      CURRENT_PAGE = 1;
-      renderCurrentPage();
-    });
-  }
-
-  if (btnPrev) {
-    btnPrev.addEventListener("click", () => {
-      if (CURRENT_PAGE > 1) CURRENT_PAGE--;
-      renderCurrentPage();
-    });
-  }
-
-  if (btnNext) {
-    btnNext.addEventListener("click", () => {
-      const totalPages = Math.max(1, Math.ceil(FILTERED_ROWS.length / PAGE_SIZE));
-      if (CURRENT_PAGE < totalPages) CURRENT_PAGE++;
-      renderCurrentPage();
-    });
-  }
-
-  if (btnLast) {
-    btnLast.addEventListener("click", () => {
-      const totalPages = Math.max(1, Math.ceil(FILTERED_ROWS.length / PAGE_SIZE));
-      CURRENT_PAGE = totalPages;
-      renderCurrentPage();
-    });
-  }
-
-  if (pagerNums) {
-    pagerNums.addEventListener("click", (e) => {
-      const t = e.target;
-      if (!(t instanceof HTMLElement)) return;
-      const p = t.getAttribute("data-page");
-      if (!p) return;
-      const page = toNum(p);
-      if (!page) return;
-      CURRENT_PAGE = page;
-      renderCurrentPage();
-    });
-  }
+button{
+  cursor:pointer;
+  font-weight:700;
 }
 
-async function fetchRows(fileName) {
-  const res = await fetch(`./snapshots/${fileName}`, { cache: "no-store" });
-  if (!res.ok) throw new Error(`${fileName} HTTP ${res.status}`);
-  const rows = await res.json();
-  return Array.isArray(rows) ? rows : [];
+button:hover{
+  background:#15203a;
 }
 
-async function loadRanking(fileName) {
-  const statusEl = document.getElementById("status");
-
-  try {
-    await loadOverallStats(fileName);
-    const curRows = await fetchRows(fileName);
-
-    const idx = SNAP_LIST.findIndex((x) => x.file === fileName);
-    const prevFile = (idx >= 0 && idx + 1 < SNAP_LIST.length) ? SNAP_LIST[idx + 1].file : null;
-
-    const prevMap = new Map();
-    if (prevFile) {
-      const prevRows = await fetchRows(prevFile);
-      for (const r of prevRows) {
-        const k = keyOf(r.guild ?? "", r.server ?? "");
-        prevMap.set(k, {
-          score: toNum(r.total_score ?? r.score_total ?? r.total ?? 0),
-          rank:  toNum(r.rank ?? 0),
-        });
-      }
-    }
-
-    CURRENT_VIEW_ROWS = curRows.map((r) => {
-      const curRank = toNum(r.rank ?? 0);
-      const guild = String(r.guild ?? "").trim();
-      const server = String(r.server ?? "").trim();
-      const members = toNum(r.members ?? 0);
-      const total = toNum(r.total_score ?? r.score_total ?? r.total ?? 0);
-
-      const prev = prevMap.get(keyOf(guild, server));
-      const prevScore = prev ? prev.score : 0;
-      const prevRank  = prev ? prev.rank  : 0;
-
-      const scoreDelta = prevFile ? (total - prevScore) : 0;
-      const rankDelta  = (prevFile && prevRank && curRank) ? (prevRank - curRank) : 0;
-
-      let moveText = "-";
-      let moveClass = "delta-flat";
-      if (prevFile && rankDelta !== 0) {
-        if (rankDelta > 0) {
-          moveText = `▲ ${rankDelta}`;
-          moveClass = "delta-up";
-        } else {
-          moveText = `▼ ${Math.abs(rankDelta)}`;
-          moveClass = "delta-down";
-        }
-      }
-
-      let scoreText = prevFile ? "-" : "";
-      let scoreClass = "delta-flat";
-      if (prevFile && scoreDelta !== 0) {
-        if (scoreDelta > 0) {
-          scoreText = `▲ ${scoreDelta.toLocaleString()}`;
-          scoreClass = "delta-up";
-        } else {
-          scoreText = `▼ ${Math.abs(scoreDelta).toLocaleString()}`;
-          scoreClass = "delta-down";
-        }
-      }
-
-      return {
-        curRank,
-        guild,
-        members,
-        server,
-        total,
-        moveText,
-        moveClass,
-        scoreText,
-        scoreClass
-      };
-    });
-
-    CURRENT_PAGE = 1;
-    applySearch();
-
-    if (statusEl) {
-      statusEl.textContent = prevFile
-        ? `status: OK (${fileName}) - ${curRows.length} rows / compare: ${prevFile}`
-        : `status: OK (${fileName}) - ${curRows.length} rows / compare: (없음)`;
-    }
-  } catch (err) {
-    if (statusEl) statusEl.textContent = `status: ERROR: ${fileName} -> ${err.message}`;
-    console.error(err);
-  }
+.searchForm{
+  display:flex;
+  gap:8px;
+  align-items:center;
 }
 
-function applySearch(){
-  const input = document.getElementById("search");
-  const qRaw = (input?.value ?? "").trim();
-  const q = normalizeSearchText(qRaw);
-
-  FILTERED_ROWS = !q ? CURRENT_VIEW_ROWS : CURRENT_VIEW_ROWS.filter((x) => {
-    const guild = normalizeSearchText(x.guild);
-    const server = normalizeSearchText(x.server);
-    return guild.includes(q) || server.includes(q);
-  });
-
-  renderCurrentPage();
+/* ====== Pager ====== */
+.pager{
+  display:flex;
+  gap:8px;
+  align-items:center;
+  justify-content:flex-end;
+  margin:10px 0;
+  flex-wrap:wrap;
 }
 
-function renderCurrentPage(){
-  const total = FILTERED_ROWS.length;
-  const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
-  if (CURRENT_PAGE > totalPages) CURRENT_PAGE = totalPages;
-
-  const start = (CURRENT_PAGE - 1) * PAGE_SIZE;
-  const end = start + PAGE_SIZE;
-  const pageRows = FILTERED_ROWS.slice(start, end);
-
-  renderRows(pageRows);
-  renderPager(total, totalPages, start, Math.min(end, total));
+.pager .info{
+  font-size:12px;
+  opacity:.85;
+  margin-right:auto;
 }
 
-function renderRows(rows){
-  const tbody = document.getElementById("rank");
-  if (!tbody) return;
-
-  let html = "";
-  for (const x of rows) {
-    html += `
-      <tr data-guild="${escapeHtml(x.guild)}" data-server="${escapeHtml(x.server)}" style="cursor:pointer;">
-        <td class="delta-cell ${x.moveClass}">${escapeHtml(x.moveText)}</td>
-        <td>${x.curRank || ""}</td>
-        <td>${escapeHtml(x.guild)}</td>
-        <td>${Number(x.members || 0).toLocaleString()}</td>
-        <td>${escapeHtml(x.server)}</td>
-        <td>${x.total ? x.total.toLocaleString() : "0"}</td>
-        <td class="delta-cell ${x.scoreClass}">${escapeHtml(x.scoreText)}</td>
-      </tr>
-    `;
-  }
-  tbody.innerHTML = html;
+.pager button{
+  padding:6px 10px;
+  border-radius:8px;
+  border:1px solid #2a3550;
+  background:#0f1626;
+  color:#fff;
+  cursor:pointer;
+  font-weight:800;
 }
 
-function renderPager(total, totalPages, from, to){
-  const infoEl = document.getElementById("pagerInfo");
-  const pageEl = document.getElementById("pagerPage");
-  const numsEl = document.getElementById("pagerNums");
-
-  const btnFirst = document.getElementById("btnFirst");
-  const btnPrev  = document.getElementById("btnPrev");
-  const btnNext  = document.getElementById("btnNext");
-  const btnLast  = document.getElementById("btnLast");
-
-  if (infoEl) infoEl.innerHTML = `표시: <b>${total ? (from + 1) : 0}</b>~<b>${to}</b> / 전체 <b>${total}</b>`;
-  if (pageEl) pageEl.innerHTML = `<b>${CURRENT_PAGE}</b> / ${totalPages}`;
-
-  const prevDisabled = CURRENT_PAGE <= 1 || totalPages <= 1;
-  const nextDisabled = CURRENT_PAGE >= totalPages || totalPages <= 1;
-
-  if (btnFirst) btnFirst.disabled = prevDisabled;
-  if (btnPrev)  btnPrev.disabled  = prevDisabled;
-  if (btnNext)  btnNext.disabled  = nextDisabled;
-  if (btnLast)  btnLast.disabled  = nextDisabled;
-
-  if (numsEl) {
-    const MAX_BTNS = 10;
-
-    let startPage = Math.max(1, CURRENT_PAGE - Math.floor(MAX_BTNS / 2));
-    let endPage = startPage + MAX_BTNS - 1;
-
-    if (endPage > totalPages) {
-      endPage = totalPages;
-      startPage = Math.max(1, endPage - MAX_BTNS + 1);
-    }
-
-    let html = "";
-    for (let p = startPage; p <= endPage; p++) {
-      const active = (p === CURRENT_PAGE) ? "active" : "";
-      html += `<button type="button" class="${active}" data-page="${p}">${p}</button>`;
-    }
-    numsEl.innerHTML = html;
-  }
+.pager button:hover{
+  background:#15203a;
 }
 
-function bindGuildDetailUI(){
-  const tbody = document.getElementById("rank");
-  const modal = document.getElementById("guildModal");
-  const closeBtn = document.getElementById("gmClose");
-
-  if (closeBtn) closeBtn.addEventListener("click", hideModal);
-  if (modal) {
-    modal.addEventListener("click", (e) => {
-      if (e.target === modal) hideModal();
-    });
-  }
-
-  if (!tbody) return;
-
-  tbody.addEventListener("click", async (e) => {
-    const tr = e.target.closest("tr");
-    if (!tr) return;
-
-    const guild = tr.getAttribute("data-guild") || "";
-    const server = tr.getAttribute("data-server") || "";
-    if (!guild || !server) return;
-
-    const fileName = document.getElementById("date")?.value;
-    const dateKey = getDateKeyFromFile(fileName);
-    if (!dateKey) {
-      alert("날짜키를 못 찾았어요. 파일명에 2026_03_05 형태가 있어야 합니다.");
-      return;
-    }
-
-    try {
-      const serverRaw = String(server ?? "");
-      const serverNorm = serverRaw
-        .replace(/\u00A0/g, " ")
-        .replace(/\s+/g, " ")
-        .trim();
-
-      const candidates = [
-        serverNorm,
-        serverNorm.replace(/\s+(\d+)$/, "$1"),
-        serverNorm.replace(/\s+/g, ""),
-      ];
-
-      let data = null;
-      let lastErr = null;
-
-      for (const s of candidates) {
-        const serverFile = encodeURIComponent(encodeURIComponent(s)) + ".json";
-        const url = `./snapshots/detail_${dateKey}/${serverFile}`;
-
-        console.log("try server =", JSON.stringify(s), "->", serverFile);
-        console.log("fetch url  =", url);
-
-        const res = await fetch(url, { cache: "no-store" });
-        if (res.ok) {
-          data = await res.json();
-          break;
-        } else {
-          lastErr = `HTTP ${res.status} / ${url}`;
-        }
-      }
-
-      if (!data) throw new Error(`detail fetch 실패: ${lastErr}`);
-
-      const guildKey = String(guild ?? "").trim();
-      const g = data?.guilds?.[guildKey];
-
-      if (!g) {
-        showModal(guildKey, `${serverNorm} / ${dateKey}`, `<div style="opacity:.85;">집계 데이터 없음</div>`, "");
-        return;
-      }
-
-      const clsHtml = renderKeyValueTable(g.byClass, "직업", "인원");
-      const grdHtml = renderKeyValueTable(g.byGrade, "등급", "인원");
-
-      showModal(guildKey, `${serverNorm} / ${dateKey} / 총원 ${Number(g.members || 0).toLocaleString()}명`, clsHtml, grdHtml);
-    } catch (err) {
-      alert("상세 불러오기 실패: " + err.message);
-      console.error(err);
-    }
-  });
+.pager button:disabled{
+  opacity:.4;
+  cursor:not-allowed;
 }
 
-function renderKeyValueTable(obj, col1, col2){
-  const entries = Object.entries(obj || {});
-  if (entries.length === 0) return `<div style="opacity:.85;">데이터 없음</div>`;
+.pager .page{
+  min-width:46px;
+  text-align:center;
+  font-variant-numeric:tabular-nums;
+}
 
-  entries.sort((a, b) => (b[1] || 0) - (a[1] || 0));
+.pager .size{
+  display:flex;
+  gap:6px;
+  align-items:center;
+}
 
-  let html = `
-    <table style="width:100%; border-collapse:collapse; font-size:16px; table-layout:fixed;">
-      <thead>
-        <tr>
-          <th style="text-align:center !important; border-bottom:1px solid #23324a; padding:10px;">${escapeHtml(col1)}</th>
-          <th style="text-align:center !important; border-bottom:1px solid #23324a; padding:10px;">${escapeHtml(col2)}</th>
-        </tr>
-      </thead>
-      <tbody>
-  `;
+.pager .size label{
+  font-size:12px;
+  opacity:.85;
+}
 
-  for (const [k, v] of entries){
-    html += `
-      <tr>
-        <td style="padding:10px; border-bottom:1px solid rgba(35,50,74,.6); text-align:center !important;">${escapeHtml(k)}</td>
-        <td style="padding:10px; border-bottom:1px solid rgba(35,50,74,.6); text-align:center !important;">${Number(v || 0).toLocaleString()}</td>
-      </tr>
-    `;
+.pager .nums{
+  display:flex;
+  gap:6px;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content:center;
+  flex:1 1 auto;
+}
+
+.pager .nums button{
+  padding:6px 10px;
+  min-width:38px;
+}
+
+.pager .nums button.active{
+  background:#1b2a4a;
+  border-color:#3a5485;
+}
+
+/* ====== Table ====== */
+table{
+  border-collapse:collapse;
+  width:100%;
+  table-layout:fixed;
+  font-size:14px;
+  background:#0b1220;
+  border:1px solid #23324a;
+}
+
+thead th{
+  background:#111a2a;
+  position:sticky;
+  top:0;
+  z-index:1;
+  font-weight:900;
+  letter-spacing:.2px;
+}
+
+th, td{
+  border:1px solid #23324a;
+  padding:7px 10px;
+  line-height:1.2;
+}
+
+tbody tr:nth-child(even){
+  background:rgba(255,255,255,0.015);
+}
+
+tbody tr:hover{
+  background:rgba(74,163,255,0.08);
+}
+
+/* ====== Column widths ====== */
+/* 변동 / 순위 / 결사 / 인원 / 서버 / 총점 / 기존대비 */
+th:nth-child(1), td:nth-child(1){ width:8%;  text-align:center; }
+th:nth-child(2), td:nth-child(2){ width:8%;  text-align:center; }
+th:nth-child(3), td:nth-child(3){ width:28%; text-align:left;   }
+th:nth-child(4), td:nth-child(4){ width:10%; text-align:center; }
+th:nth-child(5), td:nth-child(5){ width:16%; text-align:center; }
+th:nth-child(6), td:nth-child(6){ width:15%; text-align:right;  }
+th:nth-child(7), td:nth-child(7){ width:15%; text-align:right;  }
+
+/* 긴 텍스트 말줄임 */
+td:nth-child(3),
+td:nth-child(5){
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+/* 숫자 컬럼 */
+td:nth-child(1),
+td:nth-child(2),
+td:nth-child(4),
+td:nth-child(6),
+td:nth-child(7){
+  font-variant-numeric:tabular-nums;
+  white-space:nowrap;
+  font-weight:700;
+}
+
+/* 결사명 강조 */
+td:nth-child(3){
+  font-weight:800;
+  padding-left:12px;
+}
+
+/* 서버 컬럼 */
+td:nth-child(5){
+  color:#d7e3ff;
+}
+
+/* 점수류 오른쪽 여백 */
+td:nth-child(6),
+td:nth-child(7){
+  padding-right:12px;
+}
+
+/* ====== Delta ====== */
+.delta-up{
+  color:#ff4d4d;
+  font-weight:800;
+}
+
+.delta-down{
+  color:#4aa3ff;
+  font-weight:800;
+}
+
+.delta-flat{
+  color:#c7c7c7;
+  font-weight:700;
+}
+
+.delta-cell{
+  white-space:nowrap;
+}
+
+/* ====== Guild Detail Modal ====== */
+#guildModal{
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.55);
+  z-index:9999;
+}
+
+#guildModal .modal-card{
+  max-width:1100px;
+  margin:40px auto;
+  background:#121a27;
+  border:1px solid #23324a;
+  border-radius:14px;
+  padding:14px;
+}
+
+#guildModal .modal-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+}
+
+#gmTitle{
+  font-size:28px;
+  font-weight:900;
+}
+
+#gmSub{
+  font-size:18px;
+  opacity:.9;
+  margin-top:2px;
+}
+
+#guildModal .modal-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+  margin-top:12px;
+}
+
+#guildModal .panel{
+  background:#0f1626;
+  border:1px solid #23324a;
+  border-radius:12px;
+  padding:10px;
+}
+
+#guildModal .panel-title{
+  font-weight:900;
+  margin-bottom:8px;
+  font-size:18px;
+}
+
+#guildModal button{
+  padding:8px 10px;
+  border-radius:10px;
+}
+
+#guildModal table{
+  width:100% !important;
+  border-collapse:collapse !important;
+  table-layout:fixed;
+  font-size:18px !important;
+}
+
+#guildModal th,
+#guildModal td{
+  padding:14px 16px !important;
+  font-size:18px !important;
+  text-align:center !important;
+}
+
+#guildModal thead th{
+  font-size:18px !important;
+  font-weight:900 !important;
+}
+
+/* ====== Overall Modal ====== */
+#overallModal{
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.55);
+  z-index:9999;
+}
+
+#overallModal .modal-card{
+  max-width:1100px;
+  margin:40px auto;
+  background:#121a27;
+  border:1px solid #23324a;
+  border-radius:14px;
+  padding:14px;
+}
+
+#overallModal .modal-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+}
+
+#omTitle{
+  font-size:24px;
+  font-weight:900;
+}
+
+#omSub{
+  font-size:14px;
+  opacity:.8;
+  margin-top:2px;
+}
+
+#overallModal .modal-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+  margin-top:12px;
+}
+
+#overallModal .panel{
+  background:#0f1626;
+  border:1px solid #23324a;
+  border-radius:12px;
+  padding:10px;
+}
+
+#overallModal .panel-title{
+  font-weight:900;
+  margin-bottom:8px;
+}
+
+#overallModal button{
+  padding:8px 10px;
+  border-radius:10px;
+}
+
+/* ====== Responsive ====== */
+@media (max-width: 720px){
+  body{
+    padding:12px;
+    max-width:100%;
   }
 
-  html += `</tbody></table>`;
-  return html;
-}
-
-function showModal(title, sub, clsHtml, grdHtml){
-  const modal = document.getElementById("guildModal");
-  const t = document.getElementById("gmTitle");
-  const s = document.getElementById("gmSub");
-  const c = document.getElementById("gmClass");
-  const g = document.getElementById("gmGrade");
-
-  if (t) t.textContent = title;
-  if (s) s.textContent = sub;
-  if (c) c.innerHTML = clsHtml;
-  if (g) g.innerHTML = grdHtml;
-
-  if (modal) modal.style.display = "block";
-}
-
-function hideModal(){
-  const modal = document.getElementById("guildModal");
-  if (modal) modal.style.display = "none";
-}
-
-async function loadOverallStats(fileName){
-  try {
-    const meta = SNAP_LIST.find(x => x.file === fileName);
-    const statsFile = meta?.statsFile || (`stats_${String(fileName)}`);
-
-    const res = await fetch(`./snapshots/${statsFile}`, { cache: "no-store" });
-    if (!res.ok) throw new Error(`${statsFile} HTTP ${res.status}`);
-
-    const data = await res.json();
-
-    CURRENT_OVERALL_STATS = {
-      label: data?.label || "",
-      levelStats: Array.isArray(data?.levelStats) ? data.levelStats : [],
-      huntGradeStats: Array.isArray(data?.huntGradeStats) ? data.huntGradeStats : [],
-    };
-  } catch (err) {
-    console.error("전체 통계 로드 실패:", err);
-    CURRENT_OVERALL_STATS = {
-      label: "",
-      levelStats: [],
-      huntGradeStats: [],
-    };
-  }
-}
-
-function bindOverallStatsUI(){
-  const btn = document.getElementById("btnOverallStats");
-  const modal = document.getElementById("overallModal");
-  const closeBtn = document.getElementById("omClose");
-
-  if (btn) {
-    btn.addEventListener("click", () => {
-      const levelHtml = renderOverallStatTable(
-        CURRENT_OVERALL_STATS.levelStats,
-        "level",
-        "레벨"
-      );
-
-      const gradeHtml = renderOverallStatTable(
-        CURRENT_OVERALL_STATS.huntGradeStats,
-        "grade",
-        "토벌등급"
-      );
-
-      showOverallModal(
-        "전체 통계",
-        CURRENT_OVERALL_STATS.label ? `${CURRENT_OVERALL_STATS.label} 기준` : "",
-        levelHtml,
-        gradeHtml
-      );
-    });
+  h1{
+    font-size:24px;
   }
 
-  if (closeBtn) closeBtn.addEventListener("click", hideOverallModal);
-
-  if (modal) {
-    modal.addEventListener("click", (e) => {
-      if (e.target === modal) hideOverallModal();
-    });
-  }
-}
-
-function renderOverallStatTable(rows, keyField, keyLabel){
-  const list = Array.isArray(rows) ? [...rows] : [];
-  if (list.length === 0) return `<div style="opacity:.85;">데이터 없음</div>`;
-
-  let html = `
-    <table style="width:100%; border-collapse:collapse; font-size:16px; table-layout:fixed;">
-      <thead>
-        <tr>
-          <th style="text-align:center; border-bottom:1px solid #23324a; padding:10px;">${escapeHtml(keyLabel)}</th>
-          <th style="text-align:center; border-bottom:1px solid #23324a; padding:10px;">인원수</th>
-          <th style="text-align:center; border-bottom:1px solid #23324a; padding:10px;">비율</th>
-        </tr>
-      </thead>
-      <tbody>
-  `;
-
-  for (const row of list){
-    const key = row?.[keyField] ?? "";
-    const count = Number(row?.count || 0);
-    const ratio = Number(row?.ratio || 0);
-
-    html += `
-      <tr>
-        <td style="padding:10px; border-bottom:1px solid rgba(35,50,74,.6); text-align:center;">${escapeHtml(key)}</td>
-        <td style="padding:10px; border-bottom:1px solid rgba(35,50,74,.6); text-align:center;">${count.toLocaleString()}</td>
-        <td style="padding:10px; border-bottom:1px solid rgba(35,50,74,.6); text-align:center;">${(ratio * 100).toFixed(2)}%</td>
-      </tr>
-    `;
+  th, td{
+    padding:6px 6px;
+    font-size:12px;
   }
 
-  html += `</tbody></table>`;
-  return html;
+  .searchForm{
+    width:100%;
+  }
+
+  #search{
+    flex:1;
+    min-width:160px;
+  }
+
+  th:nth-child(1), td:nth-child(1){ width:11%; }
+  th:nth-child(2), td:nth-child(2){ width:9%; }
+  th:nth-child(3), td:nth-child(3){ width:26%; }
+  th:nth-child(4), td:nth-child(4){ width:10%; }
+  th:nth-child(5), td:nth-child(5){ width:16%; }
+  th:nth-child(6), td:nth-child(6){ width:14%; }
+  th:nth-child(7), td:nth-child(7){ width:14%; }
+
+  #guildModal .modal-card,
+  #overallModal .modal-card{
+    margin:20px 10px;
+    max-width:none;
+  }
+
+  #guildModal .modal-grid,
+  #overallModal .modal-grid{
+    grid-template-columns:1fr;
+  }
+
+  #gmTitle{
+    font-size:22px;
+  }
+
+  #gmSub{
+    font-size:14px;
+  }
+
+  #guildModal table{
+    font-size:14px !important;
+  }
+
+  #guildModal th,
+  #guildModal td{
+    padding:10px 10px !important;
+    font-size:14px !important;
+  }
 }
+</style>
+</head>
 
-function showOverallModal(title, sub, levelHtml, gradeHtml){
-  const modal = document.getElementById("overallModal");
-  const t = document.getElementById("omTitle");
-  const s = document.getElementById("omSub");
-  const l = document.getElementById("omLevel");
-  const g = document.getElementById("omGrade");
+<body>
 
-  if (t) t.textContent = title;
-  if (s) s.textContent = sub;
-  if (l) l.innerHTML = levelHtml;
-  if (g) g.innerHTML = gradeHtml;
+<h1>프라시아 결사 랭킹</h1>
+<div id="status"></div>
 
-  if (modal) modal.style.display = "block";
-}
+<div class="controls">
+  <label>날짜</label>
+  <select id="date"></select>
 
-function hideOverallModal(){
-  const modal = document.getElementById("overallModal");
-  if (modal) modal.style.display = "none";
-}
+  <label>검색</label>
+  <form class="searchForm" id="searchForm" onsubmit="return false;">
+    <input id="search" placeholder="결사 / 서버 검색" autocomplete="off">
+    <button type="button" id="btnSearch">검색</button>
+    <button type="button" id="btnClear">초기화</button>
+  </form>
 
-loadSnapshots();
+  <button type="button" id="btnOverallStats">전체 통계</button>
+</div>
+
+<div class="pager" id="pager">
+  <div class="info" id="pagerInfo"></div>
+
+  <div class="size">
+    <label for="pageSize">페이지당</label>
+    <select id="pageSize">
+      <option value="50">50</option>
+      <option value="100" selected>100</option>
+      <option value="200">200</option>
+    </select>
+  </div>
+
+  <button id="btnFirst" type="button">처음</button>
+  <button id="btnPrev" type="button">이전</button>
+
+  <div class="nums" id="pagerNums"></div>
+
+  <div class="page" id="pagerPage"></div>
+
+  <button id="btnNext" type="button">다음</button>
+  <button id="btnLast" type="button">마지막</button>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>변동</th>
+      <th>순위</th>
+      <th>결사</th>
+      <th>인원</th>
+      <th>서버</th>
+      <th>총점</th>
+      <th>기존대비</th>
+    </tr>
+  </thead>
+  <tbody id="rank"></tbody>
+</table>
+
+<script src="./app.js?v=13"></script>
+
+<!-- 결사 상세 모달 -->
+<div id="guildModal">
+  <div class="modal-card">
+    <div class="modal-head">
+      <div>
+        <div id="gmTitle"></div>
+        <div id="gmSub"></div>
+      </div>
+      <button type="button" id="gmClose">닫기</button>
+    </div>
+
+    <div class="modal-grid">
+      <div class="panel">
+        <div class="panel-title">직업 분포</div>
+        <div id="gmClass"></div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">토벌등급 분포</div>
+        <div id="gmGrade"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 전체 통계 모달 -->
+<div id="overallModal">
+  <div class="modal-card">
+    <div class="modal-head">
+      <div>
+        <div id="omTitle">전체 통계</div>
+        <div id="omSub"></div>
+      </div>
+      <button type="button" id="omClose">닫기</button>
+    </div>
+
+    <div class="modal-grid">
+      <div class="panel">
+        <div class="panel-title">레벨별 통계</div>
+        <div id="omLevel"></div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">토벌등급별 통계</div>
+        <div id="omGrade"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
