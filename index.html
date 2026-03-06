@@ -381,7 +381,64 @@ td:nth-child(7){
   padding:8px 10px;
   border-radius:10px;
 }
+/* ====== Member List Modal ====== */
+#memberListModal{
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.55);
+  z-index:10000;
+}
 
+#memberListModal .modal-card{
+  max-width:1200px;
+  margin:30px auto;
+  background:#121a27;
+  border:1px solid #23324a;
+  border-radius:14px;
+  padding:14px;
+}
+
+#memberListModal .modal-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+}
+
+#mlTitle{
+  font-size:24px;
+  font-weight:900;
+}
+
+#mlSub{
+  font-size:14px;
+  opacity:.85;
+  margin-top:2px;
+}
+
+#memberListModal button{
+  padding:8px 10px;
+  border-radius:10px;
+}
+
+#memberListModal table{
+  width:100%;
+  border-collapse:collapse;
+  table-layout:fixed;
+  font-size:15px;
+}
+
+#memberListModal th,
+#memberListModal td{
+  padding:10px;
+  text-align:center;
+  border-top:1px solid #23324a;
+}
+
+#memberListModal thead th{
+  border-top:none;
+}
 /* ====== Responsive ====== */
 @media (max-width: 720px){
   body{
@@ -504,7 +561,7 @@ td:nth-child(7){
   <tbody id="rank"></tbody>
 </table>
 
-<script src="./app.js?v=13"></script>
+<script src="./app.js?v=14"></script>
 
 <!-- 결사 상세 모달 -->
 <div id="guildModal">
@@ -555,6 +612,25 @@ td:nth-child(7){
     </div>
   </div>
 </div>
+<!-- 레벨/등급별 캐릭터 목록 모달 -->
+<div id="memberListModal">
+  <div class="modal-card">
+    <div class="modal-head">
+      <div>
+        <div id="mlTitle"></div>
+        <div id="mlSub"></div>
+      </div>
+      <button type="button" id="mlClose">닫기</button>
+    </div>
 
+    <div id="mlTableWrap" style="margin-top:12px;"></div>
+
+    <div style="display:flex; gap:8px; align-items:center; justify-content:flex-end; margin-top:12px;">
+      <button type="button" id="mlPrev">이전</button>
+      <div id="mlPageInfo" style="min-width:80px; text-align:center;"></div>
+      <button type="button" id="mlNext">다음</button>
+    </div>
+  </div>
+</div>
 </body>
 </html>
