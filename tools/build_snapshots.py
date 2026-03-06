@@ -362,8 +362,127 @@ def parse_member_detail_sheet(ws):
 
 def build_server_detail_data(wb):
     """
-    서버 시트들을 기반으로 결사 상세 팝업용 detail 데이터를 생성
+    결사 상세 팝업용 detail 데이터를 생성
+    우선순위:
+    1) 토벌상위분류 시트 사용 (닉네임/결사/직업/등급/레벨/서버가 모두 있음)
+    2) 없으면 서버 시트 fallback
     """
+    ws_member, _ = pick_sheet_by_candidates(wb, MEMBER_DETAIL_SHEETS)
+
+    # 1) 토벌상위분류 시트가 있으면 이걸 기준으로 생성
+    if ws_member:
+        server_details = {}
+
+        for r in range(2, ws_member.max_row + 1):
+            nickname = safe_str(ws_member.cell(row=r, column=1).value)
+            guild = safe_str(ws_member.cell(row=r, column=2).value)
+            clazz = safe_str(ws_member.cell(row=r, column=3).value)
+            grade = safe_num(ws_member.cell(row=r, column=4).value)
+            level = safe_num(ws_member.cell(row=r, column=5).value)
+            server = safe_str(ws_member.cell(row=r, column=6).value)
+
+            if nickname == "" and guild == "" and server == "":
+                continue
+
+            if server == "통합정렬":
+                continue
+
+            if guild == "":
+                continue
+            if guild.replace(" ", "") == "-":
+                continue
+            if server == "":
+                continue
+
+            if server not in server_details:
+                server_details[server] = {
+                    "server": server,
+                    "guilds": {}
+                }
+
+            guilds = server_details[server]["guilds"]
+
+            if guild not in guilds:
+                guilds[guild] = {
+                    "members": 0,
+                    "byClass": defaultdict(int),
+                    "byGrade": defaultdict(int),
+                    "membersList": [],
+                    "byClassMembers": defaultdict(list),
+                    "byGradeMembers": defaultdict(list),
+                }
+
+            member_row = {
+                "nickname": nickname,
+                "guild": guild,
+                "class": clazz,
+                "grade": grade if grade is not None else 0,
+                "level": level if level is not None else 0,
+                "server": server,
+            }
+
+            guilds[guild]["members"] += 1
+            guilds[guild]["membersList"].append(member_row)
+
+            if clazz != "":
+                guilds[guild]["byClass"][clazz] += 1
+                guilds[guild]["byClassMembers"][clazz].append(member_row)
+
+            grade_key = str(int(grade)) if isinstance(grade, (int, float)) else safe_str(grade)
+            if grade_key != "":
+                guilds[guild]["byGrade"][grade_key] += 1
+                guilds[guild]["byGradeMembers"][grade_key].append(member_row)
+
+        # 정렬/딕셔너리 변환
+        for server_name, server_data in server_details.items():
+            for guild_name, g in server_data["guilds"].items():
+                g["byClass"] = dict(sorted(g["byClass"].items(), key=lambda x: (-x[1], x[0])))
+
+                def grade_sort_key(item):
+                    k = item[0]
+                    try:
+                        return -int(str(k))
+                    except Exception:
+                        return 999999
+
+                g["byGrade"] = dict(sorted(g["byGrade"].items(), key=grade_sort_key))
+
+                g["membersList"] = sorted(
+                    g["membersList"],
+                    key=lambda x: (
+                        -int(x.get("grade", 0) or 0),
+                        -int(x.get("level", 0) or 0),
+                        safe_str(x.get("nickname", "")),
+                    )
+                )
+
+                g["byClassMembers"] = {
+                    k: sorted(
+                        v,
+                        key=lambda x: (
+                            -int(x.get("grade", 0) or 0),
+                            -int(x.get("level", 0) or 0),
+                            safe_str(x.get("nickname", "")),
+                        )
+                    )
+                    for k, v in g["byClassMembers"].items()
+                }
+
+                g["byGradeMembers"] = {
+                    k: sorted(
+                        v,
+                        key=lambda x: (
+                            -int(x.get("grade", 0) or 0),
+                            -int(x.get("level", 0) or 0),
+                            safe_str(x.get("nickname", "")),
+                        )
+                    )
+                    for k, v in g["byGradeMembers"].items()
+                }
+
+        return server_details
+
+    # 2) fallback: 서버 시트 기반 생성
     server_details = {}
 
     for sheet_name in wb.sheetnames:
