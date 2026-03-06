@@ -150,46 +150,48 @@ tbody tr:hover{
 }
 
 /* ====== Column widths ====== */
-/* 변동 / 순위 / 결사 / 서버 / 총점 / 기존대비 */
-th:nth-child(1), td:nth-child(1){ width: 9%;  text-align:center; }
-th:nth-child(2), td:nth-child(2){ width: 9%;  text-align:center; }
-th:nth-child(3), td:nth-child(3){ width: 32%; text-align:left;   }
-th:nth-child(4), td:nth-child(4){ width: 17%; text-align:center; }
-th:nth-child(5), td:nth-child(5){ width: 16%; text-align:right;  }
-th:nth-child(6), td:nth-child(6){ width: 17%; text-align:right;  }
+/* 변동 / 순위 / 결사 / 인원 / 서버 / 총점 / 기존대비 */
+th:nth-child(1), td:nth-child(1){ width: 8%;  text-align:center; }
+th:nth-child(2), td:nth-child(2){ width: 8%;  text-align:center; }
+th:nth-child(3), td:nth-child(3){ width: 28%; text-align:left;   }
+th:nth-child(4), td:nth-child(4){ width: 10%; text-align:center; }
+th:nth-child(5), td:nth-child(5){ width: 16%; text-align:center; }
+th:nth-child(6), td:nth-child(6){ width: 15%; text-align:right;  }
+th:nth-child(7), td:nth-child(7){ width: 15%; text-align:right;  }
 
 /* 긴 텍스트 말줄임 */
 td:nth-child(3),
-td:nth-child(4){
+td:nth-child(5){
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-/* 숫자 컬럼 정렬 고정 */
+/* 숫자 컬럼 */
 td:nth-child(1),
 td:nth-child(2),
-td:nth-child(5),
-td:nth-child(6){
+td:nth-child(4),
+td:nth-child(6),
+td:nth-child(7){
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
   font-weight: 700;
 }
 
-/* 결사명 약간 더 강조 */
+/* 결사명 강조 */
 td:nth-child(3){
   font-weight: 800;
   padding-left: 12px;
 }
 
 /* 서버는 살짝 톤 다운 */
-td:nth-child(4){
+td:nth-child(5){
   color: #d7e3ff;
 }
 
-/* 점수 컬럼은 눈에 잘 들어오게 */
-td:nth-child(5),
-td:nth-child(6){
+/* 점수류는 오른쪽 여백 */
+td:nth-child(6),
+td:nth-child(7){
   padding-right: 12px;
 }
 
@@ -211,12 +213,13 @@ td:nth-child(6){
   .searchForm{ width:100%; }
   #search{ flex:1; min-width:160px; }
 
-  th:nth-child(1), td:nth-child(1){ width: 12%; }
-  th:nth-child(2), td:nth-child(2){ width: 10%; }
-  th:nth-child(3), td:nth-child(3){ width: 28%; }
-  th:nth-child(4), td:nth-child(4){ width: 18%; }
+  th:nth-child(1), td:nth-child(1){ width: 11%; }
+  th:nth-child(2), td:nth-child(2){ width: 9%; }
+  th:nth-child(3), td:nth-child(3){ width: 26%; }
+  th:nth-child(4), td:nth-child(4){ width: 10%; }
   th:nth-child(5), td:nth-child(5){ width: 16%; }
-  th:nth-child(6), td:nth-child(6){ width: 16%; }
+  th:nth-child(6), td:nth-child(6){ width: 14%; }
+  th:nth-child(7), td:nth-child(7){ width: 14%; }
 }
   /* ====== 길드 상세 모달(팝업) 표 글씨/정렬 강화 ====== */
 
@@ -356,6 +359,7 @@ td:nth-child(6){
       <th>변동</th>
       <th>순위</th>
       <th>결사</th>
+      <th>인원</th>
       <th>서버</th>
       <th>총점</th>
       <th>기존대비</th>
