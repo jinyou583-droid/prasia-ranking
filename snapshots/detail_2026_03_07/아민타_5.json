@@ -1,0 +1,165 @@
+{
+  "server": "아민타 05",
+  "guilds": {
+    "킹덤": {
+      "members": 5,
+      "byClass": {
+        "심연추방자": 1,
+        "주문각인사": 1,
+        "집행관": 1,
+        "태양감시자": 1,
+        "향사수": 1
+      },
+      "byGrade": {
+        "24": 1,
+        "22": 1,
+        "21": 1,
+        "20": 2
+      },
+      "membersList": [
+        {
+          "nickname": "리카이",
+          "guild": "킹덤",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 88,
+          "server": "아민타 05"
+        },
+        {
+          "nickname": "마르피아",
+          "guild": "킹덤",
+          "class": "태양감시자",
+          "grade": 22,
+          "level": 87,
+          "server": "아민타 05"
+        },
+        {
+          "nickname": "AB",
+          "guild": "킹덤",
+          "class": "향사수",
+          "grade": 21,
+          "level": 84,
+          "server": "아민타 05"
+        },
+        {
+          "nickname": "UN",
+          "guild": "킹덤",
+          "class": "심연추방자",
+          "grade": 20,
+          "level": 86,
+          "server": "아민타 05"
+        },
+        {
+          "nickname": "투썸",
+          "guild": "킹덤",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "아민타 05"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "리카이",
+            "guild": "킹덤",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 88,
+            "server": "아민타 05"
+          }
+        ],
+        "태양감시자": [
+          {
+            "nickname": "마르피아",
+            "guild": "킹덤",
+            "class": "태양감시자",
+            "grade": 22,
+            "level": 87,
+            "server": "아민타 05"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "AB",
+            "guild": "킹덤",
+            "class": "향사수",
+            "grade": 21,
+            "level": 84,
+            "server": "아민타 05"
+          }
+        ],
+        "심연추방자": [
+          {
+            "nickname": "UN",
+            "guild": "킹덤",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 86,
+            "server": "아민타 05"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "투썸",
+            "guild": "킹덤",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "아민타 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "리카이",
+            "guild": "킹덤",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 88,
+            "server": "아민타 05"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "마르피아",
+            "guild": "킹덤",
+            "class": "태양감시자",
+            "grade": 22,
+            "level": 87,
+            "server": "아민타 05"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "AB",
+            "guild": "킹덤",
+            "class": "향사수",
+            "grade": 21,
+            "level": 84,
+            "server": "아민타 05"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "UN",
+            "guild": "킹덤",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 86,
+            "server": "아민타 05"
+          },
+          {
+            "nickname": "투썸",
+            "guild": "킹덤",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "아민타 05"
+          }
+        ]
+      }
+    }
+  }
+}

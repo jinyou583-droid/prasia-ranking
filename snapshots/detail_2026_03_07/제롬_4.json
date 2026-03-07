@@ -1,0 +1,898 @@
+{
+  "server": "제롬 04",
+  "guilds": {
+    "AURA": {
+      "members": 27,
+      "byClass": {
+        "집행관": 9,
+        "주문각인사": 6,
+        "향사수": 6,
+        "태양감시자": 3,
+        "심연추방자": 2,
+        "환영검사": 1
+      },
+      "byGrade": {
+        "24": 3,
+        "23": 2,
+        "22": 4,
+        "21": 10,
+        "20": 8
+      },
+      "membersList": [
+        {
+          "nickname": "blue",
+          "guild": "AURA",
+          "class": "심연추방자",
+          "grade": 24,
+          "level": 89,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "야월랑",
+          "guild": "AURA",
+          "class": "향사수",
+          "grade": 24,
+          "level": 89,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "의지형",
+          "guild": "AURA",
+          "class": "태양감시자",
+          "grade": 24,
+          "level": 89,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "초승달",
+          "guild": "AURA",
+          "class": "환영검사",
+          "grade": 23,
+          "level": 88,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "보호의축복",
+          "guild": "AURA",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 86,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "시절인연",
+          "guild": "AURA",
+          "class": "집행관",
+          "grade": 22,
+          "level": 87,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "호기",
+          "guild": "AURA",
+          "class": "집행관",
+          "grade": 22,
+          "level": 87,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "REZE",
+          "guild": "AURA",
+          "class": "향사수",
+          "grade": 22,
+          "level": 85,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "파월",
+          "guild": "AURA",
+          "class": "집행관",
+          "grade": 22,
+          "level": 84,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "블링",
+          "guild": "AURA",
+          "class": "태양감시자",
+          "grade": 21,
+          "level": 87,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "똥파리",
+          "guild": "AURA",
+          "class": "집행관",
+          "grade": 21,
+          "level": 86,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "싸이코",
+          "guild": "AURA",
+          "class": "태양감시자",
+          "grade": 21,
+          "level": 86,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "향사수",
+          "guild": "AURA",
+          "class": "향사수",
+          "grade": 21,
+          "level": 86,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "삼각형",
+          "guild": "AURA",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "도끼형",
+          "guild": "AURA",
+          "class": "집행관",
+          "grade": 21,
+          "level": 84,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "독불",
+          "guild": "AURA",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 84,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "바람떡",
+          "guild": "AURA",
+          "class": "향사수",
+          "grade": 21,
+          "level": 84,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "수호킹",
+          "guild": "AURA",
+          "class": "집행관",
+          "grade": 21,
+          "level": 84,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "카카로트",
+          "guild": "AURA",
+          "class": "집행관",
+          "grade": 21,
+          "level": 84,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "환생",
+          "guild": "AURA",
+          "class": "심연추방자",
+          "grade": 20,
+          "level": 85,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "강철의연금술사",
+          "guild": "AURA",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "남성용돈까스",
+          "guild": "AURA",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "약정",
+          "guild": "AURA",
+          "class": "향사수",
+          "grade": 20,
+          "level": 84,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "차에서하고싶어",
+          "guild": "AURA",
+          "class": "집행관",
+          "grade": 20,
+          "level": 83,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "풍월",
+          "guild": "AURA",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 83,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "프랑",
+          "guild": "AURA",
+          "class": "향사수",
+          "grade": 20,
+          "level": 83,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "이블리스",
+          "guild": "AURA",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 81,
+          "server": "제롬 04"
+        }
+      ],
+      "byClassMembers": {
+        "심연추방자": [
+          {
+            "nickname": "blue",
+            "guild": "AURA",
+            "class": "심연추방자",
+            "grade": 24,
+            "level": 89,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "환생",
+            "guild": "AURA",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 85,
+            "server": "제롬 04"
+          }
+        ],
+        "태양감시자": [
+          {
+            "nickname": "의지형",
+            "guild": "AURA",
+            "class": "태양감시자",
+            "grade": 24,
+            "level": 89,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "블링",
+            "guild": "AURA",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 87,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "싸이코",
+            "guild": "AURA",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 86,
+            "server": "제롬 04"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "야월랑",
+            "guild": "AURA",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "REZE",
+            "guild": "AURA",
+            "class": "향사수",
+            "grade": 22,
+            "level": 85,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "향사수",
+            "guild": "AURA",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "바람떡",
+            "guild": "AURA",
+            "class": "향사수",
+            "grade": 21,
+            "level": 84,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "약정",
+            "guild": "AURA",
+            "class": "향사수",
+            "grade": 20,
+            "level": 84,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "프랑",
+            "guild": "AURA",
+            "class": "향사수",
+            "grade": 20,
+            "level": 83,
+            "server": "제롬 04"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "초승달",
+            "guild": "AURA",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 88,
+            "server": "제롬 04"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "보호의축복",
+            "guild": "AURA",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 86,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "독불",
+            "guild": "AURA",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 84,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "강철의연금술사",
+            "guild": "AURA",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "남성용돈까스",
+            "guild": "AURA",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "풍월",
+            "guild": "AURA",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 83,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "이블리스",
+            "guild": "AURA",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 81,
+            "server": "제롬 04"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "시절인연",
+            "guild": "AURA",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "호기",
+            "guild": "AURA",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "파월",
+            "guild": "AURA",
+            "class": "집행관",
+            "grade": 22,
+            "level": 84,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "똥파리",
+            "guild": "AURA",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "삼각형",
+            "guild": "AURA",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "도끼형",
+            "guild": "AURA",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "수호킹",
+            "guild": "AURA",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "카카로트",
+            "guild": "AURA",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "차에서하고싶어",
+            "guild": "AURA",
+            "class": "집행관",
+            "grade": 20,
+            "level": 83,
+            "server": "제롬 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "blue",
+            "guild": "AURA",
+            "class": "심연추방자",
+            "grade": 24,
+            "level": 89,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "야월랑",
+            "guild": "AURA",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "의지형",
+            "guild": "AURA",
+            "class": "태양감시자",
+            "grade": 24,
+            "level": 89,
+            "server": "제롬 04"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "초승달",
+            "guild": "AURA",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 88,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "보호의축복",
+            "guild": "AURA",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 86,
+            "server": "제롬 04"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "시절인연",
+            "guild": "AURA",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "호기",
+            "guild": "AURA",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "REZE",
+            "guild": "AURA",
+            "class": "향사수",
+            "grade": 22,
+            "level": 85,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "파월",
+            "guild": "AURA",
+            "class": "집행관",
+            "grade": 22,
+            "level": 84,
+            "server": "제롬 04"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "블링",
+            "guild": "AURA",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 87,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "똥파리",
+            "guild": "AURA",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "싸이코",
+            "guild": "AURA",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 86,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "향사수",
+            "guild": "AURA",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "삼각형",
+            "guild": "AURA",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "도끼형",
+            "guild": "AURA",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "독불",
+            "guild": "AURA",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 84,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "바람떡",
+            "guild": "AURA",
+            "class": "향사수",
+            "grade": 21,
+            "level": 84,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "수호킹",
+            "guild": "AURA",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "카카로트",
+            "guild": "AURA",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "제롬 04"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "환생",
+            "guild": "AURA",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 85,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "강철의연금술사",
+            "guild": "AURA",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "남성용돈까스",
+            "guild": "AURA",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "약정",
+            "guild": "AURA",
+            "class": "향사수",
+            "grade": 20,
+            "level": 84,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "차에서하고싶어",
+            "guild": "AURA",
+            "class": "집행관",
+            "grade": 20,
+            "level": 83,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "풍월",
+            "guild": "AURA",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 83,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "프랑",
+            "guild": "AURA",
+            "class": "향사수",
+            "grade": 20,
+            "level": 83,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "이블리스",
+            "guild": "AURA",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 81,
+            "server": "제롬 04"
+          }
+        ]
+      }
+    },
+    "휴식": {
+      "members": 2,
+      "byClass": {
+        "주문각인사": 1,
+        "향사수": 1
+      },
+      "byGrade": {
+        "22": 2
+      },
+      "membersList": [
+        {
+          "nickname": "다솜",
+          "guild": "휴식",
+          "class": "향사수",
+          "grade": 22,
+          "level": 87,
+          "server": "제롬 04"
+        },
+        {
+          "nickname": "다우다",
+          "guild": "휴식",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 86,
+          "server": "제롬 04"
+        }
+      ],
+      "byClassMembers": {
+        "향사수": [
+          {
+            "nickname": "다솜",
+            "guild": "휴식",
+            "class": "향사수",
+            "grade": 22,
+            "level": 87,
+            "server": "제롬 04"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "다우다",
+            "guild": "휴식",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "제롬 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "22": [
+          {
+            "nickname": "다솜",
+            "guild": "휴식",
+            "class": "향사수",
+            "grade": 22,
+            "level": 87,
+            "server": "제롬 04"
+          },
+          {
+            "nickname": "다우다",
+            "guild": "휴식",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "제롬 04"
+          }
+        ]
+      }
+    },
+    "삐까": {
+      "members": 1,
+      "byClass": {
+        "심연추방자": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "의지",
+          "guild": "삐까",
+          "class": "심연추방자",
+          "grade": 20,
+          "level": 84,
+          "server": "제롬 04"
+        }
+      ],
+      "byClassMembers": {
+        "심연추방자": [
+          {
+            "nickname": "의지",
+            "guild": "삐까",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 84,
+            "server": "제롬 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "의지",
+            "guild": "삐까",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 84,
+            "server": "제롬 04"
+          }
+        ]
+      }
+    },
+    "무지개고래": {
+      "members": 1,
+      "byClass": {
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "다크",
+          "guild": "무지개고래",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "제롬 04"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "다크",
+            "guild": "무지개고래",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "제롬 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "다크",
+            "guild": "무지개고래",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "제롬 04"
+          }
+        ]
+      }
+    },
+    "몰루": {
+      "members": 1,
+      "byClass": {
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "치센",
+          "guild": "몰루",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "제롬 04"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "치센",
+            "guild": "몰루",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "제롬 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "치센",
+            "guild": "몰루",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "제롬 04"
+          }
+        ]
+      }
+    }
+  }
+}
