@@ -1,3 +1,4 @@
+import urllib.parse
 import json
 import shutil
 from datetime import datetime
@@ -676,10 +677,11 @@ def build_snapshots_from_uploads():
 
         server_details = build_server_detail_data(wb)
         for server_name, detail_data in server_details.items():
-            file_server_name = safe_str(server_name)
-            out_path = detail_dir / f"{file_server_name}.json"
-            with open(out_path, "w", encoding="utf-8") as f:
-                json.dump(detail_data, f, ensure_ascii=False, indent=2)
+    file_server_name = safe_str(server_name)
+    encoded_name = urllib.parse.quote(file_server_name, safe="")
+    out_path = detail_dir / f"{encoded_name}.json"
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(detail_data, f, ensure_ascii=False, indent=2)
 
         index.append({
             "label": label,
