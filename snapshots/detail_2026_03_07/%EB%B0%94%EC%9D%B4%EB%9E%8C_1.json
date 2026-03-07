@@ -1,0 +1,304 @@
+{
+  "server": "바이람 01",
+  "guilds": {
+    "멸공": {
+      "members": 9,
+      "byClass": {
+        "집행관": 6,
+        "심연추방자": 1,
+        "주문각인사": 1,
+        "환영검사": 1
+      },
+      "byGrade": {
+        "24": 1,
+        "23": 1,
+        "22": 2,
+        "21": 3,
+        "20": 2
+      },
+      "membersList": [
+        {
+          "nickname": "담덕",
+          "guild": "멸공",
+          "class": "집행관",
+          "grade": 24,
+          "level": 89,
+          "server": "바이람 01"
+        },
+        {
+          "nickname": "포세이돈",
+          "guild": "멸공",
+          "class": "집행관",
+          "grade": 23,
+          "level": 88,
+          "server": "바이람 01"
+        },
+        {
+          "nickname": "멸치",
+          "guild": "멸공",
+          "class": "집행관",
+          "grade": 22,
+          "level": 87,
+          "server": "바이람 01"
+        },
+        {
+          "nickname": "뉴비가",
+          "guild": "멸공",
+          "class": "집행관",
+          "grade": 22,
+          "level": 86,
+          "server": "바이람 01"
+        },
+        {
+          "nickname": "미카엘",
+          "guild": "멸공",
+          "class": "집행관",
+          "grade": 21,
+          "level": 86,
+          "server": "바이람 01"
+        },
+        {
+          "nickname": "세라핌",
+          "guild": "멸공",
+          "class": "환영검사",
+          "grade": 21,
+          "level": 86,
+          "server": "바이람 01"
+        },
+        {
+          "nickname": "헤네시",
+          "guild": "멸공",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 86,
+          "server": "바이람 01"
+        },
+        {
+          "nickname": "달토끼",
+          "guild": "멸공",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "바이람 01"
+        },
+        {
+          "nickname": "듀공",
+          "guild": "멸공",
+          "class": "심연추방자",
+          "grade": 20,
+          "level": 84,
+          "server": "바이람 01"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "담덕",
+            "guild": "멸공",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "바이람 01"
+          },
+          {
+            "nickname": "포세이돈",
+            "guild": "멸공",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "바이람 01"
+          },
+          {
+            "nickname": "멸치",
+            "guild": "멸공",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "바이람 01"
+          },
+          {
+            "nickname": "뉴비가",
+            "guild": "멸공",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "바이람 01"
+          },
+          {
+            "nickname": "미카엘",
+            "guild": "멸공",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "바이람 01"
+          },
+          {
+            "nickname": "달토끼",
+            "guild": "멸공",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "바이람 01"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "세라핌",
+            "guild": "멸공",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 86,
+            "server": "바이람 01"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "헤네시",
+            "guild": "멸공",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "바이람 01"
+          }
+        ],
+        "심연추방자": [
+          {
+            "nickname": "듀공",
+            "guild": "멸공",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 84,
+            "server": "바이람 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "담덕",
+            "guild": "멸공",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "바이람 01"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "포세이돈",
+            "guild": "멸공",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "바이람 01"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "멸치",
+            "guild": "멸공",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "바이람 01"
+          },
+          {
+            "nickname": "뉴비가",
+            "guild": "멸공",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "바이람 01"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "미카엘",
+            "guild": "멸공",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "바이람 01"
+          },
+          {
+            "nickname": "세라핌",
+            "guild": "멸공",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 86,
+            "server": "바이람 01"
+          },
+          {
+            "nickname": "헤네시",
+            "guild": "멸공",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "바이람 01"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "달토끼",
+            "guild": "멸공",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "바이람 01"
+          },
+          {
+            "nickname": "듀공",
+            "guild": "멸공",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 84,
+            "server": "바이람 01"
+          }
+        ]
+      }
+    },
+    "중지": {
+      "members": 1,
+      "byClass": {
+        "태양감시자": 1
+      },
+      "byGrade": {
+        "22": 1
+      },
+      "membersList": [
+        {
+          "nickname": "양똥",
+          "guild": "중지",
+          "class": "태양감시자",
+          "grade": 22,
+          "level": 87,
+          "server": "바이람 01"
+        }
+      ],
+      "byClassMembers": {
+        "태양감시자": [
+          {
+            "nickname": "양똥",
+            "guild": "중지",
+            "class": "태양감시자",
+            "grade": 22,
+            "level": 87,
+            "server": "바이람 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "22": [
+          {
+            "nickname": "양똥",
+            "guild": "중지",
+            "class": "태양감시자",
+            "grade": 22,
+            "level": 87,
+            "server": "바이람 01"
+          }
+        ]
+      }
+    }
+  }
+}

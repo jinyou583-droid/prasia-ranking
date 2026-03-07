@@ -1,0 +1,459 @@
+{
+  "server": "벤아트 01",
+  "guilds": {
+    "전당포": {
+      "members": 17,
+      "byClass": {
+        "집행관": 5,
+        "환영검사": 4,
+        "향사수": 3,
+        "심연추방자": 2,
+        "주문각인사": 2,
+        "태양감시자": 1
+      },
+      "byGrade": {
+        "24": 4,
+        "23": 2,
+        "22": 2,
+        "21": 5,
+        "20": 4
+      },
+      "membersList": [
+        {
+          "nickname": "전당포바벨",
+          "guild": "전당포",
+          "class": "집행관",
+          "grade": 24,
+          "level": 89,
+          "server": "벤아트 01"
+        },
+        {
+          "nickname": "오팔년개띠오명규사장",
+          "guild": "전당포",
+          "class": "집행관",
+          "grade": 24,
+          "level": 88,
+          "server": "벤아트 01"
+        },
+        {
+          "nickname": "머슬백",
+          "guild": "전당포",
+          "class": "집행관",
+          "grade": 24,
+          "level": 87,
+          "server": "벤아트 01"
+        },
+        {
+          "nickname": "싸이렌",
+          "guild": "전당포",
+          "class": "태양감시자",
+          "grade": 24,
+          "level": 87,
+          "server": "벤아트 01"
+        },
+        {
+          "nickname": "집행관님",
+          "guild": "전당포",
+          "class": "집행관",
+          "grade": 23,
+          "level": 89,
+          "server": "벤아트 01"
+        },
+        {
+          "nickname": "혼마",
+          "guild": "전당포",
+          "class": "환영검사",
+          "grade": 23,
+          "level": 88,
+          "server": "벤아트 01"
+        },
+        {
+          "nickname": "몽자",
+          "guild": "전당포",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 86,
+          "server": "벤아트 01"
+        },
+        {
+          "nickname": "복권",
+          "guild": "전당포",
+          "class": "집행관",
+          "grade": 22,
+          "level": 86,
+          "server": "벤아트 01"
+        },
+        {
+          "nickname": "땡겨주나",
+          "guild": "전당포",
+          "class": "향사수",
+          "grade": 21,
+          "level": 87,
+          "server": "벤아트 01"
+        },
+        {
+          "nickname": "인노",
+          "guild": "전당포",
+          "class": "향사수",
+          "grade": 21,
+          "level": 87,
+          "server": "벤아트 01"
+        },
+        {
+          "nickname": "쯔리",
+          "guild": "전당포",
+          "class": "환영검사",
+          "grade": 21,
+          "level": 86,
+          "server": "벤아트 01"
+        },
+        {
+          "nickname": "나른한고양이",
+          "guild": "전당포",
+          "class": "환영검사",
+          "grade": 21,
+          "level": 85,
+          "server": "벤아트 01"
+        },
+        {
+          "nickname": "크렌",
+          "guild": "전당포",
+          "class": "심연추방자",
+          "grade": 21,
+          "level": 84,
+          "server": "벤아트 01"
+        },
+        {
+          "nickname": "엄살",
+          "guild": "전당포",
+          "class": "향사수",
+          "grade": 20,
+          "level": 86,
+          "server": "벤아트 01"
+        },
+        {
+          "nickname": "아직힐한발남았다",
+          "guild": "전당포",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 85,
+          "server": "벤아트 01"
+        },
+        {
+          "nickname": "장나영",
+          "guild": "전당포",
+          "class": "심연추방자",
+          "grade": 20,
+          "level": 84,
+          "server": "벤아트 01"
+        },
+        {
+          "nickname": "꼼딱마",
+          "guild": "전당포",
+          "class": "환영검사",
+          "grade": 20,
+          "level": 82,
+          "server": "벤아트 01"
+        }
+      ],
+      "byClassMembers": {
+        "태양감시자": [
+          {
+            "nickname": "싸이렌",
+            "guild": "전당포",
+            "class": "태양감시자",
+            "grade": 24,
+            "level": 87,
+            "server": "벤아트 01"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "전당포바벨",
+            "guild": "전당포",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "오팔년개띠오명규사장",
+            "guild": "전당포",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "머슬백",
+            "guild": "전당포",
+            "class": "집행관",
+            "grade": 24,
+            "level": 87,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "집행관님",
+            "guild": "전당포",
+            "class": "집행관",
+            "grade": 23,
+            "level": 89,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "복권",
+            "guild": "전당포",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "벤아트 01"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "혼마",
+            "guild": "전당포",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 88,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "쯔리",
+            "guild": "전당포",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 86,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "나른한고양이",
+            "guild": "전당포",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 85,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "꼼딱마",
+            "guild": "전당포",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 82,
+            "server": "벤아트 01"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "몽자",
+            "guild": "전당포",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "아직힐한발남았다",
+            "guild": "전당포",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "벤아트 01"
+          }
+        ],
+        "심연추방자": [
+          {
+            "nickname": "크렌",
+            "guild": "전당포",
+            "class": "심연추방자",
+            "grade": 21,
+            "level": 84,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "장나영",
+            "guild": "전당포",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 84,
+            "server": "벤아트 01"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "땡겨주나",
+            "guild": "전당포",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "인노",
+            "guild": "전당포",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "엄살",
+            "guild": "전당포",
+            "class": "향사수",
+            "grade": 20,
+            "level": 86,
+            "server": "벤아트 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "전당포바벨",
+            "guild": "전당포",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "오팔년개띠오명규사장",
+            "guild": "전당포",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "머슬백",
+            "guild": "전당포",
+            "class": "집행관",
+            "grade": 24,
+            "level": 87,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "싸이렌",
+            "guild": "전당포",
+            "class": "태양감시자",
+            "grade": 24,
+            "level": 87,
+            "server": "벤아트 01"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "집행관님",
+            "guild": "전당포",
+            "class": "집행관",
+            "grade": 23,
+            "level": 89,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "혼마",
+            "guild": "전당포",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 88,
+            "server": "벤아트 01"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "몽자",
+            "guild": "전당포",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "복권",
+            "guild": "전당포",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "벤아트 01"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "땡겨주나",
+            "guild": "전당포",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "인노",
+            "guild": "전당포",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "쯔리",
+            "guild": "전당포",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 86,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "나른한고양이",
+            "guild": "전당포",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 85,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "크렌",
+            "guild": "전당포",
+            "class": "심연추방자",
+            "grade": 21,
+            "level": 84,
+            "server": "벤아트 01"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "엄살",
+            "guild": "전당포",
+            "class": "향사수",
+            "grade": 20,
+            "level": 86,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "아직힐한발남았다",
+            "guild": "전당포",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "장나영",
+            "guild": "전당포",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 84,
+            "server": "벤아트 01"
+          },
+          {
+            "nickname": "꼼딱마",
+            "guild": "전당포",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 82,
+            "server": "벤아트 01"
+          }
+        ]
+      }
+    }
+  }
+}

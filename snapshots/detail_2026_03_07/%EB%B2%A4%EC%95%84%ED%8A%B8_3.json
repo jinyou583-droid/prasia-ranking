@@ -1,0 +1,433 @@
+{
+  "server": "벤아트 03",
+  "guilds": {
+    "마샬": {
+      "members": 9,
+      "byClass": {
+        "주문각인사": 3,
+        "집행관": 2,
+        "향사수": 2,
+        "심연추방자": 1,
+        "태양감시자": 1
+      },
+      "byGrade": {
+        "24": 1,
+        "22": 4,
+        "21": 3,
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "이에스",
+          "guild": "마샬",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 88,
+          "server": "벤아트 03"
+        },
+        {
+          "nickname": "집헁관",
+          "guild": "마샬",
+          "class": "집행관",
+          "grade": 22,
+          "level": 87,
+          "server": "벤아트 03"
+        },
+        {
+          "nickname": "로그아웃",
+          "guild": "마샬",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 86,
+          "server": "벤아트 03"
+        },
+        {
+          "nickname": "루체",
+          "guild": "마샬",
+          "class": "집행관",
+          "grade": 22,
+          "level": 86,
+          "server": "벤아트 03"
+        },
+        {
+          "nickname": "프로니",
+          "guild": "마샬",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 86,
+          "server": "벤아트 03"
+        },
+        {
+          "nickname": "티코",
+          "guild": "마샬",
+          "class": "향사수",
+          "grade": 21,
+          "level": 86,
+          "server": "벤아트 03"
+        },
+        {
+          "nickname": "피닛",
+          "guild": "마샬",
+          "class": "심연추방자",
+          "grade": 21,
+          "level": 86,
+          "server": "벤아트 03"
+        },
+        {
+          "nickname": "벨리알",
+          "guild": "마샬",
+          "class": "태양감시자",
+          "grade": 21,
+          "level": 85,
+          "server": "벤아트 03"
+        },
+        {
+          "nickname": "스피커",
+          "guild": "마샬",
+          "class": "향사수",
+          "grade": 20,
+          "level": 83,
+          "server": "벤아트 03"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "이에스",
+            "guild": "마샬",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 88,
+            "server": "벤아트 03"
+          },
+          {
+            "nickname": "로그아웃",
+            "guild": "마샬",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "벤아트 03"
+          },
+          {
+            "nickname": "프로니",
+            "guild": "마샬",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "벤아트 03"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "집헁관",
+            "guild": "마샬",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "벤아트 03"
+          },
+          {
+            "nickname": "루체",
+            "guild": "마샬",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "벤아트 03"
+          }
+        ],
+        "심연추방자": [
+          {
+            "nickname": "피닛",
+            "guild": "마샬",
+            "class": "심연추방자",
+            "grade": 21,
+            "level": 86,
+            "server": "벤아트 03"
+          }
+        ],
+        "태양감시자": [
+          {
+            "nickname": "벨리알",
+            "guild": "마샬",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 85,
+            "server": "벤아트 03"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "티코",
+            "guild": "마샬",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "벤아트 03"
+          },
+          {
+            "nickname": "스피커",
+            "guild": "마샬",
+            "class": "향사수",
+            "grade": 20,
+            "level": 83,
+            "server": "벤아트 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "이에스",
+            "guild": "마샬",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 88,
+            "server": "벤아트 03"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "집헁관",
+            "guild": "마샬",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "벤아트 03"
+          },
+          {
+            "nickname": "로그아웃",
+            "guild": "마샬",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "벤아트 03"
+          },
+          {
+            "nickname": "루체",
+            "guild": "마샬",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "벤아트 03"
+          },
+          {
+            "nickname": "프로니",
+            "guild": "마샬",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "벤아트 03"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "티코",
+            "guild": "마샬",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "벤아트 03"
+          },
+          {
+            "nickname": "피닛",
+            "guild": "마샬",
+            "class": "심연추방자",
+            "grade": 21,
+            "level": 86,
+            "server": "벤아트 03"
+          },
+          {
+            "nickname": "벨리알",
+            "guild": "마샬",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 85,
+            "server": "벤아트 03"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "스피커",
+            "guild": "마샬",
+            "class": "향사수",
+            "grade": 20,
+            "level": 83,
+            "server": "벤아트 03"
+          }
+        ]
+      }
+    },
+    "쿨": {
+      "members": 1,
+      "byClass": {
+        "심연추방자": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "손오반",
+          "guild": "쿨",
+          "class": "심연추방자",
+          "grade": 21,
+          "level": 85,
+          "server": "벤아트 03"
+        }
+      ],
+      "byClassMembers": {
+        "심연추방자": [
+          {
+            "nickname": "손오반",
+            "guild": "쿨",
+            "class": "심연추방자",
+            "grade": 21,
+            "level": 85,
+            "server": "벤아트 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "손오반",
+            "guild": "쿨",
+            "class": "심연추방자",
+            "grade": 21,
+            "level": 85,
+            "server": "벤아트 03"
+          }
+        ]
+      }
+    },
+    "샛별": {
+      "members": 1,
+      "byClass": {
+        "환영검사": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "초코칩",
+          "guild": "샛별",
+          "class": "환영검사",
+          "grade": 20,
+          "level": 85,
+          "server": "벤아트 03"
+        }
+      ],
+      "byClassMembers": {
+        "환영검사": [
+          {
+            "nickname": "초코칩",
+            "guild": "샛별",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 85,
+            "server": "벤아트 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "초코칩",
+            "guild": "샛별",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 85,
+            "server": "벤아트 03"
+          }
+        ]
+      }
+    },
+    "중립의피땀눈물": {
+      "members": 1,
+      "byClass": {
+        "환영검사": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "VHGJ",
+          "guild": "중립의피땀눈물",
+          "class": "환영검사",
+          "grade": 20,
+          "level": 84,
+          "server": "벤아트 03"
+        }
+      ],
+      "byClassMembers": {
+        "환영검사": [
+          {
+            "nickname": "VHGJ",
+            "guild": "중립의피땀눈물",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 84,
+            "server": "벤아트 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "VHGJ",
+            "guild": "중립의피땀눈물",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 84,
+            "server": "벤아트 03"
+          }
+        ]
+      }
+    },
+    "조용한가족": {
+      "members": 1,
+      "byClass": {
+        "환영검사": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "아이고오",
+          "guild": "조용한가족",
+          "class": "환영검사",
+          "grade": 20,
+          "level": 83,
+          "server": "벤아트 03"
+        }
+      ],
+      "byClassMembers": {
+        "환영검사": [
+          {
+            "nickname": "아이고오",
+            "guild": "조용한가족",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 83,
+            "server": "벤아트 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "아이고오",
+            "guild": "조용한가족",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 83,
+            "server": "벤아트 03"
+          }
+        ]
+      }
+    }
+  }
+}

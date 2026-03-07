@@ -1,0 +1,783 @@
+{
+  "server": "타리아 03",
+  "guilds": {
+    "맨": {
+      "members": 22,
+      "byClass": {
+        "집행관": 9,
+        "주문각인사": 7,
+        "태양감시자": 3,
+        "향사수": 3
+      },
+      "byGrade": {
+        "24": 1,
+        "23": 3,
+        "22": 3,
+        "21": 10,
+        "20": 5
+      },
+      "membersList": [
+        {
+          "nickname": "맨끈하다",
+          "guild": "맨",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 88,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "맨국수",
+          "guild": "맨",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 87,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "맨보스",
+          "guild": "맨",
+          "class": "태양감시자",
+          "grade": 23,
+          "level": 87,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "맨투맨",
+          "guild": "맨",
+          "class": "집행관",
+          "grade": 23,
+          "level": 86,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "맨고구마",
+          "guild": "맨",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 88,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "맨드레이크",
+          "guild": "맨",
+          "class": "집행관",
+          "grade": 22,
+          "level": 87,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "맨도롱",
+          "guild": "맨",
+          "class": "집행관",
+          "grade": 22,
+          "level": 86,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "군밤장수",
+          "guild": "맨",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 87,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "맨심땅",
+          "guild": "맨",
+          "class": "향사수",
+          "grade": 21,
+          "level": 87,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "맨인화이트",
+          "guild": "맨",
+          "class": "집행관",
+          "grade": 21,
+          "level": 87,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "맨밥",
+          "guild": "맨",
+          "class": "태양감시자",
+          "grade": 21,
+          "level": 86,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "맨허탕",
+          "guild": "맨",
+          "class": "향사수",
+          "grade": 21,
+          "level": 86,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "맨깡",
+          "guild": "맨",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "맨숑",
+          "guild": "맨",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "맨들하다",
+          "guild": "맨",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 84,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "맨붕",
+          "guild": "맨",
+          "class": "향사수",
+          "grade": 21,
+          "level": 84,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "맨주먹",
+          "guild": "맨",
+          "class": "집행관",
+          "grade": 21,
+          "level": 84,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "두리",
+          "guild": "맨",
+          "class": "집행관",
+          "grade": 20,
+          "level": 85,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "맨손도끼",
+          "guild": "맨",
+          "class": "집행관",
+          "grade": 20,
+          "level": 85,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "맨인힐러",
+          "guild": "맨",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 83,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "맨썬",
+          "guild": "맨",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 82,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "맨카",
+          "guild": "맨",
+          "class": "태양감시자",
+          "grade": 20,
+          "level": 82,
+          "server": "타리아 03"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "맨끈하다",
+            "guild": "맨",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 88,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨국수",
+            "guild": "맨",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 87,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨고구마",
+            "guild": "맨",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 88,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "군밤장수",
+            "guild": "맨",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 87,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨들하다",
+            "guild": "맨",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 84,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨인힐러",
+            "guild": "맨",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 83,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨썬",
+            "guild": "맨",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 82,
+            "server": "타리아 03"
+          }
+        ],
+        "태양감시자": [
+          {
+            "nickname": "맨보스",
+            "guild": "맨",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 87,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨밥",
+            "guild": "맨",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨카",
+            "guild": "맨",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 82,
+            "server": "타리아 03"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "맨투맨",
+            "guild": "맨",
+            "class": "집행관",
+            "grade": 23,
+            "level": 86,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨드레이크",
+            "guild": "맨",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨도롱",
+            "guild": "맨",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨인화이트",
+            "guild": "맨",
+            "class": "집행관",
+            "grade": 21,
+            "level": 87,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨깡",
+            "guild": "맨",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨숑",
+            "guild": "맨",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨주먹",
+            "guild": "맨",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "두리",
+            "guild": "맨",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨손도끼",
+            "guild": "맨",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "타리아 03"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "맨심땅",
+            "guild": "맨",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨허탕",
+            "guild": "맨",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨붕",
+            "guild": "맨",
+            "class": "향사수",
+            "grade": 21,
+            "level": 84,
+            "server": "타리아 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "맨끈하다",
+            "guild": "맨",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 88,
+            "server": "타리아 03"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "맨국수",
+            "guild": "맨",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 87,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨보스",
+            "guild": "맨",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 87,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨투맨",
+            "guild": "맨",
+            "class": "집행관",
+            "grade": 23,
+            "level": 86,
+            "server": "타리아 03"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "맨고구마",
+            "guild": "맨",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 88,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨드레이크",
+            "guild": "맨",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨도롱",
+            "guild": "맨",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "타리아 03"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "군밤장수",
+            "guild": "맨",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 87,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨심땅",
+            "guild": "맨",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨인화이트",
+            "guild": "맨",
+            "class": "집행관",
+            "grade": 21,
+            "level": 87,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨밥",
+            "guild": "맨",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨허탕",
+            "guild": "맨",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨깡",
+            "guild": "맨",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨숑",
+            "guild": "맨",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨들하다",
+            "guild": "맨",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 84,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨붕",
+            "guild": "맨",
+            "class": "향사수",
+            "grade": 21,
+            "level": 84,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨주먹",
+            "guild": "맨",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "타리아 03"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "두리",
+            "guild": "맨",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨손도끼",
+            "guild": "맨",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨인힐러",
+            "guild": "맨",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 83,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨썬",
+            "guild": "맨",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 82,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "맨카",
+            "guild": "맨",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 82,
+            "server": "타리아 03"
+          }
+        ]
+      }
+    },
+    "뻐근": {
+      "members": 4,
+      "byClass": {
+        "주문각인사": 2,
+        "집행관": 2
+      },
+      "byGrade": {
+        "23": 1,
+        "21": 2,
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "슈퍼그랑죠",
+          "guild": "뻐근",
+          "class": "집행관",
+          "grade": 23,
+          "level": 88,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "하이퍼그랑죠",
+          "guild": "뻐근",
+          "class": "집행관",
+          "grade": 21,
+          "level": 86,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "쪼꼬빵",
+          "guild": "뻐근",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 85,
+          "server": "타리아 03"
+        },
+        {
+          "nickname": "옥수수야",
+          "guild": "뻐근",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 83,
+          "server": "타리아 03"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "슈퍼그랑죠",
+            "guild": "뻐근",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "하이퍼그랑죠",
+            "guild": "뻐근",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 03"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "쪼꼬빵",
+            "guild": "뻐근",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "옥수수야",
+            "guild": "뻐근",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 83,
+            "server": "타리아 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "23": [
+          {
+            "nickname": "슈퍼그랑죠",
+            "guild": "뻐근",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "타리아 03"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "하이퍼그랑죠",
+            "guild": "뻐근",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 03"
+          },
+          {
+            "nickname": "쪼꼬빵",
+            "guild": "뻐근",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "타리아 03"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "옥수수야",
+            "guild": "뻐근",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 83,
+            "server": "타리아 03"
+          }
+        ]
+      }
+    },
+    "디아블로": {
+      "members": 1,
+      "byClass": {
+        "환영검사": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "이너피스",
+          "guild": "디아블로",
+          "class": "환영검사",
+          "grade": 21,
+          "level": 87,
+          "server": "타리아 03"
+        }
+      ],
+      "byClassMembers": {
+        "환영검사": [
+          {
+            "nickname": "이너피스",
+            "guild": "디아블로",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 87,
+            "server": "타리아 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "이너피스",
+            "guild": "디아블로",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 87,
+            "server": "타리아 03"
+          }
+        ]
+      }
+    },
+    "스미스": {
+      "members": 1,
+      "byClass": {
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "아니카",
+          "guild": "스미스",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "타리아 03"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "아니카",
+            "guild": "스미스",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "타리아 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "아니카",
+            "guild": "스미스",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "타리아 03"
+          }
+        ]
+      }
+    }
+  }
+}

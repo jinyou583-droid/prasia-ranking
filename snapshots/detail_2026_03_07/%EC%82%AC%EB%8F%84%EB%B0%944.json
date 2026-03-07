@@ -1,0 +1,2572 @@
+{
+  "server": "사도바 04",
+  "guilds": {
+    "강남": {
+      "members": 44,
+      "byClass": {
+        "향사수": 13,
+        "주문각인사": 12,
+        "집행관": 7,
+        "환영검사": 7,
+        "태양감시자": 3,
+        "심연추방자": 2
+      },
+      "byGrade": {
+        "24": 19,
+        "23": 11,
+        "22": 3,
+        "21": 10,
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "강곰돌",
+          "guild": "강남",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 91,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강베인",
+          "guild": "강남",
+          "class": "심연추방자",
+          "grade": 24,
+          "level": 91,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강꿀꿀",
+          "guild": "강남",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 90,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강뭉치",
+          "guild": "강남",
+          "class": "환영검사",
+          "grade": 24,
+          "level": 90,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강삐뚤",
+          "guild": "강남",
+          "class": "집행관",
+          "grade": 24,
+          "level": 90,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강속구",
+          "guild": "강남",
+          "class": "향사수",
+          "grade": 24,
+          "level": 90,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강심장",
+          "guild": "강남",
+          "class": "집행관",
+          "grade": 24,
+          "level": 90,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강이전",
+          "guild": "강남",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 90,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강커리",
+          "guild": "강남",
+          "class": "집행관",
+          "grade": 24,
+          "level": 90,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강테릭",
+          "guild": "강남",
+          "class": "환영검사",
+          "grade": 24,
+          "level": 90,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강루루",
+          "guild": "강남",
+          "class": "향사수",
+          "grade": 24,
+          "level": 89,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강마이",
+          "guild": "강남",
+          "class": "향사수",
+          "grade": 24,
+          "level": 89,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강말자",
+          "guild": "강남",
+          "class": "향사수",
+          "grade": 24,
+          "level": 89,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강별",
+          "guild": "강남",
+          "class": "환영검사",
+          "grade": 24,
+          "level": 89,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강우가",
+          "guild": "강남",
+          "class": "집행관",
+          "grade": 24,
+          "level": 89,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강철중",
+          "guild": "강남",
+          "class": "집행관",
+          "grade": 24,
+          "level": 89,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강타카",
+          "guild": "강남",
+          "class": "향사수",
+          "grade": 24,
+          "level": 89,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강개똘",
+          "guild": "강남",
+          "class": "환영검사",
+          "grade": 24,
+          "level": 88,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강풍",
+          "guild": "강남",
+          "class": "환영검사",
+          "grade": 24,
+          "level": 88,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강강수월래",
+          "guild": "강남",
+          "class": "태양감시자",
+          "grade": 23,
+          "level": 89,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강모찡",
+          "guild": "강남",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 88,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강유신",
+          "guild": "강남",
+          "class": "집행관",
+          "grade": 23,
+          "level": 88,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강카이",
+          "guild": "강남",
+          "class": "향사수",
+          "grade": 23,
+          "level": 88,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강타짜",
+          "guild": "강남",
+          "class": "향사수",
+          "grade": 23,
+          "level": 88,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강행인",
+          "guild": "강남",
+          "class": "심연추방자",
+          "grade": 23,
+          "level": 88,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강리엘",
+          "guild": "강남",
+          "class": "환영검사",
+          "grade": 23,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강맛피아",
+          "guild": "강남",
+          "class": "향사수",
+          "grade": 23,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강패개미",
+          "guild": "강남",
+          "class": "환영검사",
+          "grade": 23,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강가에뚤기",
+          "guild": "강남",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강서노",
+          "guild": "강남",
+          "class": "향사수",
+          "grade": 23,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강나비",
+          "guild": "강남",
+          "class": "태양감시자",
+          "grade": 22,
+          "level": 88,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강깔삼",
+          "guild": "강남",
+          "class": "향사수",
+          "grade": 22,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강칠복",
+          "guild": "강남",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강낭콩",
+          "guild": "강남",
+          "class": "집행관",
+          "grade": 21,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강펀치",
+          "guild": "강남",
+          "class": "향사수",
+          "grade": 21,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강꽁",
+          "guild": "강남",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강약사",
+          "guild": "강남",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강존예김칭칭",
+          "guild": "강남",
+          "class": "향사수",
+          "grade": 21,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강철의오징어",
+          "guild": "강남",
+          "class": "향사수",
+          "grade": 21,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "때마",
+          "guild": "강남",
+          "class": "태양감시자",
+          "grade": 21,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강땡초",
+          "guild": "강남",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 85,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강슬신",
+          "guild": "강남",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 85,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강하비",
+          "guild": "강남",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 84,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강짝",
+          "guild": "강남",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "사도바 04"
+        }
+      ],
+      "byClassMembers": {
+        "심연추방자": [
+          {
+            "nickname": "강베인",
+            "guild": "강남",
+            "class": "심연추방자",
+            "grade": 24,
+            "level": 91,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강행인",
+            "guild": "강남",
+            "class": "심연추방자",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "강뭉치",
+            "guild": "강남",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강테릭",
+            "guild": "강남",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강별",
+            "guild": "강남",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강개똘",
+            "guild": "강남",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강풍",
+            "guild": "강남",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강리엘",
+            "guild": "강남",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강패개미",
+            "guild": "강남",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "강속구",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강루루",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강마이",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강말자",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강타카",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강카이",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강타짜",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강맛피아",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강서노",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 23,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강깔삼",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 22,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강펀치",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강존예김칭칭",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강철의오징어",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "강곰돌",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 91,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강꿀꿀",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강이전",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강모찡",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강가에뚤기",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강칠복",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강꽁",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강약사",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강땡초",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강슬신",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강하비",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강짝",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "강삐뚤",
+            "guild": "강남",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강심장",
+            "guild": "강남",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강커리",
+            "guild": "강남",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강우가",
+            "guild": "강남",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강철중",
+            "guild": "강남",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강유신",
+            "guild": "강남",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강낭콩",
+            "guild": "강남",
+            "class": "집행관",
+            "grade": 21,
+            "level": 87,
+            "server": "사도바 04"
+          }
+        ],
+        "태양감시자": [
+          {
+            "nickname": "강강수월래",
+            "guild": "강남",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강나비",
+            "guild": "강남",
+            "class": "태양감시자",
+            "grade": 22,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "때마",
+            "guild": "강남",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "강곰돌",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 91,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강베인",
+            "guild": "강남",
+            "class": "심연추방자",
+            "grade": 24,
+            "level": 91,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강꿀꿀",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강뭉치",
+            "guild": "강남",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강삐뚤",
+            "guild": "강남",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강속구",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강심장",
+            "guild": "강남",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강이전",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강커리",
+            "guild": "강남",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강테릭",
+            "guild": "강남",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강루루",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강마이",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강말자",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강별",
+            "guild": "강남",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강우가",
+            "guild": "강남",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강철중",
+            "guild": "강남",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강타카",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강개똘",
+            "guild": "강남",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강풍",
+            "guild": "강남",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 88,
+            "server": "사도바 04"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "강강수월래",
+            "guild": "강남",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강모찡",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강유신",
+            "guild": "강남",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강카이",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강타짜",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강행인",
+            "guild": "강남",
+            "class": "심연추방자",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강리엘",
+            "guild": "강남",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강맛피아",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강패개미",
+            "guild": "강남",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강가에뚤기",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강서노",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 23,
+            "level": 86,
+            "server": "사도바 04"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "강나비",
+            "guild": "강남",
+            "class": "태양감시자",
+            "grade": 22,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강깔삼",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 22,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강칠복",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "사도바 04"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "강낭콩",
+            "guild": "강남",
+            "class": "집행관",
+            "grade": 21,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강펀치",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강꽁",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강약사",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강존예김칭칭",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강철의오징어",
+            "guild": "강남",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "때마",
+            "guild": "강남",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강땡초",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강슬신",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강하비",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 84,
+            "server": "사도바 04"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "강짝",
+            "guild": "강남",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          }
+        ]
+      }
+    },
+    "강북": {
+      "members": 42,
+      "byClass": {
+        "주문각인사": 15,
+        "집행관": 11,
+        "향사수": 6,
+        "태양감시자": 4,
+        "환영검사": 4,
+        "심연추방자": 2
+      },
+      "byGrade": {
+        "24": 12,
+        "23": 11,
+        "22": 4,
+        "21": 7,
+        "20": 8
+      },
+      "membersList": [
+        {
+          "nickname": "강윅",
+          "guild": "강북",
+          "class": "향사수",
+          "grade": 24,
+          "level": 91,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강윅셀",
+          "guild": "강북",
+          "class": "태양감시자",
+          "grade": 24,
+          "level": 91,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강루다",
+          "guild": "강북",
+          "class": "집행관",
+          "grade": 24,
+          "level": 90,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강주우몽",
+          "guild": "강북",
+          "class": "태양감시자",
+          "grade": 24,
+          "level": 90,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강너굴",
+          "guild": "강북",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 89,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강도깨비",
+          "guild": "강북",
+          "class": "집행관",
+          "grade": 24,
+          "level": 89,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강똘끼",
+          "guild": "강북",
+          "class": "집행관",
+          "grade": 24,
+          "level": 89,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강북일식",
+          "guild": "강북",
+          "class": "향사수",
+          "grade": 24,
+          "level": 89,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강아쥐",
+          "guild": "강북",
+          "class": "심연추방자",
+          "grade": 24,
+          "level": 89,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강춘삼",
+          "guild": "강북",
+          "class": "향사수",
+          "grade": 24,
+          "level": 89,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강기엔판콜",
+          "guild": "강북",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 88,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강덜덜",
+          "guild": "강북",
+          "class": "집행관",
+          "grade": 24,
+          "level": 88,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강독기",
+          "guild": "강북",
+          "class": "집행관",
+          "grade": 23,
+          "level": 89,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강뻔짜",
+          "guild": "강북",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 88,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강사또",
+          "guild": "강북",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 88,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강카누",
+          "guild": "강북",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 88,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강백구",
+          "guild": "강북",
+          "class": "집행관",
+          "grade": 23,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강별심토템",
+          "guild": "강북",
+          "class": "집행관",
+          "grade": 23,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강분홍",
+          "guild": "강북",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강오라",
+          "guild": "강북",
+          "class": "환영검사",
+          "grade": 23,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강와꾸",
+          "guild": "강북",
+          "class": "태양감시자",
+          "grade": 23,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강쥐포",
+          "guild": "강북",
+          "class": "태양감시자",
+          "grade": 23,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강토깽",
+          "guild": "강북",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강패춘배",
+          "guild": "강북",
+          "class": "환영검사",
+          "grade": 22,
+          "level": 88,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강림이",
+          "guild": "강북",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강장게장내장밥",
+          "guild": "강북",
+          "class": "집행관",
+          "grade": 22,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강러셀",
+          "guild": "강북",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강누룽",
+          "guild": "강북",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강연우",
+          "guild": "강북",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강채율",
+          "guild": "강북",
+          "class": "향사수",
+          "grade": 21,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강아재",
+          "guild": "강북",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강츄핑",
+          "guild": "강북",
+          "class": "환영검사",
+          "grade": 21,
+          "level": 85,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강패티모",
+          "guild": "강북",
+          "class": "심연추방자",
+          "grade": 21,
+          "level": 85,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강하핑",
+          "guild": "강북",
+          "class": "향사수",
+          "grade": 21,
+          "level": 84,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강나미",
+          "guild": "강북",
+          "class": "환영검사",
+          "grade": 20,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강만두",
+          "guild": "강북",
+          "class": "집행관",
+          "grade": 20,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강윤몽",
+          "guild": "강북",
+          "class": "집행관",
+          "grade": 20,
+          "level": 85,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강깨소금",
+          "guild": "강북",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강빛구름",
+          "guild": "강북",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "짭깨비",
+          "guild": "강북",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강쵸파",
+          "guild": "강북",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 83,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "강타니",
+          "guild": "강북",
+          "class": "향사수",
+          "grade": 20,
+          "level": 83,
+          "server": "사도바 04"
+        }
+      ],
+      "byClassMembers": {
+        "심연추방자": [
+          {
+            "nickname": "강아쥐",
+            "guild": "강북",
+            "class": "심연추방자",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강패티모",
+            "guild": "강북",
+            "class": "심연추방자",
+            "grade": 21,
+            "level": 85,
+            "server": "사도바 04"
+          }
+        ],
+        "태양감시자": [
+          {
+            "nickname": "강윅셀",
+            "guild": "강북",
+            "class": "태양감시자",
+            "grade": 24,
+            "level": 91,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강주우몽",
+            "guild": "강북",
+            "class": "태양감시자",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강와꾸",
+            "guild": "강북",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강쥐포",
+            "guild": "강북",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 86,
+            "server": "사도바 04"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "강윅",
+            "guild": "강북",
+            "class": "향사수",
+            "grade": 24,
+            "level": 91,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강북일식",
+            "guild": "강북",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강춘삼",
+            "guild": "강북",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강채율",
+            "guild": "강북",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강하핑",
+            "guild": "강북",
+            "class": "향사수",
+            "grade": 21,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강타니",
+            "guild": "강북",
+            "class": "향사수",
+            "grade": 20,
+            "level": 83,
+            "server": "사도바 04"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "강너굴",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강기엔판콜",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강뻔짜",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강사또",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강카누",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강분홍",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강토깽",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강림이",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강러셀",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강누룽",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강연우",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강깨소금",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강빛구름",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "짭깨비",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강쵸파",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 83,
+            "server": "사도바 04"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "강루다",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강도깨비",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강똘끼",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강덜덜",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강독기",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 23,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강백구",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강별심토템",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강장게장내장밥",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강아재",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강만두",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 20,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강윤몽",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "사도바 04"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "강오라",
+            "guild": "강북",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강패춘배",
+            "guild": "강북",
+            "class": "환영검사",
+            "grade": 22,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강츄핑",
+            "guild": "강북",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 85,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강나미",
+            "guild": "강북",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 87,
+            "server": "사도바 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "강윅",
+            "guild": "강북",
+            "class": "향사수",
+            "grade": 24,
+            "level": 91,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강윅셀",
+            "guild": "강북",
+            "class": "태양감시자",
+            "grade": 24,
+            "level": 91,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강루다",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강주우몽",
+            "guild": "강북",
+            "class": "태양감시자",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강너굴",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강도깨비",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강똘끼",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강북일식",
+            "guild": "강북",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강아쥐",
+            "guild": "강북",
+            "class": "심연추방자",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강춘삼",
+            "guild": "강북",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강기엔판콜",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강덜덜",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "사도바 04"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "강독기",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 23,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강뻔짜",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강사또",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강카누",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강백구",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강별심토템",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강분홍",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강오라",
+            "guild": "강북",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강와꾸",
+            "guild": "강북",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강쥐포",
+            "guild": "강북",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강토깽",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 86,
+            "server": "사도바 04"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "강패춘배",
+            "guild": "강북",
+            "class": "환영검사",
+            "grade": 22,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강림이",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강장게장내장밥",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강러셀",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "사도바 04"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "강누룽",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강연우",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강채율",
+            "guild": "강북",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강아재",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강츄핑",
+            "guild": "강북",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 85,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강패티모",
+            "guild": "강북",
+            "class": "심연추방자",
+            "grade": 21,
+            "level": 85,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강하핑",
+            "guild": "강북",
+            "class": "향사수",
+            "grade": 21,
+            "level": 84,
+            "server": "사도바 04"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "강나미",
+            "guild": "강북",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강만두",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 20,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강윤몽",
+            "guild": "강북",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강깨소금",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강빛구름",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "짭깨비",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강쵸파",
+            "guild": "강북",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 83,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "강타니",
+            "guild": "강북",
+            "class": "향사수",
+            "grade": 20,
+            "level": 83,
+            "server": "사도바 04"
+          }
+        ]
+      }
+    },
+    "코스피": {
+      "members": 12,
+      "byClass": {
+        "집행관": 6,
+        "향사수": 3,
+        "주문각인사": 1,
+        "태양감시자": 1,
+        "환영검사": 1
+      },
+      "byGrade": {
+        "23": 1,
+        "22": 2,
+        "20": 9
+      },
+      "membersList": [
+        {
+          "nickname": "으라차차붕붕이",
+          "guild": "코스피",
+          "class": "집행관",
+          "grade": 23,
+          "level": 88,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "섯다",
+          "guild": "코스피",
+          "class": "집행관",
+          "grade": 22,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "IllIllIl",
+          "guild": "코스피",
+          "class": "환영검사",
+          "grade": 22,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "꼭때려야만했니",
+          "guild": "코스피",
+          "class": "향사수",
+          "grade": 20,
+          "level": 85,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "꼬질이",
+          "guild": "코스피",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "꿀아메",
+          "guild": "코스피",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "삼영",
+          "guild": "코스피",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "아기상어뚜루두룹치기",
+          "guild": "코스피",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "졸다영포티",
+          "guild": "코스피",
+          "class": "향사수",
+          "grade": 20,
+          "level": 84,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "한화오션",
+          "guild": "코스피",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "날나리",
+          "guild": "코스피",
+          "class": "태양감시자",
+          "grade": 20,
+          "level": 83,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "주량",
+          "guild": "코스피",
+          "class": "향사수",
+          "grade": 20,
+          "level": 83,
+          "server": "사도바 04"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "으라차차붕붕이",
+            "guild": "코스피",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "섯다",
+            "guild": "코스피",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "꿀아메",
+            "guild": "코스피",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "삼영",
+            "guild": "코스피",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "아기상어뚜루두룹치기",
+            "guild": "코스피",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "한화오션",
+            "guild": "코스피",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "IllIllIl",
+            "guild": "코스피",
+            "class": "환영검사",
+            "grade": 22,
+            "level": 86,
+            "server": "사도바 04"
+          }
+        ],
+        "태양감시자": [
+          {
+            "nickname": "날나리",
+            "guild": "코스피",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 83,
+            "server": "사도바 04"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "꼭때려야만했니",
+            "guild": "코스피",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "졸다영포티",
+            "guild": "코스피",
+            "class": "향사수",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "주량",
+            "guild": "코스피",
+            "class": "향사수",
+            "grade": 20,
+            "level": 83,
+            "server": "사도바 04"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "꼬질이",
+            "guild": "코스피",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "23": [
+          {
+            "nickname": "으라차차붕붕이",
+            "guild": "코스피",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "섯다",
+            "guild": "코스피",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "IllIllIl",
+            "guild": "코스피",
+            "class": "환영검사",
+            "grade": 22,
+            "level": 86,
+            "server": "사도바 04"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "꼭때려야만했니",
+            "guild": "코스피",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "꼬질이",
+            "guild": "코스피",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "꿀아메",
+            "guild": "코스피",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "삼영",
+            "guild": "코스피",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "아기상어뚜루두룹치기",
+            "guild": "코스피",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "졸다영포티",
+            "guild": "코스피",
+            "class": "향사수",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "한화오션",
+            "guild": "코스피",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "날나리",
+            "guild": "코스피",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 83,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "주량",
+            "guild": "코스피",
+            "class": "향사수",
+            "grade": 20,
+            "level": 83,
+            "server": "사도바 04"
+          }
+        ]
+      }
+    },
+    "호떡": {
+      "members": 1,
+      "byClass": {
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "난앙마몬",
+          "guild": "호떡",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 85,
+          "server": "사도바 04"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "난앙마몬",
+            "guild": "호떡",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "사도바 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "난앙마몬",
+            "guild": "호떡",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "사도바 04"
+          }
+        ]
+      }
+    },
+    "UN": {
+      "members": 1,
+      "byClass": {
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "사신",
+          "guild": "UN",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 83,
+          "server": "사도바 04"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "사신",
+            "guild": "UN",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 83,
+            "server": "사도바 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "사신",
+            "guild": "UN",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 83,
+            "server": "사도바 04"
+          }
+        ]
+      }
+    }
+  }
+}

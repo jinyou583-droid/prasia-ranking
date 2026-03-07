@@ -1,0 +1,1643 @@
+{
+  "server": "페넬로페 02",
+  "guilds": {
+    "홀리데이": {
+      "members": 30,
+      "byClass": {
+        "집행관": 10,
+        "주문각인사": 7,
+        "향사수": 5,
+        "심연추방자": 4,
+        "태양감시자": 3,
+        "환영검사": 1
+      },
+      "byGrade": {
+        "24": 4,
+        "23": 3,
+        "22": 6,
+        "21": 9,
+        "20": 8
+      },
+      "membersList": [
+        {
+          "nickname": "올라",
+          "guild": "홀리데이",
+          "class": "심연추방자",
+          "grade": 24,
+          "level": 90,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "MONG",
+          "guild": "홀리데이",
+          "class": "태양감시자",
+          "grade": 24,
+          "level": 88,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "고등어케밥",
+          "guild": "홀리데이",
+          "class": "집행관",
+          "grade": 24,
+          "level": 87,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "오늘도수고하셨습니다",
+          "guild": "홀리데이",
+          "class": "심연추방자",
+          "grade": 24,
+          "level": 86,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "봉봉봉",
+          "guild": "홀리데이",
+          "class": "집행관",
+          "grade": 23,
+          "level": 89,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "미어캣",
+          "guild": "홀리데이",
+          "class": "심연추방자",
+          "grade": 23,
+          "level": 88,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "쌍용햇",
+          "guild": "홀리데이",
+          "class": "집행관",
+          "grade": 23,
+          "level": 87,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "하아앗",
+          "guild": "홀리데이",
+          "class": "집행관",
+          "grade": 22,
+          "level": 88,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "반반",
+          "guild": "홀리데이",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 87,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "계두식",
+          "guild": "홀리데이",
+          "class": "집행관",
+          "grade": 22,
+          "level": 86,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "아까맨치로",
+          "guild": "홀리데이",
+          "class": "환영검사",
+          "grade": 22,
+          "level": 86,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "속쓰리면트리겔정",
+          "guild": "홀리데이",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 85,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "유니우니",
+          "guild": "홀리데이",
+          "class": "향사수",
+          "grade": 22,
+          "level": 84,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "구경만",
+          "guild": "홀리데이",
+          "class": "태양감시자",
+          "grade": 21,
+          "level": 86,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "다이아",
+          "guild": "홀리데이",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 86,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "고래상어",
+          "guild": "홀리데이",
+          "class": "향사수",
+          "grade": 21,
+          "level": 85,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "두기고",
+          "guild": "홀리데이",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "라이드",
+          "guild": "홀리데이",
+          "class": "향사수",
+          "grade": 21,
+          "level": 85,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "아니그게아니라",
+          "guild": "홀리데이",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "준인",
+          "guild": "홀리데이",
+          "class": "향사수",
+          "grade": 21,
+          "level": 85,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "하츠코이",
+          "guild": "홀리데이",
+          "class": "태양감시자",
+          "grade": 21,
+          "level": 85,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "전뜨신뜨대왕",
+          "guild": "홀리데이",
+          "class": "집행관",
+          "grade": 21,
+          "level": 84,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "베르세르크",
+          "guild": "홀리데이",
+          "class": "향사수",
+          "grade": 20,
+          "level": 85,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "폭군특임대",
+          "guild": "홀리데이",
+          "class": "집행관",
+          "grade": 20,
+          "level": 85,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "Flow",
+          "guild": "홀리데이",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "변사또",
+          "guild": "홀리데이",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "비무",
+          "guild": "홀리데이",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "홀리몬",
+          "guild": "홀리데이",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "낚시하는댕냥이",
+          "guild": "홀리데이",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 83,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "이은옥",
+          "guild": "홀리데이",
+          "class": "심연추방자",
+          "grade": 20,
+          "level": 83,
+          "server": "페넬로페 02"
+        }
+      ],
+      "byClassMembers": {
+        "심연추방자": [
+          {
+            "nickname": "올라",
+            "guild": "홀리데이",
+            "class": "심연추방자",
+            "grade": 24,
+            "level": 90,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "오늘도수고하셨습니다",
+            "guild": "홀리데이",
+            "class": "심연추방자",
+            "grade": 24,
+            "level": 86,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "미어캣",
+            "guild": "홀리데이",
+            "class": "심연추방자",
+            "grade": 23,
+            "level": 88,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "이은옥",
+            "guild": "홀리데이",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 83,
+            "server": "페넬로페 02"
+          }
+        ],
+        "태양감시자": [
+          {
+            "nickname": "MONG",
+            "guild": "홀리데이",
+            "class": "태양감시자",
+            "grade": 24,
+            "level": 88,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "구경만",
+            "guild": "홀리데이",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 86,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "하츠코이",
+            "guild": "홀리데이",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 85,
+            "server": "페넬로페 02"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "고등어케밥",
+            "guild": "홀리데이",
+            "class": "집행관",
+            "grade": 24,
+            "level": 87,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "봉봉봉",
+            "guild": "홀리데이",
+            "class": "집행관",
+            "grade": 23,
+            "level": 89,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "쌍용햇",
+            "guild": "홀리데이",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "하아앗",
+            "guild": "홀리데이",
+            "class": "집행관",
+            "grade": 22,
+            "level": 88,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "계두식",
+            "guild": "홀리데이",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "두기고",
+            "guild": "홀리데이",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "아니그게아니라",
+            "guild": "홀리데이",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "전뜨신뜨대왕",
+            "guild": "홀리데이",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "폭군특임대",
+            "guild": "홀리데이",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "Flow",
+            "guild": "홀리데이",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "페넬로페 02"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "아까맨치로",
+            "guild": "홀리데이",
+            "class": "환영검사",
+            "grade": 22,
+            "level": 86,
+            "server": "페넬로페 02"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "유니우니",
+            "guild": "홀리데이",
+            "class": "향사수",
+            "grade": 22,
+            "level": 84,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "고래상어",
+            "guild": "홀리데이",
+            "class": "향사수",
+            "grade": 21,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "라이드",
+            "guild": "홀리데이",
+            "class": "향사수",
+            "grade": 21,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "준인",
+            "guild": "홀리데이",
+            "class": "향사수",
+            "grade": 21,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "베르세르크",
+            "guild": "홀리데이",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "페넬로페 02"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "반반",
+            "guild": "홀리데이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "속쓰리면트리겔정",
+            "guild": "홀리데이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "다이아",
+            "guild": "홀리데이",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "변사또",
+            "guild": "홀리데이",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "비무",
+            "guild": "홀리데이",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "홀리몬",
+            "guild": "홀리데이",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "낚시하는댕냥이",
+            "guild": "홀리데이",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 83,
+            "server": "페넬로페 02"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "올라",
+            "guild": "홀리데이",
+            "class": "심연추방자",
+            "grade": 24,
+            "level": 90,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "MONG",
+            "guild": "홀리데이",
+            "class": "태양감시자",
+            "grade": 24,
+            "level": 88,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "고등어케밥",
+            "guild": "홀리데이",
+            "class": "집행관",
+            "grade": 24,
+            "level": 87,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "오늘도수고하셨습니다",
+            "guild": "홀리데이",
+            "class": "심연추방자",
+            "grade": 24,
+            "level": 86,
+            "server": "페넬로페 02"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "봉봉봉",
+            "guild": "홀리데이",
+            "class": "집행관",
+            "grade": 23,
+            "level": 89,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "미어캣",
+            "guild": "홀리데이",
+            "class": "심연추방자",
+            "grade": 23,
+            "level": 88,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "쌍용햇",
+            "guild": "홀리데이",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "페넬로페 02"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "하아앗",
+            "guild": "홀리데이",
+            "class": "집행관",
+            "grade": 22,
+            "level": 88,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "반반",
+            "guild": "홀리데이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "계두식",
+            "guild": "홀리데이",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "아까맨치로",
+            "guild": "홀리데이",
+            "class": "환영검사",
+            "grade": 22,
+            "level": 86,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "속쓰리면트리겔정",
+            "guild": "홀리데이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "유니우니",
+            "guild": "홀리데이",
+            "class": "향사수",
+            "grade": 22,
+            "level": 84,
+            "server": "페넬로페 02"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "구경만",
+            "guild": "홀리데이",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 86,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "다이아",
+            "guild": "홀리데이",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "고래상어",
+            "guild": "홀리데이",
+            "class": "향사수",
+            "grade": 21,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "두기고",
+            "guild": "홀리데이",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "라이드",
+            "guild": "홀리데이",
+            "class": "향사수",
+            "grade": 21,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "아니그게아니라",
+            "guild": "홀리데이",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "준인",
+            "guild": "홀리데이",
+            "class": "향사수",
+            "grade": 21,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "하츠코이",
+            "guild": "홀리데이",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "전뜨신뜨대왕",
+            "guild": "홀리데이",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "페넬로페 02"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "베르세르크",
+            "guild": "홀리데이",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "폭군특임대",
+            "guild": "홀리데이",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "Flow",
+            "guild": "홀리데이",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "변사또",
+            "guild": "홀리데이",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "비무",
+            "guild": "홀리데이",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "홀리몬",
+            "guild": "홀리데이",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "낚시하는댕냥이",
+            "guild": "홀리데이",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 83,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "이은옥",
+            "guild": "홀리데이",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 83,
+            "server": "페넬로페 02"
+          }
+        ]
+      }
+    },
+    "풍": {
+      "members": 10,
+      "byClass": {
+        "주문각인사": 2,
+        "집행관": 2,
+        "태양감시자": 2,
+        "환영검사": 2,
+        "심연추방자": 1,
+        "향사수": 1
+      },
+      "byGrade": {
+        "24": 4,
+        "23": 3,
+        "22": 1,
+        "21": 2
+      },
+      "membersList": [
+        {
+          "nickname": "간지폭풍",
+          "guild": "풍",
+          "class": "집행관",
+          "grade": 24,
+          "level": 88,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "김풍",
+          "guild": "풍",
+          "class": "집행관",
+          "grade": 24,
+          "level": 88,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "추풍",
+          "guild": "풍",
+          "class": "환영검사",
+          "grade": 24,
+          "level": 88,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "자기풍",
+          "guild": "풍",
+          "class": "태양감시자",
+          "grade": 24,
+          "level": 87,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "별풍",
+          "guild": "풍",
+          "class": "환영검사",
+          "grade": 23,
+          "level": 86,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "파상풍",
+          "guild": "풍",
+          "class": "심연추방자",
+          "grade": 23,
+          "level": 86,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "혜풍",
+          "guild": "풍",
+          "class": "향사수",
+          "grade": 23,
+          "level": 85,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "마이동풍",
+          "guild": "풍",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 85,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "코노하센풍",
+          "guild": "풍",
+          "class": "태양감시자",
+          "grade": 21,
+          "level": 84,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "온풍",
+          "guild": "풍",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 83,
+          "server": "페넬로페 02"
+        }
+      ],
+      "byClassMembers": {
+        "태양감시자": [
+          {
+            "nickname": "자기풍",
+            "guild": "풍",
+            "class": "태양감시자",
+            "grade": 24,
+            "level": 87,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "코노하센풍",
+            "guild": "풍",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 84,
+            "server": "페넬로페 02"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "추풍",
+            "guild": "풍",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 88,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "별풍",
+            "guild": "풍",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 86,
+            "server": "페넬로페 02"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "간지폭풍",
+            "guild": "풍",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "김풍",
+            "guild": "풍",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "페넬로페 02"
+          }
+        ],
+        "심연추방자": [
+          {
+            "nickname": "파상풍",
+            "guild": "풍",
+            "class": "심연추방자",
+            "grade": 23,
+            "level": 86,
+            "server": "페넬로페 02"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "혜풍",
+            "guild": "풍",
+            "class": "향사수",
+            "grade": 23,
+            "level": 85,
+            "server": "페넬로페 02"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "마이동풍",
+            "guild": "풍",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "온풍",
+            "guild": "풍",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 83,
+            "server": "페넬로페 02"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "간지폭풍",
+            "guild": "풍",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "김풍",
+            "guild": "풍",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "추풍",
+            "guild": "풍",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 88,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "자기풍",
+            "guild": "풍",
+            "class": "태양감시자",
+            "grade": 24,
+            "level": 87,
+            "server": "페넬로페 02"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "별풍",
+            "guild": "풍",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 86,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "파상풍",
+            "guild": "풍",
+            "class": "심연추방자",
+            "grade": 23,
+            "level": 86,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "혜풍",
+            "guild": "풍",
+            "class": "향사수",
+            "grade": 23,
+            "level": 85,
+            "server": "페넬로페 02"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "마이동풍",
+            "guild": "풍",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 85,
+            "server": "페넬로페 02"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "코노하센풍",
+            "guild": "풍",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 84,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "온풍",
+            "guild": "풍",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 83,
+            "server": "페넬로페 02"
+          }
+        ]
+      }
+    },
+    "전설": {
+      "members": 11,
+      "byClass": {
+        "주문각인사": 3,
+        "심연추방자": 2,
+        "집행관": 2,
+        "태양감시자": 2,
+        "향사수": 1,
+        "환영검사": 1
+      },
+      "byGrade": {
+        "23": 1,
+        "22": 2,
+        "21": 6,
+        "20": 2
+      },
+      "membersList": [
+        {
+          "nickname": "콩콩또치",
+          "guild": "전설",
+          "class": "심연추방자",
+          "grade": 23,
+          "level": 87,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "사란",
+          "guild": "전설",
+          "class": "태양감시자",
+          "grade": 22,
+          "level": 87,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "꺄껑",
+          "guild": "전설",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 86,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "흰구름",
+          "guild": "전설",
+          "class": "향사수",
+          "grade": 21,
+          "level": 86,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "가르",
+          "guild": "전설",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "빵양",
+          "guild": "전설",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 85,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "오사키",
+          "guild": "전설",
+          "class": "태양감시자",
+          "grade": 21,
+          "level": 85,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "몽실",
+          "guild": "전설",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 84,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "빵군",
+          "guild": "전설",
+          "class": "집행관",
+          "grade": 21,
+          "level": 83,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "여노",
+          "guild": "전설",
+          "class": "환영검사",
+          "grade": 20,
+          "level": 85,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "콩또치",
+          "guild": "전설",
+          "class": "심연추방자",
+          "grade": 20,
+          "level": 84,
+          "server": "페넬로페 02"
+        }
+      ],
+      "byClassMembers": {
+        "심연추방자": [
+          {
+            "nickname": "콩콩또치",
+            "guild": "전설",
+            "class": "심연추방자",
+            "grade": 23,
+            "level": 87,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "콩또치",
+            "guild": "전설",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 84,
+            "server": "페넬로페 02"
+          }
+        ],
+        "태양감시자": [
+          {
+            "nickname": "사란",
+            "guild": "전설",
+            "class": "태양감시자",
+            "grade": 22,
+            "level": 87,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "오사키",
+            "guild": "전설",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 85,
+            "server": "페넬로페 02"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "꺄껑",
+            "guild": "전설",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "빵양",
+            "guild": "전설",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "몽실",
+            "guild": "전설",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 84,
+            "server": "페넬로페 02"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "흰구름",
+            "guild": "전설",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "페넬로페 02"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "가르",
+            "guild": "전설",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "빵군",
+            "guild": "전설",
+            "class": "집행관",
+            "grade": 21,
+            "level": 83,
+            "server": "페넬로페 02"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "여노",
+            "guild": "전설",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 85,
+            "server": "페넬로페 02"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "23": [
+          {
+            "nickname": "콩콩또치",
+            "guild": "전설",
+            "class": "심연추방자",
+            "grade": 23,
+            "level": 87,
+            "server": "페넬로페 02"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "사란",
+            "guild": "전설",
+            "class": "태양감시자",
+            "grade": 22,
+            "level": 87,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "꺄껑",
+            "guild": "전설",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "페넬로페 02"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "흰구름",
+            "guild": "전설",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "가르",
+            "guild": "전설",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "빵양",
+            "guild": "전설",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "오사키",
+            "guild": "전설",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "몽실",
+            "guild": "전설",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 84,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "빵군",
+            "guild": "전설",
+            "class": "집행관",
+            "grade": 21,
+            "level": 83,
+            "server": "페넬로페 02"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "여노",
+            "guild": "전설",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 85,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "콩또치",
+            "guild": "전설",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 84,
+            "server": "페넬로페 02"
+          }
+        ]
+      }
+    },
+    "양천구": {
+      "members": 1,
+      "byClass": {
+        "집행관": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "근린문화회관",
+          "guild": "양천구",
+          "class": "집행관",
+          "grade": 21,
+          "level": 84,
+          "server": "페넬로페 02"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "근린문화회관",
+            "guild": "양천구",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "페넬로페 02"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "근린문화회관",
+            "guild": "양천구",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "페넬로페 02"
+          }
+        ]
+      }
+    },
+    "로드리게": {
+      "members": 1,
+      "byClass": {
+        "심연추방자": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "스폰지밥",
+          "guild": "로드리게",
+          "class": "심연추방자",
+          "grade": 20,
+          "level": 86,
+          "server": "페넬로페 02"
+        }
+      ],
+      "byClassMembers": {
+        "심연추방자": [
+          {
+            "nickname": "스폰지밥",
+            "guild": "로드리게",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 86,
+            "server": "페넬로페 02"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "스폰지밥",
+            "guild": "로드리게",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 86,
+            "server": "페넬로페 02"
+          }
+        ]
+      }
+    },
+    "레드문": {
+      "members": 1,
+      "byClass": {
+        "환영검사": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "말왕",
+          "guild": "레드문",
+          "class": "환영검사",
+          "grade": 20,
+          "level": 84,
+          "server": "페넬로페 02"
+        }
+      ],
+      "byClassMembers": {
+        "환영검사": [
+          {
+            "nickname": "말왕",
+            "guild": "레드문",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 84,
+            "server": "페넬로페 02"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "말왕",
+            "guild": "레드문",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 84,
+            "server": "페넬로페 02"
+          }
+        ]
+      }
+    },
+    "휴일": {
+      "members": 1,
+      "byClass": {
+        "향사수": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "애옹",
+          "guild": "휴일",
+          "class": "향사수",
+          "grade": 20,
+          "level": 84,
+          "server": "페넬로페 02"
+        }
+      ],
+      "byClassMembers": {
+        "향사수": [
+          {
+            "nickname": "애옹",
+            "guild": "휴일",
+            "class": "향사수",
+            "grade": 20,
+            "level": 84,
+            "server": "페넬로페 02"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "애옹",
+            "guild": "휴일",
+            "class": "향사수",
+            "grade": 20,
+            "level": 84,
+            "server": "페넬로페 02"
+          }
+        ]
+      }
+    },
+    "호코": {
+      "members": 1,
+      "byClass": {
+        "집행관": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "소서리스",
+          "guild": "호코",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "페넬로페 02"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "소서리스",
+            "guild": "호코",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "페넬로페 02"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "소서리스",
+            "guild": "호코",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "페넬로페 02"
+          }
+        ]
+      }
+    },
+    "빛": {
+      "members": 2,
+      "byClass": {
+        "집행관": 2
+      },
+      "byGrade": {
+        "20": 2
+      },
+      "membersList": [
+        {
+          "nickname": "사방",
+          "guild": "빛",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "페넬로페 02"
+        },
+        {
+          "nickname": "조광창",
+          "guild": "빛",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "페넬로페 02"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "사방",
+            "guild": "빛",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "조광창",
+            "guild": "빛",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "페넬로페 02"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "사방",
+            "guild": "빛",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "페넬로페 02"
+          },
+          {
+            "nickname": "조광창",
+            "guild": "빛",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "페넬로페 02"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,724 @@
+{
+  "server": "바이람 04",
+  "guilds": {
+    "헌터": {
+      "members": 24,
+      "byClass": {
+        "집행관": 11,
+        "주문각인사": 4,
+        "태양감시자": 4,
+        "향사수": 3,
+        "심연추방자": 1,
+        "환영검사": 1
+      },
+      "byGrade": {
+        "24": 3,
+        "23": 3,
+        "22": 3,
+        "21": 5,
+        "20": 10
+      },
+      "membersList": [
+        {
+          "nickname": "실버",
+          "guild": "헌터",
+          "class": "집행관",
+          "grade": 24,
+          "level": 89,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "레드",
+          "guild": "헌터",
+          "class": "집행관",
+          "grade": 24,
+          "level": 88,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "모카무스카라멜브라운",
+          "guild": "헌터",
+          "class": "집행관",
+          "grade": 24,
+          "level": 88,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "그린",
+          "guild": "헌터",
+          "class": "태양감시자",
+          "grade": 23,
+          "level": 87,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "아르릉",
+          "guild": "헌터",
+          "class": "집행관",
+          "grade": 23,
+          "level": 87,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "쿠마",
+          "guild": "헌터",
+          "class": "집행관",
+          "grade": 23,
+          "level": 87,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "블루",
+          "guild": "헌터",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 87,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "에픽",
+          "guild": "헌터",
+          "class": "태양감시자",
+          "grade": 22,
+          "level": 87,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "주문각인사",
+          "guild": "헌터",
+          "class": "집행관",
+          "grade": 22,
+          "level": 84,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "공존",
+          "guild": "헌터",
+          "class": "집행관",
+          "grade": 21,
+          "level": 86,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "크림",
+          "guild": "헌터",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 86,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "화이트",
+          "guild": "헌터",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 86,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "고슴도치",
+          "guild": "헌터",
+          "class": "향사수",
+          "grade": 21,
+          "level": 85,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "슬픔",
+          "guild": "헌터",
+          "class": "태양감시자",
+          "grade": 21,
+          "level": 85,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "구름",
+          "guild": "헌터",
+          "class": "집행관",
+          "grade": 20,
+          "level": 85,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "다슈",
+          "guild": "헌터",
+          "class": "향사수",
+          "grade": 20,
+          "level": 85,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "무상",
+          "guild": "헌터",
+          "class": "향사수",
+          "grade": 20,
+          "level": 85,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "스킨",
+          "guild": "헌터",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 85,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "크리스탈",
+          "guild": "헌터",
+          "class": "집행관",
+          "grade": 20,
+          "level": 85,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "퍼플",
+          "guild": "헌터",
+          "class": "환영검사",
+          "grade": 20,
+          "level": 85,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "바램",
+          "guild": "헌터",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "시라소니",
+          "guild": "헌터",
+          "class": "태양감시자",
+          "grade": 20,
+          "level": 84,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "하트",
+          "guild": "헌터",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "마젠타",
+          "guild": "헌터",
+          "class": "심연추방자",
+          "grade": 20,
+          "level": 83,
+          "server": "바이람 04"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "실버",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "레드",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "모카무스카라멜브라운",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "아르릉",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "쿠마",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "주문각인사",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 22,
+            "level": 84,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "공존",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "구름",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "크리스탈",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "바램",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "하트",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "바이람 04"
+          }
+        ],
+        "태양감시자": [
+          {
+            "nickname": "그린",
+            "guild": "헌터",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 87,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "에픽",
+            "guild": "헌터",
+            "class": "태양감시자",
+            "grade": 22,
+            "level": 87,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "슬픔",
+            "guild": "헌터",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 85,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "시라소니",
+            "guild": "헌터",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 84,
+            "server": "바이람 04"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "블루",
+            "guild": "헌터",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "크림",
+            "guild": "헌터",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "화이트",
+            "guild": "헌터",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "스킨",
+            "guild": "헌터",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "바이람 04"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "고슴도치",
+            "guild": "헌터",
+            "class": "향사수",
+            "grade": 21,
+            "level": 85,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "다슈",
+            "guild": "헌터",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "무상",
+            "guild": "헌터",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "바이람 04"
+          }
+        ],
+        "심연추방자": [
+          {
+            "nickname": "마젠타",
+            "guild": "헌터",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 83,
+            "server": "바이람 04"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "퍼플",
+            "guild": "헌터",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 85,
+            "server": "바이람 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "실버",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "레드",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "모카무스카라멜브라운",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "바이람 04"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "그린",
+            "guild": "헌터",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 87,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "아르릉",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "쿠마",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "바이람 04"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "블루",
+            "guild": "헌터",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "에픽",
+            "guild": "헌터",
+            "class": "태양감시자",
+            "grade": 22,
+            "level": 87,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "주문각인사",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 22,
+            "level": 84,
+            "server": "바이람 04"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "공존",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "크림",
+            "guild": "헌터",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "화이트",
+            "guild": "헌터",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "고슴도치",
+            "guild": "헌터",
+            "class": "향사수",
+            "grade": 21,
+            "level": 85,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "슬픔",
+            "guild": "헌터",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 85,
+            "server": "바이람 04"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "구름",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "다슈",
+            "guild": "헌터",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "무상",
+            "guild": "헌터",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "스킨",
+            "guild": "헌터",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "크리스탈",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "퍼플",
+            "guild": "헌터",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 85,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "바램",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "시라소니",
+            "guild": "헌터",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 84,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "하트",
+            "guild": "헌터",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "마젠타",
+            "guild": "헌터",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 83,
+            "server": "바이람 04"
+          }
+        ]
+      }
+    },
+    "불멸": {
+      "members": 3,
+      "byClass": {
+        "집행관": 2,
+        "심연추방자": 1
+      },
+      "byGrade": {
+        "21": 1,
+        "20": 2
+      },
+      "membersList": [
+        {
+          "nickname": "패트",
+          "guild": "불멸",
+          "class": "집행관",
+          "grade": 21,
+          "level": 84,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "아기상어",
+          "guild": "불멸",
+          "class": "심연추방자",
+          "grade": 20,
+          "level": 85,
+          "server": "바이람 04"
+        },
+        {
+          "nickname": "백야왕",
+          "guild": "불멸",
+          "class": "집행관",
+          "grade": 20,
+          "level": 83,
+          "server": "바이람 04"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "패트",
+            "guild": "불멸",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "백야왕",
+            "guild": "불멸",
+            "class": "집행관",
+            "grade": 20,
+            "level": 83,
+            "server": "바이람 04"
+          }
+        ],
+        "심연추방자": [
+          {
+            "nickname": "아기상어",
+            "guild": "불멸",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 85,
+            "server": "바이람 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "패트",
+            "guild": "불멸",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "바이람 04"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "아기상어",
+            "guild": "불멸",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 85,
+            "server": "바이람 04"
+          },
+          {
+            "nickname": "백야왕",
+            "guild": "불멸",
+            "class": "집행관",
+            "grade": 20,
+            "level": 83,
+            "server": "바이람 04"
+          }
+        ]
+      }
+    }
+  }
+}

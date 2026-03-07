@@ -1,0 +1,614 @@
+{
+  "server": "아우리엘 05",
+  "guilds": {
+    "IYOU": {
+      "members": 20,
+      "byClass": {
+        "집행관": 10,
+        "향사수": 3,
+        "환영검사": 3,
+        "주문각인사": 2,
+        "태양감시자": 2
+      },
+      "byGrade": {
+        "24": 1,
+        "23": 2,
+        "22": 1,
+        "21": 8,
+        "20": 8
+      },
+      "membersList": [
+        {
+          "nickname": "갓수니",
+          "guild": "IYOU",
+          "class": "태양감시자",
+          "grade": 24,
+          "level": 88,
+          "server": "아우리엘 05"
+        },
+        {
+          "nickname": "중지",
+          "guild": "IYOU",
+          "class": "집행관",
+          "grade": 23,
+          "level": 87,
+          "server": "아우리엘 05"
+        },
+        {
+          "nickname": "프롤로그",
+          "guild": "IYOU",
+          "class": "집행관",
+          "grade": 23,
+          "level": 86,
+          "server": "아우리엘 05"
+        },
+        {
+          "nickname": "라인하르트",
+          "guild": "IYOU",
+          "class": "집행관",
+          "grade": 22,
+          "level": 85,
+          "server": "아우리엘 05"
+        },
+        {
+          "nickname": "야옹",
+          "guild": "IYOU",
+          "class": "환영검사",
+          "grade": 21,
+          "level": 86,
+          "server": "아우리엘 05"
+        },
+        {
+          "nickname": "고슴도치",
+          "guild": "IYOU",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "아우리엘 05"
+        },
+        {
+          "nickname": "땡재",
+          "guild": "IYOU",
+          "class": "태양감시자",
+          "grade": 21,
+          "level": 85,
+          "server": "아우리엘 05"
+        },
+        {
+          "nickname": "블랙팬서",
+          "guild": "IYOU",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "아우리엘 05"
+        },
+        {
+          "nickname": "수니갓",
+          "guild": "IYOU",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "아우리엘 05"
+        },
+        {
+          "nickname": "싸울아비",
+          "guild": "IYOU",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "아우리엘 05"
+        },
+        {
+          "nickname": "세타필",
+          "guild": "IYOU",
+          "class": "환영검사",
+          "grade": 21,
+          "level": 84,
+          "server": "아우리엘 05"
+        },
+        {
+          "nickname": "축구",
+          "guild": "IYOU",
+          "class": "집행관",
+          "grade": 21,
+          "level": 84,
+          "server": "아우리엘 05"
+        },
+        {
+          "nickname": "멍멍",
+          "guild": "IYOU",
+          "class": "향사수",
+          "grade": 20,
+          "level": 85,
+          "server": "아우리엘 05"
+        },
+        {
+          "nickname": "Ai",
+          "guild": "IYOU",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "아우리엘 05"
+        },
+        {
+          "nickname": "각인대성공",
+          "guild": "IYOU",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "아우리엘 05"
+        },
+        {
+          "nickname": "굴니르",
+          "guild": "IYOU",
+          "class": "향사수",
+          "grade": 20,
+          "level": 84,
+          "server": "아우리엘 05"
+        },
+        {
+          "nickname": "레모나",
+          "guild": "IYOU",
+          "class": "향사수",
+          "grade": 20,
+          "level": 84,
+          "server": "아우리엘 05"
+        },
+        {
+          "nickname": "은가비",
+          "guild": "IYOU",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "아우리엘 05"
+        },
+        {
+          "nickname": "대마왕",
+          "guild": "IYOU",
+          "class": "환영검사",
+          "grade": 20,
+          "level": 83,
+          "server": "아우리엘 05"
+        },
+        {
+          "nickname": "레오노르",
+          "guild": "IYOU",
+          "class": "집행관",
+          "grade": 20,
+          "level": 83,
+          "server": "아우리엘 05"
+        }
+      ],
+      "byClassMembers": {
+        "태양감시자": [
+          {
+            "nickname": "갓수니",
+            "guild": "IYOU",
+            "class": "태양감시자",
+            "grade": 24,
+            "level": 88,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "땡재",
+            "guild": "IYOU",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 85,
+            "server": "아우리엘 05"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "중지",
+            "guild": "IYOU",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "프롤로그",
+            "guild": "IYOU",
+            "class": "집행관",
+            "grade": 23,
+            "level": 86,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "라인하르트",
+            "guild": "IYOU",
+            "class": "집행관",
+            "grade": 22,
+            "level": 85,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "고슴도치",
+            "guild": "IYOU",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "블랙팬서",
+            "guild": "IYOU",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "수니갓",
+            "guild": "IYOU",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "싸울아비",
+            "guild": "IYOU",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "축구",
+            "guild": "IYOU",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "Ai",
+            "guild": "IYOU",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "레오노르",
+            "guild": "IYOU",
+            "class": "집행관",
+            "grade": 20,
+            "level": 83,
+            "server": "아우리엘 05"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "야옹",
+            "guild": "IYOU",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 86,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "세타필",
+            "guild": "IYOU",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 84,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "대마왕",
+            "guild": "IYOU",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 83,
+            "server": "아우리엘 05"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "멍멍",
+            "guild": "IYOU",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "굴니르",
+            "guild": "IYOU",
+            "class": "향사수",
+            "grade": 20,
+            "level": 84,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "레모나",
+            "guild": "IYOU",
+            "class": "향사수",
+            "grade": 20,
+            "level": 84,
+            "server": "아우리엘 05"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "각인대성공",
+            "guild": "IYOU",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "은가비",
+            "guild": "IYOU",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "아우리엘 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "갓수니",
+            "guild": "IYOU",
+            "class": "태양감시자",
+            "grade": 24,
+            "level": 88,
+            "server": "아우리엘 05"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "중지",
+            "guild": "IYOU",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "프롤로그",
+            "guild": "IYOU",
+            "class": "집행관",
+            "grade": 23,
+            "level": 86,
+            "server": "아우리엘 05"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "라인하르트",
+            "guild": "IYOU",
+            "class": "집행관",
+            "grade": 22,
+            "level": 85,
+            "server": "아우리엘 05"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "야옹",
+            "guild": "IYOU",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 86,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "고슴도치",
+            "guild": "IYOU",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "땡재",
+            "guild": "IYOU",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 85,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "블랙팬서",
+            "guild": "IYOU",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "수니갓",
+            "guild": "IYOU",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "싸울아비",
+            "guild": "IYOU",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "세타필",
+            "guild": "IYOU",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 84,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "축구",
+            "guild": "IYOU",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "아우리엘 05"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "멍멍",
+            "guild": "IYOU",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "Ai",
+            "guild": "IYOU",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "각인대성공",
+            "guild": "IYOU",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "굴니르",
+            "guild": "IYOU",
+            "class": "향사수",
+            "grade": 20,
+            "level": 84,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "레모나",
+            "guild": "IYOU",
+            "class": "향사수",
+            "grade": 20,
+            "level": 84,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "은가비",
+            "guild": "IYOU",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "대마왕",
+            "guild": "IYOU",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 83,
+            "server": "아우리엘 05"
+          },
+          {
+            "nickname": "레오노르",
+            "guild": "IYOU",
+            "class": "집행관",
+            "grade": 20,
+            "level": 83,
+            "server": "아우리엘 05"
+          }
+        ]
+      }
+    },
+    "Emp": {
+      "members": 1,
+      "byClass": {
+        "향사수": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "두쫀쿠",
+          "guild": "Emp",
+          "class": "향사수",
+          "grade": 21,
+          "level": 87,
+          "server": "아우리엘 05"
+        }
+      ],
+      "byClassMembers": {
+        "향사수": [
+          {
+            "nickname": "두쫀쿠",
+            "guild": "Emp",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "아우리엘 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "두쫀쿠",
+            "guild": "Emp",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "아우리엘 05"
+          }
+        ]
+      }
+    },
+    "갓존슨부캐길드": {
+      "members": 1,
+      "byClass": {
+        "환영검사": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "혈류",
+          "guild": "갓존슨부캐길드",
+          "class": "환영검사",
+          "grade": 20,
+          "level": 85,
+          "server": "아우리엘 05"
+        }
+      ],
+      "byClassMembers": {
+        "환영검사": [
+          {
+            "nickname": "혈류",
+            "guild": "갓존슨부캐길드",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 85,
+            "server": "아우리엘 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "혈류",
+            "guild": "갓존슨부캐길드",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 85,
+            "server": "아우리엘 05"
+          }
+        ]
+      }
+    }
+  }
+}

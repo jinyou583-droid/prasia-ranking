@@ -1,0 +1,239 @@
+{
+  "server": "이오스 03",
+  "guilds": {
+    "꿈": {
+      "members": 5,
+      "byClass": {
+        "심연추방자": 2,
+        "집행관": 2,
+        "환영검사": 1
+      },
+      "byGrade": {
+        "21": 4,
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "심판자",
+          "guild": "꿈",
+          "class": "집행관",
+          "grade": 21,
+          "level": 87,
+          "server": "이오스 03"
+        },
+        {
+          "nickname": "골빈당",
+          "guild": "꿈",
+          "class": "심연추방자",
+          "grade": 21,
+          "level": 86,
+          "server": "이오스 03"
+        },
+        {
+          "nickname": "맨도로롱",
+          "guild": "꿈",
+          "class": "집행관",
+          "grade": 21,
+          "level": 86,
+          "server": "이오스 03"
+        },
+        {
+          "nickname": "옥군",
+          "guild": "꿈",
+          "class": "환영검사",
+          "grade": 21,
+          "level": 86,
+          "server": "이오스 03"
+        },
+        {
+          "nickname": "맨해솔",
+          "guild": "꿈",
+          "class": "심연추방자",
+          "grade": 20,
+          "level": 85,
+          "server": "이오스 03"
+        }
+      ],
+      "byClassMembers": {
+        "심연추방자": [
+          {
+            "nickname": "골빈당",
+            "guild": "꿈",
+            "class": "심연추방자",
+            "grade": 21,
+            "level": 86,
+            "server": "이오스 03"
+          },
+          {
+            "nickname": "맨해솔",
+            "guild": "꿈",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 85,
+            "server": "이오스 03"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "옥군",
+            "guild": "꿈",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 86,
+            "server": "이오스 03"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "심판자",
+            "guild": "꿈",
+            "class": "집행관",
+            "grade": 21,
+            "level": 87,
+            "server": "이오스 03"
+          },
+          {
+            "nickname": "맨도로롱",
+            "guild": "꿈",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "이오스 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "심판자",
+            "guild": "꿈",
+            "class": "집행관",
+            "grade": 21,
+            "level": 87,
+            "server": "이오스 03"
+          },
+          {
+            "nickname": "골빈당",
+            "guild": "꿈",
+            "class": "심연추방자",
+            "grade": 21,
+            "level": 86,
+            "server": "이오스 03"
+          },
+          {
+            "nickname": "맨도로롱",
+            "guild": "꿈",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "이오스 03"
+          },
+          {
+            "nickname": "옥군",
+            "guild": "꿈",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 86,
+            "server": "이오스 03"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "맨해솔",
+            "guild": "꿈",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 85,
+            "server": "이오스 03"
+          }
+        ]
+      }
+    },
+    "아이언": {
+      "members": 1,
+      "byClass": {
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "첫째형",
+          "guild": "아이언",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 83,
+          "server": "이오스 03"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "첫째형",
+            "guild": "아이언",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 83,
+            "server": "이오스 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "첫째형",
+            "guild": "아이언",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 83,
+            "server": "이오스 03"
+          }
+        ]
+      }
+    },
+    "메이저리그": {
+      "members": 1,
+      "byClass": {
+        "태양감시자": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "비형독감",
+          "guild": "메이저리그",
+          "class": "태양감시자",
+          "grade": 20,
+          "level": 86,
+          "server": "이오스 03"
+        }
+      ],
+      "byClassMembers": {
+        "태양감시자": [
+          {
+            "nickname": "비형독감",
+            "guild": "메이저리그",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 86,
+            "server": "이오스 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "비형독감",
+            "guild": "메이저리그",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 86,
+            "server": "이오스 03"
+          }
+        ]
+      }
+    }
+  }
+}

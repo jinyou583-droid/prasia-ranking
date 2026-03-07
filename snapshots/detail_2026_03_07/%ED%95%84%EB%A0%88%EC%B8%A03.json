@@ -1,0 +1,207 @@
+{
+  "server": "필레츠 03",
+  "guilds": {
+    "쑥쑥": {
+      "members": 2,
+      "byClass": {
+        "주문각인사": 1,
+        "태양감시자": 1
+      },
+      "byGrade": {
+        "24": 1,
+        "22": 1
+      },
+      "membersList": [
+        {
+          "nickname": "쓱쓱",
+          "guild": "쑥쑥",
+          "class": "태양감시자",
+          "grade": 24,
+          "level": 88,
+          "server": "필레츠 03"
+        },
+        {
+          "nickname": "쑥쑥이",
+          "guild": "쑥쑥",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 87,
+          "server": "필레츠 03"
+        }
+      ],
+      "byClassMembers": {
+        "태양감시자": [
+          {
+            "nickname": "쓱쓱",
+            "guild": "쑥쑥",
+            "class": "태양감시자",
+            "grade": 24,
+            "level": 88,
+            "server": "필레츠 03"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "쑥쑥이",
+            "guild": "쑥쑥",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "필레츠 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "쓱쓱",
+            "guild": "쑥쑥",
+            "class": "태양감시자",
+            "grade": 24,
+            "level": 88,
+            "server": "필레츠 03"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "쑥쑥이",
+            "guild": "쑥쑥",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "필레츠 03"
+          }
+        ]
+      }
+    },
+    "루미": {
+      "members": 1,
+      "byClass": {
+        "심연추방자": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "아떠몬",
+          "guild": "루미",
+          "class": "심연추방자",
+          "grade": 21,
+          "level": 86,
+          "server": "필레츠 03"
+        }
+      ],
+      "byClassMembers": {
+        "심연추방자": [
+          {
+            "nickname": "아떠몬",
+            "guild": "루미",
+            "class": "심연추방자",
+            "grade": 21,
+            "level": 86,
+            "server": "필레츠 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "아떠몬",
+            "guild": "루미",
+            "class": "심연추방자",
+            "grade": 21,
+            "level": 86,
+            "server": "필레츠 03"
+          }
+        ]
+      }
+    },
+    "별": {
+      "members": 1,
+      "byClass": {
+        "집행관": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "별츄",
+          "guild": "별",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "필레츠 03"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "별츄",
+            "guild": "별",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "필레츠 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "별츄",
+            "guild": "별",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "필레츠 03"
+          }
+        ]
+      }
+    },
+    "마운트": {
+      "members": 1,
+      "byClass": {
+        "태양감시자": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "남준이",
+          "guild": "마운트",
+          "class": "태양감시자",
+          "grade": 20,
+          "level": 85,
+          "server": "필레츠 03"
+        }
+      ],
+      "byClassMembers": {
+        "태양감시자": [
+          {
+            "nickname": "남준이",
+            "guild": "마운트",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 85,
+            "server": "필레츠 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "남준이",
+            "guild": "마운트",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 85,
+            "server": "필레츠 03"
+          }
+        ]
+      }
+    }
+  }
+}
