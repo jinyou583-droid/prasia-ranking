@@ -1146,7 +1146,6 @@ function renderMemberListModal(){
   if (prevBtn) prevBtn.disabled = currentPage <= 1;
   if (nextBtn) nextBtn.disabled = currentPage >= totalPages;
 }
-
 function bindMemberListModalUI(){
   const modal = document.getElementById("memberListModal");
   const closeBtn = document.getElementById("mlClose");
