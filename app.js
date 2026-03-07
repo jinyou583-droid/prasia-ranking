@@ -66,6 +66,17 @@ function escapeHtml(s){
     .replace(/"/g,"&quot;")
     .replace(/'/g,"&#39;");
 }
+function buildLevelCountMap(rows){
+  const m = {};
+
+  for (const row of (rows || [])) {
+    const level = String(row?.level ?? "").trim();
+    if (!level) continue;
+    m[level] = (m[level] || 0) + 1;
+  }
+
+  return m;
+}
 function buildMemberUniqueKey(row){
   return [
     normalizeText(row?.nickname || ""),
@@ -622,12 +633,16 @@ openGuildFilteredMemberList(type, key);
 const clsHtml = renderKeyValueTable(g.byClass, "직업", "인원", "guild-class");
 const grdHtml = renderKeyValueTable(g.byGrade, "등급", "인원", "guild-grade");
 
-      showModal(
-        guildKey,
-        `${serverNorm} / ${dateKey} / 총원 ${Number(g.members || 0).toLocaleString("ko-KR")}명`,
-        clsHtml,
-        grdHtml
-      );
+const levelMap = buildLevelCountMap(g.membersList || []);
+const lvlHtml = renderKeyValueTable(levelMap, "레벨", "인원", "guild-level");
+
+showModal(
+  guildKey,
+  `${serverNorm} / ${dateKey} / 총원 ${Number(g.members || 0).toLocaleString("ko-KR")}명`,
+  clsHtml,
+  grdHtml,
+  lvlHtml
+);
     } catch (err) {
       alert("상세 불러오기 실패: " + err.message);
       console.error(err);
@@ -639,7 +654,7 @@ function renderKeyValueTable(obj, col1, col2, clickType = ""){
   const entries = Object.entries(obj || {});
   if (entries.length === 0) return `<div style="opacity:.85;">데이터 없음</div>`;
 
-  if (clickType === "guild-grade") {
+  if (clickType === "guild-grade" || clickType === "guild-level") {
     entries.sort((a, b) => {
       const ak = Number(a[0]);
       const bk = Number(b[0]);
@@ -689,17 +704,19 @@ function renderKeyValueTable(obj, col1, col2, clickType = ""){
   return html;
 }
 
-function showModal(title, sub, clsHtml, grdHtml){
+function showModal(title, sub, clsHtml, grdHtml, lvlHtml = ""){
   const modal = document.getElementById("guildModal");
   const t = document.getElementById("gmTitle");
   const s = document.getElementById("gmSub");
   const c = document.getElementById("gmClass");
   const g = document.getElementById("gmGrade");
+  const l = document.getElementById("gmLevel");
 
   if (t) t.textContent = title;
   if (s) s.textContent = sub;
   if (c) c.innerHTML = clsHtml;
   if (g) g.innerHTML = grdHtml;
+  if (l) l.innerHTML = lvlHtml;
 
   if (modal) modal.style.display = "block";
 }
@@ -967,14 +984,18 @@ function openGuildFilteredMemberList(type, key){
   let rows = [];
 
   if (type === "guild-class") {
-    rows = CURRENT_GUILD_MEMBER_ROWS.filter((row) => {
-      return normalizeText(row?.class || "") === normalizeText(key);
-    });
-  } else if (type === "guild-grade") {
-    rows = CURRENT_GUILD_MEMBER_ROWS.filter((row) => {
-      return String(row?.grade ?? "") === String(key);
-    });
-  }
+  rows = CURRENT_GUILD_MEMBER_ROWS.filter((row) => {
+    return normalizeText(row?.class || "") === normalizeText(key);
+  });
+} else if (type === "guild-grade") {
+  rows = CURRENT_GUILD_MEMBER_ROWS.filter((row) => {
+    return String(row?.grade ?? "") === String(key);
+  });
+} else if (type === "guild-level") {
+  rows = CURRENT_GUILD_MEMBER_ROWS.filter((row) => {
+    return String(row?.level ?? "") === String(key);
+  });
+}
 
   rows.sort((a, b) => {
     const gradeDiff = toNum(b?.grade || 0) - toNum(a?.grade || 0);
@@ -1030,8 +1051,10 @@ function renderMemberListModal(){
   } else if (type === "guild-class") {
     titleEl.textContent = `직업 ${key} 캐릭터 목록`;
   } else if (type === "guild-grade") {
-    titleEl.textContent = `토벌등급 ${key} 캐릭터 목록`;
-  } else {
+  titleEl.textContent = `토벌등급 ${key} 캐릭터 목록`;
+} else if (type === "guild-level") {
+  titleEl.textContent = `레벨 ${key} 캐릭터 목록`;
+} else {
     titleEl.textContent = `캐릭터 목록`;
   }
 }
