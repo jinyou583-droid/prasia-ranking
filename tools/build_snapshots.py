@@ -687,7 +687,7 @@ def build_snapshots_from_uploads():
                 file_server_name.replace(" ", "-"),
             }
 
-            import re
+            
             m = re.match(r"^(.*?)[\s_-]*(\d+)$", file_server_name)
             if m:
                 base_name = safe_str(m.group(1))
