@@ -690,7 +690,7 @@ def build_snapshots_from_uploads():
             
             m = re.match(r"^(.*?)[\s_-]*(\d+)$", file_server_name)
             if m:
-                base_name = safe_str(m.group(1))
+                base_name = safe_str(m.group(1)).replace("\u00A0", " ").strip()
                 num_raw = m.group(2)
                 num_no_zero = str(int(num_raw))
                 num_two = num_no_zero.zfill(2)
