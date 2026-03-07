@@ -1062,9 +1062,9 @@ function renderMemberListModal(){
   if (subEl) {
   if (type === "search") {
     subEl.textContent = `${CURRENT_STAT_MEMBERS.label || ""} / 검색어: "${key}" / 총 ${total.toLocaleString("ko-KR")}명`;
-  } else if (type === "guild-class" || type === "guild-grade") {
-    subEl.textContent = `총 ${total.toLocaleString("ko-KR")}명`;
-  } else {
+ } else if (type === "guild-class" || type === "guild-grade" || type === "guild-level") {
+  subEl.textContent = `총 ${total.toLocaleString("ko-KR")}명`;
+}
     subEl.textContent = `${CURRENT_STAT_MEMBERS.label || ""} / 총 ${total.toLocaleString("ko-KR")}명`;
   }
 }
