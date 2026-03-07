@@ -582,14 +582,44 @@ openGuildFilteredMemberList(type, key);
 
     try {
            const serverNorm = normalizeText(server);
-      const candidates = Array.from(new Set([
-  serverNorm.replace(/\s+/g, ""),   // 벨세이즈03
-  serverNorm.replace(/\s+(\d+)$/, "$1"),
-  serverNorm.replace(/[^\w가-힣]+/g, ""),
-  serverNorm,
-  serverNorm.replace(/\s+/g, "_"),
-  serverNorm.replace(/\s+/g, "-")
-]));
+      const m = serverNorm.match(/^(.*?)(\d+)$/) || serverNorm.match(/^(.*?)\s+(\d+)$/);
+
+let candidates = [];
+
+if (m) {
+  const namePart = normalizeText(m[1] || "");
+  const numRaw = String(m[2] || "");
+  const numNoZero = String(Number(numRaw));
+  const num2 = numNoZero.padStart(2, "0");
+
+  candidates = [
+    `${namePart}${num2}`,
+    `${namePart} ${num2}`,
+    `${namePart}_${num2}`,
+    `${namePart}-${num2}`,
+
+    `${namePart}${numNoZero}`,
+    `${namePart} ${numNoZero}`,
+    `${namePart}_${numNoZero}`,
+    `${namePart}-${numNoZero}`,
+
+    serverNorm,
+    serverNorm.replace(/\s+/g, ""),
+    serverNorm.replace(/\s+/g, "_"),
+    serverNorm.replace(/\s+/g, "-"),
+    serverNorm.replace(/[^\w가-힣]+/g, "")
+  ];
+} else {
+  candidates = [
+    serverNorm.replace(/\s+/g, ""),
+    serverNorm,
+    serverNorm.replace(/\s+/g, "_"),
+    serverNorm.replace(/\s+/g, "-"),
+    serverNorm.replace(/[^\w가-힣]+/g, "")
+  ];
+}
+
+candidates = Array.from(new Set(candidates.filter(Boolean)));
 
       let data = null;
       let lastErr = null;
