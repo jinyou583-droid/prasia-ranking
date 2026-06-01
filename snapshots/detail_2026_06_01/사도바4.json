@@ -1,0 +1,1493 @@
+{
+  "server": "사도바 04",
+  "guilds": {
+    "주니": {
+      "members": 1,
+      "byClass": {
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "25": 1
+      },
+      "membersList": [
+        {
+          "nickname": "싱싱흑돼지",
+          "guild": "주니",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 91,
+          "server": "사도바 04"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "싱싱흑돼지",
+            "guild": "주니",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 91,
+            "server": "사도바 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "25": [
+          {
+            "nickname": "싱싱흑돼지",
+            "guild": "주니",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 91,
+            "server": "사도바 04"
+          }
+        ]
+      }
+    },
+    "힐싸개": {
+      "members": 25,
+      "byClass": {
+        "향사수": 8,
+        "주문각인사": 7,
+        "집행관": 5,
+        "태양감시자": 3,
+        "심연추방자": 1,
+        "환영검사": 1
+      },
+      "byGrade": {
+        "25": 1,
+        "24": 3,
+        "23": 6,
+        "22": 5,
+        "21": 8,
+        "20": 2
+      },
+      "membersList": [
+        {
+          "nickname": "독접",
+          "guild": "힐싸개",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 89,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "오브",
+          "guild": "힐싸개",
+          "class": "집행관",
+          "grade": 24,
+          "level": 89,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "왕재",
+          "guild": "힐싸개",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 89,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "안마의자",
+          "guild": "힐싸개",
+          "class": "향사수",
+          "grade": 24,
+          "level": 88,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "순자",
+          "guild": "힐싸개",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 90,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "든든",
+          "guild": "힐싸개",
+          "class": "태양감시자",
+          "grade": 23,
+          "level": 88,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "쨩돌",
+          "guild": "힐싸개",
+          "class": "집행관",
+          "grade": 23,
+          "level": 88,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "익명의스탠더",
+          "guild": "힐싸개",
+          "class": "향사수",
+          "grade": 23,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "쥬령",
+          "guild": "힐싸개",
+          "class": "집행관",
+          "grade": 23,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "힐해",
+          "guild": "힐싸개",
+          "class": "집행관",
+          "grade": 23,
+          "level": 85,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "아가",
+          "guild": "힐싸개",
+          "class": "향사수",
+          "grade": 22,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "해운대온천",
+          "guild": "힐싸개",
+          "class": "향사수",
+          "grade": 22,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "힐효댕",
+          "guild": "힐싸개",
+          "class": "심연추방자",
+          "grade": 22,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "샤미즈",
+          "guild": "힐싸개",
+          "class": "환영검사",
+          "grade": 22,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "터치미",
+          "guild": "힐싸개",
+          "class": "집행관",
+          "grade": 22,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "양단화",
+          "guild": "힐싸개",
+          "class": "태양감시자",
+          "grade": 21,
+          "level": 88,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "유나라",
+          "guild": "힐싸개",
+          "class": "향사수",
+          "grade": 21,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "허니콩콩",
+          "guild": "힐싸개",
+          "class": "향사수",
+          "grade": 21,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "단소",
+          "guild": "힐싸개",
+          "class": "향사수",
+          "grade": 21,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "비쵸비",
+          "guild": "힐싸개",
+          "class": "향사수",
+          "grade": 21,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "퀸오리",
+          "guild": "힐싸개",
+          "class": "태양감시자",
+          "grade": 21,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "유띠니",
+          "guild": "힐싸개",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 85,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "추심왕",
+          "guild": "힐싸개",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 85,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "곰뮤",
+          "guild": "힐싸개",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 85,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "필라이트",
+          "guild": "힐싸개",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "사도바 04"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "독접",
+            "guild": "힐싸개",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "왕재",
+            "guild": "힐싸개",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "순자",
+            "guild": "힐싸개",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "유띠니",
+            "guild": "힐싸개",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "추심왕",
+            "guild": "힐싸개",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "곰뮤",
+            "guild": "힐싸개",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "필라이트",
+            "guild": "힐싸개",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "안마의자",
+            "guild": "힐싸개",
+            "class": "향사수",
+            "grade": 24,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "익명의스탠더",
+            "guild": "힐싸개",
+            "class": "향사수",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "아가",
+            "guild": "힐싸개",
+            "class": "향사수",
+            "grade": 22,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "해운대온천",
+            "guild": "힐싸개",
+            "class": "향사수",
+            "grade": 22,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "유나라",
+            "guild": "힐싸개",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "허니콩콩",
+            "guild": "힐싸개",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "단소",
+            "guild": "힐싸개",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "비쵸비",
+            "guild": "힐싸개",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "오브",
+            "guild": "힐싸개",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "쨩돌",
+            "guild": "힐싸개",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "쥬령",
+            "guild": "힐싸개",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "힐해",
+            "guild": "힐싸개",
+            "class": "집행관",
+            "grade": 23,
+            "level": 85,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "터치미",
+            "guild": "힐싸개",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "사도바 04"
+          }
+        ],
+        "태양감시자": [
+          {
+            "nickname": "든든",
+            "guild": "힐싸개",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "양단화",
+            "guild": "힐싸개",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "퀸오리",
+            "guild": "힐싸개",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          }
+        ],
+        "심연추방자": [
+          {
+            "nickname": "힐효댕",
+            "guild": "힐싸개",
+            "class": "심연추방자",
+            "grade": 22,
+            "level": 87,
+            "server": "사도바 04"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "샤미즈",
+            "guild": "힐싸개",
+            "class": "환영검사",
+            "grade": 22,
+            "level": 86,
+            "server": "사도바 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "25": [
+          {
+            "nickname": "독접",
+            "guild": "힐싸개",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 89,
+            "server": "사도바 04"
+          }
+        ],
+        "24": [
+          {
+            "nickname": "오브",
+            "guild": "힐싸개",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "왕재",
+            "guild": "힐싸개",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 89,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "안마의자",
+            "guild": "힐싸개",
+            "class": "향사수",
+            "grade": 24,
+            "level": 88,
+            "server": "사도바 04"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "순자",
+            "guild": "힐싸개",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "든든",
+            "guild": "힐싸개",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "쨩돌",
+            "guild": "힐싸개",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "익명의스탠더",
+            "guild": "힐싸개",
+            "class": "향사수",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "쥬령",
+            "guild": "힐싸개",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "힐해",
+            "guild": "힐싸개",
+            "class": "집행관",
+            "grade": 23,
+            "level": 85,
+            "server": "사도바 04"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "아가",
+            "guild": "힐싸개",
+            "class": "향사수",
+            "grade": 22,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "해운대온천",
+            "guild": "힐싸개",
+            "class": "향사수",
+            "grade": 22,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "힐효댕",
+            "guild": "힐싸개",
+            "class": "심연추방자",
+            "grade": 22,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "샤미즈",
+            "guild": "힐싸개",
+            "class": "환영검사",
+            "grade": 22,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "터치미",
+            "guild": "힐싸개",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "사도바 04"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "양단화",
+            "guild": "힐싸개",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "유나라",
+            "guild": "힐싸개",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "허니콩콩",
+            "guild": "힐싸개",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "단소",
+            "guild": "힐싸개",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "비쵸비",
+            "guild": "힐싸개",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "퀸오리",
+            "guild": "힐싸개",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "유띠니",
+            "guild": "힐싸개",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "추심왕",
+            "guild": "힐싸개",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "사도바 04"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "곰뮤",
+            "guild": "힐싸개",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "필라이트",
+            "guild": "힐싸개",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          }
+        ]
+      }
+    },
+    "쌀먹단": {
+      "members": 8,
+      "byClass": {
+        "태양감시자": 4,
+        "주문각인사": 2,
+        "집행관": 2
+      },
+      "byGrade": {
+        "24": 2,
+        "23": 1,
+        "21": 1,
+        "20": 4
+      },
+      "membersList": [
+        {
+          "nickname": "민운",
+          "guild": "쌀먹단",
+          "class": "집행관",
+          "grade": 24,
+          "level": 91,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "스랄",
+          "guild": "쌀먹단",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 90,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "달빛냥냥",
+          "guild": "쌀먹단",
+          "class": "태양감시자",
+          "grade": 23,
+          "level": 88,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "집행냥냥",
+          "guild": "쌀먹단",
+          "class": "집행관",
+          "grade": 21,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "칼리스타",
+          "guild": "쌀먹단",
+          "class": "태양감시자",
+          "grade": 20,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "주각냥냥",
+          "guild": "쌀먹단",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 85,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "감시냥냥",
+          "guild": "쌀먹단",
+          "class": "태양감시자",
+          "grade": 20,
+          "level": 83,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "달달냥냥",
+          "guild": "쌀먹단",
+          "class": "태양감시자",
+          "grade": 20,
+          "level": 83,
+          "server": "사도바 04"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "스랄",
+            "guild": "쌀먹단",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "주각냥냥",
+            "guild": "쌀먹단",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "사도바 04"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "민운",
+            "guild": "쌀먹단",
+            "class": "집행관",
+            "grade": 24,
+            "level": 91,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "집행냥냥",
+            "guild": "쌀먹단",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          }
+        ],
+        "태양감시자": [
+          {
+            "nickname": "달빛냥냥",
+            "guild": "쌀먹단",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "칼리스타",
+            "guild": "쌀먹단",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "감시냥냥",
+            "guild": "쌀먹단",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 83,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "달달냥냥",
+            "guild": "쌀먹단",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 83,
+            "server": "사도바 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "민운",
+            "guild": "쌀먹단",
+            "class": "집행관",
+            "grade": 24,
+            "level": 91,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "스랄",
+            "guild": "쌀먹단",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 90,
+            "server": "사도바 04"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "달빛냥냥",
+            "guild": "쌀먹단",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 88,
+            "server": "사도바 04"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "집행냥냥",
+            "guild": "쌀먹단",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "칼리스타",
+            "guild": "쌀먹단",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "주각냥냥",
+            "guild": "쌀먹단",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "감시냥냥",
+            "guild": "쌀먹단",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 83,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "달달냥냥",
+            "guild": "쌀먹단",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 83,
+            "server": "사도바 04"
+          }
+        ]
+      }
+    },
+    "야옹": {
+      "members": 7,
+      "byClass": {
+        "집행관": 3,
+        "향사수": 3,
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "23": 1,
+        "21": 1,
+        "20": 5
+      },
+      "membersList": [
+        {
+          "nickname": "이한",
+          "guild": "야옹",
+          "class": "집행관",
+          "grade": 23,
+          "level": 87,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "달콤조재",
+          "guild": "야옹",
+          "class": "향사수",
+          "grade": 21,
+          "level": 86,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "스탠다드",
+          "guild": "야옹",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "초연가득",
+          "guild": "야옹",
+          "class": "향사수",
+          "grade": 20,
+          "level": 84,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "헬창",
+          "guild": "야옹",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "엽긔궁",
+          "guild": "야옹",
+          "class": "향사수",
+          "grade": 20,
+          "level": 83,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "신화",
+          "guild": "야옹",
+          "class": "집행관",
+          "grade": 20,
+          "level": 81,
+          "server": "사도바 04"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "이한",
+            "guild": "야옹",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "헬창",
+            "guild": "야옹",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "신화",
+            "guild": "야옹",
+            "class": "집행관",
+            "grade": 20,
+            "level": 81,
+            "server": "사도바 04"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "달콤조재",
+            "guild": "야옹",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "초연가득",
+            "guild": "야옹",
+            "class": "향사수",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "엽긔궁",
+            "guild": "야옹",
+            "class": "향사수",
+            "grade": 20,
+            "level": 83,
+            "server": "사도바 04"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "스탠다드",
+            "guild": "야옹",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "23": [
+          {
+            "nickname": "이한",
+            "guild": "야옹",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "사도바 04"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "달콤조재",
+            "guild": "야옹",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "스탠다드",
+            "guild": "야옹",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "초연가득",
+            "guild": "야옹",
+            "class": "향사수",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "헬창",
+            "guild": "야옹",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "엽긔궁",
+            "guild": "야옹",
+            "class": "향사수",
+            "grade": 20,
+            "level": 83,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "신화",
+            "guild": "야옹",
+            "class": "집행관",
+            "grade": 20,
+            "level": 81,
+            "server": "사도바 04"
+          }
+        ]
+      }
+    },
+    "행복": {
+      "members": 1,
+      "byClass": {
+        "태양감시자": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "설화령",
+          "guild": "행복",
+          "class": "태양감시자",
+          "grade": 21,
+          "level": 83,
+          "server": "사도바 04"
+        }
+      ],
+      "byClassMembers": {
+        "태양감시자": [
+          {
+            "nickname": "설화령",
+            "guild": "행복",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 83,
+            "server": "사도바 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "설화령",
+            "guild": "행복",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 83,
+            "server": "사도바 04"
+          }
+        ]
+      }
+    },
+    "촌뜨기": {
+      "members": 1,
+      "byClass": {
+        "집행관": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "태술",
+          "guild": "촌뜨기",
+          "class": "집행관",
+          "grade": 21,
+          "level": 86,
+          "server": "사도바 04"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "태술",
+            "guild": "촌뜨기",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "태술",
+            "guild": "촌뜨기",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          }
+        ]
+      }
+    },
+    "태양": {
+      "members": 1,
+      "byClass": {
+        "집행관": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "디스트로이어",
+          "guild": "태양",
+          "class": "집행관",
+          "grade": 21,
+          "level": 86,
+          "server": "사도바 04"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "디스트로이어",
+            "guild": "태양",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "디스트로이어",
+            "guild": "태양",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "사도바 04"
+          }
+        ]
+      }
+    },
+    "비검": {
+      "members": 1,
+      "byClass": {
+        "야만투사": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "암혼",
+          "guild": "비검",
+          "class": "야만투사",
+          "grade": 20,
+          "level": 85,
+          "server": "사도바 04"
+        }
+      ],
+      "byClassMembers": {
+        "야만투사": [
+          {
+            "nickname": "암혼",
+            "guild": "비검",
+            "class": "야만투사",
+            "grade": 20,
+            "level": 85,
+            "server": "사도바 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "암혼",
+            "guild": "비검",
+            "class": "야만투사",
+            "grade": 20,
+            "level": 85,
+            "server": "사도바 04"
+          }
+        ]
+      }
+    },
+    "산마을": {
+      "members": 2,
+      "byClass": {
+        "야만투사": 1,
+        "향사수": 1
+      },
+      "byGrade": {
+        "20": 2
+      },
+      "membersList": [
+        {
+          "nickname": "민치펀치",
+          "guild": "산마을",
+          "class": "향사수",
+          "grade": 20,
+          "level": 85,
+          "server": "사도바 04"
+        },
+        {
+          "nickname": "흐미",
+          "guild": "산마을",
+          "class": "야만투사",
+          "grade": 20,
+          "level": 81,
+          "server": "사도바 04"
+        }
+      ],
+      "byClassMembers": {
+        "야만투사": [
+          {
+            "nickname": "흐미",
+            "guild": "산마을",
+            "class": "야만투사",
+            "grade": 20,
+            "level": 81,
+            "server": "사도바 04"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "민치펀치",
+            "guild": "산마을",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "사도바 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "민치펀치",
+            "guild": "산마을",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "사도바 04"
+          },
+          {
+            "nickname": "흐미",
+            "guild": "산마을",
+            "class": "야만투사",
+            "grade": 20,
+            "level": 81,
+            "server": "사도바 04"
+          }
+        ]
+      }
+    },
+    "이대나온남자": {
+      "members": 1,
+      "byClass": {
+        "심연추방자": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "망난이",
+          "guild": "이대나온남자",
+          "class": "심연추방자",
+          "grade": 20,
+          "level": 85,
+          "server": "사도바 04"
+        }
+      ],
+      "byClassMembers": {
+        "심연추방자": [
+          {
+            "nickname": "망난이",
+            "guild": "이대나온남자",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 85,
+            "server": "사도바 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "망난이",
+            "guild": "이대나온남자",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 85,
+            "server": "사도바 04"
+          }
+        ]
+      }
+    },
+    "열무해요": {
+      "members": 1,
+      "byClass": {
+        "향사수": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "재용리",
+          "guild": "열무해요",
+          "class": "향사수",
+          "grade": 20,
+          "level": 85,
+          "server": "사도바 04"
+        }
+      ],
+      "byClassMembers": {
+        "향사수": [
+          {
+            "nickname": "재용리",
+            "guild": "열무해요",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "사도바 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "재용리",
+            "guild": "열무해요",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "사도바 04"
+          }
+        ]
+      }
+    },
+    "초록별": {
+      "members": 1,
+      "byClass": {
+        "향사수": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "고래밥",
+          "guild": "초록별",
+          "class": "향사수",
+          "grade": 20,
+          "level": 85,
+          "server": "사도바 04"
+        }
+      ],
+      "byClassMembers": {
+        "향사수": [
+          {
+            "nickname": "고래밥",
+            "guild": "초록별",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "사도바 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "고래밥",
+            "guild": "초록별",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "사도바 04"
+          }
+        ]
+      }
+    }
+  }
+}
