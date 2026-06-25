@@ -1,0 +1,2288 @@
+{
+  "server": "메르비스 01",
+  "guilds": {
+    "TOP": {
+      "members": 48,
+      "byClass": {
+        "주문각인사": 16,
+        "집행관": 15,
+        "야만투사": 8,
+        "태양감시자": 4,
+        "향사수": 4,
+        "환영검사": 1
+      },
+      "byGrade": {
+        "26": 9,
+        "25": 12,
+        "24": 14,
+        "23": 5,
+        "22": 6,
+        "21": 2
+      },
+      "membersList": [
+        {
+          "nickname": "료멘스쿠나",
+          "guild": "TOP",
+          "class": "주문각인사",
+          "grade": 26,
+          "level": 92,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "살인귀",
+          "guild": "TOP",
+          "class": "야만투사",
+          "grade": 26,
+          "level": 92,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "한우",
+          "guild": "TOP",
+          "class": "주문각인사",
+          "grade": 26,
+          "level": 92,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "해태",
+          "guild": "TOP",
+          "class": "집행관",
+          "grade": 26,
+          "level": 92,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "Lv",
+          "guild": "TOP",
+          "class": "집행관",
+          "grade": 26,
+          "level": 91,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "도리",
+          "guild": "TOP",
+          "class": "환영검사",
+          "grade": 26,
+          "level": 91,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "레신",
+          "guild": "TOP",
+          "class": "야만투사",
+          "grade": 26,
+          "level": 91,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "마형사",
+          "guild": "TOP",
+          "class": "야만투사",
+          "grade": 26,
+          "level": 91,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "카이",
+          "guild": "TOP",
+          "class": "집행관",
+          "grade": 26,
+          "level": 91,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "JoyBoy",
+          "guild": "TOP",
+          "class": "태양감시자",
+          "grade": 25,
+          "level": 92,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "무씨",
+          "guild": "TOP",
+          "class": "야만투사",
+          "grade": 25,
+          "level": 91,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "밥도둑",
+          "guild": "TOP",
+          "class": "집행관",
+          "grade": 25,
+          "level": 91,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "불꽃남자",
+          "guild": "TOP",
+          "class": "야만투사",
+          "grade": 25,
+          "level": 91,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "신화",
+          "guild": "TOP",
+          "class": "향사수",
+          "grade": 25,
+          "level": 91,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "아영",
+          "guild": "TOP",
+          "class": "집행관",
+          "grade": 25,
+          "level": 91,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "도플라밍고",
+          "guild": "TOP",
+          "class": "집행관",
+          "grade": 25,
+          "level": 90,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "사장아",
+          "guild": "TOP",
+          "class": "집행관",
+          "grade": 25,
+          "level": 90,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "진짜렁디",
+          "guild": "TOP",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 90,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "진짜창동이",
+          "guild": "TOP",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 90,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "피몽둥이",
+          "guild": "TOP",
+          "class": "집행관",
+          "grade": 25,
+          "level": 90,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "쩰리",
+          "guild": "TOP",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 89,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "당직",
+          "guild": "TOP",
+          "class": "집행관",
+          "grade": 24,
+          "level": 90,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "덕배",
+          "guild": "TOP",
+          "class": "태양감시자",
+          "grade": 24,
+          "level": 90,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "초코릿",
+          "guild": "TOP",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 90,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "무영",
+          "guild": "TOP",
+          "class": "야만투사",
+          "grade": 24,
+          "level": 89,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "반갑고치",
+          "guild": "TOP",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 89,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "씨알",
+          "guild": "TOP",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 89,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "프로미스나인",
+          "guild": "TOP",
+          "class": "집행관",
+          "grade": 24,
+          "level": 89,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "하리봄",
+          "guild": "TOP",
+          "class": "향사수",
+          "grade": 24,
+          "level": 89,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "댕글이",
+          "guild": "TOP",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 88,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "또잉은외계인",
+          "guild": "TOP",
+          "class": "향사수",
+          "grade": 24,
+          "level": 88,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "무치",
+          "guild": "TOP",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 88,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "쐐기",
+          "guild": "TOP",
+          "class": "야만투사",
+          "grade": 24,
+          "level": 88,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "애니",
+          "guild": "TOP",
+          "class": "집행관",
+          "grade": 24,
+          "level": 88,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "호호",
+          "guild": "TOP",
+          "class": "집행관",
+          "grade": 24,
+          "level": 88,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "은은",
+          "guild": "TOP",
+          "class": "태양감시자",
+          "grade": 23,
+          "level": 88,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "허준",
+          "guild": "TOP",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 88,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "프로토콜",
+          "guild": "TOP",
+          "class": "집행관",
+          "grade": 23,
+          "level": 87,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "또또잉",
+          "guild": "TOP",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 86,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "밤도둑",
+          "guild": "TOP",
+          "class": "집행관",
+          "grade": 23,
+          "level": 86,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "배달",
+          "guild": "TOP",
+          "class": "태양감시자",
+          "grade": 22,
+          "level": 89,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "곽씨",
+          "guild": "TOP",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 88,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "노을",
+          "guild": "TOP",
+          "class": "야만투사",
+          "grade": 22,
+          "level": 88,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "바위",
+          "guild": "TOP",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 88,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "빠샥",
+          "guild": "TOP",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 88,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "맛도둑",
+          "guild": "TOP",
+          "class": "집행관",
+          "grade": 22,
+          "level": 87,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "피들",
+          "guild": "TOP",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 86,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "리자드",
+          "guild": "TOP",
+          "class": "향사수",
+          "grade": 21,
+          "level": 85,
+          "server": "메르비스 01"
+        }
+      ],
+      "byClassMembers": {
+        "야만투사": [
+          {
+            "nickname": "살인귀",
+            "guild": "TOP",
+            "class": "야만투사",
+            "grade": 26,
+            "level": 92,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "레신",
+            "guild": "TOP",
+            "class": "야만투사",
+            "grade": 26,
+            "level": 91,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "마형사",
+            "guild": "TOP",
+            "class": "야만투사",
+            "grade": 26,
+            "level": 91,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "무씨",
+            "guild": "TOP",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 91,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "불꽃남자",
+            "guild": "TOP",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 91,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "무영",
+            "guild": "TOP",
+            "class": "야만투사",
+            "grade": 24,
+            "level": 89,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "쐐기",
+            "guild": "TOP",
+            "class": "야만투사",
+            "grade": 24,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "노을",
+            "guild": "TOP",
+            "class": "야만투사",
+            "grade": 22,
+            "level": 88,
+            "server": "메르비스 01"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "도리",
+            "guild": "TOP",
+            "class": "환영검사",
+            "grade": 26,
+            "level": 91,
+            "server": "메르비스 01"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "료멘스쿠나",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 92,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "한우",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 92,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "진짜렁디",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 90,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "진짜창동이",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 90,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "쩰리",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 89,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "초코릿",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 90,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "반갑고치",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 89,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "씨알",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 89,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "댕글이",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "무치",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "허준",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "또또잉",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 86,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "곽씨",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "바위",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "빠샥",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "피들",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "메르비스 01"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "해태",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 26,
+            "level": 92,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "Lv",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 26,
+            "level": 91,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "카이",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 26,
+            "level": 91,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "밥도둑",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 25,
+            "level": 91,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "아영",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 25,
+            "level": 91,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "도플라밍고",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 25,
+            "level": 90,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "사장아",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 25,
+            "level": 90,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "피몽둥이",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 25,
+            "level": 90,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "당직",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "프로미스나인",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "애니",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "호호",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "프로토콜",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "밤도둑",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 23,
+            "level": 86,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "맛도둑",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "메르비스 01"
+          }
+        ],
+        "태양감시자": [
+          {
+            "nickname": "JoyBoy",
+            "guild": "TOP",
+            "class": "태양감시자",
+            "grade": 25,
+            "level": 92,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "덕배",
+            "guild": "TOP",
+            "class": "태양감시자",
+            "grade": 24,
+            "level": 90,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "은은",
+            "guild": "TOP",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "배달",
+            "guild": "TOP",
+            "class": "태양감시자",
+            "grade": 22,
+            "level": 89,
+            "server": "메르비스 01"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "신화",
+            "guild": "TOP",
+            "class": "향사수",
+            "grade": 25,
+            "level": 91,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "하리봄",
+            "guild": "TOP",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "또잉은외계인",
+            "guild": "TOP",
+            "class": "향사수",
+            "grade": 24,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "리자드",
+            "guild": "TOP",
+            "class": "향사수",
+            "grade": 21,
+            "level": 85,
+            "server": "메르비스 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "26": [
+          {
+            "nickname": "료멘스쿠나",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 92,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "살인귀",
+            "guild": "TOP",
+            "class": "야만투사",
+            "grade": 26,
+            "level": 92,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "한우",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 92,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "해태",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 26,
+            "level": 92,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "Lv",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 26,
+            "level": 91,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "도리",
+            "guild": "TOP",
+            "class": "환영검사",
+            "grade": 26,
+            "level": 91,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "레신",
+            "guild": "TOP",
+            "class": "야만투사",
+            "grade": 26,
+            "level": 91,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "마형사",
+            "guild": "TOP",
+            "class": "야만투사",
+            "grade": 26,
+            "level": 91,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "카이",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 26,
+            "level": 91,
+            "server": "메르비스 01"
+          }
+        ],
+        "25": [
+          {
+            "nickname": "JoyBoy",
+            "guild": "TOP",
+            "class": "태양감시자",
+            "grade": 25,
+            "level": 92,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "무씨",
+            "guild": "TOP",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 91,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "밥도둑",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 25,
+            "level": 91,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "불꽃남자",
+            "guild": "TOP",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 91,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "신화",
+            "guild": "TOP",
+            "class": "향사수",
+            "grade": 25,
+            "level": 91,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "아영",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 25,
+            "level": 91,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "도플라밍고",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 25,
+            "level": 90,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "사장아",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 25,
+            "level": 90,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "진짜렁디",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 90,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "진짜창동이",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 90,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "피몽둥이",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 25,
+            "level": 90,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "쩰리",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 89,
+            "server": "메르비스 01"
+          }
+        ],
+        "24": [
+          {
+            "nickname": "당직",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "덕배",
+            "guild": "TOP",
+            "class": "태양감시자",
+            "grade": 24,
+            "level": 90,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "초코릿",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 90,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "무영",
+            "guild": "TOP",
+            "class": "야만투사",
+            "grade": 24,
+            "level": 89,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "반갑고치",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 89,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "씨알",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 89,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "프로미스나인",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "하리봄",
+            "guild": "TOP",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "댕글이",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "또잉은외계인",
+            "guild": "TOP",
+            "class": "향사수",
+            "grade": 24,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "무치",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "쐐기",
+            "guild": "TOP",
+            "class": "야만투사",
+            "grade": 24,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "애니",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "호호",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "메르비스 01"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "은은",
+            "guild": "TOP",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "허준",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "프로토콜",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "또또잉",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 86,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "밤도둑",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 23,
+            "level": 86,
+            "server": "메르비스 01"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "배달",
+            "guild": "TOP",
+            "class": "태양감시자",
+            "grade": 22,
+            "level": 89,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "곽씨",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "노을",
+            "guild": "TOP",
+            "class": "야만투사",
+            "grade": 22,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "바위",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "빠샥",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "맛도둑",
+            "guild": "TOP",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "메르비스 01"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "피들",
+            "guild": "TOP",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "리자드",
+            "guild": "TOP",
+            "class": "향사수",
+            "grade": 21,
+            "level": 85,
+            "server": "메르비스 01"
+          }
+        ]
+      }
+    },
+    "바다": {
+      "members": 20,
+      "byClass": {
+        "집행관": 10,
+        "주문각인사": 7,
+        "야만투사": 2,
+        "향사수": 1
+      },
+      "byGrade": {
+        "24": 2,
+        "23": 2,
+        "22": 6,
+        "21": 3,
+        "20": 7
+      },
+      "membersList": [
+        {
+          "nickname": "여포",
+          "guild": "바다",
+          "class": "야만투사",
+          "grade": 24,
+          "level": 90,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "모루",
+          "guild": "바다",
+          "class": "집행관",
+          "grade": 24,
+          "level": 88,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "솜사탕",
+          "guild": "바다",
+          "class": "향사수",
+          "grade": 23,
+          "level": 88,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "키트",
+          "guild": "바다",
+          "class": "집행관",
+          "grade": 23,
+          "level": 88,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "굿보이",
+          "guild": "바다",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 88,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "별별별",
+          "guild": "바다",
+          "class": "집행관",
+          "grade": 22,
+          "level": 87,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "마씨",
+          "guild": "바다",
+          "class": "집행관",
+          "grade": 22,
+          "level": 86,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "하츠",
+          "guild": "바다",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 86,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "검황",
+          "guild": "바다",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 85,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "안졸리나졸려",
+          "guild": "바다",
+          "class": "집행관",
+          "grade": 22,
+          "level": 84,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "프리저",
+          "guild": "바다",
+          "class": "집행관",
+          "grade": 21,
+          "level": 86,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "빛황",
+          "guild": "바다",
+          "class": "야만투사",
+          "grade": 21,
+          "level": 84,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "피습",
+          "guild": "바다",
+          "class": "집행관",
+          "grade": 21,
+          "level": 84,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "화이트",
+          "guild": "바다",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 86,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "주유",
+          "guild": "바다",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 85,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "공짜",
+          "guild": "바다",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "평양박치기",
+          "guild": "바다",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "구수한",
+          "guild": "바다",
+          "class": "집행관",
+          "grade": 20,
+          "level": 83,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "엄지",
+          "guild": "바다",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 83,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "클로버",
+          "guild": "바다",
+          "class": "집행관",
+          "grade": 20,
+          "level": 82,
+          "server": "메르비스 01"
+        }
+      ],
+      "byClassMembers": {
+        "야만투사": [
+          {
+            "nickname": "여포",
+            "guild": "바다",
+            "class": "야만투사",
+            "grade": 24,
+            "level": 90,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "빛황",
+            "guild": "바다",
+            "class": "야만투사",
+            "grade": 21,
+            "level": 84,
+            "server": "메르비스 01"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "모루",
+            "guild": "바다",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "키트",
+            "guild": "바다",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "별별별",
+            "guild": "바다",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "마씨",
+            "guild": "바다",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "안졸리나졸려",
+            "guild": "바다",
+            "class": "집행관",
+            "grade": 22,
+            "level": 84,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "프리저",
+            "guild": "바다",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "피습",
+            "guild": "바다",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "평양박치기",
+            "guild": "바다",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "구수한",
+            "guild": "바다",
+            "class": "집행관",
+            "grade": 20,
+            "level": 83,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "클로버",
+            "guild": "바다",
+            "class": "집행관",
+            "grade": 20,
+            "level": 82,
+            "server": "메르비스 01"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "솜사탕",
+            "guild": "바다",
+            "class": "향사수",
+            "grade": 23,
+            "level": 88,
+            "server": "메르비스 01"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "굿보이",
+            "guild": "바다",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "하츠",
+            "guild": "바다",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "검황",
+            "guild": "바다",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 85,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "화이트",
+            "guild": "바다",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 86,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "주유",
+            "guild": "바다",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "공짜",
+            "guild": "바다",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "엄지",
+            "guild": "바다",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 83,
+            "server": "메르비스 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "여포",
+            "guild": "바다",
+            "class": "야만투사",
+            "grade": 24,
+            "level": 90,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "모루",
+            "guild": "바다",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "메르비스 01"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "솜사탕",
+            "guild": "바다",
+            "class": "향사수",
+            "grade": 23,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "키트",
+            "guild": "바다",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "메르비스 01"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "굿보이",
+            "guild": "바다",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 88,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "별별별",
+            "guild": "바다",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "마씨",
+            "guild": "바다",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "하츠",
+            "guild": "바다",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "검황",
+            "guild": "바다",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 85,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "안졸리나졸려",
+            "guild": "바다",
+            "class": "집행관",
+            "grade": 22,
+            "level": 84,
+            "server": "메르비스 01"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "프리저",
+            "guild": "바다",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "빛황",
+            "guild": "바다",
+            "class": "야만투사",
+            "grade": 21,
+            "level": 84,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "피습",
+            "guild": "바다",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "메르비스 01"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "화이트",
+            "guild": "바다",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 86,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "주유",
+            "guild": "바다",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "공짜",
+            "guild": "바다",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "평양박치기",
+            "guild": "바다",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "구수한",
+            "guild": "바다",
+            "class": "집행관",
+            "grade": 20,
+            "level": 83,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "엄지",
+            "guild": "바다",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 83,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "클로버",
+            "guild": "바다",
+            "class": "집행관",
+            "grade": 20,
+            "level": 82,
+            "server": "메르비스 01"
+          }
+        ]
+      }
+    },
+    "딸기": {
+      "members": 1,
+      "byClass": {
+        "태양감시자": 1
+      },
+      "byGrade": {
+        "23": 1
+      },
+      "membersList": [
+        {
+          "nickname": "나무아비타불",
+          "guild": "딸기",
+          "class": "태양감시자",
+          "grade": 23,
+          "level": 89,
+          "server": "메르비스 01"
+        }
+      ],
+      "byClassMembers": {
+        "태양감시자": [
+          {
+            "nickname": "나무아비타불",
+            "guild": "딸기",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 89,
+            "server": "메르비스 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "23": [
+          {
+            "nickname": "나무아비타불",
+            "guild": "딸기",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 89,
+            "server": "메르비스 01"
+          }
+        ]
+      }
+    },
+    "로맨틱": {
+      "members": 5,
+      "byClass": {
+        "집행관": 2,
+        "향사수": 2,
+        "태양감시자": 1
+      },
+      "byGrade": {
+        "22": 2,
+        "20": 3
+      },
+      "membersList": [
+        {
+          "nickname": "말티즈",
+          "guild": "로맨틱",
+          "class": "집행관",
+          "grade": 22,
+          "level": 86,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "루키",
+          "guild": "로맨틱",
+          "class": "태양감시자",
+          "grade": 22,
+          "level": 84,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "질서유지",
+          "guild": "로맨틱",
+          "class": "향사수",
+          "grade": 20,
+          "level": 85,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "새삼",
+          "guild": "로맨틱",
+          "class": "집행관",
+          "grade": 20,
+          "level": 83,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "용기",
+          "guild": "로맨틱",
+          "class": "향사수",
+          "grade": 20,
+          "level": 83,
+          "server": "메르비스 01"
+        }
+      ],
+      "byClassMembers": {
+        "태양감시자": [
+          {
+            "nickname": "루키",
+            "guild": "로맨틱",
+            "class": "태양감시자",
+            "grade": 22,
+            "level": 84,
+            "server": "메르비스 01"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "말티즈",
+            "guild": "로맨틱",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "새삼",
+            "guild": "로맨틱",
+            "class": "집행관",
+            "grade": 20,
+            "level": 83,
+            "server": "메르비스 01"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "질서유지",
+            "guild": "로맨틱",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "용기",
+            "guild": "로맨틱",
+            "class": "향사수",
+            "grade": 20,
+            "level": 83,
+            "server": "메르비스 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "22": [
+          {
+            "nickname": "말티즈",
+            "guild": "로맨틱",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "루키",
+            "guild": "로맨틱",
+            "class": "태양감시자",
+            "grade": 22,
+            "level": 84,
+            "server": "메르비스 01"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "질서유지",
+            "guild": "로맨틱",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "새삼",
+            "guild": "로맨틱",
+            "class": "집행관",
+            "grade": 20,
+            "level": 83,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "용기",
+            "guild": "로맨틱",
+            "class": "향사수",
+            "grade": 20,
+            "level": 83,
+            "server": "메르비스 01"
+          }
+        ]
+      }
+    },
+    "투시즌": {
+      "members": 1,
+      "byClass": {
+        "태양감시자": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "서비스",
+          "guild": "투시즌",
+          "class": "태양감시자",
+          "grade": 21,
+          "level": 81,
+          "server": "메르비스 01"
+        }
+      ],
+      "byClassMembers": {
+        "태양감시자": [
+          {
+            "nickname": "서비스",
+            "guild": "투시즌",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 81,
+            "server": "메르비스 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "서비스",
+            "guild": "투시즌",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 81,
+            "server": "메르비스 01"
+          }
+        ]
+      }
+    },
+    "사령": {
+      "members": 1,
+      "byClass": {
+        "향사수": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "당직투",
+          "guild": "사령",
+          "class": "향사수",
+          "grade": 21,
+          "level": 84,
+          "server": "메르비스 01"
+        }
+      ],
+      "byClassMembers": {
+        "향사수": [
+          {
+            "nickname": "당직투",
+            "guild": "사령",
+            "class": "향사수",
+            "grade": 21,
+            "level": 84,
+            "server": "메르비스 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "당직투",
+            "guild": "사령",
+            "class": "향사수",
+            "grade": 21,
+            "level": 84,
+            "server": "메르비스 01"
+          }
+        ]
+      }
+    },
+    "캠프": {
+      "members": 1,
+      "byClass": {
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "힐러",
+          "guild": "캠프",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 84,
+          "server": "메르비스 01"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "힐러",
+            "guild": "캠프",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 84,
+            "server": "메르비스 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "힐러",
+            "guild": "캠프",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 84,
+            "server": "메르비스 01"
+          }
+        ]
+      }
+    },
+    "허수아비": {
+      "members": 1,
+      "byClass": {
+        "집행관": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "이혼숙려캠프",
+          "guild": "허수아비",
+          "class": "집행관",
+          "grade": 21,
+          "level": 86,
+          "server": "메르비스 01"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "이혼숙려캠프",
+            "guild": "허수아비",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "메르비스 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "이혼숙려캠프",
+            "guild": "허수아비",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "메르비스 01"
+          }
+        ]
+      }
+    },
+    "백": {
+      "members": 2,
+      "byClass": {
+        "주문각인사": 1,
+        "집행관": 1
+      },
+      "byGrade": {
+        "20": 2
+      },
+      "membersList": [
+        {
+          "nickname": "소망",
+          "guild": "백",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 85,
+          "server": "메르비스 01"
+        },
+        {
+          "nickname": "AI",
+          "guild": "백",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "메르비스 01"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "소망",
+            "guild": "백",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "메르비스 01"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "AI",
+            "guild": "백",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "메르비스 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "소망",
+            "guild": "백",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "메르비스 01"
+          },
+          {
+            "nickname": "AI",
+            "guild": "백",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "메르비스 01"
+          }
+        ]
+      }
+    },
+    "탁류": {
+      "members": 1,
+      "byClass": {
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "에바",
+          "guild": "탁류",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 85,
+          "server": "메르비스 01"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "에바",
+            "guild": "탁류",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "메르비스 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "에바",
+            "guild": "탁류",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "메르비스 01"
+          }
+        ]
+      }
+    },
+    "야화": {
+      "members": 1,
+      "byClass": {
+        "집행관": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "미나수",
+          "guild": "야화",
+          "class": "집행관",
+          "grade": 20,
+          "level": 86,
+          "server": "메르비스 01"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "미나수",
+            "guild": "야화",
+            "class": "집행관",
+            "grade": 20,
+            "level": 86,
+            "server": "메르비스 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "미나수",
+            "guild": "야화",
+            "class": "집행관",
+            "grade": 20,
+            "level": 86,
+            "server": "메르비스 01"
+          }
+        ]
+      }
+    },
+    "PON": {
+      "members": 1,
+      "byClass": {
+        "집행관": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "지안",
+          "guild": "PON",
+          "class": "집행관",
+          "grade": 20,
+          "level": 82,
+          "server": "메르비스 01"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "지안",
+            "guild": "PON",
+            "class": "집행관",
+            "grade": 20,
+            "level": 82,
+            "server": "메르비스 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "지안",
+            "guild": "PON",
+            "class": "집행관",
+            "grade": 20,
+            "level": 82,
+            "server": "메르비스 01"
+          }
+        ]
+      }
+    }
+  }
+}

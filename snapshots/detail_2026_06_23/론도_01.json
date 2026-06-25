@@ -1,0 +1,1443 @@
+{
+  "server": "론도 01",
+  "guilds": {
+    "미르": {
+      "members": 35,
+      "byClass": {
+        "집행관": 18,
+        "주문각인사": 6,
+        "야만투사": 3,
+        "환영검사": 3,
+        "태양감시자": 2,
+        "향사수": 2,
+        "심연추방자": 1
+      },
+      "byGrade": {
+        "26": 1,
+        "25": 1,
+        "24": 10,
+        "23": 6,
+        "22": 6,
+        "21": 8,
+        "20": 3
+      },
+      "membersList": [
+        {
+          "nickname": "이준구",
+          "guild": "미르",
+          "class": "집행관",
+          "grade": 26,
+          "level": 92,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "짐승대장",
+          "guild": "미르",
+          "class": "집행관",
+          "grade": 25,
+          "level": 91,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "루시펠",
+          "guild": "미르",
+          "class": "집행관",
+          "grade": 24,
+          "level": 90,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "선장",
+          "guild": "미르",
+          "class": "환영검사",
+          "grade": 24,
+          "level": 90,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "우디르",
+          "guild": "미르",
+          "class": "집행관",
+          "grade": 24,
+          "level": 90,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "중달",
+          "guild": "미르",
+          "class": "집행관",
+          "grade": 24,
+          "level": 90,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "초당",
+          "guild": "미르",
+          "class": "집행관",
+          "grade": 24,
+          "level": 90,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "말티엘",
+          "guild": "미르",
+          "class": "집행관",
+          "grade": 24,
+          "level": 89,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "사하구",
+          "guild": "미르",
+          "class": "환영검사",
+          "grade": 24,
+          "level": 89,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "아현",
+          "guild": "미르",
+          "class": "태양감시자",
+          "grade": 24,
+          "level": 89,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "안칼",
+          "guild": "미르",
+          "class": "집행관",
+          "grade": 24,
+          "level": 89,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "PRINGLES",
+          "guild": "미르",
+          "class": "집행관",
+          "grade": 24,
+          "level": 88,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "마법조무사",
+          "guild": "미르",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 89,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "짐승실장",
+          "guild": "미르",
+          "class": "집행관",
+          "grade": 23,
+          "level": 89,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "보들",
+          "guild": "미르",
+          "class": "집행관",
+          "grade": 23,
+          "level": 88,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "영무",
+          "guild": "미르",
+          "class": "향사수",
+          "grade": 23,
+          "level": 88,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "중달공주",
+          "guild": "미르",
+          "class": "집행관",
+          "grade": 23,
+          "level": 86,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "탈모",
+          "guild": "미르",
+          "class": "환영검사",
+          "grade": 23,
+          "level": 86,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "산적딸래미",
+          "guild": "미르",
+          "class": "향사수",
+          "grade": 22,
+          "level": 89,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "파리",
+          "guild": "미르",
+          "class": "심연추방자",
+          "grade": 22,
+          "level": 89,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "빌리진",
+          "guild": "미르",
+          "class": "집행관",
+          "grade": 22,
+          "level": 88,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "채령",
+          "guild": "미르",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 88,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "월희",
+          "guild": "미르",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 87,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "읏짜",
+          "guild": "미르",
+          "class": "야만투사",
+          "grade": 22,
+          "level": 87,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "이드",
+          "guild": "미르",
+          "class": "집행관",
+          "grade": 21,
+          "level": 87,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "차무희",
+          "guild": "미르",
+          "class": "야만투사",
+          "grade": 21,
+          "level": 87,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "너구리우동",
+          "guild": "미르",
+          "class": "태양감시자",
+          "grade": 21,
+          "level": 86,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "안다리엘",
+          "guild": "미르",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 86,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "만타",
+          "guild": "미르",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "맹덕",
+          "guild": "미르",
+          "class": "야만투사",
+          "grade": 21,
+          "level": 84,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "수록",
+          "guild": "미르",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 84,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "한숨",
+          "guild": "미르",
+          "class": "집행관",
+          "grade": 21,
+          "level": 84,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "망고초밥",
+          "guild": "미르",
+          "class": "집행관",
+          "grade": 20,
+          "level": 85,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "보물섬",
+          "guild": "미르",
+          "class": "집행관",
+          "grade": 20,
+          "level": 85,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "봉댕",
+          "guild": "미르",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "론도 01"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "이준구",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 26,
+            "level": 92,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "짐승대장",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 25,
+            "level": 91,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "루시펠",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "우디르",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "중달",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "초당",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "말티엘",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "안칼",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "PRINGLES",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "짐승실장",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 23,
+            "level": 89,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "보들",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "중달공주",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 23,
+            "level": 86,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "빌리진",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 22,
+            "level": 88,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "이드",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 21,
+            "level": 87,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "만타",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "한숨",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "망고초밥",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "보물섬",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "론도 01"
+          }
+        ],
+        "태양감시자": [
+          {
+            "nickname": "아현",
+            "guild": "미르",
+            "class": "태양감시자",
+            "grade": 24,
+            "level": 89,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "너구리우동",
+            "guild": "미르",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 86,
+            "server": "론도 01"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "선장",
+            "guild": "미르",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 90,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "사하구",
+            "guild": "미르",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 89,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "탈모",
+            "guild": "미르",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 86,
+            "server": "론도 01"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "영무",
+            "guild": "미르",
+            "class": "향사수",
+            "grade": 23,
+            "level": 88,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "산적딸래미",
+            "guild": "미르",
+            "class": "향사수",
+            "grade": 22,
+            "level": 89,
+            "server": "론도 01"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "마법조무사",
+            "guild": "미르",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 89,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "채령",
+            "guild": "미르",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 88,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "월희",
+            "guild": "미르",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "안다리엘",
+            "guild": "미르",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "수록",
+            "guild": "미르",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 84,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "봉댕",
+            "guild": "미르",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "론도 01"
+          }
+        ],
+        "야만투사": [
+          {
+            "nickname": "읏짜",
+            "guild": "미르",
+            "class": "야만투사",
+            "grade": 22,
+            "level": 87,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "차무희",
+            "guild": "미르",
+            "class": "야만투사",
+            "grade": 21,
+            "level": 87,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "맹덕",
+            "guild": "미르",
+            "class": "야만투사",
+            "grade": 21,
+            "level": 84,
+            "server": "론도 01"
+          }
+        ],
+        "심연추방자": [
+          {
+            "nickname": "파리",
+            "guild": "미르",
+            "class": "심연추방자",
+            "grade": 22,
+            "level": 89,
+            "server": "론도 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "26": [
+          {
+            "nickname": "이준구",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 26,
+            "level": 92,
+            "server": "론도 01"
+          }
+        ],
+        "25": [
+          {
+            "nickname": "짐승대장",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 25,
+            "level": 91,
+            "server": "론도 01"
+          }
+        ],
+        "24": [
+          {
+            "nickname": "루시펠",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "선장",
+            "guild": "미르",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 90,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "우디르",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "중달",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "초당",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "말티엘",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "사하구",
+            "guild": "미르",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 89,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "아현",
+            "guild": "미르",
+            "class": "태양감시자",
+            "grade": 24,
+            "level": 89,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "안칼",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "PRINGLES",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "론도 01"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "마법조무사",
+            "guild": "미르",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 89,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "짐승실장",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 23,
+            "level": 89,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "보들",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "영무",
+            "guild": "미르",
+            "class": "향사수",
+            "grade": 23,
+            "level": 88,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "중달공주",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 23,
+            "level": 86,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "탈모",
+            "guild": "미르",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 86,
+            "server": "론도 01"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "산적딸래미",
+            "guild": "미르",
+            "class": "향사수",
+            "grade": 22,
+            "level": 89,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "파리",
+            "guild": "미르",
+            "class": "심연추방자",
+            "grade": 22,
+            "level": 89,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "빌리진",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 22,
+            "level": 88,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "채령",
+            "guild": "미르",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 88,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "월희",
+            "guild": "미르",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "읏짜",
+            "guild": "미르",
+            "class": "야만투사",
+            "grade": 22,
+            "level": 87,
+            "server": "론도 01"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "이드",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 21,
+            "level": 87,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "차무희",
+            "guild": "미르",
+            "class": "야만투사",
+            "grade": 21,
+            "level": 87,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "너구리우동",
+            "guild": "미르",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 86,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "안다리엘",
+            "guild": "미르",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "만타",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "맹덕",
+            "guild": "미르",
+            "class": "야만투사",
+            "grade": 21,
+            "level": 84,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "수록",
+            "guild": "미르",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 84,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "한숨",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "론도 01"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "망고초밥",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "보물섬",
+            "guild": "미르",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "봉댕",
+            "guild": "미르",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "론도 01"
+          }
+        ]
+      }
+    },
+    "사신": {
+      "members": 5,
+      "byClass": {
+        "집행관": 3,
+        "주문각인사": 2
+      },
+      "byGrade": {
+        "22": 2,
+        "21": 2,
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "블랙캣",
+          "guild": "사신",
+          "class": "집행관",
+          "grade": 22,
+          "level": 87,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "비정",
+          "guild": "사신",
+          "class": "집행관",
+          "grade": 22,
+          "level": 86,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "스텔라",
+          "guild": "사신",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 86,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "그림리퍼",
+          "guild": "사신",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 85,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "에필로그",
+          "guild": "사신",
+          "class": "집행관",
+          "grade": 20,
+          "level": 85,
+          "server": "론도 01"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "블랙캣",
+            "guild": "사신",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "비정",
+            "guild": "사신",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "에필로그",
+            "guild": "사신",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "론도 01"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "스텔라",
+            "guild": "사신",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "그림리퍼",
+            "guild": "사신",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "론도 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "22": [
+          {
+            "nickname": "블랙캣",
+            "guild": "사신",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "비정",
+            "guild": "사신",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "론도 01"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "스텔라",
+            "guild": "사신",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "그림리퍼",
+            "guild": "사신",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "론도 01"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "에필로그",
+            "guild": "사신",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "론도 01"
+          }
+        ]
+      }
+    },
+    "새싹": {
+      "members": 1,
+      "byClass": {
+        "환영검사": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "베로",
+          "guild": "새싹",
+          "class": "환영검사",
+          "grade": 21,
+          "level": 87,
+          "server": "론도 01"
+        }
+      ],
+      "byClassMembers": {
+        "환영검사": [
+          {
+            "nickname": "베로",
+            "guild": "새싹",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 87,
+            "server": "론도 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "베로",
+            "guild": "새싹",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 87,
+            "server": "론도 01"
+          }
+        ]
+      }
+    },
+    "장수막걸리": {
+      "members": 2,
+      "byClass": {
+        "집행관": 2
+      },
+      "byGrade": {
+        "21": 2
+      },
+      "membersList": [
+        {
+          "nickname": "요르",
+          "guild": "장수막걸리",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "리센",
+          "guild": "장수막걸리",
+          "class": "집행관",
+          "grade": 21,
+          "level": 84,
+          "server": "론도 01"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "요르",
+            "guild": "장수막걸리",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "리센",
+            "guild": "장수막걸리",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "론도 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "요르",
+            "guild": "장수막걸리",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "리센",
+            "guild": "장수막걸리",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "론도 01"
+          }
+        ]
+      }
+    },
+    "거북이문신": {
+      "members": 1,
+      "byClass": {
+        "야만투사": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "어두운별",
+          "guild": "거북이문신",
+          "class": "야만투사",
+          "grade": 20,
+          "level": 81,
+          "server": "론도 01"
+        }
+      ],
+      "byClassMembers": {
+        "야만투사": [
+          {
+            "nickname": "어두운별",
+            "guild": "거북이문신",
+            "class": "야만투사",
+            "grade": 20,
+            "level": 81,
+            "server": "론도 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "어두운별",
+            "guild": "거북이문신",
+            "class": "야만투사",
+            "grade": 20,
+            "level": 81,
+            "server": "론도 01"
+          }
+        ]
+      }
+    },
+    "초월": {
+      "members": 1,
+      "byClass": {
+        "심연추방자": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "버즈",
+          "guild": "초월",
+          "class": "심연추방자",
+          "grade": 20,
+          "level": 86,
+          "server": "론도 01"
+        }
+      ],
+      "byClassMembers": {
+        "심연추방자": [
+          {
+            "nickname": "버즈",
+            "guild": "초월",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 86,
+            "server": "론도 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "버즈",
+            "guild": "초월",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 86,
+            "server": "론도 01"
+          }
+        ]
+      }
+    },
+    "자연인": {
+      "members": 1,
+      "byClass": {
+        "태양감시자": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "개미지옥",
+          "guild": "자연인",
+          "class": "태양감시자",
+          "grade": 20,
+          "level": 82,
+          "server": "론도 01"
+        }
+      ],
+      "byClassMembers": {
+        "태양감시자": [
+          {
+            "nickname": "개미지옥",
+            "guild": "자연인",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 82,
+            "server": "론도 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "개미지옥",
+            "guild": "자연인",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 82,
+            "server": "론도 01"
+          }
+        ]
+      }
+    },
+    "종국장": {
+      "members": 2,
+      "byClass": {
+        "주문각인사": 1,
+        "향사수": 1
+      },
+      "byGrade": {
+        "20": 2
+      },
+      "membersList": [
+        {
+          "nickname": "최근에본",
+          "guild": "종국장",
+          "class": "향사수",
+          "grade": 20,
+          "level": 85,
+          "server": "론도 01"
+        },
+        {
+          "nickname": "이블리스",
+          "guild": "종국장",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "론도 01"
+        }
+      ],
+      "byClassMembers": {
+        "향사수": [
+          {
+            "nickname": "최근에본",
+            "guild": "종국장",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "론도 01"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "이블리스",
+            "guild": "종국장",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "론도 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "최근에본",
+            "guild": "종국장",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "론도 01"
+          },
+          {
+            "nickname": "이블리스",
+            "guild": "종국장",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "론도 01"
+          }
+        ]
+      }
+    },
+    "지반조사": {
+      "members": 1,
+      "byClass": {
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "천공기",
+          "guild": "지반조사",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 85,
+          "server": "론도 01"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "천공기",
+            "guild": "지반조사",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "론도 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "천공기",
+            "guild": "지반조사",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "론도 01"
+          }
+        ]
+      }
+    },
+    "매트": {
+      "members": 1,
+      "byClass": {
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "꼴까닥",
+          "guild": "매트",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "론도 01"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "꼴까닥",
+            "guild": "매트",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "론도 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "꼴까닥",
+            "guild": "매트",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "론도 01"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1146 @@
+{
+  "server": "아티산 01",
+  "guilds": {
+    "다방민": {
+      "members": 6,
+      "byClass": {
+        "주문각인사": 2,
+        "향사수": 2,
+        "심연추방자": 1,
+        "집행관": 1
+      },
+      "byGrade": {
+        "25": 1,
+        "24": 1,
+        "22": 1,
+        "21": 2,
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "핫핑크",
+          "guild": "다방민",
+          "class": "향사수",
+          "grade": 25,
+          "level": 89,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "알랑알랑",
+          "guild": "다방민",
+          "class": "집행관",
+          "grade": 24,
+          "level": 90,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "야생몬스터",
+          "guild": "다방민",
+          "class": "심연추방자",
+          "grade": 22,
+          "level": 88,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "하로",
+          "guild": "다방민",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 86,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "라비앙로즈",
+          "guild": "다방민",
+          "class": "향사수",
+          "grade": 21,
+          "level": 85,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "사동이",
+          "guild": "다방민",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "아티산 01"
+        }
+      ],
+      "byClassMembers": {
+        "향사수": [
+          {
+            "nickname": "핫핑크",
+            "guild": "다방민",
+            "class": "향사수",
+            "grade": 25,
+            "level": 89,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "라비앙로즈",
+            "guild": "다방민",
+            "class": "향사수",
+            "grade": 21,
+            "level": 85,
+            "server": "아티산 01"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "알랑알랑",
+            "guild": "다방민",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "아티산 01"
+          }
+        ],
+        "심연추방자": [
+          {
+            "nickname": "야생몬스터",
+            "guild": "다방민",
+            "class": "심연추방자",
+            "grade": 22,
+            "level": 88,
+            "server": "아티산 01"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "하로",
+            "guild": "다방민",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "사동이",
+            "guild": "다방민",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "아티산 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "25": [
+          {
+            "nickname": "핫핑크",
+            "guild": "다방민",
+            "class": "향사수",
+            "grade": 25,
+            "level": 89,
+            "server": "아티산 01"
+          }
+        ],
+        "24": [
+          {
+            "nickname": "알랑알랑",
+            "guild": "다방민",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "아티산 01"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "야생몬스터",
+            "guild": "다방민",
+            "class": "심연추방자",
+            "grade": 22,
+            "level": 88,
+            "server": "아티산 01"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "하로",
+            "guild": "다방민",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "라비앙로즈",
+            "guild": "다방민",
+            "class": "향사수",
+            "grade": 21,
+            "level": 85,
+            "server": "아티산 01"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "사동이",
+            "guild": "다방민",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "아티산 01"
+          }
+        ]
+      }
+    },
+    "룰렛": {
+      "members": 6,
+      "byClass": {
+        "향사수": 3,
+        "심연추방자": 1,
+        "야만투사": 1,
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "24": 1,
+        "23": 2,
+        "22": 1,
+        "20": 2
+      },
+      "membersList": [
+        {
+          "nickname": "갬블루",
+          "guild": "룰렛",
+          "class": "야만투사",
+          "grade": 24,
+          "level": 89,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "여백",
+          "guild": "룰렛",
+          "class": "향사수",
+          "grade": 23,
+          "level": 89,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "이효리",
+          "guild": "룰렛",
+          "class": "향사수",
+          "grade": 23,
+          "level": 88,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "공자",
+          "guild": "룰렛",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 86,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "히포",
+          "guild": "룰렛",
+          "class": "향사수",
+          "grade": 20,
+          "level": 85,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "악마의커피",
+          "guild": "룰렛",
+          "class": "심연추방자",
+          "grade": 20,
+          "level": 84,
+          "server": "아티산 01"
+        }
+      ],
+      "byClassMembers": {
+        "야만투사": [
+          {
+            "nickname": "갬블루",
+            "guild": "룰렛",
+            "class": "야만투사",
+            "grade": 24,
+            "level": 89,
+            "server": "아티산 01"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "여백",
+            "guild": "룰렛",
+            "class": "향사수",
+            "grade": 23,
+            "level": 89,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "이효리",
+            "guild": "룰렛",
+            "class": "향사수",
+            "grade": 23,
+            "level": 88,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "히포",
+            "guild": "룰렛",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "아티산 01"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "공자",
+            "guild": "룰렛",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "아티산 01"
+          }
+        ],
+        "심연추방자": [
+          {
+            "nickname": "악마의커피",
+            "guild": "룰렛",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 84,
+            "server": "아티산 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "갬블루",
+            "guild": "룰렛",
+            "class": "야만투사",
+            "grade": 24,
+            "level": 89,
+            "server": "아티산 01"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "여백",
+            "guild": "룰렛",
+            "class": "향사수",
+            "grade": 23,
+            "level": 89,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "이효리",
+            "guild": "룰렛",
+            "class": "향사수",
+            "grade": 23,
+            "level": 88,
+            "server": "아티산 01"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "공자",
+            "guild": "룰렛",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "아티산 01"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "히포",
+            "guild": "룰렛",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "악마의커피",
+            "guild": "룰렛",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 84,
+            "server": "아티산 01"
+          }
+        ]
+      }
+    },
+    "꿀밤": {
+      "members": 6,
+      "byClass": {
+        "집행관": 4,
+        "주문각인사": 2
+      },
+      "byGrade": {
+        "24": 2,
+        "23": 1,
+        "22": 1,
+        "21": 2
+      },
+      "membersList": [
+        {
+          "nickname": "꿀밤콩",
+          "guild": "꿀밤",
+          "class": "집행관",
+          "grade": 24,
+          "level": 89,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "마초맨",
+          "guild": "꿀밤",
+          "class": "집행관",
+          "grade": 24,
+          "level": 89,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "꿀밤힐",
+          "guild": "꿀밤",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 87,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "수문장",
+          "guild": "꿀밤",
+          "class": "집행관",
+          "grade": 22,
+          "level": 88,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "김마고",
+          "guild": "꿀밤",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 86,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "꿀밤숑",
+          "guild": "꿀밤",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "아티산 01"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "꿀밤콩",
+            "guild": "꿀밤",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "마초맨",
+            "guild": "꿀밤",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "수문장",
+            "guild": "꿀밤",
+            "class": "집행관",
+            "grade": 22,
+            "level": 88,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "꿀밤숑",
+            "guild": "꿀밤",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아티산 01"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "꿀밤힐",
+            "guild": "꿀밤",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 87,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "김마고",
+            "guild": "꿀밤",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "아티산 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "꿀밤콩",
+            "guild": "꿀밤",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "마초맨",
+            "guild": "꿀밤",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "아티산 01"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "꿀밤힐",
+            "guild": "꿀밤",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 87,
+            "server": "아티산 01"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "수문장",
+            "guild": "꿀밤",
+            "class": "집행관",
+            "grade": 22,
+            "level": 88,
+            "server": "아티산 01"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "김마고",
+            "guild": "꿀밤",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "꿀밤숑",
+            "guild": "꿀밤",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아티산 01"
+          }
+        ]
+      }
+    },
+    "빛": {
+      "members": 9,
+      "byClass": {
+        "향사수": 3,
+        "주문각인사": 2,
+        "집행관": 2,
+        "야만투사": 1,
+        "환영검사": 1
+      },
+      "byGrade": {
+        "24": 1,
+        "22": 1,
+        "21": 2,
+        "20": 5
+      },
+      "membersList": [
+        {
+          "nickname": "주몽",
+          "guild": "빛",
+          "class": "집행관",
+          "grade": 24,
+          "level": 89,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "방탕아",
+          "guild": "빛",
+          "class": "집행관",
+          "grade": 22,
+          "level": 86,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "Kail",
+          "guild": "빛",
+          "class": "환영검사",
+          "grade": 21,
+          "level": 85,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "김도영",
+          "guild": "빛",
+          "class": "향사수",
+          "grade": 21,
+          "level": 85,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "제로베이스원",
+          "guild": "빛",
+          "class": "향사수",
+          "grade": 20,
+          "level": 85,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "카르마",
+          "guild": "빛",
+          "class": "야만투사",
+          "grade": 20,
+          "level": 84,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "키트",
+          "guild": "빛",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "BMW",
+          "guild": "빛",
+          "class": "향사수",
+          "grade": 20,
+          "level": 83,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "마리포사",
+          "guild": "빛",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 83,
+          "server": "아티산 01"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "주몽",
+            "guild": "빛",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "방탕아",
+            "guild": "빛",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "아티산 01"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "Kail",
+            "guild": "빛",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 85,
+            "server": "아티산 01"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "김도영",
+            "guild": "빛",
+            "class": "향사수",
+            "grade": 21,
+            "level": 85,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "제로베이스원",
+            "guild": "빛",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "BMW",
+            "guild": "빛",
+            "class": "향사수",
+            "grade": 20,
+            "level": 83,
+            "server": "아티산 01"
+          }
+        ],
+        "야만투사": [
+          {
+            "nickname": "카르마",
+            "guild": "빛",
+            "class": "야만투사",
+            "grade": 20,
+            "level": 84,
+            "server": "아티산 01"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "키트",
+            "guild": "빛",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "마리포사",
+            "guild": "빛",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 83,
+            "server": "아티산 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "주몽",
+            "guild": "빛",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "아티산 01"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "방탕아",
+            "guild": "빛",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "아티산 01"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "Kail",
+            "guild": "빛",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 85,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "김도영",
+            "guild": "빛",
+            "class": "향사수",
+            "grade": 21,
+            "level": 85,
+            "server": "아티산 01"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "제로베이스원",
+            "guild": "빛",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "카르마",
+            "guild": "빛",
+            "class": "야만투사",
+            "grade": 20,
+            "level": 84,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "키트",
+            "guild": "빛",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "BMW",
+            "guild": "빛",
+            "class": "향사수",
+            "grade": 20,
+            "level": 83,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "마리포사",
+            "guild": "빛",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 83,
+            "server": "아티산 01"
+          }
+        ]
+      }
+    },
+    "하이방가": {
+      "members": 1,
+      "byClass": {
+        "향사수": 1
+      },
+      "byGrade": {
+        "22": 1
+      },
+      "membersList": [
+        {
+          "nickname": "울트라",
+          "guild": "하이방가",
+          "class": "향사수",
+          "grade": 22,
+          "level": 86,
+          "server": "아티산 01"
+        }
+      ],
+      "byClassMembers": {
+        "향사수": [
+          {
+            "nickname": "울트라",
+            "guild": "하이방가",
+            "class": "향사수",
+            "grade": 22,
+            "level": 86,
+            "server": "아티산 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "22": [
+          {
+            "nickname": "울트라",
+            "guild": "하이방가",
+            "class": "향사수",
+            "grade": 22,
+            "level": 86,
+            "server": "아티산 01"
+          }
+        ]
+      }
+    },
+    "짱구": {
+      "members": 2,
+      "byClass": {
+        "야만투사": 1,
+        "집행관": 1
+      },
+      "byGrade": {
+        "22": 1,
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "솔탄",
+          "guild": "짱구",
+          "class": "집행관",
+          "grade": 22,
+          "level": 86,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "비밀쪽제비",
+          "guild": "짱구",
+          "class": "야만투사",
+          "grade": 20,
+          "level": 85,
+          "server": "아티산 01"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "솔탄",
+            "guild": "짱구",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "아티산 01"
+          }
+        ],
+        "야만투사": [
+          {
+            "nickname": "비밀쪽제비",
+            "guild": "짱구",
+            "class": "야만투사",
+            "grade": 20,
+            "level": 85,
+            "server": "아티산 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "22": [
+          {
+            "nickname": "솔탄",
+            "guild": "짱구",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "아티산 01"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "비밀쪽제비",
+            "guild": "짱구",
+            "class": "야만투사",
+            "grade": 20,
+            "level": 85,
+            "server": "아티산 01"
+          }
+        ]
+      }
+    },
+    "사장남천동": {
+      "members": 2,
+      "byClass": {
+        "주문각인사": 2
+      },
+      "byGrade": {
+        "21": 1,
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "명품호빵",
+          "guild": "사장남천동",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 84,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "명품만두",
+          "guild": "사장남천동",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "아티산 01"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "명품호빵",
+            "guild": "사장남천동",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 84,
+            "server": "아티산 01"
+          },
+          {
+            "nickname": "명품만두",
+            "guild": "사장남천동",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "아티산 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "명품호빵",
+            "guild": "사장남천동",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 84,
+            "server": "아티산 01"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "명품만두",
+            "guild": "사장남천동",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "아티산 01"
+          }
+        ]
+      }
+    },
+    "환영여단": {
+      "members": 2,
+      "byClass": {
+        "집행관": 1,
+        "환영검사": 1
+      },
+      "byGrade": {
+        "21": 1,
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "하양돼지당",
+          "guild": "환영여단",
+          "class": "집행관",
+          "grade": 21,
+          "level": 86,
+          "server": "아티산 01"
+        },
+        {
+          "nickname": "칠흑의바람",
+          "guild": "환영여단",
+          "class": "환영검사",
+          "grade": 20,
+          "level": 84,
+          "server": "아티산 01"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "하양돼지당",
+            "guild": "환영여단",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "아티산 01"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "칠흑의바람",
+            "guild": "환영여단",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 84,
+            "server": "아티산 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "하양돼지당",
+            "guild": "환영여단",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "아티산 01"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "칠흑의바람",
+            "guild": "환영여단",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 84,
+            "server": "아티산 01"
+          }
+        ]
+      }
+    },
+    "소울푸드": {
+      "members": 1,
+      "byClass": {
+        "집행관": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "우유빙수",
+          "guild": "소울푸드",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "아티산 01"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "우유빙수",
+            "guild": "소울푸드",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아티산 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "우유빙수",
+            "guild": "소울푸드",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아티산 01"
+          }
+        ]
+      }
+    },
+    "제로베이스": {
+      "members": 1,
+      "byClass": {
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "갓힐꼬",
+          "guild": "제로베이스",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 85,
+          "server": "아티산 01"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "갓힐꼬",
+            "guild": "제로베이스",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "아티산 01"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "갓힐꼬",
+            "guild": "제로베이스",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "아티산 01"
+          }
+        ]
+      }
+    }
+  }
+}

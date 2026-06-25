@@ -1,0 +1,3471 @@
+{
+  "server": "아민타 04",
+  "guilds": {
+    "금쪽이": {
+      "members": 49,
+      "byClass": {
+        "주문각인사": 21,
+        "집행관": 10,
+        "야만투사": 8,
+        "향사수": 7,
+        "환영검사": 2,
+        "태양감시자": 1
+      },
+      "byGrade": {
+        "26": 6,
+        "25": 19,
+        "24": 11,
+        "23": 7,
+        "22": 5,
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "Cola",
+          "guild": "금쪽이",
+          "class": "환영검사",
+          "grade": 26,
+          "level": 93,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "마쿤",
+          "guild": "금쪽이",
+          "class": "주문각인사",
+          "grade": 26,
+          "level": 92,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "뭐라씨부리노",
+          "guild": "금쪽이",
+          "class": "집행관",
+          "grade": 26,
+          "level": 92,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "스으윽",
+          "guild": "금쪽이",
+          "class": "야만투사",
+          "grade": 26,
+          "level": 92,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "의정부",
+          "guild": "금쪽이",
+          "class": "야만투사",
+          "grade": 26,
+          "level": 92,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "조심",
+          "guild": "금쪽이",
+          "class": "야만투사",
+          "grade": 26,
+          "level": 91,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "굿샷",
+          "guild": "금쪽이",
+          "class": "야만투사",
+          "grade": 25,
+          "level": 92,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "금쪽이",
+          "guild": "금쪽이",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 92,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "도람푸",
+          "guild": "금쪽이",
+          "class": "향사수",
+          "grade": 25,
+          "level": 92,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "주윤발",
+          "guild": "금쪽이",
+          "class": "야만투사",
+          "grade": 25,
+          "level": 92,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "힐러인척",
+          "guild": "금쪽이",
+          "class": "집행관",
+          "grade": 25,
+          "level": 92,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "HUSH",
+          "guild": "금쪽이",
+          "class": "향사수",
+          "grade": 25,
+          "level": 91,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "Rex",
+          "guild": "금쪽이",
+          "class": "향사수",
+          "grade": 25,
+          "level": 91,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "드드드드",
+          "guild": "금쪽이",
+          "class": "향사수",
+          "grade": 25,
+          "level": 91,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "딜러인척",
+          "guild": "금쪽이",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 91,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "무하",
+          "guild": "금쪽이",
+          "class": "집행관",
+          "grade": 25,
+          "level": 91,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "밤바",
+          "guild": "금쪽이",
+          "class": "집행관",
+          "grade": 25,
+          "level": 91,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "시진핑",
+          "guild": "금쪽이",
+          "class": "야만투사",
+          "grade": 25,
+          "level": 91,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "어둠라미",
+          "guild": "금쪽이",
+          "class": "태양감시자",
+          "grade": 25,
+          "level": 91,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "코리",
+          "guild": "금쪽이",
+          "class": "집행관",
+          "grade": 25,
+          "level": 91,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "쿠동",
+          "guild": "금쪽이",
+          "class": "야만투사",
+          "grade": 25,
+          "level": 91,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "핵망치",
+          "guild": "금쪽이",
+          "class": "집행관",
+          "grade": 25,
+          "level": 91,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "가오나시",
+          "guild": "금쪽이",
+          "class": "집행관",
+          "grade": 25,
+          "level": 90,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "얌마",
+          "guild": "금쪽이",
+          "class": "야만투사",
+          "grade": 25,
+          "level": 90,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "제이드",
+          "guild": "금쪽이",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 90,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "뿌에엥",
+          "guild": "금쪽이",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 91,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "손오공",
+          "guild": "금쪽이",
+          "class": "향사수",
+          "grade": 24,
+          "level": 91,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "학씨",
+          "guild": "금쪽이",
+          "class": "집행관",
+          "grade": 24,
+          "level": 91,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "홈런볼",
+          "guild": "금쪽이",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 91,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "래터",
+          "guild": "금쪽이",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 90,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "장보고온토요요",
+          "guild": "금쪽이",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 90,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "홀리쉣",
+          "guild": "금쪽이",
+          "class": "집행관",
+          "grade": 24,
+          "level": 90,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "고래밥",
+          "guild": "금쪽이",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 89,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "구라",
+          "guild": "금쪽이",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 89,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "애국자",
+          "guild": "금쪽이",
+          "class": "향사수",
+          "grade": 24,
+          "level": 89,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "플루",
+          "guild": "금쪽이",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 89,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "에드",
+          "guild": "금쪽이",
+          "class": "집행관",
+          "grade": 23,
+          "level": 90,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "종건급잔기",
+          "guild": "금쪽이",
+          "class": "환영검사",
+          "grade": 23,
+          "level": 90,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "천사형",
+          "guild": "금쪽이",
+          "class": "향사수",
+          "grade": 23,
+          "level": 90,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "손오반",
+          "guild": "금쪽이",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 89,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "휘뚜루",
+          "guild": "금쪽이",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 88,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "도펠뱅어",
+          "guild": "금쪽이",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 87,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "벨루가",
+          "guild": "금쪽이",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 86,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "춘자",
+          "guild": "금쪽이",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 88,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "탁주",
+          "guild": "금쪽이",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 88,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "레이블",
+          "guild": "금쪽이",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 87,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "인생원샷",
+          "guild": "금쪽이",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 87,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "쭈각",
+          "guild": "금쪽이",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 87,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "휘릭",
+          "guild": "금쪽이",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 87,
+          "server": "아민타 04"
+        }
+      ],
+      "byClassMembers": {
+        "야만투사": [
+          {
+            "nickname": "스으윽",
+            "guild": "금쪽이",
+            "class": "야만투사",
+            "grade": 26,
+            "level": 92,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "의정부",
+            "guild": "금쪽이",
+            "class": "야만투사",
+            "grade": 26,
+            "level": 92,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "조심",
+            "guild": "금쪽이",
+            "class": "야만투사",
+            "grade": 26,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "굿샷",
+            "guild": "금쪽이",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 92,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "주윤발",
+            "guild": "금쪽이",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 92,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "시진핑",
+            "guild": "금쪽이",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "쿠동",
+            "guild": "금쪽이",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "얌마",
+            "guild": "금쪽이",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 90,
+            "server": "아민타 04"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "Cola",
+            "guild": "금쪽이",
+            "class": "환영검사",
+            "grade": 26,
+            "level": 93,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "종건급잔기",
+            "guild": "금쪽이",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 90,
+            "server": "아민타 04"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "마쿤",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 92,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "금쪽이",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 92,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "딜러인척",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "제이드",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "뿌에엥",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "홈런볼",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "래터",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "장보고온토요요",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "고래밥",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "구라",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "플루",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "손오반",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "휘뚜루",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "도펠뱅어",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "벨루가",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 86,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "춘자",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "탁주",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "레이블",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "인생원샷",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "쭈각",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "휘릭",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 87,
+            "server": "아민타 04"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "뭐라씨부리노",
+            "guild": "금쪽이",
+            "class": "집행관",
+            "grade": 26,
+            "level": 92,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "힐러인척",
+            "guild": "금쪽이",
+            "class": "집행관",
+            "grade": 25,
+            "level": 92,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "무하",
+            "guild": "금쪽이",
+            "class": "집행관",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "밤바",
+            "guild": "금쪽이",
+            "class": "집행관",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "코리",
+            "guild": "금쪽이",
+            "class": "집행관",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "핵망치",
+            "guild": "금쪽이",
+            "class": "집행관",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "가오나시",
+            "guild": "금쪽이",
+            "class": "집행관",
+            "grade": 25,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "학씨",
+            "guild": "금쪽이",
+            "class": "집행관",
+            "grade": 24,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "홀리쉣",
+            "guild": "금쪽이",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "에드",
+            "guild": "금쪽이",
+            "class": "집행관",
+            "grade": 23,
+            "level": 90,
+            "server": "아민타 04"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "도람푸",
+            "guild": "금쪽이",
+            "class": "향사수",
+            "grade": 25,
+            "level": 92,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "HUSH",
+            "guild": "금쪽이",
+            "class": "향사수",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "Rex",
+            "guild": "금쪽이",
+            "class": "향사수",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "드드드드",
+            "guild": "금쪽이",
+            "class": "향사수",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "손오공",
+            "guild": "금쪽이",
+            "class": "향사수",
+            "grade": 24,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "애국자",
+            "guild": "금쪽이",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "천사형",
+            "guild": "금쪽이",
+            "class": "향사수",
+            "grade": 23,
+            "level": 90,
+            "server": "아민타 04"
+          }
+        ],
+        "태양감시자": [
+          {
+            "nickname": "어둠라미",
+            "guild": "금쪽이",
+            "class": "태양감시자",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "26": [
+          {
+            "nickname": "Cola",
+            "guild": "금쪽이",
+            "class": "환영검사",
+            "grade": 26,
+            "level": 93,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "마쿤",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 92,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "뭐라씨부리노",
+            "guild": "금쪽이",
+            "class": "집행관",
+            "grade": 26,
+            "level": 92,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "스으윽",
+            "guild": "금쪽이",
+            "class": "야만투사",
+            "grade": 26,
+            "level": 92,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "의정부",
+            "guild": "금쪽이",
+            "class": "야만투사",
+            "grade": 26,
+            "level": 92,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "조심",
+            "guild": "금쪽이",
+            "class": "야만투사",
+            "grade": 26,
+            "level": 91,
+            "server": "아민타 04"
+          }
+        ],
+        "25": [
+          {
+            "nickname": "굿샷",
+            "guild": "금쪽이",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 92,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "금쪽이",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 92,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "도람푸",
+            "guild": "금쪽이",
+            "class": "향사수",
+            "grade": 25,
+            "level": 92,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "주윤발",
+            "guild": "금쪽이",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 92,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "힐러인척",
+            "guild": "금쪽이",
+            "class": "집행관",
+            "grade": 25,
+            "level": 92,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "HUSH",
+            "guild": "금쪽이",
+            "class": "향사수",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "Rex",
+            "guild": "금쪽이",
+            "class": "향사수",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "드드드드",
+            "guild": "금쪽이",
+            "class": "향사수",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "딜러인척",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "무하",
+            "guild": "금쪽이",
+            "class": "집행관",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "밤바",
+            "guild": "금쪽이",
+            "class": "집행관",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "시진핑",
+            "guild": "금쪽이",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "어둠라미",
+            "guild": "금쪽이",
+            "class": "태양감시자",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "코리",
+            "guild": "금쪽이",
+            "class": "집행관",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "쿠동",
+            "guild": "금쪽이",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "핵망치",
+            "guild": "금쪽이",
+            "class": "집행관",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "가오나시",
+            "guild": "금쪽이",
+            "class": "집행관",
+            "grade": 25,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "얌마",
+            "guild": "금쪽이",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "제이드",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 90,
+            "server": "아민타 04"
+          }
+        ],
+        "24": [
+          {
+            "nickname": "뿌에엥",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "손오공",
+            "guild": "금쪽이",
+            "class": "향사수",
+            "grade": 24,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "학씨",
+            "guild": "금쪽이",
+            "class": "집행관",
+            "grade": 24,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "홈런볼",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "래터",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "장보고온토요요",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "홀리쉣",
+            "guild": "금쪽이",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "고래밥",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "구라",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "애국자",
+            "guild": "금쪽이",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "플루",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 89,
+            "server": "아민타 04"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "에드",
+            "guild": "금쪽이",
+            "class": "집행관",
+            "grade": 23,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "종건급잔기",
+            "guild": "금쪽이",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "천사형",
+            "guild": "금쪽이",
+            "class": "향사수",
+            "grade": 23,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "손오반",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "휘뚜루",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "도펠뱅어",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "벨루가",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 86,
+            "server": "아민타 04"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "춘자",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "탁주",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "레이블",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "인생원샷",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "쭈각",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "아민타 04"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "휘릭",
+            "guild": "금쪽이",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 87,
+            "server": "아민타 04"
+          }
+        ]
+      }
+    },
+    "은쪽이": {
+      "members": 45,
+      "byClass": {
+        "향사수": 14,
+        "주문각인사": 13,
+        "집행관": 10,
+        "환영검사": 6,
+        "야만투사": 1,
+        "태양감시자": 1
+      },
+      "byGrade": {
+        "26": 1,
+        "25": 1,
+        "24": 7,
+        "23": 14,
+        "22": 11,
+        "21": 8,
+        "20": 3
+      },
+      "membersList": [
+        {
+          "nickname": "칠가이",
+          "guild": "은쪽이",
+          "class": "주문각인사",
+          "grade": 26,
+          "level": 92,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "불꽃테리",
+          "guild": "은쪽이",
+          "class": "집행관",
+          "grade": 25,
+          "level": 89,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "ODEE",
+          "guild": "은쪽이",
+          "class": "집행관",
+          "grade": 24,
+          "level": 90,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "눈별",
+          "guild": "은쪽이",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 90,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "니케",
+          "guild": "은쪽이",
+          "class": "집행관",
+          "grade": 24,
+          "level": 90,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "화풍",
+          "guild": "은쪽이",
+          "class": "향사수",
+          "grade": 24,
+          "level": 89,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "꼴통분쇄기",
+          "guild": "은쪽이",
+          "class": "환영검사",
+          "grade": 24,
+          "level": 88,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "불량스님",
+          "guild": "은쪽이",
+          "class": "야만투사",
+          "grade": 24,
+          "level": 88,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "홍랑",
+          "guild": "은쪽이",
+          "class": "집행관",
+          "grade": 24,
+          "level": 88,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "신하데스",
+          "guild": "은쪽이",
+          "class": "향사수",
+          "grade": 23,
+          "level": 90,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "깅정은",
+          "guild": "은쪽이",
+          "class": "향사수",
+          "grade": 23,
+          "level": 89,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "만코",
+          "guild": "은쪽이",
+          "class": "향사수",
+          "grade": 23,
+          "level": 89,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "쏘는중",
+          "guild": "은쪽이",
+          "class": "향사수",
+          "grade": 23,
+          "level": 89,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "오팔년용띠한복자",
+          "guild": "은쪽이",
+          "class": "향사수",
+          "grade": 23,
+          "level": 89,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "죠바",
+          "guild": "은쪽이",
+          "class": "태양감시자",
+          "grade": 23,
+          "level": 89,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "나몽",
+          "guild": "은쪽이",
+          "class": "환영검사",
+          "grade": 23,
+          "level": 88,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "다르다",
+          "guild": "은쪽이",
+          "class": "집행관",
+          "grade": 23,
+          "level": 88,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "쌍패",
+          "guild": "은쪽이",
+          "class": "집행관",
+          "grade": 23,
+          "level": 88,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "암살자",
+          "guild": "은쪽이",
+          "class": "환영검사",
+          "grade": 23,
+          "level": 88,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "푸틴",
+          "guild": "은쪽이",
+          "class": "향사수",
+          "grade": 23,
+          "level": 88,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "호가이",
+          "guild": "은쪽이",
+          "class": "환영검사",
+          "grade": 23,
+          "level": 88,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "화랑이",
+          "guild": "은쪽이",
+          "class": "향사수",
+          "grade": 23,
+          "level": 88,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "이야르",
+          "guild": "은쪽이",
+          "class": "향사수",
+          "grade": 23,
+          "level": 87,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "귀신",
+          "guild": "은쪽이",
+          "class": "집행관",
+          "grade": 22,
+          "level": 88,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "도나스",
+          "guild": "은쪽이",
+          "class": "환영검사",
+          "grade": 22,
+          "level": 88,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "럭키핑",
+          "guild": "은쪽이",
+          "class": "향사수",
+          "grade": 22,
+          "level": 87,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "밤가이",
+          "guild": "은쪽이",
+          "class": "환영검사",
+          "grade": 22,
+          "level": 87,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "잘빠노",
+          "guild": "은쪽이",
+          "class": "집행관",
+          "grade": 22,
+          "level": 87,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "주르기",
+          "guild": "은쪽이",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 87,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "한번이",
+          "guild": "은쪽이",
+          "class": "향사수",
+          "grade": 22,
+          "level": 87,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "꿀호떡",
+          "guild": "은쪽이",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 86,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "야귀",
+          "guild": "은쪽이",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 86,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "유튜브어둠노을",
+          "guild": "은쪽이",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 86,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "파워에이드",
+          "guild": "은쪽이",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 86,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "순백",
+          "guild": "은쪽이",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 88,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "바브린카",
+          "guild": "은쪽이",
+          "class": "집행관",
+          "grade": 21,
+          "level": 87,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "이쟈무스요",
+          "guild": "은쪽이",
+          "class": "향사수",
+          "grade": 21,
+          "level": 87,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "오이잉",
+          "guild": "은쪽이",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 86,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "체스",
+          "guild": "은쪽이",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 86,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "잔영",
+          "guild": "은쪽이",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 85,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "점점",
+          "guild": "은쪽이",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "방관",
+          "guild": "은쪽이",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 84,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "신짜오",
+          "guild": "은쪽이",
+          "class": "향사수",
+          "grade": 20,
+          "level": 87,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "통후추",
+          "guild": "은쪽이",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "민주당",
+          "guild": "은쪽이",
+          "class": "향사수",
+          "grade": 20,
+          "level": 82,
+          "server": "아민타 04"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "칠가이",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 92,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "눈별",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "주르기",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "꿀호떡",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "야귀",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "유튜브어둠노을",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "파워에이드",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "순백",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "오이잉",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "체스",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "잔영",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "방관",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 84,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "통후추",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "아민타 04"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "불꽃테리",
+            "guild": "은쪽이",
+            "class": "집행관",
+            "grade": 25,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "ODEE",
+            "guild": "은쪽이",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "니케",
+            "guild": "은쪽이",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "홍랑",
+            "guild": "은쪽이",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "다르다",
+            "guild": "은쪽이",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "쌍패",
+            "guild": "은쪽이",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "귀신",
+            "guild": "은쪽이",
+            "class": "집행관",
+            "grade": 22,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "잘빠노",
+            "guild": "은쪽이",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "바브린카",
+            "guild": "은쪽이",
+            "class": "집행관",
+            "grade": 21,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "점점",
+            "guild": "은쪽이",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아민타 04"
+          }
+        ],
+        "야만투사": [
+          {
+            "nickname": "불량스님",
+            "guild": "은쪽이",
+            "class": "야만투사",
+            "grade": 24,
+            "level": 88,
+            "server": "아민타 04"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "꼴통분쇄기",
+            "guild": "은쪽이",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "나몽",
+            "guild": "은쪽이",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "암살자",
+            "guild": "은쪽이",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "호가이",
+            "guild": "은쪽이",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "도나스",
+            "guild": "은쪽이",
+            "class": "환영검사",
+            "grade": 22,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "밤가이",
+            "guild": "은쪽이",
+            "class": "환영검사",
+            "grade": 22,
+            "level": 87,
+            "server": "아민타 04"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "화풍",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "신하데스",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 23,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "깅정은",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 23,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "만코",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 23,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "쏘는중",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 23,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "오팔년용띠한복자",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 23,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "푸틴",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 23,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "화랑이",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 23,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "이야르",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 23,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "럭키핑",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 22,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "한번이",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 22,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "이쟈무스요",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "신짜오",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 20,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "민주당",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 20,
+            "level": 82,
+            "server": "아민타 04"
+          }
+        ],
+        "태양감시자": [
+          {
+            "nickname": "죠바",
+            "guild": "은쪽이",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 89,
+            "server": "아민타 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "26": [
+          {
+            "nickname": "칠가이",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 92,
+            "server": "아민타 04"
+          }
+        ],
+        "25": [
+          {
+            "nickname": "불꽃테리",
+            "guild": "은쪽이",
+            "class": "집행관",
+            "grade": 25,
+            "level": 89,
+            "server": "아민타 04"
+          }
+        ],
+        "24": [
+          {
+            "nickname": "ODEE",
+            "guild": "은쪽이",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "눈별",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "니케",
+            "guild": "은쪽이",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "화풍",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "꼴통분쇄기",
+            "guild": "은쪽이",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "불량스님",
+            "guild": "은쪽이",
+            "class": "야만투사",
+            "grade": 24,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "홍랑",
+            "guild": "은쪽이",
+            "class": "집행관",
+            "grade": 24,
+            "level": 88,
+            "server": "아민타 04"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "신하데스",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 23,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "깅정은",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 23,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "만코",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 23,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "쏘는중",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 23,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "오팔년용띠한복자",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 23,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "죠바",
+            "guild": "은쪽이",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "나몽",
+            "guild": "은쪽이",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "다르다",
+            "guild": "은쪽이",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "쌍패",
+            "guild": "은쪽이",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "암살자",
+            "guild": "은쪽이",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "푸틴",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 23,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "호가이",
+            "guild": "은쪽이",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "화랑이",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 23,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "이야르",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 23,
+            "level": 87,
+            "server": "아민타 04"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "귀신",
+            "guild": "은쪽이",
+            "class": "집행관",
+            "grade": 22,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "도나스",
+            "guild": "은쪽이",
+            "class": "환영검사",
+            "grade": 22,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "럭키핑",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 22,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "밤가이",
+            "guild": "은쪽이",
+            "class": "환영검사",
+            "grade": 22,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "잘빠노",
+            "guild": "은쪽이",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "주르기",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "한번이",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 22,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "꿀호떡",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "야귀",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "유튜브어둠노을",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "파워에이드",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "아민타 04"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "순백",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "바브린카",
+            "guild": "은쪽이",
+            "class": "집행관",
+            "grade": 21,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "이쟈무스요",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "오이잉",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "체스",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "잔영",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "점점",
+            "guild": "은쪽이",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "방관",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 84,
+            "server": "아민타 04"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "신짜오",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 20,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "통후추",
+            "guild": "은쪽이",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "민주당",
+            "guild": "은쪽이",
+            "class": "향사수",
+            "grade": 20,
+            "level": 82,
+            "server": "아민타 04"
+          }
+        ]
+      }
+    },
+    "신전": {
+      "members": 1,
+      "byClass": {
+        "집행관": 1
+      },
+      "byGrade": {
+        "25": 1
+      },
+      "membersList": [
+        {
+          "nickname": "솜솜",
+          "guild": "신전",
+          "class": "집행관",
+          "grade": 25,
+          "level": 91,
+          "server": "아민타 04"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "솜솜",
+            "guild": "신전",
+            "class": "집행관",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "25": [
+          {
+            "nickname": "솜솜",
+            "guild": "신전",
+            "class": "집행관",
+            "grade": 25,
+            "level": 91,
+            "server": "아민타 04"
+          }
+        ]
+      }
+    },
+    "영원히": {
+      "members": 1,
+      "byClass": {
+        "집행관": 1
+      },
+      "byGrade": {
+        "25": 1
+      },
+      "membersList": [
+        {
+          "nickname": "힘들어요",
+          "guild": "영원히",
+          "class": "집행관",
+          "grade": 25,
+          "level": 89,
+          "server": "아민타 04"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "힘들어요",
+            "guild": "영원히",
+            "class": "집행관",
+            "grade": 25,
+            "level": 89,
+            "server": "아민타 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "25": [
+          {
+            "nickname": "힘들어요",
+            "guild": "영원히",
+            "class": "집행관",
+            "grade": 25,
+            "level": 89,
+            "server": "아민타 04"
+          }
+        ]
+      }
+    },
+    "옥토넛탐험대": {
+      "members": 6,
+      "byClass": {
+        "집행관": 3,
+        "주문각인사": 1,
+        "태양감시자": 1,
+        "환영검사": 1
+      },
+      "byGrade": {
+        "24": 1,
+        "23": 1,
+        "22": 1,
+        "21": 2,
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "바나클",
+          "guild": "옥토넛탐험대",
+          "class": "집행관",
+          "grade": 24,
+          "level": 91,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "콰지",
+          "guild": "옥토넛탐험대",
+          "class": "집행관",
+          "grade": 23,
+          "level": 88,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "태감",
+          "guild": "옥토넛탐험대",
+          "class": "태양감시자",
+          "grade": 22,
+          "level": 85,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "페이소",
+          "guild": "옥토넛탐험대",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 86,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "우럭",
+          "guild": "옥토넛탐험대",
+          "class": "집행관",
+          "grade": 21,
+          "level": 84,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "잔나비",
+          "guild": "옥토넛탐험대",
+          "class": "환영검사",
+          "grade": 20,
+          "level": 85,
+          "server": "아민타 04"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "바나클",
+            "guild": "옥토넛탐험대",
+            "class": "집행관",
+            "grade": 24,
+            "level": 91,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "콰지",
+            "guild": "옥토넛탐험대",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "우럭",
+            "guild": "옥토넛탐험대",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "아민타 04"
+          }
+        ],
+        "태양감시자": [
+          {
+            "nickname": "태감",
+            "guild": "옥토넛탐험대",
+            "class": "태양감시자",
+            "grade": 22,
+            "level": 85,
+            "server": "아민타 04"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "페이소",
+            "guild": "옥토넛탐험대",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "아민타 04"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "잔나비",
+            "guild": "옥토넛탐험대",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 85,
+            "server": "아민타 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "바나클",
+            "guild": "옥토넛탐험대",
+            "class": "집행관",
+            "grade": 24,
+            "level": 91,
+            "server": "아민타 04"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "콰지",
+            "guild": "옥토넛탐험대",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "아민타 04"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "태감",
+            "guild": "옥토넛탐험대",
+            "class": "태양감시자",
+            "grade": 22,
+            "level": 85,
+            "server": "아민타 04"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "페이소",
+            "guild": "옥토넛탐험대",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "우럭",
+            "guild": "옥토넛탐험대",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "아민타 04"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "잔나비",
+            "guild": "옥토넛탐험대",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 85,
+            "server": "아민타 04"
+          }
+        ]
+      }
+    },
+    "동쪽이": {
+      "members": 13,
+      "byClass": {
+        "집행관": 8,
+        "주문각인사": 4,
+        "환영검사": 1
+      },
+      "byGrade": {
+        "24": 1,
+        "23": 2,
+        "22": 5,
+        "21": 3,
+        "20": 2
+      },
+      "membersList": [
+        {
+          "nickname": "덩치",
+          "guild": "동쪽이",
+          "class": "집행관",
+          "grade": 24,
+          "level": 90,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "시카리오",
+          "guild": "동쪽이",
+          "class": "집행관",
+          "grade": 23,
+          "level": 89,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "애옹",
+          "guild": "동쪽이",
+          "class": "집행관",
+          "grade": 23,
+          "level": 87,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "CoIa",
+          "guild": "동쪽이",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 88,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "달리는토끼",
+          "guild": "동쪽이",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 88,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "작작",
+          "guild": "동쪽이",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 86,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "올빼미",
+          "guild": "동쪽이",
+          "class": "집행관",
+          "grade": 22,
+          "level": 85,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "아카네코",
+          "guild": "동쪽이",
+          "class": "집행관",
+          "grade": 22,
+          "level": 79,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "절대자",
+          "guild": "동쪽이",
+          "class": "집행관",
+          "grade": 21,
+          "level": 86,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "데우스",
+          "guild": "동쪽이",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "태제",
+          "guild": "동쪽이",
+          "class": "환영검사",
+          "grade": 21,
+          "level": 79,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "붕어",
+          "guild": "동쪽이",
+          "class": "집행관",
+          "grade": 20,
+          "level": 83,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "꿀주각",
+          "guild": "동쪽이",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 82,
+          "server": "아민타 04"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "덩치",
+            "guild": "동쪽이",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "시카리오",
+            "guild": "동쪽이",
+            "class": "집행관",
+            "grade": 23,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "애옹",
+            "guild": "동쪽이",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "올빼미",
+            "guild": "동쪽이",
+            "class": "집행관",
+            "grade": 22,
+            "level": 85,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "아카네코",
+            "guild": "동쪽이",
+            "class": "집행관",
+            "grade": 22,
+            "level": 79,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "절대자",
+            "guild": "동쪽이",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "데우스",
+            "guild": "동쪽이",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "붕어",
+            "guild": "동쪽이",
+            "class": "집행관",
+            "grade": 20,
+            "level": 83,
+            "server": "아민타 04"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "CoIa",
+            "guild": "동쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "달리는토끼",
+            "guild": "동쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "작작",
+            "guild": "동쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "꿀주각",
+            "guild": "동쪽이",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 82,
+            "server": "아민타 04"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "태제",
+            "guild": "동쪽이",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 79,
+            "server": "아민타 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "덩치",
+            "guild": "동쪽이",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "아민타 04"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "시카리오",
+            "guild": "동쪽이",
+            "class": "집행관",
+            "grade": 23,
+            "level": 89,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "애옹",
+            "guild": "동쪽이",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "아민타 04"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "CoIa",
+            "guild": "동쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "달리는토끼",
+            "guild": "동쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 88,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "작작",
+            "guild": "동쪽이",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "올빼미",
+            "guild": "동쪽이",
+            "class": "집행관",
+            "grade": 22,
+            "level": 85,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "아카네코",
+            "guild": "동쪽이",
+            "class": "집행관",
+            "grade": 22,
+            "level": 79,
+            "server": "아민타 04"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "절대자",
+            "guild": "동쪽이",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "데우스",
+            "guild": "동쪽이",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "태제",
+            "guild": "동쪽이",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 79,
+            "server": "아민타 04"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "붕어",
+            "guild": "동쪽이",
+            "class": "집행관",
+            "grade": 20,
+            "level": 83,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "꿀주각",
+            "guild": "동쪽이",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 82,
+            "server": "아민타 04"
+          }
+        ]
+      }
+    },
+    "KPOP": {
+      "members": 6,
+      "byClass": {
+        "집행관": 4,
+        "야만투사": 1,
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "23": 1,
+        "21": 3,
+        "20": 2
+      },
+      "membersList": [
+        {
+          "nickname": "천왕군",
+          "guild": "KPOP",
+          "class": "집행관",
+          "grade": 23,
+          "level": 87,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "에스파",
+          "guild": "KPOP",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 86,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "너와나",
+          "guild": "KPOP",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "사자보이즈",
+          "guild": "KPOP",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "BTS",
+          "guild": "KPOP",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "빙가리",
+          "guild": "KPOP",
+          "class": "야만투사",
+          "grade": 20,
+          "level": 84,
+          "server": "아민타 04"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "천왕군",
+            "guild": "KPOP",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "너와나",
+            "guild": "KPOP",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "사자보이즈",
+            "guild": "KPOP",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "BTS",
+            "guild": "KPOP",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "아민타 04"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "에스파",
+            "guild": "KPOP",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "아민타 04"
+          }
+        ],
+        "야만투사": [
+          {
+            "nickname": "빙가리",
+            "guild": "KPOP",
+            "class": "야만투사",
+            "grade": 20,
+            "level": 84,
+            "server": "아민타 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "23": [
+          {
+            "nickname": "천왕군",
+            "guild": "KPOP",
+            "class": "집행관",
+            "grade": 23,
+            "level": 87,
+            "server": "아민타 04"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "에스파",
+            "guild": "KPOP",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "너와나",
+            "guild": "KPOP",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "사자보이즈",
+            "guild": "KPOP",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아민타 04"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "BTS",
+            "guild": "KPOP",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "빙가리",
+            "guild": "KPOP",
+            "class": "야만투사",
+            "grade": 20,
+            "level": 84,
+            "server": "아민타 04"
+          }
+        ]
+      }
+    },
+    "메이저리그": {
+      "members": 1,
+      "byClass": {
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "22": 1
+      },
+      "membersList": [
+        {
+          "nickname": "쇼헤이",
+          "guild": "메이저리그",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 87,
+          "server": "아민타 04"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "쇼헤이",
+            "guild": "메이저리그",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "아민타 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "22": [
+          {
+            "nickname": "쇼헤이",
+            "guild": "메이저리그",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "아민타 04"
+          }
+        ]
+      }
+    },
+    "디아블로": {
+      "members": 3,
+      "byClass": {
+        "심연추방자": 1,
+        "주문각인사": 1,
+        "집행관": 1
+      },
+      "byGrade": {
+        "21": 1,
+        "20": 2
+      },
+      "membersList": [
+        {
+          "nickname": "갓당근",
+          "guild": "디아블로",
+          "class": "심연추방자",
+          "grade": 21,
+          "level": 87,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "돌풍일",
+          "guild": "디아블로",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 85,
+          "server": "아민타 04"
+        },
+        {
+          "nickname": "백야왕",
+          "guild": "디아블로",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "아민타 04"
+        }
+      ],
+      "byClassMembers": {
+        "심연추방자": [
+          {
+            "nickname": "갓당근",
+            "guild": "디아블로",
+            "class": "심연추방자",
+            "grade": 21,
+            "level": 87,
+            "server": "아민타 04"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "돌풍일",
+            "guild": "디아블로",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "아민타 04"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "백야왕",
+            "guild": "디아블로",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "아민타 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "갓당근",
+            "guild": "디아블로",
+            "class": "심연추방자",
+            "grade": 21,
+            "level": 87,
+            "server": "아민타 04"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "돌풍일",
+            "guild": "디아블로",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "아민타 04"
+          },
+          {
+            "nickname": "백야왕",
+            "guild": "디아블로",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "아민타 04"
+          }
+        ]
+      }
+    },
+    "머버": {
+      "members": 1,
+      "byClass": {
+        "환영검사": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "퍼플",
+          "guild": "머버",
+          "class": "환영검사",
+          "grade": 21,
+          "level": 86,
+          "server": "아민타 04"
+        }
+      ],
+      "byClassMembers": {
+        "환영검사": [
+          {
+            "nickname": "퍼플",
+            "guild": "머버",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 86,
+            "server": "아민타 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "퍼플",
+            "guild": "머버",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 86,
+            "server": "아민타 04"
+          }
+        ]
+      }
+    },
+    "군단": {
+      "members": 1,
+      "byClass": {
+        "환영검사": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "태후",
+          "guild": "군단",
+          "class": "환영검사",
+          "grade": 21,
+          "level": 78,
+          "server": "아민타 04"
+        }
+      ],
+      "byClassMembers": {
+        "환영검사": [
+          {
+            "nickname": "태후",
+            "guild": "군단",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 78,
+            "server": "아민타 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "태후",
+            "guild": "군단",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 78,
+            "server": "아민타 04"
+          }
+        ]
+      }
+    },
+    "어시스트": {
+      "members": 1,
+      "byClass": {
+        "집행관": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "말안해",
+          "guild": "어시스트",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "아민타 04"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "말안해",
+            "guild": "어시스트",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아민타 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "말안해",
+            "guild": "어시스트",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "아민타 04"
+          }
+        ]
+      }
+    },
+    "댕이": {
+      "members": 1,
+      "byClass": {
+        "심연추방자": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "강과장",
+          "guild": "댕이",
+          "class": "심연추방자",
+          "grade": 20,
+          "level": 86,
+          "server": "아민타 04"
+        }
+      ],
+      "byClassMembers": {
+        "심연추방자": [
+          {
+            "nickname": "강과장",
+            "guild": "댕이",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 86,
+            "server": "아민타 04"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "강과장",
+            "guild": "댕이",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 86,
+            "server": "아민타 04"
+          }
+        ]
+      }
+    }
+  }
+}

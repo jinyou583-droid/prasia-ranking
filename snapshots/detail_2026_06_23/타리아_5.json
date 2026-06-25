@@ -1,0 +1,2186 @@
+{
+  "server": "타리아 05",
+  "guilds": {
+    "연예인결사": {
+      "members": 41,
+      "byClass": {
+        "집행관": 11,
+        "주문각인사": 10,
+        "향사수": 8,
+        "심연추방자": 4,
+        "태양감시자": 4,
+        "야만투사": 3,
+        "환영검사": 1
+      },
+      "byGrade": {
+        "26": 1,
+        "25": 8,
+        "24": 6,
+        "23": 4,
+        "22": 4,
+        "21": 14,
+        "20": 4
+      },
+      "membersList": [
+        {
+          "nickname": "윤정",
+          "guild": "연예인결사",
+          "class": "태양감시자",
+          "grade": 26,
+          "level": 92,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "고박",
+          "guild": "연예인결사",
+          "class": "심연추방자",
+          "grade": 25,
+          "level": 91,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "덱스",
+          "guild": "연예인결사",
+          "class": "심연추방자",
+          "grade": 25,
+          "level": 91,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "동건형",
+          "guild": "연예인결사",
+          "class": "향사수",
+          "grade": 25,
+          "level": 91,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "호동이형",
+          "guild": "연예인결사",
+          "class": "야만투사",
+          "grade": 25,
+          "level": 91,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "ABBA",
+          "guild": "연예인결사",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 90,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "랩소디형아",
+          "guild": "연예인결사",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 90,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "차태식",
+          "guild": "연예인결사",
+          "class": "태양감시자",
+          "grade": 25,
+          "level": 90,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "이수연",
+          "guild": "연예인결사",
+          "class": "야만투사",
+          "grade": 25,
+          "level": 89,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "김희철",
+          "guild": "연예인결사",
+          "class": "집행관",
+          "grade": 24,
+          "level": 91,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "심판자",
+          "guild": "연예인결사",
+          "class": "집행관",
+          "grade": 24,
+          "level": 91,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "추박",
+          "guild": "연예인결사",
+          "class": "심연추방자",
+          "grade": 24,
+          "level": 90,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "CHUU",
+          "guild": "연예인결사",
+          "class": "집행관",
+          "grade": 24,
+          "level": 89,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "이주빈",
+          "guild": "연예인결사",
+          "class": "집행관",
+          "grade": 24,
+          "level": 89,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "장이수",
+          "guild": "연예인결사",
+          "class": "집행관",
+          "grade": 24,
+          "level": 89,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "김준현",
+          "guild": "연예인결사",
+          "class": "집행관",
+          "grade": 23,
+          "level": 88,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "이광수",
+          "guild": "연예인결사",
+          "class": "심연추방자",
+          "grade": 23,
+          "level": 88,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "송강",
+          "guild": "연예인결사",
+          "class": "향사수",
+          "grade": 23,
+          "level": 87,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "중력",
+          "guild": "연예인결사",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 87,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "설윤",
+          "guild": "연예인결사",
+          "class": "집행관",
+          "grade": 22,
+          "level": 87,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "아멘",
+          "guild": "연예인결사",
+          "class": "향사수",
+          "grade": 22,
+          "level": 87,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "영탁",
+          "guild": "연예인결사",
+          "class": "집행관",
+          "grade": 22,
+          "level": 87,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "이선빈",
+          "guild": "연예인결사",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 86,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "장혁",
+          "guild": "연예인결사",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 88,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "고은",
+          "guild": "연예인결사",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 87,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "오해원",
+          "guild": "연예인결사",
+          "class": "집행관",
+          "grade": 21,
+          "level": 87,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "정소민",
+          "guild": "연예인결사",
+          "class": "태양감시자",
+          "grade": 21,
+          "level": 87,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "BIBI",
+          "guild": "연예인결사",
+          "class": "야만투사",
+          "grade": 21,
+          "level": 86,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "박해수",
+          "guild": "연예인결사",
+          "class": "향사수",
+          "grade": 21,
+          "level": 86,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "신지",
+          "guild": "연예인결사",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 86,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "이제훈",
+          "guild": "연예인결사",
+          "class": "향사수",
+          "grade": 21,
+          "level": 86,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "태연",
+          "guild": "연예인결사",
+          "class": "향사수",
+          "grade": 21,
+          "level": 86,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "김세정",
+          "guild": "연예인결사",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 85,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "김종민",
+          "guild": "연예인결사",
+          "class": "향사수",
+          "grade": 21,
+          "level": 85,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "독고구패",
+          "guild": "연예인결사",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "연예인빽가",
+          "guild": "연예인결사",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 85,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "클린",
+          "guild": "연예인결사",
+          "class": "집행관",
+          "grade": 21,
+          "level": 84,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "아현",
+          "guild": "연예인결사",
+          "class": "향사수",
+          "grade": 20,
+          "level": 85,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "효주",
+          "guild": "연예인결사",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 85,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "동방불패",
+          "guild": "연예인결사",
+          "class": "태양감시자",
+          "grade": 20,
+          "level": 83,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "유해진",
+          "guild": "연예인결사",
+          "class": "환영검사",
+          "grade": 20,
+          "level": 83,
+          "server": "타리아 05"
+        }
+      ],
+      "byClassMembers": {
+        "태양감시자": [
+          {
+            "nickname": "윤정",
+            "guild": "연예인결사",
+            "class": "태양감시자",
+            "grade": 26,
+            "level": 92,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "차태식",
+            "guild": "연예인결사",
+            "class": "태양감시자",
+            "grade": 25,
+            "level": 90,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "정소민",
+            "guild": "연예인결사",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 87,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "동방불패",
+            "guild": "연예인결사",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 83,
+            "server": "타리아 05"
+          }
+        ],
+        "야만투사": [
+          {
+            "nickname": "호동이형",
+            "guild": "연예인결사",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 91,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "이수연",
+            "guild": "연예인결사",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 89,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "BIBI",
+            "guild": "연예인결사",
+            "class": "야만투사",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 05"
+          }
+        ],
+        "심연추방자": [
+          {
+            "nickname": "고박",
+            "guild": "연예인결사",
+            "class": "심연추방자",
+            "grade": 25,
+            "level": 91,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "덱스",
+            "guild": "연예인결사",
+            "class": "심연추방자",
+            "grade": 25,
+            "level": 91,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "추박",
+            "guild": "연예인결사",
+            "class": "심연추방자",
+            "grade": 24,
+            "level": 90,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "이광수",
+            "guild": "연예인결사",
+            "class": "심연추방자",
+            "grade": 23,
+            "level": 88,
+            "server": "타리아 05"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "동건형",
+            "guild": "연예인결사",
+            "class": "향사수",
+            "grade": 25,
+            "level": 91,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "송강",
+            "guild": "연예인결사",
+            "class": "향사수",
+            "grade": 23,
+            "level": 87,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "아멘",
+            "guild": "연예인결사",
+            "class": "향사수",
+            "grade": 22,
+            "level": 87,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "박해수",
+            "guild": "연예인결사",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "이제훈",
+            "guild": "연예인결사",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "태연",
+            "guild": "연예인결사",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "김종민",
+            "guild": "연예인결사",
+            "class": "향사수",
+            "grade": 21,
+            "level": 85,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "아현",
+            "guild": "연예인결사",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "타리아 05"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "ABBA",
+            "guild": "연예인결사",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 90,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "랩소디형아",
+            "guild": "연예인결사",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 90,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "중력",
+            "guild": "연예인결사",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 87,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "이선빈",
+            "guild": "연예인결사",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "장혁",
+            "guild": "연예인결사",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 88,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "고은",
+            "guild": "연예인결사",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 87,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "신지",
+            "guild": "연예인결사",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "김세정",
+            "guild": "연예인결사",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "연예인빽가",
+            "guild": "연예인결사",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "효주",
+            "guild": "연예인결사",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "타리아 05"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "김희철",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 24,
+            "level": 91,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "심판자",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 24,
+            "level": 91,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "CHUU",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "이주빈",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "장이수",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "김준현",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "설윤",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "영탁",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "오해원",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 21,
+            "level": 87,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "독고구패",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "클린",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "타리아 05"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "유해진",
+            "guild": "연예인결사",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 83,
+            "server": "타리아 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "26": [
+          {
+            "nickname": "윤정",
+            "guild": "연예인결사",
+            "class": "태양감시자",
+            "grade": 26,
+            "level": 92,
+            "server": "타리아 05"
+          }
+        ],
+        "25": [
+          {
+            "nickname": "고박",
+            "guild": "연예인결사",
+            "class": "심연추방자",
+            "grade": 25,
+            "level": 91,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "덱스",
+            "guild": "연예인결사",
+            "class": "심연추방자",
+            "grade": 25,
+            "level": 91,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "동건형",
+            "guild": "연예인결사",
+            "class": "향사수",
+            "grade": 25,
+            "level": 91,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "호동이형",
+            "guild": "연예인결사",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 91,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "ABBA",
+            "guild": "연예인결사",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 90,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "랩소디형아",
+            "guild": "연예인결사",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 90,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "차태식",
+            "guild": "연예인결사",
+            "class": "태양감시자",
+            "grade": 25,
+            "level": 90,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "이수연",
+            "guild": "연예인결사",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 89,
+            "server": "타리아 05"
+          }
+        ],
+        "24": [
+          {
+            "nickname": "김희철",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 24,
+            "level": 91,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "심판자",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 24,
+            "level": 91,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "추박",
+            "guild": "연예인결사",
+            "class": "심연추방자",
+            "grade": 24,
+            "level": 90,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "CHUU",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "이주빈",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "장이수",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "타리아 05"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "김준현",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "이광수",
+            "guild": "연예인결사",
+            "class": "심연추방자",
+            "grade": 23,
+            "level": 88,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "송강",
+            "guild": "연예인결사",
+            "class": "향사수",
+            "grade": 23,
+            "level": 87,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "중력",
+            "guild": "연예인결사",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 87,
+            "server": "타리아 05"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "설윤",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "아멘",
+            "guild": "연예인결사",
+            "class": "향사수",
+            "grade": 22,
+            "level": 87,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "영탁",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "이선빈",
+            "guild": "연예인결사",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 86,
+            "server": "타리아 05"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "장혁",
+            "guild": "연예인결사",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 88,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "고은",
+            "guild": "연예인결사",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 87,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "오해원",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 21,
+            "level": 87,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "정소민",
+            "guild": "연예인결사",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 87,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "BIBI",
+            "guild": "연예인결사",
+            "class": "야만투사",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "박해수",
+            "guild": "연예인결사",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "신지",
+            "guild": "연예인결사",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "이제훈",
+            "guild": "연예인결사",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "태연",
+            "guild": "연예인결사",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "김세정",
+            "guild": "연예인결사",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "김종민",
+            "guild": "연예인결사",
+            "class": "향사수",
+            "grade": 21,
+            "level": 85,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "독고구패",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "연예인빽가",
+            "guild": "연예인결사",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "클린",
+            "guild": "연예인결사",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "타리아 05"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "아현",
+            "guild": "연예인결사",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "효주",
+            "guild": "연예인결사",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "동방불패",
+            "guild": "연예인결사",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 83,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "유해진",
+            "guild": "연예인결사",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 83,
+            "server": "타리아 05"
+          }
+        ]
+      }
+    },
+    "마왕군": {
+      "members": 20,
+      "byClass": {
+        "집행관": 8,
+        "야만투사": 5,
+        "향사수": 4,
+        "환영검사": 2,
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "24": 2,
+        "23": 1,
+        "22": 5,
+        "21": 3,
+        "20": 9
+      },
+      "membersList": [
+        {
+          "nickname": "FAKER",
+          "guild": "마왕군",
+          "class": "집행관",
+          "grade": 24,
+          "level": 89,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "너쫌귀엽다",
+          "guild": "마왕군",
+          "class": "야만투사",
+          "grade": 24,
+          "level": 89,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "간츠",
+          "guild": "마왕군",
+          "class": "환영검사",
+          "grade": 23,
+          "level": 86,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "녹두전",
+          "guild": "마왕군",
+          "class": "야만투사",
+          "grade": 22,
+          "level": 88,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "지도자",
+          "guild": "마왕군",
+          "class": "집행관",
+          "grade": 22,
+          "level": 88,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "갓오브블랙필드",
+          "guild": "마왕군",
+          "class": "집행관",
+          "grade": 22,
+          "level": 87,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "햄스터",
+          "guild": "마왕군",
+          "class": "야만투사",
+          "grade": 22,
+          "level": 87,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "모미",
+          "guild": "마왕군",
+          "class": "야만투사",
+          "grade": 22,
+          "level": 86,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "반지요정",
+          "guild": "마왕군",
+          "class": "향사수",
+          "grade": 21,
+          "level": 87,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "비트코인",
+          "guild": "마왕군",
+          "class": "야만투사",
+          "grade": 21,
+          "level": 86,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "슈퍼컴퓨터",
+          "guild": "마왕군",
+          "class": "집행관",
+          "grade": 21,
+          "level": 86,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "크레타",
+          "guild": "마왕군",
+          "class": "집행관",
+          "grade": 20,
+          "level": 86,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "갈비탕",
+          "guild": "마왕군",
+          "class": "향사수",
+          "grade": 20,
+          "level": 85,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "석화",
+          "guild": "마왕군",
+          "class": "집행관",
+          "grade": 20,
+          "level": 85,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "악령",
+          "guild": "마왕군",
+          "class": "집행관",
+          "grade": 20,
+          "level": 85,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "군수",
+          "guild": "마왕군",
+          "class": "향사수",
+          "grade": 20,
+          "level": 84,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "러블리츄",
+          "guild": "마왕군",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "부군",
+          "guild": "마왕군",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "브랜시아",
+          "guild": "마왕군",
+          "class": "환영검사",
+          "grade": 20,
+          "level": 84,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "니스",
+          "guild": "마왕군",
+          "class": "향사수",
+          "grade": 20,
+          "level": 83,
+          "server": "타리아 05"
+        }
+      ],
+      "byClassMembers": {
+        "야만투사": [
+          {
+            "nickname": "너쫌귀엽다",
+            "guild": "마왕군",
+            "class": "야만투사",
+            "grade": 24,
+            "level": 89,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "녹두전",
+            "guild": "마왕군",
+            "class": "야만투사",
+            "grade": 22,
+            "level": 88,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "햄스터",
+            "guild": "마왕군",
+            "class": "야만투사",
+            "grade": 22,
+            "level": 87,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "모미",
+            "guild": "마왕군",
+            "class": "야만투사",
+            "grade": 22,
+            "level": 86,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "비트코인",
+            "guild": "마왕군",
+            "class": "야만투사",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 05"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "FAKER",
+            "guild": "마왕군",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "지도자",
+            "guild": "마왕군",
+            "class": "집행관",
+            "grade": 22,
+            "level": 88,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "갓오브블랙필드",
+            "guild": "마왕군",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "슈퍼컴퓨터",
+            "guild": "마왕군",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "크레타",
+            "guild": "마왕군",
+            "class": "집행관",
+            "grade": 20,
+            "level": 86,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "석화",
+            "guild": "마왕군",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "악령",
+            "guild": "마왕군",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "부군",
+            "guild": "마왕군",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "타리아 05"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "간츠",
+            "guild": "마왕군",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 86,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "브랜시아",
+            "guild": "마왕군",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 84,
+            "server": "타리아 05"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "반지요정",
+            "guild": "마왕군",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "갈비탕",
+            "guild": "마왕군",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "군수",
+            "guild": "마왕군",
+            "class": "향사수",
+            "grade": 20,
+            "level": 84,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "니스",
+            "guild": "마왕군",
+            "class": "향사수",
+            "grade": 20,
+            "level": 83,
+            "server": "타리아 05"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "러블리츄",
+            "guild": "마왕군",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "타리아 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "FAKER",
+            "guild": "마왕군",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "너쫌귀엽다",
+            "guild": "마왕군",
+            "class": "야만투사",
+            "grade": 24,
+            "level": 89,
+            "server": "타리아 05"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "간츠",
+            "guild": "마왕군",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 86,
+            "server": "타리아 05"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "녹두전",
+            "guild": "마왕군",
+            "class": "야만투사",
+            "grade": 22,
+            "level": 88,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "지도자",
+            "guild": "마왕군",
+            "class": "집행관",
+            "grade": 22,
+            "level": 88,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "갓오브블랙필드",
+            "guild": "마왕군",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "햄스터",
+            "guild": "마왕군",
+            "class": "야만투사",
+            "grade": 22,
+            "level": 87,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "모미",
+            "guild": "마왕군",
+            "class": "야만투사",
+            "grade": 22,
+            "level": 86,
+            "server": "타리아 05"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "반지요정",
+            "guild": "마왕군",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "비트코인",
+            "guild": "마왕군",
+            "class": "야만투사",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "슈퍼컴퓨터",
+            "guild": "마왕군",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 05"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "크레타",
+            "guild": "마왕군",
+            "class": "집행관",
+            "grade": 20,
+            "level": 86,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "갈비탕",
+            "guild": "마왕군",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "석화",
+            "guild": "마왕군",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "악령",
+            "guild": "마왕군",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "군수",
+            "guild": "마왕군",
+            "class": "향사수",
+            "grade": 20,
+            "level": 84,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "러블리츄",
+            "guild": "마왕군",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "부군",
+            "guild": "마왕군",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "브랜시아",
+            "guild": "마왕군",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 84,
+            "server": "타리아 05"
+          },
+          {
+            "nickname": "니스",
+            "guild": "마왕군",
+            "class": "향사수",
+            "grade": 20,
+            "level": 83,
+            "server": "타리아 05"
+          }
+        ]
+      }
+    },
+    "9527": {
+      "members": 1,
+      "byClass": {
+        "환영검사": 1
+      },
+      "byGrade": {
+        "24": 1
+      },
+      "membersList": [
+        {
+          "nickname": "블랙고양이",
+          "guild": "9527",
+          "class": "환영검사",
+          "grade": 24,
+          "level": 90,
+          "server": "타리아 05"
+        }
+      ],
+      "byClassMembers": {
+        "환영검사": [
+          {
+            "nickname": "블랙고양이",
+            "guild": "9527",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 90,
+            "server": "타리아 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "블랙고양이",
+            "guild": "9527",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 90,
+            "server": "타리아 05"
+          }
+        ]
+      }
+    },
+    "포시즌": {
+      "members": 2,
+      "byClass": {
+        "주문각인사": 1,
+        "집행관": 1
+      },
+      "byGrade": {
+        "22": 1,
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "희야지킴이",
+          "guild": "포시즌",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 79,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "랩소디동생",
+          "guild": "포시즌",
+          "class": "집행관",
+          "grade": 21,
+          "level": 78,
+          "server": "타리아 05"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "희야지킴이",
+            "guild": "포시즌",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 79,
+            "server": "타리아 05"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "랩소디동생",
+            "guild": "포시즌",
+            "class": "집행관",
+            "grade": 21,
+            "level": 78,
+            "server": "타리아 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "22": [
+          {
+            "nickname": "희야지킴이",
+            "guild": "포시즌",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 79,
+            "server": "타리아 05"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "랩소디동생",
+            "guild": "포시즌",
+            "class": "집행관",
+            "grade": 21,
+            "level": 78,
+            "server": "타리아 05"
+          }
+        ]
+      }
+    },
+    "산리오랜드": {
+      "members": 2,
+      "byClass": {
+        "야만투사": 1,
+        "태양감시자": 1
+      },
+      "byGrade": {
+        "21": 1,
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "피존",
+          "guild": "산리오랜드",
+          "class": "태양감시자",
+          "grade": 21,
+          "level": 85,
+          "server": "타리아 05"
+        },
+        {
+          "nickname": "태평양",
+          "guild": "산리오랜드",
+          "class": "야만투사",
+          "grade": 20,
+          "level": 86,
+          "server": "타리아 05"
+        }
+      ],
+      "byClassMembers": {
+        "태양감시자": [
+          {
+            "nickname": "피존",
+            "guild": "산리오랜드",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 85,
+            "server": "타리아 05"
+          }
+        ],
+        "야만투사": [
+          {
+            "nickname": "태평양",
+            "guild": "산리오랜드",
+            "class": "야만투사",
+            "grade": 20,
+            "level": 86,
+            "server": "타리아 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "피존",
+            "guild": "산리오랜드",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 85,
+            "server": "타리아 05"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "태평양",
+            "guild": "산리오랜드",
+            "class": "야만투사",
+            "grade": 20,
+            "level": 86,
+            "server": "타리아 05"
+          }
+        ]
+      }
+    },
+    "평화": {
+      "members": 1,
+      "byClass": {
+        "향사수": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "돌쇠",
+          "guild": "평화",
+          "class": "향사수",
+          "grade": 21,
+          "level": 86,
+          "server": "타리아 05"
+        }
+      ],
+      "byClassMembers": {
+        "향사수": [
+          {
+            "nickname": "돌쇠",
+            "guild": "평화",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "돌쇠",
+            "guild": "평화",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "타리아 05"
+          }
+        ]
+      }
+    },
+    "토르의꿈": {
+      "members": 1,
+      "byClass": {
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "오너",
+          "guild": "토르의꿈",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 85,
+          "server": "타리아 05"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "오너",
+            "guild": "토르의꿈",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "타리아 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "오너",
+            "guild": "토르의꿈",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 85,
+            "server": "타리아 05"
+          }
+        ]
+      }
+    },
+    "커피": {
+      "members": 1,
+      "byClass": {
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "요플레",
+          "guild": "커피",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 84,
+          "server": "타리아 05"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "요플레",
+            "guild": "커피",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 84,
+            "server": "타리아 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "요플레",
+            "guild": "커피",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 84,
+            "server": "타리아 05"
+          }
+        ]
+      }
+    },
+    "우정": {
+      "members": 1,
+      "byClass": {
+        "심연추방자": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "토트",
+          "guild": "우정",
+          "class": "심연추방자",
+          "grade": 20,
+          "level": 84,
+          "server": "타리아 05"
+        }
+      ],
+      "byClassMembers": {
+        "심연추방자": [
+          {
+            "nickname": "토트",
+            "guild": "우정",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 84,
+            "server": "타리아 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "토트",
+            "guild": "우정",
+            "class": "심연추방자",
+            "grade": 20,
+            "level": 84,
+            "server": "타리아 05"
+          }
+        ]
+      }
+    },
+    "프라다": {
+      "members": 1,
+      "byClass": {
+        "태양감시자": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "고급",
+          "guild": "프라다",
+          "class": "태양감시자",
+          "grade": 20,
+          "level": 77,
+          "server": "타리아 05"
+        }
+      ],
+      "byClassMembers": {
+        "태양감시자": [
+          {
+            "nickname": "고급",
+            "guild": "프라다",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 77,
+            "server": "타리아 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "고급",
+            "guild": "프라다",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 77,
+            "server": "타리아 05"
+          }
+        ]
+      }
+    },
+    "로또당구장": {
+      "members": 1,
+      "byClass": {
+        "향사수": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "정현호",
+          "guild": "로또당구장",
+          "class": "향사수",
+          "grade": 20,
+          "level": 85,
+          "server": "타리아 05"
+        }
+      ],
+      "byClassMembers": {
+        "향사수": [
+          {
+            "nickname": "정현호",
+            "guild": "로또당구장",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "타리아 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "정현호",
+            "guild": "로또당구장",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "타리아 05"
+          }
+        ]
+      }
+    },
+    "화이팅": {
+      "members": 1,
+      "byClass": {
+        "향사수": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "구닌",
+          "guild": "화이팅",
+          "class": "향사수",
+          "grade": 20,
+          "level": 84,
+          "server": "타리아 05"
+        }
+      ],
+      "byClassMembers": {
+        "향사수": [
+          {
+            "nickname": "구닌",
+            "guild": "화이팅",
+            "class": "향사수",
+            "grade": 20,
+            "level": 84,
+            "server": "타리아 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "구닌",
+            "guild": "화이팅",
+            "class": "향사수",
+            "grade": 20,
+            "level": 84,
+            "server": "타리아 05"
+          }
+        ]
+      }
+    },
+    "기생수": {
+      "members": 1,
+      "byClass": {
+        "집행관": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "엘리시아",
+          "guild": "기생수",
+          "class": "집행관",
+          "grade": 20,
+          "level": 86,
+          "server": "타리아 05"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "엘리시아",
+            "guild": "기생수",
+            "class": "집행관",
+            "grade": 20,
+            "level": 86,
+            "server": "타리아 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "엘리시아",
+            "guild": "기생수",
+            "class": "집행관",
+            "grade": 20,
+            "level": 86,
+            "server": "타리아 05"
+          }
+        ]
+      }
+    },
+    "꾸러기수비대": {
+      "members": 1,
+      "byClass": {
+        "집행관": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "슉숙",
+          "guild": "꾸러기수비대",
+          "class": "집행관",
+          "grade": 20,
+          "level": 85,
+          "server": "타리아 05"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "슉숙",
+            "guild": "꾸러기수비대",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "타리아 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "슉숙",
+            "guild": "꾸러기수비대",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "타리아 05"
+          }
+        ]
+      }
+    },
+    "아틀란티카": {
+      "members": 1,
+      "byClass": {
+        "집행관": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "벨리사",
+          "guild": "아틀란티카",
+          "class": "집행관",
+          "grade": 20,
+          "level": 83,
+          "server": "타리아 05"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "벨리사",
+            "guild": "아틀란티카",
+            "class": "집행관",
+            "grade": 20,
+            "level": 83,
+            "server": "타리아 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "벨리사",
+            "guild": "아틀란티카",
+            "class": "집행관",
+            "grade": 20,
+            "level": 83,
+            "server": "타리아 05"
+          }
+        ]
+      }
+    }
+  }
+}
