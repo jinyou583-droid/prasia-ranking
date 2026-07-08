@@ -1,0 +1,2803 @@
+{
+  "server": "가리안 03",
+  "guilds": {
+    "신백야": {
+      "members": 50,
+      "byClass": {
+        "주문각인사": 26,
+        "향사수": 10,
+        "야만투사": 9,
+        "집행관": 3,
+        "환영검사": 2
+      },
+      "byGrade": {
+        "26": 15,
+        "25": 23,
+        "24": 7,
+        "23": 2,
+        "22": 3
+      },
+      "membersList": [
+        {
+          "nickname": "뮤즈야호",
+          "guild": "신백야",
+          "class": "야만투사",
+          "grade": 26,
+          "level": 93,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "블랙팬서",
+          "guild": "신백야",
+          "class": "야만투사",
+          "grade": 26,
+          "level": 93,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "광속야호",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 26,
+          "level": 92,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "귀지야호",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 26,
+          "level": 92,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "무야호",
+          "guild": "신백야",
+          "class": "야만투사",
+          "grade": 26,
+          "level": 92,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "석금야호",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 26,
+          "level": 92,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "앙링야호",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 26,
+          "level": 92,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "자캬",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 26,
+          "level": 92,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "간지야호",
+          "guild": "신백야",
+          "class": "집행관",
+          "grade": 26,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "니얼굴오징어",
+          "guild": "신백야",
+          "class": "야만투사",
+          "grade": 26,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "망키야호",
+          "guild": "신백야",
+          "class": "향사수",
+          "grade": 26,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "오시리스",
+          "guild": "신백야",
+          "class": "향사수",
+          "grade": 26,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "쥐방울",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 26,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "캐치야호",
+          "guild": "신백야",
+          "class": "향사수",
+          "grade": 26,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "유튜버밍쨩",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 26,
+          "level": 89,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "망고야호",
+          "guild": "신백야",
+          "class": "야만투사",
+          "grade": 25,
+          "level": 92,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "사악",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 92,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "신백야호",
+          "guild": "신백야",
+          "class": "야만투사",
+          "grade": 25,
+          "level": 92,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "제토",
+          "guild": "신백야",
+          "class": "야만투사",
+          "grade": 25,
+          "level": 92,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "죠스야호",
+          "guild": "신백야",
+          "class": "향사수",
+          "grade": 25,
+          "level": 92,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "쨔슝",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 92,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "키엘야호",
+          "guild": "신백야",
+          "class": "집행관",
+          "grade": 25,
+          "level": 92,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "깜둥야호",
+          "guild": "신백야",
+          "class": "야만투사",
+          "grade": 25,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "꾼야호",
+          "guild": "신백야",
+          "class": "야만투사",
+          "grade": 25,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "뇌제",
+          "guild": "신백야",
+          "class": "환영검사",
+          "grade": 25,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "동이형",
+          "guild": "신백야",
+          "class": "향사수",
+          "grade": 25,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "라신야호",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "뾱뾱이",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "시작이",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "아줌야호",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "암흑야호",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "이슬야호",
+          "guild": "신백야",
+          "class": "향사수",
+          "grade": 25,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "최태산",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "후이",
+          "guild": "신백야",
+          "class": "향사수",
+          "grade": 25,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "거제야호",
+          "guild": "신백야",
+          "class": "환영검사",
+          "grade": 25,
+          "level": 90,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "곰돌야호",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 90,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "양아치끝판대장",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 90,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "새총야호",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 89,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "뚜야호",
+          "guild": "신백야",
+          "class": "향사수",
+          "grade": 24,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "악덕업주",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "짭이",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "소엘야호",
+          "guild": "신백야",
+          "class": "향사수",
+          "grade": 24,
+          "level": 90,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "시인비",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 90,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "은슬야호",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 90,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "꿀물",
+          "guild": "신백야",
+          "class": "향사수",
+          "grade": 24,
+          "level": 89,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "빵지야호",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 90,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "여린야호",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 90,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "세턴",
+          "guild": "신백야",
+          "class": "집행관",
+          "grade": 22,
+          "level": 88,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "누이",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 87,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "피키",
+          "guild": "신백야",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 87,
+          "server": "가리안 03"
+        }
+      ],
+      "byClassMembers": {
+        "야만투사": [
+          {
+            "nickname": "뮤즈야호",
+            "guild": "신백야",
+            "class": "야만투사",
+            "grade": 26,
+            "level": 93,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "블랙팬서",
+            "guild": "신백야",
+            "class": "야만투사",
+            "grade": 26,
+            "level": 93,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "무야호",
+            "guild": "신백야",
+            "class": "야만투사",
+            "grade": 26,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "니얼굴오징어",
+            "guild": "신백야",
+            "class": "야만투사",
+            "grade": 26,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "망고야호",
+            "guild": "신백야",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "신백야호",
+            "guild": "신백야",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "제토",
+            "guild": "신백야",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "깜둥야호",
+            "guild": "신백야",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "꾼야호",
+            "guild": "신백야",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "망키야호",
+            "guild": "신백야",
+            "class": "향사수",
+            "grade": 26,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "오시리스",
+            "guild": "신백야",
+            "class": "향사수",
+            "grade": 26,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "캐치야호",
+            "guild": "신백야",
+            "class": "향사수",
+            "grade": 26,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "죠스야호",
+            "guild": "신백야",
+            "class": "향사수",
+            "grade": 25,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "동이형",
+            "guild": "신백야",
+            "class": "향사수",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "이슬야호",
+            "guild": "신백야",
+            "class": "향사수",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "후이",
+            "guild": "신백야",
+            "class": "향사수",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "뚜야호",
+            "guild": "신백야",
+            "class": "향사수",
+            "grade": 24,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "소엘야호",
+            "guild": "신백야",
+            "class": "향사수",
+            "grade": 24,
+            "level": 90,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "꿀물",
+            "guild": "신백야",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "가리안 03"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "광속야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "귀지야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "석금야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "앙링야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "자캬",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "쥐방울",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "유튜버밍쨩",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 89,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "사악",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "쨔슝",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "라신야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "뾱뾱이",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "시작이",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "아줌야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "암흑야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "최태산",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "곰돌야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 90,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "양아치끝판대장",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 90,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "새총야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 89,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "악덕업주",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "짭이",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "시인비",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 90,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "은슬야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 90,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "빵지야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 90,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "여린야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 90,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "누이",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "피키",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "가리안 03"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "간지야호",
+            "guild": "신백야",
+            "class": "집행관",
+            "grade": 26,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "키엘야호",
+            "guild": "신백야",
+            "class": "집행관",
+            "grade": 25,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "세턴",
+            "guild": "신백야",
+            "class": "집행관",
+            "grade": 22,
+            "level": 88,
+            "server": "가리안 03"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "뇌제",
+            "guild": "신백야",
+            "class": "환영검사",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "거제야호",
+            "guild": "신백야",
+            "class": "환영검사",
+            "grade": 25,
+            "level": 90,
+            "server": "가리안 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "26": [
+          {
+            "nickname": "뮤즈야호",
+            "guild": "신백야",
+            "class": "야만투사",
+            "grade": 26,
+            "level": 93,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "블랙팬서",
+            "guild": "신백야",
+            "class": "야만투사",
+            "grade": 26,
+            "level": 93,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "광속야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "귀지야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "무야호",
+            "guild": "신백야",
+            "class": "야만투사",
+            "grade": 26,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "석금야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "앙링야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "자캬",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "간지야호",
+            "guild": "신백야",
+            "class": "집행관",
+            "grade": 26,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "니얼굴오징어",
+            "guild": "신백야",
+            "class": "야만투사",
+            "grade": 26,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "망키야호",
+            "guild": "신백야",
+            "class": "향사수",
+            "grade": 26,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "오시리스",
+            "guild": "신백야",
+            "class": "향사수",
+            "grade": 26,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "쥐방울",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "캐치야호",
+            "guild": "신백야",
+            "class": "향사수",
+            "grade": 26,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "유튜버밍쨩",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 89,
+            "server": "가리안 03"
+          }
+        ],
+        "25": [
+          {
+            "nickname": "망고야호",
+            "guild": "신백야",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "사악",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "신백야호",
+            "guild": "신백야",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "제토",
+            "guild": "신백야",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "죠스야호",
+            "guild": "신백야",
+            "class": "향사수",
+            "grade": 25,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "쨔슝",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "키엘야호",
+            "guild": "신백야",
+            "class": "집행관",
+            "grade": 25,
+            "level": 92,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "깜둥야호",
+            "guild": "신백야",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "꾼야호",
+            "guild": "신백야",
+            "class": "야만투사",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "뇌제",
+            "guild": "신백야",
+            "class": "환영검사",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "동이형",
+            "guild": "신백야",
+            "class": "향사수",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "라신야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "뾱뾱이",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "시작이",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "아줌야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "암흑야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "이슬야호",
+            "guild": "신백야",
+            "class": "향사수",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "최태산",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "후이",
+            "guild": "신백야",
+            "class": "향사수",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "거제야호",
+            "guild": "신백야",
+            "class": "환영검사",
+            "grade": 25,
+            "level": 90,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "곰돌야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 90,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "양아치끝판대장",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 90,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "새총야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 89,
+            "server": "가리안 03"
+          }
+        ],
+        "24": [
+          {
+            "nickname": "뚜야호",
+            "guild": "신백야",
+            "class": "향사수",
+            "grade": 24,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "악덕업주",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "짭이",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "소엘야호",
+            "guild": "신백야",
+            "class": "향사수",
+            "grade": 24,
+            "level": 90,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "시인비",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 90,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "은슬야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 90,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "꿀물",
+            "guild": "신백야",
+            "class": "향사수",
+            "grade": 24,
+            "level": 89,
+            "server": "가리안 03"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "빵지야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 90,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "여린야호",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 90,
+            "server": "가리안 03"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "세턴",
+            "guild": "신백야",
+            "class": "집행관",
+            "grade": 22,
+            "level": 88,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "누이",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "피키",
+            "guild": "신백야",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "가리안 03"
+          }
+        ]
+      }
+    },
+    "휴게소": {
+      "members": 11,
+      "byClass": {
+        "집행관": 4,
+        "주문각인사": 3,
+        "환영검사": 3,
+        "향사수": 1
+      },
+      "byGrade": {
+        "25": 2,
+        "24": 1,
+        "23": 7,
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "그다",
+          "guild": "휴게소",
+          "class": "집행관",
+          "grade": 25,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "앗뜨거맥반석오징어",
+          "guild": "휴게소",
+          "class": "향사수",
+          "grade": 25,
+          "level": 90,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "꼬치어묵",
+          "guild": "휴게소",
+          "class": "집행관",
+          "grade": 24,
+          "level": 89,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "제주도제주시",
+          "guild": "휴게소",
+          "class": "집행관",
+          "grade": 23,
+          "level": 90,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "통감자",
+          "guild": "휴게소",
+          "class": "집행관",
+          "grade": 23,
+          "level": 89,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "iilliiII",
+          "guild": "휴게소",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 88,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "십원빵",
+          "guild": "휴게소",
+          "class": "환영검사",
+          "grade": 23,
+          "level": 88,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "반건조오징어",
+          "guild": "휴게소",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 87,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "스무스",
+          "guild": "휴게소",
+          "class": "환영검사",
+          "grade": 23,
+          "level": 87,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "휴게소커피는왜맛없지",
+          "guild": "휴게소",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 87,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "골져스",
+          "guild": "휴게소",
+          "class": "환영검사",
+          "grade": 20,
+          "level": 84,
+          "server": "가리안 03"
+        }
+      ],
+      "byClassMembers": {
+        "향사수": [
+          {
+            "nickname": "앗뜨거맥반석오징어",
+            "guild": "휴게소",
+            "class": "향사수",
+            "grade": 25,
+            "level": 90,
+            "server": "가리안 03"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "그다",
+            "guild": "휴게소",
+            "class": "집행관",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "꼬치어묵",
+            "guild": "휴게소",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "제주도제주시",
+            "guild": "휴게소",
+            "class": "집행관",
+            "grade": 23,
+            "level": 90,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "통감자",
+            "guild": "휴게소",
+            "class": "집행관",
+            "grade": 23,
+            "level": 89,
+            "server": "가리안 03"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "십원빵",
+            "guild": "휴게소",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 88,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "스무스",
+            "guild": "휴게소",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 87,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "골져스",
+            "guild": "휴게소",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 84,
+            "server": "가리안 03"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "iilliiII",
+            "guild": "휴게소",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 88,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "반건조오징어",
+            "guild": "휴게소",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 87,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "휴게소커피는왜맛없지",
+            "guild": "휴게소",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 87,
+            "server": "가리안 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "25": [
+          {
+            "nickname": "그다",
+            "guild": "휴게소",
+            "class": "집행관",
+            "grade": 25,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "앗뜨거맥반석오징어",
+            "guild": "휴게소",
+            "class": "향사수",
+            "grade": 25,
+            "level": 90,
+            "server": "가리안 03"
+          }
+        ],
+        "24": [
+          {
+            "nickname": "꼬치어묵",
+            "guild": "휴게소",
+            "class": "집행관",
+            "grade": 24,
+            "level": 89,
+            "server": "가리안 03"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "제주도제주시",
+            "guild": "휴게소",
+            "class": "집행관",
+            "grade": 23,
+            "level": 90,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "통감자",
+            "guild": "휴게소",
+            "class": "집행관",
+            "grade": 23,
+            "level": 89,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "iilliiII",
+            "guild": "휴게소",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 88,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "십원빵",
+            "guild": "휴게소",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 88,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "반건조오징어",
+            "guild": "휴게소",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 87,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "스무스",
+            "guild": "휴게소",
+            "class": "환영검사",
+            "grade": 23,
+            "level": 87,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "휴게소커피는왜맛없지",
+            "guild": "휴게소",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 87,
+            "server": "가리안 03"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "골져스",
+            "guild": "휴게소",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 84,
+            "server": "가리안 03"
+          }
+        ]
+      }
+    },
+    "조사병단": {
+      "members": 5,
+      "byClass": {
+        "집행관": 3,
+        "향사수": 2
+      },
+      "byGrade": {
+        "24": 4,
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "리바이",
+          "guild": "조사병단",
+          "class": "집행관",
+          "grade": 24,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "사샤블라우스",
+          "guild": "조사병단",
+          "class": "집행관",
+          "grade": 24,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "엘빈스미스",
+          "guild": "조사병단",
+          "class": "향사수",
+          "grade": 24,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "한지조에",
+          "guild": "조사병단",
+          "class": "향사수",
+          "grade": 24,
+          "level": 91,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "에렌예거",
+          "guild": "조사병단",
+          "class": "집행관",
+          "grade": 20,
+          "level": 85,
+          "server": "가리안 03"
+        }
+      ],
+      "byClassMembers": {
+        "향사수": [
+          {
+            "nickname": "엘빈스미스",
+            "guild": "조사병단",
+            "class": "향사수",
+            "grade": 24,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "한지조에",
+            "guild": "조사병단",
+            "class": "향사수",
+            "grade": 24,
+            "level": 91,
+            "server": "가리안 03"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "리바이",
+            "guild": "조사병단",
+            "class": "집행관",
+            "grade": 24,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "사샤블라우스",
+            "guild": "조사병단",
+            "class": "집행관",
+            "grade": 24,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "에렌예거",
+            "guild": "조사병단",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "가리안 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "리바이",
+            "guild": "조사병단",
+            "class": "집행관",
+            "grade": 24,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "사샤블라우스",
+            "guild": "조사병단",
+            "class": "집행관",
+            "grade": 24,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "엘빈스미스",
+            "guild": "조사병단",
+            "class": "향사수",
+            "grade": 24,
+            "level": 91,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "한지조에",
+            "guild": "조사병단",
+            "class": "향사수",
+            "grade": 24,
+            "level": 91,
+            "server": "가리안 03"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "에렌예거",
+            "guild": "조사병단",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "가리안 03"
+          }
+        ]
+      }
+    },
+    "베라": {
+      "members": 9,
+      "byClass": {
+        "주문각인사": 3,
+        "집행관": 3,
+        "향사수": 2,
+        "야만투사": 1
+      },
+      "byGrade": {
+        "23": 2,
+        "22": 3,
+        "21": 4
+      },
+      "membersList": [
+        {
+          "nickname": "용기",
+          "guild": "베라",
+          "class": "야만투사",
+          "grade": 23,
+          "level": 90,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "바베바",
+          "guild": "베라",
+          "class": "향사수",
+          "grade": 23,
+          "level": 88,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "민트초코봉봉",
+          "guild": "베라",
+          "class": "집행관",
+          "grade": 22,
+          "level": 87,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "샤베트",
+          "guild": "베라",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 85,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "퍼니",
+          "guild": "베라",
+          "class": "집행관",
+          "grade": 22,
+          "level": 84,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "금빛",
+          "guild": "베라",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 86,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "망고탱고",
+          "guild": "베라",
+          "class": "향사수",
+          "grade": 21,
+          "level": 86,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "안개",
+          "guild": "베라",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "피스타치오아몬드",
+          "guild": "베라",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 84,
+          "server": "가리안 03"
+        }
+      ],
+      "byClassMembers": {
+        "야만투사": [
+          {
+            "nickname": "용기",
+            "guild": "베라",
+            "class": "야만투사",
+            "grade": 23,
+            "level": 90,
+            "server": "가리안 03"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "바베바",
+            "guild": "베라",
+            "class": "향사수",
+            "grade": 23,
+            "level": 88,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "망고탱고",
+            "guild": "베라",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "가리안 03"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "샤베트",
+            "guild": "베라",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 85,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "금빛",
+            "guild": "베라",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "피스타치오아몬드",
+            "guild": "베라",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 84,
+            "server": "가리안 03"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "민트초코봉봉",
+            "guild": "베라",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "퍼니",
+            "guild": "베라",
+            "class": "집행관",
+            "grade": 22,
+            "level": 84,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "안개",
+            "guild": "베라",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "가리안 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "23": [
+          {
+            "nickname": "용기",
+            "guild": "베라",
+            "class": "야만투사",
+            "grade": 23,
+            "level": 90,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "바베바",
+            "guild": "베라",
+            "class": "향사수",
+            "grade": 23,
+            "level": 88,
+            "server": "가리안 03"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "민트초코봉봉",
+            "guild": "베라",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "샤베트",
+            "guild": "베라",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 85,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "퍼니",
+            "guild": "베라",
+            "class": "집행관",
+            "grade": 22,
+            "level": 84,
+            "server": "가리안 03"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "금빛",
+            "guild": "베라",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "망고탱고",
+            "guild": "베라",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "안개",
+            "guild": "베라",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "피스타치오아몬드",
+            "guild": "베라",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 84,
+            "server": "가리안 03"
+          }
+        ]
+      }
+    },
+    "시아": {
+      "members": 7,
+      "byClass": {
+        "주문각인사": 2,
+        "집행관": 2,
+        "향사수": 2,
+        "태양감시자": 1
+      },
+      "byGrade": {
+        "23": 2,
+        "22": 1,
+        "21": 2,
+        "20": 2
+      },
+      "membersList": [
+        {
+          "nickname": "비너스",
+          "guild": "시아",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 88,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "떼끼",
+          "guild": "시아",
+          "class": "태양감시자",
+          "grade": 23,
+          "level": 86,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "공구",
+          "guild": "시아",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 87,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "승천",
+          "guild": "시아",
+          "class": "집행관",
+          "grade": 21,
+          "level": 88,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "거이자",
+          "guild": "시아",
+          "class": "향사수",
+          "grade": 21,
+          "level": 87,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "크리스탈",
+          "guild": "시아",
+          "class": "향사수",
+          "grade": 20,
+          "level": 87,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "태백",
+          "guild": "시아",
+          "class": "집행관",
+          "grade": 20,
+          "level": 85,
+          "server": "가리안 03"
+        }
+      ],
+      "byClassMembers": {
+        "태양감시자": [
+          {
+            "nickname": "떼끼",
+            "guild": "시아",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 86,
+            "server": "가리안 03"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "비너스",
+            "guild": "시아",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 88,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "공구",
+            "guild": "시아",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "가리안 03"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "거이자",
+            "guild": "시아",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "크리스탈",
+            "guild": "시아",
+            "class": "향사수",
+            "grade": 20,
+            "level": 87,
+            "server": "가리안 03"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "승천",
+            "guild": "시아",
+            "class": "집행관",
+            "grade": 21,
+            "level": 88,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "태백",
+            "guild": "시아",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "가리안 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "23": [
+          {
+            "nickname": "비너스",
+            "guild": "시아",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 88,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "떼끼",
+            "guild": "시아",
+            "class": "태양감시자",
+            "grade": 23,
+            "level": 86,
+            "server": "가리안 03"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "공구",
+            "guild": "시아",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "가리안 03"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "승천",
+            "guild": "시아",
+            "class": "집행관",
+            "grade": 21,
+            "level": 88,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "거이자",
+            "guild": "시아",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "가리안 03"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "크리스탈",
+            "guild": "시아",
+            "class": "향사수",
+            "grade": 20,
+            "level": 87,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "태백",
+            "guild": "시아",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "가리안 03"
+          }
+        ]
+      }
+    },
+    "중립대학": {
+      "members": 4,
+      "byClass": {
+        "집행관": 2,
+        "향사수": 1,
+        "환영검사": 1
+      },
+      "byGrade": {
+        "22": 1,
+        "20": 3
+      },
+      "membersList": [
+        {
+          "nickname": "누나의개입니다",
+          "guild": "중립대학",
+          "class": "집행관",
+          "grade": 22,
+          "level": 88,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "마이",
+          "guild": "중립대학",
+          "class": "향사수",
+          "grade": 20,
+          "level": 85,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "슬픈",
+          "guild": "중립대학",
+          "class": "집행관",
+          "grade": 20,
+          "level": 85,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "황씨",
+          "guild": "중립대학",
+          "class": "환영검사",
+          "grade": 20,
+          "level": 84,
+          "server": "가리안 03"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "누나의개입니다",
+            "guild": "중립대학",
+            "class": "집행관",
+            "grade": 22,
+            "level": 88,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "슬픈",
+            "guild": "중립대학",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "가리안 03"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "황씨",
+            "guild": "중립대학",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 84,
+            "server": "가리안 03"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "마이",
+            "guild": "중립대학",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "가리안 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "22": [
+          {
+            "nickname": "누나의개입니다",
+            "guild": "중립대학",
+            "class": "집행관",
+            "grade": 22,
+            "level": 88,
+            "server": "가리안 03"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "마이",
+            "guild": "중립대학",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "슬픈",
+            "guild": "중립대학",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "황씨",
+            "guild": "중립대학",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 84,
+            "server": "가리안 03"
+          }
+        ]
+      }
+    },
+    "냥": {
+      "members": 1,
+      "byClass": {
+        "집행관": 1
+      },
+      "byGrade": {
+        "22": 1
+      },
+      "membersList": [
+        {
+          "nickname": "제일도",
+          "guild": "냥",
+          "class": "집행관",
+          "grade": 22,
+          "level": 86,
+          "server": "가리안 03"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "제일도",
+            "guild": "냥",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "가리안 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "22": [
+          {
+            "nickname": "제일도",
+            "guild": "냥",
+            "class": "집행관",
+            "grade": 22,
+            "level": 86,
+            "server": "가리안 03"
+          }
+        ]
+      }
+    },
+    "흑야": {
+      "members": 5,
+      "byClass": {
+        "향사수": 4,
+        "야만투사": 1
+      },
+      "byGrade": {
+        "21": 4,
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "꼴통야호",
+          "guild": "흑야",
+          "class": "향사수",
+          "grade": 21,
+          "level": 87,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "이오네스코",
+          "guild": "흑야",
+          "class": "향사수",
+          "grade": 21,
+          "level": 87,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "고윤정",
+          "guild": "흑야",
+          "class": "야만투사",
+          "grade": 21,
+          "level": 86,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "왕붕어빵",
+          "guild": "흑야",
+          "class": "향사수",
+          "grade": 21,
+          "level": 86,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "보랑",
+          "guild": "흑야",
+          "class": "향사수",
+          "grade": 20,
+          "level": 85,
+          "server": "가리안 03"
+        }
+      ],
+      "byClassMembers": {
+        "야만투사": [
+          {
+            "nickname": "고윤정",
+            "guild": "흑야",
+            "class": "야만투사",
+            "grade": 21,
+            "level": 86,
+            "server": "가리안 03"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "꼴통야호",
+            "guild": "흑야",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "이오네스코",
+            "guild": "흑야",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "왕붕어빵",
+            "guild": "흑야",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "보랑",
+            "guild": "흑야",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "가리안 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "꼴통야호",
+            "guild": "흑야",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "이오네스코",
+            "guild": "흑야",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "고윤정",
+            "guild": "흑야",
+            "class": "야만투사",
+            "grade": 21,
+            "level": 86,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "왕붕어빵",
+            "guild": "흑야",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "가리안 03"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "보랑",
+            "guild": "흑야",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "가리안 03"
+          }
+        ]
+      }
+    },
+    "오드리": {
+      "members": 3,
+      "byClass": {
+        "주문각인사": 1,
+        "집행관": 1,
+        "향사수": 1
+      },
+      "byGrade": {
+        "21": 2,
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "카쥬",
+          "guild": "오드리",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 88,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "망퉁이",
+          "guild": "오드리",
+          "class": "집행관",
+          "grade": 21,
+          "level": 86,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "뚜뚜",
+          "guild": "오드리",
+          "class": "향사수",
+          "grade": 20,
+          "level": 85,
+          "server": "가리안 03"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "카쥬",
+            "guild": "오드리",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 88,
+            "server": "가리안 03"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "망퉁이",
+            "guild": "오드리",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "가리안 03"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "뚜뚜",
+            "guild": "오드리",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "가리안 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "카쥬",
+            "guild": "오드리",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 88,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "망퉁이",
+            "guild": "오드리",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "가리안 03"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "뚜뚜",
+            "guild": "오드리",
+            "class": "향사수",
+            "grade": 20,
+            "level": 85,
+            "server": "가리안 03"
+          }
+        ]
+      }
+    },
+    "운하": {
+      "members": 1,
+      "byClass": {
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "로은",
+          "guild": "운하",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 87,
+          "server": "가리안 03"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "로은",
+            "guild": "운하",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 87,
+            "server": "가리안 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "로은",
+            "guild": "운하",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 87,
+            "server": "가리안 03"
+          }
+        ]
+      }
+    },
+    "중국집": {
+      "members": 2,
+      "byClass": {
+        "주문각인사": 1,
+        "집행관": 1
+      },
+      "byGrade": {
+        "21": 2
+      },
+      "membersList": [
+        {
+          "nickname": "주방장",
+          "guild": "중국집",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 86,
+          "server": "가리안 03"
+        },
+        {
+          "nickname": "파고",
+          "guild": "중국집",
+          "class": "집행관",
+          "grade": 21,
+          "level": 86,
+          "server": "가리안 03"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "주방장",
+            "guild": "중국집",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "가리안 03"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "파고",
+            "guild": "중국집",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "가리안 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "주방장",
+            "guild": "중국집",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "가리안 03"
+          },
+          {
+            "nickname": "파고",
+            "guild": "중국집",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "가리안 03"
+          }
+        ]
+      }
+    },
+    "서브웨이": {
+      "members": 1,
+      "byClass": {
+        "향사수": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "은뜌",
+          "guild": "서브웨이",
+          "class": "향사수",
+          "grade": 20,
+          "level": 86,
+          "server": "가리안 03"
+        }
+      ],
+      "byClassMembers": {
+        "향사수": [
+          {
+            "nickname": "은뜌",
+            "guild": "서브웨이",
+            "class": "향사수",
+            "grade": 20,
+            "level": 86,
+            "server": "가리안 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "은뜌",
+            "guild": "서브웨이",
+            "class": "향사수",
+            "grade": 20,
+            "level": 86,
+            "server": "가리안 03"
+          }
+        ]
+      }
+    },
+    "노량진": {
+      "members": 1,
+      "byClass": {
+        "집행관": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "방어",
+          "guild": "노량진",
+          "class": "집행관",
+          "grade": 20,
+          "level": 86,
+          "server": "가리안 03"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "방어",
+            "guild": "노량진",
+            "class": "집행관",
+            "grade": 20,
+            "level": 86,
+            "server": "가리안 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "방어",
+            "guild": "노량진",
+            "class": "집행관",
+            "grade": 20,
+            "level": 86,
+            "server": "가리안 03"
+          }
+        ]
+      }
+    },
+    "마초": {
+      "members": 1,
+      "byClass": {
+        "집행관": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "하꼬와쩌염",
+          "guild": "마초",
+          "class": "집행관",
+          "grade": 20,
+          "level": 85,
+          "server": "가리안 03"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "하꼬와쩌염",
+            "guild": "마초",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "가리안 03"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "하꼬와쩌염",
+            "guild": "마초",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "가리안 03"
+          }
+        ]
+      }
+    }
+  }
+}
