@@ -1,0 +1,744 @@
+{
+  "server": "나세르 05",
+  "guilds": {
+    "핑크좀비": {
+      "members": 10,
+      "byClass": {
+        "주문각인사": 3,
+        "집행관": 3,
+        "환영검사": 2,
+        "태양감시자": 1,
+        "향사수": 1
+      },
+      "byGrade": {
+        "26": 1,
+        "25": 1,
+        "24": 3,
+        "23": 2,
+        "22": 1,
+        "21": 2
+      },
+      "membersList": [
+        {
+          "nickname": "비비비빅",
+          "guild": "핑크좀비",
+          "class": "주문각인사",
+          "grade": 26,
+          "level": 92,
+          "server": "나세르 05"
+        },
+        {
+          "nickname": "격노한샤오",
+          "guild": "핑크좀비",
+          "class": "주문각인사",
+          "grade": 25,
+          "level": 92,
+          "server": "나세르 05"
+        },
+        {
+          "nickname": "중구가토끼드나",
+          "guild": "핑크좀비",
+          "class": "집행관",
+          "grade": 24,
+          "level": 90,
+          "server": "나세르 05"
+        },
+        {
+          "nickname": "프라",
+          "guild": "핑크좀비",
+          "class": "환영검사",
+          "grade": 24,
+          "level": 90,
+          "server": "나세르 05"
+        },
+        {
+          "nickname": "흑미밥",
+          "guild": "핑크좀비",
+          "class": "환영검사",
+          "grade": 24,
+          "level": 90,
+          "server": "나세르 05"
+        },
+        {
+          "nickname": "격노한부금",
+          "guild": "핑크좀비",
+          "class": "주문각인사",
+          "grade": 23,
+          "level": 88,
+          "server": "나세르 05"
+        },
+        {
+          "nickname": "샤오",
+          "guild": "핑크좀비",
+          "class": "집행관",
+          "grade": 23,
+          "level": 88,
+          "server": "나세르 05"
+        },
+        {
+          "nickname": "핑큿",
+          "guild": "핑크좀비",
+          "class": "집행관",
+          "grade": 22,
+          "level": 88,
+          "server": "나세르 05"
+        },
+        {
+          "nickname": "중금",
+          "guild": "핑크좀비",
+          "class": "향사수",
+          "grade": 21,
+          "level": 87,
+          "server": "나세르 05"
+        },
+        {
+          "nickname": "천신님",
+          "guild": "핑크좀비",
+          "class": "태양감시자",
+          "grade": 21,
+          "level": 86,
+          "server": "나세르 05"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "비비비빅",
+            "guild": "핑크좀비",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 92,
+            "server": "나세르 05"
+          },
+          {
+            "nickname": "격노한샤오",
+            "guild": "핑크좀비",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 92,
+            "server": "나세르 05"
+          },
+          {
+            "nickname": "격노한부금",
+            "guild": "핑크좀비",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 88,
+            "server": "나세르 05"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "프라",
+            "guild": "핑크좀비",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 90,
+            "server": "나세르 05"
+          },
+          {
+            "nickname": "흑미밥",
+            "guild": "핑크좀비",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 90,
+            "server": "나세르 05"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "중구가토끼드나",
+            "guild": "핑크좀비",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "나세르 05"
+          },
+          {
+            "nickname": "샤오",
+            "guild": "핑크좀비",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "나세르 05"
+          },
+          {
+            "nickname": "핑큿",
+            "guild": "핑크좀비",
+            "class": "집행관",
+            "grade": 22,
+            "level": 88,
+            "server": "나세르 05"
+          }
+        ],
+        "태양감시자": [
+          {
+            "nickname": "천신님",
+            "guild": "핑크좀비",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 86,
+            "server": "나세르 05"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "중금",
+            "guild": "핑크좀비",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "나세르 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "26": [
+          {
+            "nickname": "비비비빅",
+            "guild": "핑크좀비",
+            "class": "주문각인사",
+            "grade": 26,
+            "level": 92,
+            "server": "나세르 05"
+          }
+        ],
+        "25": [
+          {
+            "nickname": "격노한샤오",
+            "guild": "핑크좀비",
+            "class": "주문각인사",
+            "grade": 25,
+            "level": 92,
+            "server": "나세르 05"
+          }
+        ],
+        "24": [
+          {
+            "nickname": "중구가토끼드나",
+            "guild": "핑크좀비",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "나세르 05"
+          },
+          {
+            "nickname": "프라",
+            "guild": "핑크좀비",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 90,
+            "server": "나세르 05"
+          },
+          {
+            "nickname": "흑미밥",
+            "guild": "핑크좀비",
+            "class": "환영검사",
+            "grade": 24,
+            "level": 90,
+            "server": "나세르 05"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "격노한부금",
+            "guild": "핑크좀비",
+            "class": "주문각인사",
+            "grade": 23,
+            "level": 88,
+            "server": "나세르 05"
+          },
+          {
+            "nickname": "샤오",
+            "guild": "핑크좀비",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "나세르 05"
+          }
+        ],
+        "22": [
+          {
+            "nickname": "핑큿",
+            "guild": "핑크좀비",
+            "class": "집행관",
+            "grade": 22,
+            "level": 88,
+            "server": "나세르 05"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "중금",
+            "guild": "핑크좀비",
+            "class": "향사수",
+            "grade": 21,
+            "level": 87,
+            "server": "나세르 05"
+          },
+          {
+            "nickname": "천신님",
+            "guild": "핑크좀비",
+            "class": "태양감시자",
+            "grade": 21,
+            "level": 86,
+            "server": "나세르 05"
+          }
+        ]
+      }
+    },
+    "결사": {
+      "members": 5,
+      "byClass": {
+        "향사수": 2,
+        "주문각인사": 1,
+        "집행관": 1,
+        "환영검사": 1
+      },
+      "byGrade": {
+        "22": 2,
+        "21": 1,
+        "20": 2
+      },
+      "membersList": [
+        {
+          "nickname": "LED",
+          "guild": "결사",
+          "class": "주문각인사",
+          "grade": 22,
+          "level": 87,
+          "server": "나세르 05"
+        },
+        {
+          "nickname": "별레",
+          "guild": "결사",
+          "class": "집행관",
+          "grade": 22,
+          "level": 87,
+          "server": "나세르 05"
+        },
+        {
+          "nickname": "테오드",
+          "guild": "결사",
+          "class": "향사수",
+          "grade": 21,
+          "level": 86,
+          "server": "나세르 05"
+        },
+        {
+          "nickname": "힘빼라",
+          "guild": "결사",
+          "class": "환영검사",
+          "grade": 20,
+          "level": 84,
+          "server": "나세르 05"
+        },
+        {
+          "nickname": "재활용",
+          "guild": "결사",
+          "class": "향사수",
+          "grade": 20,
+          "level": 83,
+          "server": "나세르 05"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "LED",
+            "guild": "결사",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "나세르 05"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "별레",
+            "guild": "결사",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "나세르 05"
+          }
+        ],
+        "향사수": [
+          {
+            "nickname": "테오드",
+            "guild": "결사",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "나세르 05"
+          },
+          {
+            "nickname": "재활용",
+            "guild": "결사",
+            "class": "향사수",
+            "grade": 20,
+            "level": 83,
+            "server": "나세르 05"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "힘빼라",
+            "guild": "결사",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 84,
+            "server": "나세르 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "22": [
+          {
+            "nickname": "LED",
+            "guild": "결사",
+            "class": "주문각인사",
+            "grade": 22,
+            "level": 87,
+            "server": "나세르 05"
+          },
+          {
+            "nickname": "별레",
+            "guild": "결사",
+            "class": "집행관",
+            "grade": 22,
+            "level": 87,
+            "server": "나세르 05"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "테오드",
+            "guild": "결사",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "나세르 05"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "힘빼라",
+            "guild": "결사",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 84,
+            "server": "나세르 05"
+          },
+          {
+            "nickname": "재활용",
+            "guild": "결사",
+            "class": "향사수",
+            "grade": 20,
+            "level": 83,
+            "server": "나세르 05"
+          }
+        ]
+      }
+    },
+    "GaOoNaSi": {
+      "members": 4,
+      "byClass": {
+        "야만투사": 1,
+        "주문각인사": 1,
+        "태양감시자": 1,
+        "환영검사": 1
+      },
+      "byGrade": {
+        "21": 1,
+        "20": 3
+      },
+      "membersList": [
+        {
+          "nickname": "GaOoNaSi",
+          "guild": "GaOoNaSi",
+          "class": "환영검사",
+          "grade": 21,
+          "level": 86,
+          "server": "나세르 05"
+        },
+        {
+          "nickname": "다니다니",
+          "guild": "GaOoNaSi",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 85,
+          "server": "나세르 05"
+        },
+        {
+          "nickname": "애플수박",
+          "guild": "GaOoNaSi",
+          "class": "야만투사",
+          "grade": 20,
+          "level": 85,
+          "server": "나세르 05"
+        },
+        {
+          "nickname": "태양감자",
+          "guild": "GaOoNaSi",
+          "class": "태양감시자",
+          "grade": 20,
+          "level": 85,
+          "server": "나세르 05"
+        }
+      ],
+      "byClassMembers": {
+        "환영검사": [
+          {
+            "nickname": "GaOoNaSi",
+            "guild": "GaOoNaSi",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 86,
+            "server": "나세르 05"
+          }
+        ],
+        "야만투사": [
+          {
+            "nickname": "애플수박",
+            "guild": "GaOoNaSi",
+            "class": "야만투사",
+            "grade": 20,
+            "level": 85,
+            "server": "나세르 05"
+          }
+        ],
+        "태양감시자": [
+          {
+            "nickname": "태양감자",
+            "guild": "GaOoNaSi",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 85,
+            "server": "나세르 05"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "다니다니",
+            "guild": "GaOoNaSi",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "나세르 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "GaOoNaSi",
+            "guild": "GaOoNaSi",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 86,
+            "server": "나세르 05"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "다니다니",
+            "guild": "GaOoNaSi",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 85,
+            "server": "나세르 05"
+          },
+          {
+            "nickname": "애플수박",
+            "guild": "GaOoNaSi",
+            "class": "야만투사",
+            "grade": 20,
+            "level": 85,
+            "server": "나세르 05"
+          },
+          {
+            "nickname": "태양감자",
+            "guild": "GaOoNaSi",
+            "class": "태양감시자",
+            "grade": 20,
+            "level": 85,
+            "server": "나세르 05"
+          }
+        ]
+      }
+    },
+    "매화": {
+      "members": 1,
+      "byClass": {
+        "집행관": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "프릴",
+          "guild": "매화",
+          "class": "집행관",
+          "grade": 21,
+          "level": 86,
+          "server": "나세르 05"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "프릴",
+            "guild": "매화",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "나세르 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "프릴",
+            "guild": "매화",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "나세르 05"
+          }
+        ]
+      }
+    },
+    "정도": {
+      "members": 1,
+      "byClass": {
+        "집행관": 1
+      },
+      "byGrade": {
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "나만그런거야",
+          "guild": "정도",
+          "class": "집행관",
+          "grade": 21,
+          "level": 84,
+          "server": "나세르 05"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "나만그런거야",
+            "guild": "정도",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "나세르 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "나만그런거야",
+            "guild": "정도",
+            "class": "집행관",
+            "grade": 21,
+            "level": 84,
+            "server": "나세르 05"
+          }
+        ]
+      }
+    },
+    "미친개": {
+      "members": 1,
+      "byClass": {
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "꺼먹살이",
+          "guild": "미친개",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 84,
+          "server": "나세르 05"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "꺼먹살이",
+            "guild": "미친개",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "나세르 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "꺼먹살이",
+            "guild": "미친개",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 84,
+            "server": "나세르 05"
+          }
+        ]
+      }
+    },
+    "헬": {
+      "members": 1,
+      "byClass": {
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "헬하",
+          "guild": "헬",
+          "class": "주문각인사",
+          "grade": 20,
+          "level": 83,
+          "server": "나세르 05"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "헬하",
+            "guild": "헬",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 83,
+            "server": "나세르 05"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "헬하",
+            "guild": "헬",
+            "class": "주문각인사",
+            "grade": 20,
+            "level": 83,
+            "server": "나세르 05"
+          }
+        ]
+      }
+    }
+  }
+}

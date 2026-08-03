@@ -1,0 +1,750 @@
+{
+  "server": "라인소프 02",
+  "guilds": {
+    "원피스해적단": {
+      "members": 6,
+      "byClass": {
+        "집행관": 4,
+        "야만투사": 1,
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "24": 1,
+        "23": 3,
+        "20": 2
+      },
+      "membersList": [
+        {
+          "nickname": "극강케릭",
+          "guild": "원피스해적단",
+          "class": "주문각인사",
+          "grade": 24,
+          "level": 90,
+          "server": "라인소프 02"
+        },
+        {
+          "nickname": "바알",
+          "guild": "원피스해적단",
+          "class": "집행관",
+          "grade": 23,
+          "level": 89,
+          "server": "라인소프 02"
+        },
+        {
+          "nickname": "훅팀",
+          "guild": "원피스해적단",
+          "class": "집행관",
+          "grade": 23,
+          "level": 89,
+          "server": "라인소프 02"
+        },
+        {
+          "nickname": "투피스",
+          "guild": "원피스해적단",
+          "class": "집행관",
+          "grade": 23,
+          "level": 88,
+          "server": "라인소프 02"
+        },
+        {
+          "nickname": "맨시티",
+          "guild": "원피스해적단",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "라인소프 02"
+        },
+        {
+          "nickname": "엿마릐",
+          "guild": "원피스해적단",
+          "class": "야만투사",
+          "grade": 20,
+          "level": 82,
+          "server": "라인소프 02"
+        }
+      ],
+      "byClassMembers": {
+        "주문각인사": [
+          {
+            "nickname": "극강케릭",
+            "guild": "원피스해적단",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 90,
+            "server": "라인소프 02"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "바알",
+            "guild": "원피스해적단",
+            "class": "집행관",
+            "grade": 23,
+            "level": 89,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "훅팀",
+            "guild": "원피스해적단",
+            "class": "집행관",
+            "grade": 23,
+            "level": 89,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "투피스",
+            "guild": "원피스해적단",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "맨시티",
+            "guild": "원피스해적단",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "라인소프 02"
+          }
+        ],
+        "야만투사": [
+          {
+            "nickname": "엿마릐",
+            "guild": "원피스해적단",
+            "class": "야만투사",
+            "grade": 20,
+            "level": 82,
+            "server": "라인소프 02"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "극강케릭",
+            "guild": "원피스해적단",
+            "class": "주문각인사",
+            "grade": 24,
+            "level": 90,
+            "server": "라인소프 02"
+          }
+        ],
+        "23": [
+          {
+            "nickname": "바알",
+            "guild": "원피스해적단",
+            "class": "집행관",
+            "grade": 23,
+            "level": 89,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "훅팀",
+            "guild": "원피스해적단",
+            "class": "집행관",
+            "grade": 23,
+            "level": 89,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "투피스",
+            "guild": "원피스해적단",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "라인소프 02"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "맨시티",
+            "guild": "원피스해적단",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "엿마릐",
+            "guild": "원피스해적단",
+            "class": "야만투사",
+            "grade": 20,
+            "level": 82,
+            "server": "라인소프 02"
+          }
+        ]
+      }
+    },
+    "리센느": {
+      "members": 2,
+      "byClass": {
+        "집행관": 2
+      },
+      "byGrade": {
+        "24": 1,
+        "21": 1
+      },
+      "membersList": [
+        {
+          "nickname": "한로로",
+          "guild": "리센느",
+          "class": "집행관",
+          "grade": 24,
+          "level": 90,
+          "server": "라인소프 02"
+        },
+        {
+          "nickname": "전소미",
+          "guild": "리센느",
+          "class": "집행관",
+          "grade": 21,
+          "level": 85,
+          "server": "라인소프 02"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "한로로",
+            "guild": "리센느",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "전소미",
+            "guild": "리센느",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "라인소프 02"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "24": [
+          {
+            "nickname": "한로로",
+            "guild": "리센느",
+            "class": "집행관",
+            "grade": 24,
+            "level": 90,
+            "server": "라인소프 02"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "전소미",
+            "guild": "리센느",
+            "class": "집행관",
+            "grade": 21,
+            "level": 85,
+            "server": "라인소프 02"
+          }
+        ]
+      }
+    },
+    "달빛": {
+      "members": 6,
+      "byClass": {
+        "집행관": 2,
+        "환영검사": 2,
+        "야만투사": 1,
+        "주문각인사": 1
+      },
+      "byGrade": {
+        "23": 1,
+        "21": 4,
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "축제",
+          "guild": "달빛",
+          "class": "집행관",
+          "grade": 23,
+          "level": 88,
+          "server": "라인소프 02"
+        },
+        {
+          "nickname": "여유",
+          "guild": "달빛",
+          "class": "야만투사",
+          "grade": 21,
+          "level": 88,
+          "server": "라인소프 02"
+        },
+        {
+          "nickname": "르나르",
+          "guild": "달빛",
+          "class": "환영검사",
+          "grade": 21,
+          "level": 86,
+          "server": "라인소프 02"
+        },
+        {
+          "nickname": "아람",
+          "guild": "달빛",
+          "class": "집행관",
+          "grade": 21,
+          "level": 86,
+          "server": "라인소프 02"
+        },
+        {
+          "nickname": "크리스햄스워스",
+          "guild": "달빛",
+          "class": "주문각인사",
+          "grade": 21,
+          "level": 86,
+          "server": "라인소프 02"
+        },
+        {
+          "nickname": "ENDURA",
+          "guild": "달빛",
+          "class": "환영검사",
+          "grade": 20,
+          "level": 85,
+          "server": "라인소프 02"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "축제",
+            "guild": "달빛",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "아람",
+            "guild": "달빛",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "라인소프 02"
+          }
+        ],
+        "야만투사": [
+          {
+            "nickname": "여유",
+            "guild": "달빛",
+            "class": "야만투사",
+            "grade": 21,
+            "level": 88,
+            "server": "라인소프 02"
+          }
+        ],
+        "환영검사": [
+          {
+            "nickname": "르나르",
+            "guild": "달빛",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 86,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "ENDURA",
+            "guild": "달빛",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 85,
+            "server": "라인소프 02"
+          }
+        ],
+        "주문각인사": [
+          {
+            "nickname": "크리스햄스워스",
+            "guild": "달빛",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "라인소프 02"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "23": [
+          {
+            "nickname": "축제",
+            "guild": "달빛",
+            "class": "집행관",
+            "grade": 23,
+            "level": 88,
+            "server": "라인소프 02"
+          }
+        ],
+        "21": [
+          {
+            "nickname": "여유",
+            "guild": "달빛",
+            "class": "야만투사",
+            "grade": 21,
+            "level": 88,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "르나르",
+            "guild": "달빛",
+            "class": "환영검사",
+            "grade": 21,
+            "level": 86,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "아람",
+            "guild": "달빛",
+            "class": "집행관",
+            "grade": 21,
+            "level": 86,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "크리스햄스워스",
+            "guild": "달빛",
+            "class": "주문각인사",
+            "grade": 21,
+            "level": 86,
+            "server": "라인소프 02"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "ENDURA",
+            "guild": "달빛",
+            "class": "환영검사",
+            "grade": 20,
+            "level": 85,
+            "server": "라인소프 02"
+          }
+        ]
+      }
+    },
+    "행복": {
+      "members": 2,
+      "byClass": {
+        "향사수": 2
+      },
+      "byGrade": {
+        "21": 1,
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "랩톤",
+          "guild": "행복",
+          "class": "향사수",
+          "grade": 21,
+          "level": 86,
+          "server": "라인소프 02"
+        },
+        {
+          "nickname": "스핀",
+          "guild": "행복",
+          "class": "향사수",
+          "grade": 20,
+          "level": 86,
+          "server": "라인소프 02"
+        }
+      ],
+      "byClassMembers": {
+        "향사수": [
+          {
+            "nickname": "랩톤",
+            "guild": "행복",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "스핀",
+            "guild": "행복",
+            "class": "향사수",
+            "grade": 20,
+            "level": 86,
+            "server": "라인소프 02"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "21": [
+          {
+            "nickname": "랩톤",
+            "guild": "행복",
+            "class": "향사수",
+            "grade": 21,
+            "level": 86,
+            "server": "라인소프 02"
+          }
+        ],
+        "20": [
+          {
+            "nickname": "스핀",
+            "guild": "행복",
+            "class": "향사수",
+            "grade": 20,
+            "level": 86,
+            "server": "라인소프 02"
+          }
+        ]
+      }
+    },
+    "초저녁": {
+      "members": 2,
+      "byClass": {
+        "집행관": 1,
+        "향사수": 1
+      },
+      "byGrade": {
+        "20": 2
+      },
+      "membersList": [
+        {
+          "nickname": "겁나느린늘보",
+          "guild": "초저녁",
+          "class": "집행관",
+          "grade": 20,
+          "level": 83,
+          "server": "라인소프 02"
+        },
+        {
+          "nickname": "밍키",
+          "guild": "초저녁",
+          "class": "향사수",
+          "grade": 20,
+          "level": 83,
+          "server": "라인소프 02"
+        }
+      ],
+      "byClassMembers": {
+        "향사수": [
+          {
+            "nickname": "밍키",
+            "guild": "초저녁",
+            "class": "향사수",
+            "grade": 20,
+            "level": 83,
+            "server": "라인소프 02"
+          }
+        ],
+        "집행관": [
+          {
+            "nickname": "겁나느린늘보",
+            "guild": "초저녁",
+            "class": "집행관",
+            "grade": 20,
+            "level": 83,
+            "server": "라인소프 02"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "겁나느린늘보",
+            "guild": "초저녁",
+            "class": "집행관",
+            "grade": 20,
+            "level": 83,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "밍키",
+            "guild": "초저녁",
+            "class": "향사수",
+            "grade": 20,
+            "level": 83,
+            "server": "라인소프 02"
+          }
+        ]
+      }
+    },
+    "Timeless": {
+      "members": 5,
+      "byClass": {
+        "집행관": 5
+      },
+      "byGrade": {
+        "20": 5
+      },
+      "membersList": [
+        {
+          "nickname": "단도",
+          "guild": "Timeless",
+          "class": "집행관",
+          "grade": 20,
+          "level": 85,
+          "server": "라인소프 02"
+        },
+        {
+          "nickname": "매혹",
+          "guild": "Timeless",
+          "class": "집행관",
+          "grade": 20,
+          "level": 85,
+          "server": "라인소프 02"
+        },
+        {
+          "nickname": "구름속산책",
+          "guild": "Timeless",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "라인소프 02"
+        },
+        {
+          "nickname": "매그니토",
+          "guild": "Timeless",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "라인소프 02"
+        },
+        {
+          "nickname": "앙칼진뇬",
+          "guild": "Timeless",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "라인소프 02"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "단도",
+            "guild": "Timeless",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "매혹",
+            "guild": "Timeless",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "구름속산책",
+            "guild": "Timeless",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "매그니토",
+            "guild": "Timeless",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "앙칼진뇬",
+            "guild": "Timeless",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "라인소프 02"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "단도",
+            "guild": "Timeless",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "매혹",
+            "guild": "Timeless",
+            "class": "집행관",
+            "grade": 20,
+            "level": 85,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "구름속산책",
+            "guild": "Timeless",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "매그니토",
+            "guild": "Timeless",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "라인소프 02"
+          },
+          {
+            "nickname": "앙칼진뇬",
+            "guild": "Timeless",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "라인소프 02"
+          }
+        ]
+      }
+    },
+    "동화나라": {
+      "members": 1,
+      "byClass": {
+        "집행관": 1
+      },
+      "byGrade": {
+        "20": 1
+      },
+      "membersList": [
+        {
+          "nickname": "흐린날은추워",
+          "guild": "동화나라",
+          "class": "집행관",
+          "grade": 20,
+          "level": 84,
+          "server": "라인소프 02"
+        }
+      ],
+      "byClassMembers": {
+        "집행관": [
+          {
+            "nickname": "흐린날은추워",
+            "guild": "동화나라",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "라인소프 02"
+          }
+        ]
+      },
+      "byGradeMembers": {
+        "20": [
+          {
+            "nickname": "흐린날은추워",
+            "guild": "동화나라",
+            "class": "집행관",
+            "grade": 20,
+            "level": 84,
+            "server": "라인소프 02"
+          }
+        ]
+      }
+    }
+  }
+}
